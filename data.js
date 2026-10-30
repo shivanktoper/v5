@@ -114,49 +114,49 @@ export const FUSION_DISHES = [
       {
         "name": "King Oyster Mushrooms",
         "isCorrect": true,
-        "emoji": "🍄"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2a8 8 0 0 0-8 8c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4a8 8 0 0 0-8-8z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M10 14v7a2 2 0 0 0 4 0v-7\"/><circle cx=\"9\" cy=\"8\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"8\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Fresh Lime Juice",
         "isCorrect": true,
-        "emoji": "🍋"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\" transform=\"rotate(-45 12 12)\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M4 4l2 2m14 14l2 2\"/></svg>"
       },
       {
         "name": "Grated Ginger & Garlic",
         "isCorrect": true,
-        "emoji": "🧄"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v4m-6 6c0 5 2.7 9 6 9s6-4 6-9a6 6 0 0 0-12 0z\" fill=\"rgba(245,158,11,0.15)\"/><path d=\"M12 6c-2 3-3 6-3 9m3-9c2 3 3 6 3 9\"/></svg>"
       },
       {
         "name": "Yellow Bhavnagri Chili",
         "isCorrect": true,
-        "emoji": "🌶️"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M16 3c-1 3-3 4-6 5-4 1-6 4-6 7a7 7 0 0 0 13 4c3-3 3-8 1-12z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M16 3l3-2\"/></svg>"
       },
       {
         "name": "Roasted Salted Chana",
         "isCorrect": true,
-        "emoji": "🥜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 4a4 4 0 0 0-1 7.8 4.5 4.5 0 0 0 0 8.4A4 4 0 0 0 14 19a4.5 4.5 0 0 0 0-8.4A4 4 0 0 0 8 4z\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Sweet Potato Puree",
         "isCorrect": true,
-        "emoji": "🍠"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"10\" ry=\"5\" transform=\"rotate(-30 12 12)\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M5 14s2-1 4-1m6 1s2-1 4-1\"/></svg>"
       },
       {
         "name": "Fish Sauce",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Not vegetarian! We use soy-mushroom dashi instead."
       },
       {
         "name": "Raw Chicken Slices",
         "isCorrect": false,
-        "emoji": "🍗",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"3\" fill=\"rgba(245,158,11,0.2)\"/><line x1=\"8\" y1=\"5\" x2=\"8\" y2=\"19\"/><line x1=\"16\" y1=\"5\" x2=\"16\" y2=\"19\"/></svg>",
         "distractorReason": "Wrong cuisine and unsafe to eat raw!"
       },
       {
         "name": "Tomato Ketchup",
         "isCorrect": false,
-        "emoji": "🍅",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M12 5V2m-3 3c1.5-1 4.5-1 6 0m-5 1l2-2 2 2\"/></svg>",
         "distractorReason": "Too sweet and unnatural for Nikkei Leche de Tigre!"
       }
     ],
@@ -265,38 +265,38 @@ export const FUSION_DISHES = [
       {
         "name": "Silken Firm Tofu",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Yellow Bell Pepper Puree",
         "isCorrect": true,
-        "emoji": "🫑"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 3c-2 2-2 9 0 12 1.5 2 4.5 2 5 2s3.5 0 5-2c2-3 2-10 0-12-1.5-1.5-4-1.5-5 0-1-1.5-3.5-1.5-5 0z\" fill=\"rgba(16,185,129,0.2)\"/></svg>"
       },
       {
         "name": "Toasted Sesame Oil",
         "isCorrect": true,
-        "emoji": "🥣"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 11h18a8 8 0 0 1-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><path d=\"M8 7c0-2 2-3 2-3m4 3c0-2 2-3 2-3\"/></svg>"
       },
       {
         "name": "Fresh Lime & Ginger",
         "isCorrect": true,
-        "emoji": "🍋"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\" transform=\"rotate(-45 12 12)\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M4 4l2 2m14 14l2 2\"/></svg>"
       },
       {
         "name": "Baby Coriander Garnish",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Mayonnaise",
         "isCorrect": false,
-        "emoji": "🥚",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\" fill=\"rgba(255,255,255,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"18\"/></svg>",
         "distractorReason": "Traditional Leche de Tigre uses lime emulsion, not heavy egg mayo!"
       },
       {
         "name": "Tamarind Chutney",
         "isCorrect": false,
-        "emoji": "🍯",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 8h10v10a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4V8z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M5 8h14M8 5h8M10 2h4\"/></svg>",
         "distractorReason": "Belongs to chaat, too heavy for delicate tiradito!"
       }
     ],
@@ -409,43 +409,43 @@ export const FUSION_DISHES = [
       {
         "name": "Malai Paneer Cubes",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Corn or Flour Tortillas",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Makhani Tomato Glaze",
         "isCorrect": true,
-        "emoji": "🍲"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 11h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M2 11h20M7 8a4 4 0 0 1 4-4 4 4 0 0 1 4 4\"/></svg>"
       },
       {
         "name": "Sirka Pickled Onions",
         "isCorrect": true,
-        "emoji": "🧅"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 4c-2 2-2 7 0 10 1.5 2 4.5 3 5 3s3.5-1 5-3c2-3 2-8 0-10-1.5-2-4-2-5-2s-3.5 0-5 2z\" fill=\"rgba(224,90,71,0.15)\"/><path d=\"M12 6c-2 3-2 7 0 12m0-12c2 3 2 7 0 12\"/></svg>"
       },
       {
         "name": "Hung Curd Crema",
         "isCorrect": true,
-        "emoji": "🥛"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 4h10l-2 16H9L7 4z\" fill=\"rgba(255,255,255,0.15)\"/><path d=\"M6 8h12\"/></svg>"
       },
       {
         "name": "Kasuri Methi",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Blue Cheese",
         "isCorrect": false,
-        "emoji": "🧀",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>",
         "distractorReason": "Too pungent, overpowers the delicate tandoori spices!"
       },
       {
         "name": "Pineapple Jam",
         "isCorrect": false,
-        "emoji": "🍍",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"14\" rx=\"6\" ry=\"8\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M12 6c-2-3 0-4 0-4s2 1 0 4m-3 0c-3-2-2-4-2-4s3 1 2 4m6 0c3-2 2-4 2-4s-3 1-2 4\"/></svg>",
         "distractorReason": "Far too sugary for a savory Mexican-Indian taco!"
       }
     ],
@@ -551,38 +551,38 @@ export const FUSION_DISHES = [
       {
         "name": "Flour Tortilla or Paratha",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Spiced Paneer Crumbles",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Mozzarella Cheese",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Bell Peppers & Onions",
         "isCorrect": true,
-        "emoji": "🫑"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 3c-2 2-2 9 0 12 1.5 2 4.5 2 5 2s3.5 0 5-2c2-3 2-10 0-12-1.5-1.5-4-1.5-5 0-1-1.5-3.5-1.5-5 0z\" fill=\"rgba(16,185,129,0.2)\"/></svg>"
       },
       {
         "name": "Mint-Coriander Chutney",
         "isCorrect": true,
-        "emoji": "🍃"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M11 20A7 7 0 0 1 4 13C4 6 12 3 20 3c0 8-3 17-9 17z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M4 13c5 0 9-3 11-7\"/></svg>"
       },
       {
         "name": "Chocolate Spread",
         "isCorrect": false,
-        "emoji": "🍫",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"rgba(120,53,15,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/></svg>",
         "distractorReason": "Yum on toast, but disastrous in a savory spiced tikka quesadilla!"
       },
       {
         "name": "Boiled Egg Slices",
         "isCorrect": false,
-        "emoji": "🥚",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\" fill=\"rgba(255,255,255,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"18\"/></svg>",
         "distractorReason": "Not in a vegetarian paneer quesadilla!"
       }
     ],
@@ -683,38 +683,38 @@ export const FUSION_DISHES = [
       {
         "name": "Penne Pasta",
         "isCorrect": true,
-        "emoji": "🍝"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 12h18M5 12c0 5 3 8 7 8s7-3 7-8M8 6v6m4-8v8m4-6v6\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Tomato-Cashew Gravy",
         "isCorrect": true,
-        "emoji": "🥫"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"6\" y=\"5\" width=\"12\" height=\"15\" rx=\"2\" fill=\"rgba(224,90,71,0.2)\"/><ellipse cx=\"12\" cy=\"5\" rx=\"6\" ry=\"2\"/><ellipse cx=\"12\" cy=\"20\" rx=\"6\" ry=\"2\"/></svg>"
       },
       {
         "name": "White Butter & Cream",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Kasuri Methi",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Paneer Cubes",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Wasabi Paste",
         "isCorrect": false,
-        "emoji": "🥬",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M12 5c-3 3-3 8 0 16m-4-12c2 2 3 6 2 10m6-10c-2 2-3 6-2 10\"/></svg>",
         "distractorReason": "Fiery Japanese horseradish clashes with warm creamy makhani!"
       },
       {
         "name": "Anchovy Paste",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Definitely not vegetarian!"
       }
     ],
@@ -812,38 +812,38 @@ export const FUSION_DISHES = [
       {
         "name": "Garlic Butter Naan",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Spicy Tikka Marinara",
         "isCorrect": true,
-        "emoji": "🍅"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M12 5V2m-3 3c1.5-1 4.5-1 6 0m-5 1l2-2 2 2\"/></svg>"
       },
       {
         "name": "Mozzarella Cheese",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Crisp Bell Peppers & Corn",
         "isCorrect": true,
-        "emoji": "🌽"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 18c-3-3-4-8-2-12 4 1 7 4 9 8 1 3 0 6-2 7l-5-3z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M5 21l4-4\"/></svg>"
       },
       {
         "name": "Kasuri Methi & Oregano",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Marshmallows",
         "isCorrect": false,
-        "emoji": "🍬",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M7 12L2 9v6l5-3zm10 0l5-3v6l-5-3z\"/></svg>",
         "distractorReason": "Sweet s’mores do not belong on a spicy savory Naanza!"
       },
       {
         "name": "Gelatin Powder",
         "isCorrect": false,
-        "emoji": "🍮",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 18h16l-2-9H6l-2 9z\" fill=\"rgba(245,158,11,0.2)\"/><ellipse cx=\"12\" cy=\"9\" rx=\"6\" ry=\"2\"/><circle cx=\"12\" cy=\"6\" r=\"1.5\" fill=\"var(--primary, #E05A47)\"/></svg>",
         "distractorReason": "Not food for pizza and definitely not vegetarian!"
       }
     ],
@@ -953,38 +953,38 @@ export const FUSION_DISHES = [
       {
         "name": "Digestive Biscuits & Butter",
         "isCorrect": true,
-        "emoji": "🍪"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"11\" cy=\"15\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Cream Cheese & Hung Curd",
         "isCorrect": true,
-        "emoji": "🥣"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 11h18a8 8 0 0 1-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><path d=\"M8 7c0-2 2-3 2-3m4 3c0-2 2-3 2-3\"/></svg>"
       },
       {
         "name": "Baby Gulab Jamuns",
         "isCorrect": true,
-        "emoji": "🟤"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"8\" fill=\"rgba(120,53,15,0.25)\"/><circle cx=\"9\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"11\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Saffron & Green Cardamom",
         "isCorrect": true,
-        "emoji": "🌺"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"rgba(245,158,11,0.3)\"/><path d=\"M12 2a4 4 0 0 1 0 7 4 4 0 0 1 0-7zm0 13a4 4 0 0 1 0 7 4 4 0 0 1 0-7zm-7-3a4 4 0 0 1 7 0 4 4 0 0 1-7 0zm13 0a4 4 0 0 1 7 0 4 4 0 0 1-7 0z\"/></svg>"
       },
       {
         "name": "Slivered Pistachios",
         "isCorrect": true,
-        "emoji": "🥜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 4a4 4 0 0 0-1 7.8 4.5 4.5 0 0 0 0 8.4A4 4 0 0 0 14 19a4.5 4.5 0 0 0 0-8.4A4 4 0 0 0 8 4z\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Wasabi Peas",
         "isCorrect": false,
-        "emoji": "🟢",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"8\" fill=\"rgba(16,185,129,0.3)\"/><circle cx=\"10\" cy=\"10\" r=\"2\" fill=\"#10B981\"/></svg>",
         "distractorReason": "Spicy wasabi ruins a delicate saffron dessert!"
       },
       {
         "name": "Beef Gelatin",
         "isCorrect": false,
-        "emoji": "🥩",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 5c4-3 12-2 14 3s-2 11-7 12-10-2-10-8 1-5 3-7z\" fill=\"rgba(224,90,71,0.2)\"/><circle cx=\"12\" cy=\"11\" r=\"2\" fill=\"currentColor\"/></svg>",
         "distractorReason": "Non-vegetarian! We use natural cornstarch or agar-agar."
       }
     ],
@@ -1093,38 +1093,38 @@ export const FUSION_DISHES = [
       {
         "name": "Ramen Wheat Noodles",
         "isCorrect": true,
-        "emoji": "🍜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 11h16a8 8 0 0 1-16 0z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M7 6l13-3M7 8l13-3M6 11v-2\"/></svg>"
       },
       {
         "name": "Coconut-Curry Umami Broth",
         "isCorrect": true,
-        "emoji": "🥥"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"rgba(120,53,15,0.2)\"/><circle cx=\"9\" cy=\"10\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"9\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Crispy Seared Tofu / Paneer",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Sweet Corn & Bok Choy",
         "isCorrect": true,
-        "emoji": "🥬"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M12 5c-3 3-3 8 0 16m-4-12c2 2 3 6 2 10m6-10c-2 2-3 6-2 10\"/></svg>"
       },
       {
         "name": "Tandoori Chili Crisp",
         "isCorrect": true,
-        "emoji": "🌶️"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M16 3c-1 3-3 4-6 5-4 1-6 4-6 7a7 7 0 0 0 13 4c3-3 3-8 1-12z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M16 3l3-2\"/></svg>"
       },
       {
         "name": "Fish Stock Powder",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Contains non-veg fish extracts! We use shiitake kombu stock."
       },
       {
         "name": "Maple Syrup",
         "isCorrect": false,
-        "emoji": "🍁",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2l2 4 4-1-2 4 4 2-3 3 1 4-5-2-4 6-1-6-5 2 1-4-3-3 4-2-2-4 4 1 2-4z\" fill=\"rgba(224,90,71,0.2)\"/><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"23\"/></svg>",
         "distractorReason": "Too sugary for a savory Japanese-Indian curry ramen!"
       }
     ],
@@ -1137,7 +1137,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'acid-curing',
     title: 'Citrus Acid Denaturation',
     shortName: 'Acid Curing',
-    icon: '🍋',
+    icon: 'Acid',
     dish: 'Nikkei Mushroom Ceviche',
     color: '#E05A47',
     summary: 'How citrus juice "cooks" ingredients without fire!',
@@ -1159,7 +1159,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'maillard-reaction',
     title: 'The Maillard Reaction',
     shortName: 'Maillard Browning',
-    icon: '🔥',
+    icon: 'Heat',
     dish: 'Charred Naan Pizza & Tikka Tacos',
     color: '#D97706',
     summary: 'The chemical secret behind golden tandoori crusts!',
@@ -1176,7 +1176,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'emulsification',
     title: 'Molecular Emulsification',
     shortName: 'Cream Emulsions',
-    icon: '🥣',
+    icon: 'Emulsion',
     dish: 'Creamy Makhani Pasta & Tiradito',
     color: '#059669',
     summary: 'How oil, butter, and acidic tomatoes stay smoothly united!',
@@ -1193,7 +1193,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'osmosis-mithai',
     title: 'Osmosis & Sugar Gradients',
     shortName: 'Osmosis in Desserts',
-    icon: '🍯',
+    icon: 'Caramel',
     dish: 'Gulab Jamun Cheesecake',
     color: '#8B5CF6',
     summary: 'Why gulab jamun syrup must be balanced inside cheesecake custard!',
@@ -1215,7 +1215,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'alkaline-noodles',
     title: 'Alkaline Starch Chemistry',
     shortName: 'Alkaline Noodles',
-    icon: '🍜',
+    icon: 'Starch',
     dish: 'Spiced Veggie Curry Ramen',
     color: '#2563EB',
     summary: 'Why ramen noodles stay chewy in steaming hot curry broth!',
@@ -1237,7 +1237,7 @@ export const CULINARY_SCIENCE_TOPICS = [
     id: 'spice-volatiles',
     title: 'Fat-Soluble Spice Volatiles',
     shortName: 'Spice Chemistry',
-    icon: '🌶️',
+    icon: 'Spice',
     dish: 'Tandoori Tikka Tacos & Quesadillas',
     color: '#DC2626',
     summary: 'Why tempering spices in hot mustard oil or ghee unlocks explosive flavor!',
@@ -1272,7 +1272,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 0,
     parentHint: 'Think about Tokyo sushi masters meeting Lima fishermen in South America!',
     explanation: 'Nikkei was pioneered when Japanese immigrants moved to Peru in the late 19th century, blending sashimi techniques with Peruvian citrus and chilies.',
-    badge: '🎌🇵🇪 Nikkei Explorer'
+    badge: 'Nikkei Explorer'
   },
   {
     id: 'q2',
@@ -1288,7 +1288,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Look for something with a dense, bouncy texture that absorbs tangy lime marinade without disintegrating!',
     explanation: 'King oyster mushroom stems and hearts of palm possess a tender, fibrous chew that absorbs citrus leche de tigre like fine sashimi.',
-    badge: '🍄 Shroom Alchemist'
+    badge: 'Shroom Alchemist'
   },
   {
     id: 'q3',
@@ -1304,7 +1304,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Think of Japanese sashimi knife cuts: thin carpaccio strips drizzled right at the dining table!',
     explanation: 'Unlike ceviche (where ingredients soak in citrus for several minutes with onions), tiradito is thinly sliced like sashimi and lightly dressed right before eating.',
-    badge: '🔪 Sashimi Maestro'
+    badge: 'Sashimi Maestro'
   },
   {
     id: 'q4',
@@ -1320,7 +1320,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'A winter favorite in Punjab, famously paired with Sarson da Saag!',
     explanation: 'Makki di Roti is kneaded from stone-ground cornmeal (maize), virtually identical to Mexican masa harina used for corn tortillas!',
-    badge: '🌽 Maize Master'
+    badge: 'Maize Master'
   },
   {
     id: 'q5',
@@ -1336,7 +1336,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It has a slightly bitter, sweet maple-like fragrance and is crushed between your palms!',
     explanation: 'Kasuri Methi releases volatile aromatic oils rich in sotolon when crushed between warm palms, defining authentic makhani dishes.',
-    badge: '🌿 Herb Connoisseur'
+    badge: 'Herb Connoisseur'
   },
   {
     id: 'q6',
@@ -1352,7 +1352,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Both rely on extreme radiant heat and refractory clay or stone floors!',
     explanation: 'Both traditional tandoors and wood-fired pizza ovens operate above 400°C, producing intense heat that toasts sugars and blisters dough in under 3 minutes.',
-    badge: '🔥 Tandoor Wizard'
+    badge: 'Tandoor Wizard'
   },
   {
     id: 'q7',
@@ -1368,7 +1368,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'A tea-time pantry staple with a toasted wheat flavor and low sugar content!',
     explanation: 'Digestive and Marie biscuits provide a mild, whole-wheat crumb that balances the sweetness of condensed milk and gulab jamun.',
-    badge: '🍪 Pastry Virtuoso'
+    badge: 'Pastry Virtuoso'
   },
   {
     id: 'q8',
@@ -1384,7 +1384,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It sounds like a Japanese word and contains potassium/sodium carbonate!',
     explanation: 'Kansui is an alkaline mineral solution that alters wheat gluten, giving ramen its signature yellow tint, elasticity, and chewiness.',
-    badge: '🍜 Noodle Artisan'
+    badge: 'Noodle Artisan'
   },
   {
     id: 'q9',
@@ -1400,7 +1400,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It is a recent trend seen mostly in upscale metropolitan restaurants and boutique hotels!',
     explanation: 'Nikkei is an emerging luxury trend in India, featured in high-end venues like Koishii at St. Regis Mumbai and metro culinary hubs.',
-    badge: '🗺️ Gastro Cartographer'
+    badge: 'Gastro Cartographer'
   },
   {
     id: 'q10',
@@ -1416,7 +1416,7 @@ export const TRIVIA_QUESTIONS = [
     correctIndex: 0,
     parentHint: 'Remember how paneer is made at home with lemon juice vs fermented aged cheeses!',
     explanation: 'Acid-set cheeses like paneer and queso blanco have tightly clustered proteins that don’t melt when heated, making them ideal for searing and grilling!',
-    badge: '🧀 Protein Chemist'
+    badge: 'Protein Chemist'
   }
 ];
 
@@ -1542,10 +1542,10 @@ export const INDIA_METROS_DATA = [
 ];
 
 export const CHEF_RANKS = [
-  { level: 1, title: 'Kitchen Apprentice', minXP: 0, maxXP: 250, badge: '🌱', icon: 'CookingPot', perks: 'Mastering kitchen knife safety and basic spices.' },
-  { level: 2, title: 'Spice Explorer', minXP: 251, maxXP: 600, badge: '🌶️', icon: 'Flame', perks: 'Unlocked Indian bazaar spice substitution secrets.' },
-  { level: 3, title: 'Street Food Alchemist', minXP: 601, maxXP: 1100, badge: '🌮', icon: 'Sparkles', perks: 'Mastered fusion tacos, quesadillas, and quick naanzas.' },
-  { level: 4, title: 'Fusion Sous Chef', minXP: 1101, maxXP: 1700, badge: '👨‍🍳', icon: 'Award', perks: 'Conquered food science emulsions and acid curing.' },
-  { level: 5, title: 'Executive Fusion Master', minXP: 1701, maxXP: 2500, badge: '⭐', icon: 'Crown', perks: 'Fluent in Nikkei ceviches, tiraditos, and ramen broths.' },
-  { level: 6, title: 'Michelin Star Sorcerer', minXP: 2501, maxXP: 99999, badge: '🏆', icon: 'Zap', perks: 'Ultimate family fusion legend! Zero culinary secrets left.' }
+  { level: 1, title: 'Kitchen Apprentice', minXP: 0, maxXP: 250, badge: 'Kitchen Apprentice', icon: 'CookingPot', perks: 'Mastering kitchen knife safety and basic spices.' },
+  { level: 2, title: 'Spice Explorer', minXP: 251, maxXP: 600, badge: 'Spice Explorer', icon: 'Flame', perks: 'Unlocked Indian bazaar spice substitution secrets.' },
+  { level: 3, title: 'Street Food Alchemist', minXP: 601, maxXP: 1100, badge: 'Street Food Alchemist', icon: 'Sparkles', perks: 'Mastered fusion tacos, quesadillas, and quick naanzas.' },
+  { level: 4, title: 'Fusion Sous Chef', minXP: 1101, maxXP: 1700, badge: 'Fusion Sous Chef', icon: 'Award', perks: 'Conquered food science emulsions and acid curing.' },
+  { level: 5, title: 'Executive Fusion Master', minXP: 1701, maxXP: 2500, badge: 'Executive Fusion Master', icon: 'Crown', perks: 'Fluent in Nikkei ceviches, tiraditos, and ramen broths.' },
+  { level: 6, title: 'Michelin Star Sorcerer', minXP: 2501, maxXP: 99999, badge: 'Michelin Star Sorcerer', icon: 'Zap', perks: 'Ultimate family fusion legend! Zero culinary secrets left.' }
 ];

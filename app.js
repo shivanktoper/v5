@@ -129,49 +129,49 @@ const FUSION_DISHES = [
       {
         "name": "King Oyster Mushrooms",
         "isCorrect": true,
-        "emoji": "🍄"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2a8 8 0 0 0-8 8c0 2.2 1.8 4 4 4h8c2.2 0 4-1.8 4-4a8 8 0 0 0-8-8z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M10 14v7a2 2 0 0 0 4 0v-7\"/><circle cx=\"9\" cy=\"8\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"8\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Fresh Lime Juice",
         "isCorrect": true,
-        "emoji": "🍋"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\" transform=\"rotate(-45 12 12)\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M4 4l2 2m14 14l2 2\"/></svg>"
       },
       {
         "name": "Grated Ginger & Garlic",
         "isCorrect": true,
-        "emoji": "🧄"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v4m-6 6c0 5 2.7 9 6 9s6-4 6-9a6 6 0 0 0-12 0z\" fill=\"rgba(245,158,11,0.15)\"/><path d=\"M12 6c-2 3-3 6-3 9m3-9c2 3 3 6 3 9\"/></svg>"
       },
       {
         "name": "Yellow Bhavnagri Chili",
         "isCorrect": true,
-        "emoji": "🌶️"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M16 3c-1 3-3 4-6 5-4 1-6 4-6 7a7 7 0 0 0 13 4c3-3 3-8 1-12z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M16 3l3-2\"/></svg>"
       },
       {
         "name": "Roasted Salted Chana",
         "isCorrect": true,
-        "emoji": "🥜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 4a4 4 0 0 0-1 7.8 4.5 4.5 0 0 0 0 8.4A4 4 0 0 0 14 19a4.5 4.5 0 0 0 0-8.4A4 4 0 0 0 8 4z\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Sweet Potato Puree",
         "isCorrect": true,
-        "emoji": "🍠"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"10\" ry=\"5\" transform=\"rotate(-30 12 12)\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M5 14s2-1 4-1m6 1s2-1 4-1\"/></svg>"
       },
       {
         "name": "Fish Sauce",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Not vegetarian! We use soy-mushroom dashi instead."
       },
       {
         "name": "Raw Chicken Slices",
         "isCorrect": false,
-        "emoji": "🍗",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"5\" width=\"16\" height=\"14\" rx=\"3\" fill=\"rgba(245,158,11,0.2)\"/><line x1=\"8\" y1=\"5\" x2=\"8\" y2=\"19\"/><line x1=\"16\" y1=\"5\" x2=\"16\" y2=\"19\"/></svg>",
         "distractorReason": "Wrong cuisine and unsafe to eat raw!"
       },
       {
         "name": "Tomato Ketchup",
         "isCorrect": false,
-        "emoji": "🍅",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M12 5V2m-3 3c1.5-1 4.5-1 6 0m-5 1l2-2 2 2\"/></svg>",
         "distractorReason": "Too sweet and unnatural for Nikkei Leche de Tigre!"
       }
     ],
@@ -280,38 +280,38 @@ const FUSION_DISHES = [
       {
         "name": "Silken Firm Tofu",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Yellow Bell Pepper Puree",
         "isCorrect": true,
-        "emoji": "🫑"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 3c-2 2-2 9 0 12 1.5 2 4.5 2 5 2s3.5 0 5-2c2-3 2-10 0-12-1.5-1.5-4-1.5-5 0-1-1.5-3.5-1.5-5 0z\" fill=\"rgba(16,185,129,0.2)\"/></svg>"
       },
       {
         "name": "Toasted Sesame Oil",
         "isCorrect": true,
-        "emoji": "🥣"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 11h18a8 8 0 0 1-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><path d=\"M8 7c0-2 2-3 2-3m4 3c0-2 2-3 2-3\"/></svg>"
       },
       {
         "name": "Fresh Lime & Ginger",
         "isCorrect": true,
-        "emoji": "🍋"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"6\" transform=\"rotate(-45 12 12)\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M4 4l2 2m14 14l2 2\"/></svg>"
       },
       {
         "name": "Baby Coriander Garnish",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Mayonnaise",
         "isCorrect": false,
-        "emoji": "🥚",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\" fill=\"rgba(255,255,255,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"18\"/></svg>",
         "distractorReason": "Traditional Leche de Tigre uses lime emulsion, not heavy egg mayo!"
       },
       {
         "name": "Tamarind Chutney",
         "isCorrect": false,
-        "emoji": "🍯",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 8h10v10a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4V8z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M5 8h14M8 5h8M10 2h4\"/></svg>",
         "distractorReason": "Belongs to chaat, too heavy for delicate tiradito!"
       }
     ],
@@ -424,43 +424,43 @@ const FUSION_DISHES = [
       {
         "name": "Malai Paneer Cubes",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Corn or Flour Tortillas",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Makhani Tomato Glaze",
         "isCorrect": true,
-        "emoji": "🍲"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 11h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M2 11h20M7 8a4 4 0 0 1 4-4 4 4 0 0 1 4 4\"/></svg>"
       },
       {
         "name": "Sirka Pickled Onions",
         "isCorrect": true,
-        "emoji": "🧅"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 4c-2 2-2 7 0 10 1.5 2 4.5 3 5 3s3.5-1 5-3c2-3 2-8 0-10-1.5-2-4-2-5-2s-3.5 0-5 2z\" fill=\"rgba(224,90,71,0.15)\"/><path d=\"M12 6c-2 3-2 7 0 12m0-12c2 3 2 7 0 12\"/></svg>"
       },
       {
         "name": "Hung Curd Crema",
         "isCorrect": true,
-        "emoji": "🥛"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 4h10l-2 16H9L7 4z\" fill=\"rgba(255,255,255,0.15)\"/><path d=\"M6 8h12\"/></svg>"
       },
       {
         "name": "Kasuri Methi",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Blue Cheese",
         "isCorrect": false,
-        "emoji": "🧀",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>",
         "distractorReason": "Too pungent, overpowers the delicate tandoori spices!"
       },
       {
         "name": "Pineapple Jam",
         "isCorrect": false,
-        "emoji": "🍍",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"14\" rx=\"6\" ry=\"8\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M12 6c-2-3 0-4 0-4s2 1 0 4m-3 0c-3-2-2-4-2-4s3 1 2 4m6 0c3-2 2-4 2-4s-3 1-2 4\"/></svg>",
         "distractorReason": "Far too sugary for a savory Mexican-Indian taco!"
       }
     ],
@@ -566,38 +566,38 @@ const FUSION_DISHES = [
       {
         "name": "Flour Tortilla or Paratha",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Spiced Paneer Crumbles",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Mozzarella Cheese",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Bell Peppers & Onions",
         "isCorrect": true,
-        "emoji": "🫑"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2v3m-5 3c-2 2-2 9 0 12 1.5 2 4.5 2 5 2s3.5 0 5-2c2-3 2-10 0-12-1.5-1.5-4-1.5-5 0-1-1.5-3.5-1.5-5 0z\" fill=\"rgba(16,185,129,0.2)\"/></svg>"
       },
       {
         "name": "Mint-Coriander Chutney",
         "isCorrect": true,
-        "emoji": "🍃"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M11 20A7 7 0 0 1 4 13C4 6 12 3 20 3c0 8-3 17-9 17z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M4 13c5 0 9-3 11-7\"/></svg>"
       },
       {
         "name": "Chocolate Spread",
         "isCorrect": false,
-        "emoji": "🍫",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" fill=\"rgba(120,53,15,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"4\" x2=\"12\" y2=\"20\"/></svg>",
         "distractorReason": "Yum on toast, but disastrous in a savory spiced tikka quesadilla!"
       },
       {
         "name": "Boiled Egg Slices",
         "isCorrect": false,
-        "emoji": "🥚",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\" fill=\"rgba(255,255,255,0.2)\"/><line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"/><line x1=\"12\" y1=\"6\" x2=\"12\" y2=\"18\"/></svg>",
         "distractorReason": "Not in a vegetarian paneer quesadilla!"
       }
     ],
@@ -698,38 +698,38 @@ const FUSION_DISHES = [
       {
         "name": "Penne Pasta",
         "isCorrect": true,
-        "emoji": "🍝"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 12h18M5 12c0 5 3 8 7 8s7-3 7-8M8 6v6m4-8v8m4-6v6\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Tomato-Cashew Gravy",
         "isCorrect": true,
-        "emoji": "🥫"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"6\" y=\"5\" width=\"12\" height=\"15\" rx=\"2\" fill=\"rgba(224,90,71,0.2)\"/><ellipse cx=\"12\" cy=\"5\" rx=\"6\" ry=\"2\"/><ellipse cx=\"12\" cy=\"20\" rx=\"6\" ry=\"2\"/></svg>"
       },
       {
         "name": "White Butter & Cream",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Kasuri Methi",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Paneer Cubes",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Wasabi Paste",
         "isCorrect": false,
-        "emoji": "🥬",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M12 5c-3 3-3 8 0 16m-4-12c2 2 3 6 2 10m6-10c-2 2-3 6-2 10\"/></svg>",
         "distractorReason": "Fiery Japanese horseradish clashes with warm creamy makhani!"
       },
       {
         "name": "Anchovy Paste",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Definitely not vegetarian!"
       }
     ],
@@ -827,38 +827,38 @@ const FUSION_DISHES = [
       {
         "name": "Garlic Butter Naan",
         "isCorrect": true,
-        "emoji": "🫓"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><ellipse cx=\"12\" cy=\"12\" rx=\"9\" ry=\"7\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Spicy Tikka Marinara",
         "isCorrect": true,
-        "emoji": "🍅"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M12 5V2m-3 3c1.5-1 4.5-1 6 0m-5 1l2-2 2 2\"/></svg>"
       },
       {
         "name": "Mozzarella Cheese",
         "isCorrect": true,
-        "emoji": "🧀"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"3 17 21 17 21 11 3 14 3 17\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M21 11l-9-7L3 14\"/><circle cx=\"10\" cy=\"14\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"13\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Crisp Bell Peppers & Corn",
         "isCorrect": true,
-        "emoji": "🌽"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 18c-3-3-4-8-2-12 4 1 7 4 9 8 1 3 0 6-2 7l-5-3z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M5 21l4-4\"/></svg>"
       },
       {
         "name": "Kasuri Methi & Oregano",
         "isCorrect": true,
-        "emoji": "🌿"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M11 13l7-7\"/></svg>"
       },
       {
         "name": "Marshmallows",
         "isCorrect": false,
-        "emoji": "🍬",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M7 12L2 9v6l5-3zm10 0l5-3v6l-5-3z\"/></svg>",
         "distractorReason": "Sweet s’mores do not belong on a spicy savory Naanza!"
       },
       {
         "name": "Gelatin Powder",
         "isCorrect": false,
-        "emoji": "🍮",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 18h16l-2-9H6l-2 9z\" fill=\"rgba(245,158,11,0.2)\"/><ellipse cx=\"12\" cy=\"9\" rx=\"6\" ry=\"2\"/><circle cx=\"12\" cy=\"6\" r=\"1.5\" fill=\"var(--primary, #E05A47)\"/></svg>",
         "distractorReason": "Not food for pizza and definitely not vegetarian!"
       }
     ],
@@ -968,38 +968,38 @@ const FUSION_DISHES = [
       {
         "name": "Digestive Biscuits & Butter",
         "isCorrect": true,
-        "emoji": "🍪"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"rgba(245,158,11,0.2)\"/><circle cx=\"9\" cy=\"9\" r=\"1\" fill=\"currentColor\"/><circle cx=\"15\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"11\" cy=\"15\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Cream Cheese & Hung Curd",
         "isCorrect": true,
-        "emoji": "🥣"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 11h18a8 8 0 0 1-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><path d=\"M8 7c0-2 2-3 2-3m4 3c0-2 2-3 2-3\"/></svg>"
       },
       {
         "name": "Baby Gulab Jamuns",
         "isCorrect": true,
-        "emoji": "🟤"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"8\" fill=\"rgba(120,53,15,0.25)\"/><circle cx=\"9\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"11\" r=\"1\" fill=\"currentColor\"/><circle cx=\"11\" cy=\"14\" r=\"1\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Saffron & Green Cardamom",
         "isCorrect": true,
-        "emoji": "🌺"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"3\" fill=\"rgba(245,158,11,0.3)\"/><path d=\"M12 2a4 4 0 0 1 0 7 4 4 0 0 1 0-7zm0 13a4 4 0 0 1 0 7 4 4 0 0 1 0-7zm-7-3a4 4 0 0 1 7 0 4 4 0 0 1-7 0zm13 0a4 4 0 0 1 7 0 4 4 0 0 1-7 0z\"/></svg>"
       },
       {
         "name": "Slivered Pistachios",
         "isCorrect": true,
-        "emoji": "🥜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M8 4a4 4 0 0 0-1 7.8 4.5 4.5 0 0 0 0 8.4A4 4 0 0 0 14 19a4.5 4.5 0 0 0 0-8.4A4 4 0 0 0 8 4z\" fill=\"rgba(245,158,11,0.2)\"/></svg>"
       },
       {
         "name": "Wasabi Peas",
         "isCorrect": false,
-        "emoji": "🟢",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"8\" fill=\"rgba(16,185,129,0.3)\"/><circle cx=\"10\" cy=\"10\" r=\"2\" fill=\"#10B981\"/></svg>",
         "distractorReason": "Spicy wasabi ruins a delicate saffron dessert!"
       },
       {
         "name": "Beef Gelatin",
         "isCorrect": false,
-        "emoji": "🥩",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 5c4-3 12-2 14 3s-2 11-7 12-10-2-10-8 1-5 3-7z\" fill=\"rgba(224,90,71,0.2)\"/><circle cx=\"12\" cy=\"11\" r=\"2\" fill=\"currentColor\"/></svg>",
         "distractorReason": "Non-vegetarian! We use natural cornstarch or agar-agar."
       }
     ],
@@ -1108,50 +1108,51 @@ const FUSION_DISHES = [
       {
         "name": "Ramen Wheat Noodles",
         "isCorrect": true,
-        "emoji": "🍜"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 11h16a8 8 0 0 1-16 0z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M7 6l13-3M7 8l13-3M6 11v-2\"/></svg>"
       },
       {
         "name": "Coconut-Curry Umami Broth",
         "isCorrect": true,
-        "emoji": "🥥"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"9\" fill=\"rgba(120,53,15,0.2)\"/><circle cx=\"9\" cy=\"10\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"14\" cy=\"9\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"14\" r=\"1.5\" fill=\"currentColor\"/></svg>"
       },
       {
         "name": "Crispy Seared Tofu / Paneer",
         "isCorrect": true,
-        "emoji": "🧈"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 13l5-7h11l2 7v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5z\" fill=\"rgba(245,158,11,0.2)\"/><path d=\"M8 6v7\"/></svg>"
       },
       {
         "name": "Sweet Corn & Bok Choy",
         "isCorrect": true,
-        "emoji": "🥬"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"13\" r=\"8\" fill=\"rgba(16,185,129,0.2)\"/><path d=\"M12 5c-3 3-3 8 0 16m-4-12c2 2 3 6 2 10m6-10c-2 2-3 6-2 10\"/></svg>"
       },
       {
         "name": "Tandoori Chili Crisp",
         "isCorrect": true,
-        "emoji": "🌶️"
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M16 3c-1 3-3 4-6 5-4 1-6 4-6 7a7 7 0 0 0 13 4c3-3 3-8 1-12z\" fill=\"rgba(224,90,71,0.2)\"/><path d=\"M16 3l3-2\"/></svg>"
       },
       {
         "name": "Fish Stock Powder",
         "isCorrect": false,
-        "emoji": "🐟",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M4 12c4-6 10-6 16 0-6 6-12 6-16 0z\" fill=\"rgba(42,157,143,0.2)\"/><circle cx=\"7\" cy=\"12\" r=\"1\" fill=\"currentColor\"/><path d=\"M20 12l3-3v6l-3-3z\"/></svg>",
         "distractorReason": "Contains non-veg fish extracts! We use shiitake kombu stock."
       },
       {
         "name": "Maple Syrup",
         "isCorrect": false,
-        "emoji": "🍁",
+        "emoji": "<svg viewBox=\"0 0 24 24\" class=\"fusion-icon ing-icon\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 2l2 4 4-1-2 4 4 2-3 3 1 4-5-2-4 6-1-6-5 2 1-4-3-3 4-2-2-4 4 1 2-4z\" fill=\"rgba(224,90,71,0.2)\"/><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"23\"/></svg>",
         "distractorReason": "Too sugary for a savory Japanese-Indian curry ramen!"
       }
     ],
     "scienceNote": "Ramen noodles contain kansui (alkaline salts: sodium carbonate) which raises pH, giving noodles their yellow hue, firm chew, and resistance to getting soggy in hot broth!"
   }
 ];
+
 const CULINARY_SCIENCE_TOPICS = [
   {
     id: 'acid-curing',
     title: 'Citrus Acid Denaturation',
     shortName: 'Acid Curing',
-    icon: '🍋',
+    icon: 'Acid',
     dish: 'Nikkei Mushroom Ceviche',
     color: '#E05A47',
     summary: 'How citrus juice "cooks" ingredients without fire!',
@@ -1173,7 +1174,7 @@ const CULINARY_SCIENCE_TOPICS = [
     id: 'maillard-reaction',
     title: 'The Maillard Reaction',
     shortName: 'Maillard Browning',
-    icon: '🔥',
+    icon: 'Heat',
     dish: 'Charred Naan Pizza & Tikka Tacos',
     color: '#D97706',
     summary: 'The chemical secret behind golden tandoori crusts!',
@@ -1190,7 +1191,7 @@ const CULINARY_SCIENCE_TOPICS = [
     id: 'emulsification',
     title: 'Molecular Emulsification',
     shortName: 'Cream Emulsions',
-    icon: '🥣',
+    icon: 'Emulsion',
     dish: 'Creamy Makhani Pasta & Tiradito',
     color: '#059669',
     summary: 'How oil, butter, and acidic tomatoes stay smoothly united!',
@@ -1207,7 +1208,7 @@ const CULINARY_SCIENCE_TOPICS = [
     id: 'osmosis-mithai',
     title: 'Osmosis & Sugar Gradients',
     shortName: 'Osmosis in Desserts',
-    icon: '🍯',
+    icon: 'Caramel',
     dish: 'Gulab Jamun Cheesecake',
     color: '#8B5CF6',
     summary: 'Why gulab jamun syrup must be balanced inside cheesecake custard!',
@@ -1229,7 +1230,7 @@ const CULINARY_SCIENCE_TOPICS = [
     id: 'alkaline-noodles',
     title: 'Alkaline Starch Chemistry',
     shortName: 'Alkaline Noodles',
-    icon: '🍜',
+    icon: 'Starch',
     dish: 'Spiced Veggie Curry Ramen',
     color: '#2563EB',
     summary: 'Why ramen noodles stay chewy in steaming hot curry broth!',
@@ -1251,7 +1252,7 @@ const CULINARY_SCIENCE_TOPICS = [
     id: 'spice-volatiles',
     title: 'Fat-Soluble Spice Volatiles',
     shortName: 'Spice Chemistry',
-    icon: '🌶️',
+    icon: 'Spice',
     dish: 'Tandoori Tikka Tacos & Quesadillas',
     color: '#DC2626',
     summary: 'Why tempering spices in hot mustard oil or ghee unlocks explosive flavor!',
@@ -1267,89 +1268,6 @@ const CULINARY_SCIENCE_TOPICS = [
       ],
       correctIndex: 1,
       explanation: 'Key aromatic molecules in spices dissolve in warm fats, spreading their fragrance and flavor throughout the entire dish!'
-    }
-  },
-  {
-    id: 'spherification',
-    title: 'Spherification & Alginate Gels',
-    shortName: 'Spherification Pearls',
-    icon: '🔮',
-    dish: 'Mango Kokum Molecular Caviar',
-    color: '#EC4899',
-    summary: 'How fruit purees turn into popping liquid pearls!',
-    explanation: 'Sodium alginate (derived from brown kelp) reacts with calcium ions (calcium lactate or chloride) in a cold water bath. The calcium cross-links the alginate polysaccharide polymer chains into a paper-thin gel membrane in seconds, trapping pure liquid fruit essence inside a pearl that bursts with juice in your mouth!',
-    funFact: 'Ferran Adrià of El Bulli popularized this technique in 2003, revolutionizing molecular gastronomy by making edible fruit and juice caviar without cooking!',
-    question: {
-      text: 'What chemical reaction allows sodium alginate to create edible popping liquid spheres in cold water?',
-      options: [
-        'Calcium cross-links the alginate chains into a thin gel membrane',
-        'Boiling water evaporates the outer moisture instantly',
-        'High sugar content crystallizes into rock candy',
-        'Vinegar dissolves the food completely'
-      ],
-      correctIndex: 0,
-      explanation: 'Divalent calcium ions bond the linear alginate polymer strands together, forming an instantaneous edible hydrogel shell!'
-    }
-  },
-  {
-    id: 'yeast-fermentation',
-    title: 'Yeast & Microbial Fermentation',
-    shortName: 'Yeast Fermentation',
-    icon: '🍞',
-    dish: 'Sourdough Bhaturas & Naan',
-    color: '#10B981',
-    summary: 'The living biology that inflates fluffy bread pockets!',
-    explanation: 'Wild yeasts (Saccharomyces cerevisiae) and lactic acid bacteria consume natural starches and simple sugars in flour, producing carbon dioxide (CO2) gas and aromatic organic acids. Inside the hot tandoor or kadai, trapped CO2 rapidly expands, stretching the gluten net into airy, pillowy pockets with a subtle sourdough tang.',
-    funFact: 'Traditional dhaba cooks use sour dahi (yogurt) and baker’s yeast together, creating a probiotic symbiotic culture that ferments naan dough in under 45 minutes in warm kitchen air!',
-    question: {
-      text: 'What gas is produced by active yeast cells that causes naan and bhatura dough to rise with pillowy air bubbles?',
-      options: ['Helium gas', 'Carbon dioxide (CO2)', 'Pure nitrogen', 'Methane gas'],
-      correctIndex: 1,
-      explanation: 'Yeast cells breathe through anaerobic respiration, converting flour sugars into carbon dioxide gas bubbles that puff up when heated!'
-    }
-  },
-  {
-    id: 'starch-retrogradation',
-    title: 'Starch Retrogradation & Crispness',
-    shortName: 'Crispy Starch',
-    icon: '🌾',
-    dish: 'Shattering Crispy Dosa & Glass Noodles',
-    color: '#6366F1',
-    summary: 'Why parboiled and cooled starches yield the ultimate crunch!',
-    explanation: 'When rice and lentil starch is heated in water, it gelatinizes into a soft paste. As it cools and ferments, the linear amylose starch chains align and re-crystallize into a tighter, semi-crystalline network known as retrograded starch. When poured onto a sizzling hot tawa with a drizzle of oil, this network fries into a shattering, paper-crisp golden web!',
-    funFact: 'Cooling cooked potato wedges or rice before flash-frying reorganizes the outer surface starch, creating a glass-like barrier that absorbs 40% less oil while remaining twice as crunchy!',
-    question: {
-      text: 'What happens to gelatinized starch chains as they cool and rest before frying or roasting?',
-      options: [
-        'They dissolve into pure water and disappear',
-        'Amylose chains re-align and re-crystallize (retrogradation), enabling paper-crisp textures',
-        'They turn into protein fibers',
-        'The food becomes soft and soggy forever'
-      ],
-      correctIndex: 1,
-      explanation: 'Retrogradation re-orders the starch polymers, allowing high-heat searing to create an extraordinarily crisp, non-soggy crust!'
-    }
-  },
-  {
-    id: 'tadka-thermal-shock',
-    title: 'Thermal Shock & Volatile Oil Release',
-    shortName: 'Tadka Thermal Shock',
-    icon: '💥',
-    dish: 'Tempered Dal Makhani & Spiced Guacamole',
-    color: '#F59E0B',
-    summary: 'Why dropping whole mustard and cumin into smoking ghee makes them pop!',
-    explanation: 'Whole spice seeds contain sealed micro-capsules filled with aromatic volatile essential oils (cuminaldehyde, allyl isothiocyanate, thymol). When submerged in hot oil (>180°C), internal moisture instantly turns to superheated steam, causing the outer seed coat to crack and pop open (thermal shock), releasing rich aromatic oils into the cooking fat in under 5 seconds!',
-    funFact: 'The rhythmic popping sound of mustard seeds in hot oil is called "Chhonk" or "Tadka" in India, "Baghar" in Pakistan, and "Phodnii" in Maharashtra—a universal sensory indicator that the flavor explosion is complete!',
-    question: {
-      text: 'Why do whole mustard and cumin seeds crack and pop when dropped into hot oil or ghee?',
-      options: [
-        'Superheated steam fractures the seed coat, instantly releasing trapped volatile flavor oils',
-        'The seeds are turning into popcorn kernels',
-        'The oil is putting out a tiny fire inside the seed',
-        'Air pressure pushes the seeds to the bottom'
-      ],
-      correctIndex: 0,
-      explanation: 'Thermal shock instantly vaporizes moisture inside the seed, bursting the outer hull and infusing volatile flavor oils into the cooking fat!'
     }
   }
 ];
@@ -1369,7 +1287,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 0,
     parentHint: 'Think about Tokyo sushi masters meeting Lima fishermen in South America!',
     explanation: 'Nikkei was pioneered when Japanese immigrants moved to Peru in the late 19th century, blending sashimi techniques with Peruvian citrus and chilies.',
-    badge: '🎌🇵🇪 Nikkei Explorer'
+    badge: 'Nikkei Explorer'
   },
   {
     id: 'q2',
@@ -1385,7 +1303,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Look for something with a dense, bouncy texture that absorbs tangy lime marinade without disintegrating!',
     explanation: 'King oyster mushroom stems and hearts of palm possess a tender, fibrous chew that absorbs citrus leche de tigre like fine sashimi.',
-    badge: '🍄 Shroom Alchemist'
+    badge: 'Shroom Alchemist'
   },
   {
     id: 'q3',
@@ -1401,7 +1319,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Think of Japanese sashimi knife cuts: thin carpaccio strips drizzled right at the dining table!',
     explanation: 'Unlike ceviche (where ingredients soak in citrus for several minutes with onions), tiradito is thinly sliced like sashimi and lightly dressed right before eating.',
-    badge: '🔪 Sashimi Maestro'
+    badge: 'Sashimi Maestro'
   },
   {
     id: 'q4',
@@ -1417,7 +1335,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'A winter favorite in Punjab, famously paired with Sarson da Saag!',
     explanation: 'Makki di Roti is kneaded from stone-ground cornmeal (maize), virtually identical to Mexican masa harina used for corn tortillas!',
-    badge: '🌽 Maize Master'
+    badge: 'Maize Master'
   },
   {
     id: 'q5',
@@ -1433,7 +1351,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It has a slightly bitter, sweet maple-like fragrance and is crushed between your palms!',
     explanation: 'Kasuri Methi releases volatile aromatic oils rich in sotolon when crushed between warm palms, defining authentic makhani dishes.',
-    badge: '🌿 Herb Connoisseur'
+    badge: 'Herb Connoisseur'
   },
   {
     id: 'q6',
@@ -1449,7 +1367,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'Both rely on extreme radiant heat and refractory clay or stone floors!',
     explanation: 'Both traditional tandoors and wood-fired pizza ovens operate above 400°C, producing intense heat that toasts sugars and blisters dough in under 3 minutes.',
-    badge: '🔥 Tandoor Wizard'
+    badge: 'Tandoor Wizard'
   },
   {
     id: 'q7',
@@ -1465,7 +1383,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'A tea-time pantry staple with a toasted wheat flavor and low sugar content!',
     explanation: 'Digestive and Marie biscuits provide a mild, whole-wheat crumb that balances the sweetness of condensed milk and gulab jamun.',
-    badge: '🍪 Pastry Virtuoso'
+    badge: 'Pastry Virtuoso'
   },
   {
     id: 'q8',
@@ -1481,7 +1399,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It sounds like a Japanese word and contains potassium/sodium carbonate!',
     explanation: 'Kansui is an alkaline mineral solution that alters wheat gluten, giving ramen its signature yellow tint, elasticity, and chewiness.',
-    badge: '🍜 Noodle Artisan'
+    badge: 'Noodle Artisan'
   },
   {
     id: 'q9',
@@ -1497,7 +1415,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 1,
     parentHint: 'It is a recent trend seen mostly in upscale metropolitan restaurants and boutique hotels!',
     explanation: 'Nikkei is an emerging luxury trend in India, featured in high-end venues like Koishii at St. Regis Mumbai and metro culinary hubs.',
-    badge: '🗺️ Gastro Cartographer'
+    badge: 'Gastro Cartographer'
   },
   {
     id: 'q10',
@@ -1513,7 +1431,7 @@ const TRIVIA_QUESTIONS = [
     correctIndex: 0,
     parentHint: 'Remember how paneer is made at home with lemon juice vs fermented aged cheeses!',
     explanation: 'Acid-set cheeses like paneer and queso blanco have tightly clustered proteins that don’t melt when heated, making them ideal for searing and grilling!',
-    badge: '🧀 Protein Chemist'
+    badge: 'Protein Chemist'
   }
 ];
 
@@ -1639,19 +1557,95 @@ const INDIA_METROS_DATA = [
 ];
 
 const STUDENT_RANKS = [
-  { level: 1, title: 'Junior Taster', minXP: 0, maxXP: 300, badge: '🌱', perks: 'Mastering kitchen knife safety and basic spices.' },
-  { level: 2, title: 'Spice Explorer', minXP: 301, maxXP: 800, badge: '🌶️', perks: 'Unlocked Indian bazaar spice substitution secrets.' },
-  { level: 3, title: 'Flavour Alchemist', minXP: 801, maxXP: 99999, badge: '✨', perks: 'Mastered global fusion seasonings and balanced creations.' }
+  { level: 1, title: 'Junior Taster', minXP: 0, maxXP: 300, badge: 'Junior Taster', perks: 'Mastering kitchen knife safety and basic spices.' },
+  { level: 2, title: 'Spice Explorer', minXP: 301, maxXP: 800, badge: 'Spice Explorer', perks: 'Unlocked Indian bazaar spice substitution secrets.' },
+  { level: 3, title: 'Flavour Alchemist', minXP: 801, maxXP: 99999, badge: 'Flavour Alchemist', perks: 'Mastered global fusion seasonings and balanced creations.' }
 ];
 
 const PARENT_RANKS = [
-  { level: 1, title: 'Sous-Chef Guide', minXP: 0, maxXP: 450, badge: '👨‍🍳', perks: 'Leading culinary adventures with safe technique.' },
-  { level: 2, title: 'Recipe Master', minXP: 451, maxXP: 1200, badge: '🥘', perks: 'Mastering food science emulsions and acid curing.' },
-  { level: 3, title: 'Executive Fusion Chef', minXP: 1201, maxXP: 99999, badge: '⭐', perks: 'Ultimate family fusion maestro! Zero culinary secrets left.' }
+  { level: 1, title: 'Sous-Chef Guide', minXP: 0, maxXP: 450, badge: 'Sous-Chef Guide', perks: 'Leading culinary adventures with safe technique.' },
+  { level: 2, title: 'Recipe Master', minXP: 451, maxXP: 1200, badge: 'Recipe Master', perks: 'Mastering food science emulsions and acid curing.' },
+  { level: 3, title: 'Executive Fusion Chef', minXP: 1201, maxXP: 99999, badge: 'Executive Fusion Chef', perks: 'Ultimate family fusion maestro! Zero culinary secrets left.' }
 ];
 
-const CHEF_RANKS = STUDENT_RANKS; // Fallback alias
+const CHEF_RANKS = [
+  { level: 1, title: 'Kitchen Apprentice', minXP: 0, maxXP: 250, badge: 'Kitchen Apprentice', icon: 'CookingPot', perks: 'Mastering kitchen knife safety and basic spices.' },
+  { level: 2, title: 'Spice Explorer', minXP: 251, maxXP: 600, badge: 'Spice Explorer', icon: 'Flame', perks: 'Unlocked Indian bazaar spice substitution secrets.' },
+  { level: 3, title: 'Street Food Alchemist', minXP: 601, maxXP: 1100, badge: 'Street Food Alchemist', icon: 'Sparkles', perks: 'Mastered fusion tacos, quesadillas, and quick naanzas.' },
+  { level: 4, title: 'Fusion Sous Chef', minXP: 1101, maxXP: 1700, badge: 'Fusion Sous Chef', icon: 'Award', perks: 'Conquered food science emulsions and acid curing.' },
+  { level: 5, title: 'Executive Fusion Master', minXP: 1701, maxXP: 2500, badge: 'Executive Fusion Master', icon: 'Crown', perks: 'Fluent in Nikkei ceviches, tiraditos, and ramen broths.' },
+  { level: 6, title: 'Michelin Star Sorcerer', minXP: 2501, maxXP: 99999, badge: 'Michelin Star Sorcerer', icon: 'Zap', perks: 'Ultimate family fusion legend! Zero culinary secrets left.' }
+];
 
+
+
+// ==========================================
+// CENTRALIZED FUSION ICONS (SCALABLE 24x24 SVGs)
+// ==========================================
+const FusionIcons = {
+  brandLogo: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-brandLogo"><circle cx="12" cy="12" r="9" stroke="var(--primary, #E05A47)"/><path d="M12 3a9 9 0 0 1 9 9c0 4.97-4.03 9-9 9" stroke="var(--secondary, #2A9D8F)" stroke-dasharray="2 2"/><path d="M12 7v5l3 3" stroke="currentColor"/></svg>`,
+  gamesHub: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-gamesHub"><rect x="2" y="6" width="20" height="12" rx="4" fill="rgba(42,157,143,0.12)" stroke="currentColor"/><path d="M6 12h4m-2-2v4m7-2h.01m3-2h.01" stroke-width="2.5"/></svg>`,
+  kitchenLab: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-kitchenLab"><path d="M6 3v6a3 3 0 0 0 6 0V3M9 12v9m9-18v18a2 2 0 0 1-2 2h-1" stroke="currentColor"/><path d="M16 6h4" stroke="var(--primary, #E05A47)"/></svg>`,
+  fusionExplorer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-fusionExplorer"><circle cx="12" cy="12" r="10" stroke="currentColor"/><path d="M16.24 7.76l-2.12 6.36-6.36 2.12 2.12-6.36 6.36-2.12z" fill="rgba(224,90,71,0.25)" stroke="var(--primary, #E05A47)"/></svg>`,
+  trophy: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trophy"><path d="M6 9H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2m12 6h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2" stroke="currentColor"/><path d="M6 3h12v7a6 6 0 0 1-12 0V3z" fill="rgba(245,158,11,0.18)" stroke="var(--accent-gold, #F59E0B)"/><path d="M12 16v5m-4 0h8" stroke="currentColor"/></svg>`,
+  cameraAr: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-cameraAr"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" stroke="currentColor"/><circle cx="12" cy="13" r="4" fill="rgba(42,157,143,0.2)" stroke="var(--secondary, #2A9D8F)"/><path d="M9 13h6" stroke="var(--primary, #E05A47)" stroke-dasharray="1 1"/></svg>`,
+  portfolioPdf: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-portfolioPdf"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor"/><polyline points="14 2 14 8 20 8" stroke="currentColor"/><line x1="16" y1="13" x2="8" y2="13" stroke="var(--primary, #E05A47)"/><line x1="16" y1="17" x2="8" y2="17" stroke="currentColor"/><polyline points="10 9 9 9 8 9" stroke="var(--secondary, #2A9D8F)"/></svg>`,
+  aiTour: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-aiTour"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor"/><circle cx="9" cy="10" r="1.5" fill="var(--primary, #E05A47)"/><circle cx="15" cy="10" r="1.5" fill="var(--primary, #E05A47)"/><path d="M9 15c.8 1 2.2 1 3 1s2.2 0 3-1" stroke="currentColor"/><line x1="12" y1="1" x2="12" y2="4" stroke="currentColor"/></svg>`,
+  kidChef: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-kidChef"><path d="M6 10a4 4 0 0 1 8 0 4 4 0 0 1 4 4v2H2v-2a4 4 0 0 1 4-4z" stroke="currentColor"/><circle cx="10" cy="10" r="2" fill="var(--secondary, #2A9D8F)"/><path d="M4 16v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4" stroke="currentColor"/><path d="M6 6a3 3 0 0 1 6-2 3 3 0 0 1 6 2" stroke="var(--primary, #E05A47)"/></svg>`,
+  soundOn: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-soundOn"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="rgba(42,157,143,0.18)" stroke="currentColor"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" stroke="var(--secondary, #2A9D8F)"/></svg>`,
+  soundOff: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-soundOff"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" stroke="currentColor"/><line x1="23" y1="9" x2="17" y2="15" stroke="var(--primary, #E05A47)"/><line x1="17" y1="9" x2="23" y2="15" stroke="var(--primary, #E05A47)"/></svg>`,
+  themeMoon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-themeMoon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="rgba(245,158,11,0.15)" stroke="var(--accent-gold, #F59E0B)"/></svg>`,
+  themeSun: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-themeSun"><circle cx="12" cy="12" r="5" fill="rgba(245,158,11,0.2)" stroke="var(--accent-gold, #F59E0B)"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor"/></svg>`,
+  adminLock: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-adminLock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="rgba(42,157,143,0.12)" stroke="currentColor"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="var(--primary, #E05A47)"/><circle cx="12" cy="16" r="1.5" fill="currentColor"/></svg>`,
+  closeX: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-closeX"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
+  goldenPotato: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-goldenPotato"><path d="M12 3c4.5 0 9 2.5 9 7.5s-3.5 10.5-9 10.5S3 17 3 11 7.5 3 12 3z" fill="rgba(245,158,11,0.25)" stroke="#F59E0B"/><circle cx="9" cy="9" r="1" fill="#D97706"/><circle cx="15" cy="13" r="1" fill="#D97706"/><circle cx="10" cy="15" r="1" fill="#D97706"/><path d="M13 7a2 2 0 0 1 2 2" stroke="#FDE68A" stroke-linecap="round"/></svg>`,
+  timerClock: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-timerClock"><circle cx="12" cy="12" r="9" stroke="currentColor"/><polyline points="12 7 12 12 15 15" stroke="var(--primary, #E05A47)"/></svg>`,
+  pause: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pause"><rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/><rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/></svg>`,
+  play: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-play"><polygon points="5 3 19 12 5 21 5 3" fill="rgba(42,157,143,0.2)" stroke="currentColor"/></svg>`,
+  stop: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-stop"><rect x="4" y="4" width="16" height="16" rx="2" fill="rgba(239,68,68,0.2)" stroke="var(--accent-red, #EF4444)"/></svg>`,
+  vegLeaf: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-vegLeaf"><path d="M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z" fill="rgba(16,185,129,0.2)" stroke="#10B981"/><path d="M11 13l7-7" stroke="#10B981"/></svg>`,
+  shieldCheck: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-shieldCheck"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="rgba(42,157,143,0.15)" stroke="currentColor"/><polyline points="9 12 11 14 15 10" stroke="#10B981"/></svg>`,
+  flameStreak: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-flameStreak"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 17c1.38 0 2.5-1.12 2.5-2.5 0-1.78-1.5-2.88-2.5-4.5-1 1.62-2.5 2.72-2.5 4.5z" fill="rgba(245,158,11,0.4)" stroke="#F59E0B"/><path d="M12 2c-3.5 4-7 7.5-7 12a7 7 0 0 0 14 0c0-4.5-3.5-8-7-12z" stroke="#E05A47"/></svg>`,
+  buildDish: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-buildDish"><path d="M4 11h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z" fill="rgba(224,90,71,0.2)"/><path d="M2 11h20M7 8a4 4 0 0 1 4-4 4 4 0 0 1 4 4"/></svg>`,
+  pronunciation: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pronunciation"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="rgba(42,157,143,0.15)" stroke="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4m-4 0h8" stroke="currentColor"/></svg>`,
+  trivia: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trivia"><path d="M9.5 2A4.5 4.5 0 0 0 5 6.5c0 1.2.5 2.3 1.3 3.1A6 6 0 0 0 5 13a6 6 0 0 0 4 5.7V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1.3A6 6 0 0 0 19 13a6 6 0 0 0-1.3-3.4A4.5 4.5 0 0 0 19 6.5 4.5 4.5 0 0 0 14.5 2h-5z" fill="rgba(245,158,11,0.18)"/><line x1="12" y1="6" x2="12" y2="14"/></svg>`,
+  indiaMap: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-indiaMap"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" fill="rgba(42,157,143,0.15)"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>`,
+  spinScience: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-spinScience"><circle cx="12" cy="12" r="10" fill="rgba(245,158,11,0.15)"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="4.93" y2="19.07"/><circle cx="12" cy="12" r="3" fill="#FFF"/></svg>`,
+  tandoorSkewer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-tandoorSkewer"><line x1="3" y1="21" x2="21" y2="3"/><circle cx="9" cy="15" r="3" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><circle cx="15" cy="9" r="3" fill="rgba(224,90,71,0.3)" stroke="#E05A47"/></svg>`,
+  eye: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3" fill="rgba(42,157,143,0.2)" stroke="var(--secondary, #2A9D8F)"/></svg>`,
+  eyeOff: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-eyeOff"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23" stroke="var(--primary, #E05A47)"/></svg>`,
+  check: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-check"><polyline points="20 6 9 17 4 12" stroke="#10B981"/></svg>`,
+  cross: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-cross"><line x1="18" y1="6" x2="6" y2="18" stroke="#EF4444"/><line x1="6" y1="6" x2="18" y2="18" stroke="#EF4444"/></svg>`,
+  star: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="rgba(245,158,11,0.25)" stroke="#F59E0B"/></svg>`,
+  starEmpty: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-starEmpty"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor"/></svg>`,
+  refresh: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-refresh"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>`,
+  sparkles: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-sparkles"><path d="M12 3l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/><path d="M19 15l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" stroke="#2A9D8F"/></svg>`,
+  bulb: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-bulb"><path d="M9 18h6m-4 4h2m-5-8a6 6 0 1 1 8 0c-.5.8-1.5 2-1.5 3h-5c0-1-1-2.2-1.5-3z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
+  alert: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-alert"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+  gear: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-gear"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
+  key: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-key"><path d="M21 2l-2 2m-1.5 1.5L14 9l-3-3L8 9 5 6 2 9l6 6 3-3 3.5 3.5M16 5l3 3"/><circle cx="7.5" cy="16.5" r="4.5" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
+  pantry: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pantry"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
+  chefHat: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-chefHat"><path d="M6 14v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4M4 14c-1.5 0-2-1.5-2-3a4 4 0 0 1 6-3.5 4.5 4.5 0 0 1 8 0A4 4 0 0 1 22 11c0 1.5-.5 3-2 3H4z" fill="rgba(255,255,255,0.1)" stroke="currentColor"/><line x1="6" y1="17" x2="18" y2="17" stroke="var(--primary, #E05A47)"/></svg>`,
+  mapPin: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-mapPin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="rgba(224,90,71,0.18)" stroke="#E05A47"/><circle cx="12" cy="10" r="3" fill="currentColor"/></svg>`,
+  medal1: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal1"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
+  medal2: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal2"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
+  medal3: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal3"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
+  trash: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trash"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>`,
+  download: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
+  upload: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-upload"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>`,
+  thermometer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-thermometer"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>`,
+  book: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`
+};
+
+// Hot Potato Fixed Duration Timer State
+const HotPotatoTimerState = {
+  durationSec: 60,
+  remainingMs: 60000,
+  isPaused: false,
+  isRunning: false,
+  lastFrameTime: 0,
+  tickAudioLastSec: -1
+};
 
 // ==========================================
 // 2. WEB AUDIO API SYNTHESIZER
@@ -2142,7 +2136,7 @@ function showToast(message, type = 'info') {
   const toast = document.createElement('div');
   toast.className = `toast toast-${type}`;
   toast.innerHTML = `
-    <span>${type === 'success' ? '✨' : '💡'}</span>
+    <span>${type === 'success' ? FusionIcons.sparkles : FusionIcons.bulb}</span>
     <span>${message}</span>
   `;
 
@@ -2306,21 +2300,21 @@ const DEFAULT_STATE = {
       name: 'Maya',
       role: 'student', // 'student' or 'parent'
       rankLevel: 1,
-      avatar: '🎒',
+      avatar: 'kid',
       xp: 270,
       streak: 3,
       bests: { hotPotato: 10, trivia: 8, buildDish: 4, pronunciation: 5, scienceSpins: 6 },
-      unlockedBadges: ['🌱 Junior Taster', '🍄 Shroom Alchemist', '🥘 Dish Master']
+      unlockedBadges: ['Junior Taster', 'Shroom Alchemist', 'Dish Master']
     },
     parent: {
       name: 'Chef Priya',
       role: 'parent',
       rankLevel: 1,
-      avatar: '👨‍🍳',
+      avatar: 'parent',
       xp: 450,
       streak: 5,
       bests: { hotPotato: 20, trivia: 9, buildDish: 6, pronunciation: 7, scienceSpins: 8 },
-      unlockedBadges: ['👨‍🍳 Sous-Chef Guide', '🔥 Tandoor Wizard', '🎌🇵🇪 Nikkei Explorer']
+      unlockedBadges: ['Sous-Chef Guide', 'Tandoor Wizard', 'Nikkei Explorer']
     }
   },
   gameToggles: {
@@ -2808,9 +2802,9 @@ class ThreeJSCulinaryManager {
     const controlsBar = document.createElement('div');
     controlsBar.className = 'tandoor-heat-controls';
     controlsBar.innerHTML = `
-      <button class="tandoor-heat-btn" data-heat="simmer">🔥 Gentle Simmer</button>
-      <button class="tandoor-heat-btn active" data-heat="roast">⚡ Tandoori Roast</button>
-      <button class="tandoor-heat-btn" data-heat="sear">💥 Inferno Sear</button>
+      <button class="tandoor-heat-btn" data-heat="simmer">${FusionIcons.flameStreak} Gentle Simmer</button>
+      <button class="tandoor-heat-btn active" data-heat="roast">${FusionIcons.flameStreak} Tandoori Roast</button>
+      <button class="tandoor-heat-btn" data-heat="sear">${FusionIcons.flameStreak} Inferno Sear</button>
     `;
     container.appendChild(controlsBar);
 
@@ -2899,14 +2893,14 @@ class ThreeJSCulinaryManager {
     const hud = document.createElement('div');
     hud.className = 'model-3d-hud';
     hud.innerHTML = `
-      <span class="model-3d-badge" id="dish-3d-name-badge">🍄 ${initialIngredient}</span>
+      <span class="model-3d-badge" id="dish-3d-name-badge">${initialIngredient}</span>
       <span class="model-3d-badge" style="color:var(--accent-green);background:rgba(6,78,59,0.7);">Pure Veg 3D</span>
     `;
     container.appendChild(hud);
 
     const hint = document.createElement('div');
     hint.className = 'model-3d-hint';
-    hint.innerText = '🖱️ Drag to rotate 360° • Click pantry item to view';
+    hint.innerText = 'Drag to rotate 360° • Click pantry item to view';
     container.appendChild(hint);
 
     const ambient = new THREE.AmbientLight(0xFFFFFF, 0.95);
@@ -3717,14 +3711,14 @@ class Fusion3DManager {
     const hud = document.createElement('div');
     hud.className = 'model-3d-hud';
     hud.innerHTML = `
-      <span class="model-3d-badge">🌱 3D Vegetarian Ingredient</span>
+      <span class="model-3d-badge">3D Vegetarian Ingredient</span>
       <span class="model-3d-badge" id="dish-3d-ing-name">${ingredientName || 'King Oyster Mushroom'}</span>
     `;
     container.appendChild(hud);
 
     const hint = document.createElement('div');
     hint.className = 'model-3d-hint';
-    hint.innerText = '👆 Drag to inspect 360° • Select ingredients to assemble';
+    hint.innerText = 'Drag to inspect 360° • Select ingredients to assemble';
     container.appendChild(hint);
 
     // Pointer rotation controls
@@ -4019,12 +4013,12 @@ class Fusion3DManager {
     const hud = document.createElement('div');
     hud.className = 'model-3d-hud';
     hud.innerHTML = `
-      <span class="model-3d-badge">🔬 3D Molecular Chemistry</span>
+      <span class="model-3d-badge">3D Molecular Chemistry</span>
       <button class="model-3d-badge" id="molecule-toggle-mode" style="cursor:pointer;pointer-events:auto;">
         ${this.moleculeSpaceFilling ? 'Spheres' : 'Ball & Stick'}
       </button>
-      <button class="model-3d-badge" id="molecule-zoom-in" style="cursor:pointer;pointer-events:auto;" title="Zoom In">🔍 +</button>
-      <button class="model-3d-badge" id="molecule-zoom-out" style="cursor:pointer;pointer-events:auto;" title="Zoom Out">🔍 −</button>
+      <button class="model-3d-badge" id="molecule-zoom-in" style="cursor:pointer;pointer-events:auto;" title="Zoom In">Zoom +</button>
+      <button class="model-3d-badge" id="molecule-zoom-out" style="cursor:pointer;pointer-events:auto;" title="Zoom Out">Zoom −</button>
     `;
     container.appendChild(hud);
 
@@ -4045,7 +4039,7 @@ class Fusion3DManager {
 
     const hint = document.createElement('div');
     hint.className = 'model-3d-hint';
-    hint.innerText = '👆 Drag to rotate 360° • Pinch or scroll to zoom';
+    hint.innerText = 'Drag to rotate 360° • Pinch or scroll to zoom';
     container.appendChild(hint);
 
     // Pointer Drag & Zoom
@@ -4290,8 +4284,8 @@ class FusionApp {
     this.state.profiles.parent.streak = 1;
     this.state.profiles.kid.bests = { hotPotato: 0, trivia: 0, buildDish: 0, pronunciation: 0, scienceSpins: 0 };
     this.state.profiles.parent.bests = { hotPotato: 0, trivia: 0, buildDish: 0, pronunciation: 0, scienceSpins: 0 };
-    this.state.profiles.kid.unlockedBadges = ['🌱 Junior Taster'];
-    this.state.profiles.parent.unlockedBadges = ['👨‍🍳 Sous-Chef Guide'];
+    this.state.profiles.kid.unlockedBadges = ['Junior Taster'];
+    this.state.profiles.parent.unlockedBadges = ['Sous-Chef Guide'];
     this.state.completedCityQuests = [];
     this.state.recipeCompletedSteps = {};
 
@@ -4314,6 +4308,7 @@ class FusionApp {
       }
     }
     this.applyTheme(this.state.theme);
+    this.upgradeAllIconsToCustomSVGs();
     this.renderHeader();
     this.renderProgressStrip();
     this.renderGameTabs();
@@ -4324,7 +4319,7 @@ class FusionApp {
       this.threeManager.onTabChanged(this.state.currentTab || 'games');
     }
     sound.playCorrect();
-    showToast('✨ All website data, XP, and leaderboards cleared!', 'success');
+    showToast('All website data, XP, and leaderboards cleared!', 'success');
   }
 
   init() {
@@ -4471,7 +4466,7 @@ class FusionApp {
         hpCoalsBoost: -8.5,
         coalsHeight: 70,
         impostorCount: 3,
-        badgeText: '🎒 Student Mode (Forgiving Timers & Hints)',
+        badgeText: 'Student Mode (Forgiving Timers & Hints)',
         badgeClass: 'student-mode-badge'
       };
     } else {
@@ -4482,7 +4477,7 @@ class FusionApp {
         hpCoalsBoost: -7.0,
         coalsHeight: 45,
         impostorCount: 6,
-        badgeText: '👨‍🍳 Parent Mode (Pro Kitchen Challenge)',
+        badgeText: 'Parent Mode (Pro Kitchen Challenge)',
         badgeClass: 'parent-mode-badge'
       };
     }
@@ -4564,7 +4559,7 @@ class FusionApp {
                   <td style="padding:0.5rem; font-weight:700;">${this.escapeHtml(r.name || 'Anonymous')}</td>
                   <td style="padding:0.5rem; color:var(--text-muted);">${this.escapeHtml(r.game || 'Arcade')}</td>
                   <td style="padding:0.5rem; font-weight:800; color:var(--text-main);">${r.score || 0}</td>
-                  <td style="padding:0.5rem;">${r.badge || '🌟'}</td>
+                  <td style="padding:0.5rem;">${r.badge || 'Star'}</td>
                 </tr>
               `).join('')}
             </tbody>
@@ -4572,7 +4567,7 @@ class FusionApp {
         </div>
         <div style="margin-top:1.25rem; display:flex; justify-content:flex-end;">
           <button class="btn btn-primary" id="btn-modal-open-full-leaderboard" style="padding:0.45rem 1rem; font-size:0.84rem;">
-            📊 View Full Rankings & Ladders Page →
+            View Full Rankings & Ladders Page →
           </button>
         </div>
       </div>
@@ -4602,13 +4597,13 @@ class FusionApp {
         </label>
         <div class="profile-role-grid" role="radiogroup" aria-label="Choose Chef Identity">
           <button type="button" class="profile-role-card ${currentRole === 'student' ? 'selected' : ''}" id="role-select-student" role="radio" aria-checked="${currentRole === 'student' ? 'true' : 'false'}" style="text-align:center; font-family:inherit;">
-            <div style="font-size:2rem; margin-bottom:0.35rem;">🎒</div>
+            <div style="display:flex; justify-content:center; margin-bottom:0.35rem;">${FusionIcons.kidChef}</div>
             <strong style="font-size:1rem; display:block;">Student / Kid Chef</strong>
             <span style="font-size:0.78rem; color:var(--text-muted);">Forgiving Timers (50s) & Safe Steps</span>
           </button>
 
           <button type="button" class="profile-role-card ${currentRole === 'parent' ? 'selected' : ''}" id="role-select-parent" role="radio" aria-checked="${currentRole === 'parent' ? 'true' : 'false'}" style="text-align:center; font-family:inherit;">
-            <div style="font-size:2rem; margin-bottom:0.35rem;">👨‍🍳</div>
+            <div style="display:flex; justify-content:center; margin-bottom:0.35rem;">${FusionIcons.chefHat}</div>
             <strong style="font-size:1rem; display:block;">Parent / Adult Guide</strong>
             <span style="font-size:0.78rem; color:var(--text-muted);">Pro Challenge (25s) & Tricky Impostors</span>
           </button>
@@ -4631,7 +4626,7 @@ class FusionApp {
         </div>
 
         <button class="btn btn-primary" id="save-profile-btn" style="width:100%; padding:0.85rem; font-size:1.05rem; margin-top:0.75rem;">
-          ✨ Let's Cook & Play!
+          Let's Cook & Play!
         </button>
       </div>
     `;
@@ -4693,7 +4688,7 @@ class FusionApp {
     prof.name = name;
     prof.role = role;
     prof.rankLevel = rankLevel;
-    prof.avatar = role === 'parent' ? '👨‍🍳' : '🎒';
+    prof.avatar = role === 'parent' ? 'parent' : 'kid';
     if (prof.xp < chosenRank.minXP) {
       prof.xp = chosenRank.minXP;
     }
@@ -4771,7 +4766,7 @@ class FusionApp {
     document.documentElement.setAttribute('data-theme', theme);
     const themeBtn = document.getElementById('theme-toggle-btn');
     if (themeBtn) {
-      themeBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+      themeBtn.innerHTML = theme === 'dark' ? FusionIcons.themeSun : FusionIcons.themeMoon;
       themeBtn.setAttribute('title', theme === 'dark' ? 'Switch to Light-Blue Mode' : 'Switch to Obsidian Black Mode');
     }
     this.saveState();
@@ -4781,7 +4776,7 @@ class FusionApp {
     sound.playClick();
     const nextTheme = this.state.theme === 'dark' ? 'light' : 'dark';
     this.applyTheme(nextTheme);
-    showToast(nextTheme === 'dark' ? 'Obsidian Black Theme Activated 🌙' : 'Light-Blue Theme Activated ☀️', 'info');
+    showToast(nextTheme === 'dark' ? 'Obsidian Black Theme Activated' : 'Light-Blue Theme Activated', 'info');
   }
 
   toggleSound() {
@@ -4789,10 +4784,10 @@ class FusionApp {
     sound.playClick();
     const soundBtn = document.getElementById('sound-toggle-btn');
     if (soundBtn) {
-      soundBtn.innerHTML = muted ? '🔇' : '🔊';
+      soundBtn.innerHTML = muted ? FusionIcons.soundOff : FusionIcons.soundOn;
       soundBtn.setAttribute('title', muted ? 'Unmute Sound Effects' : 'Mute Sound Effects');
     }
-    showToast(muted ? 'Sound Effects Muted 🔇' : 'Sound Effects Enabled 🔊', 'info');
+    showToast(muted ? 'Sound Effects Muted' : 'Sound Effects Enabled', 'info');
   }
 
   renderHeader() {
@@ -4810,7 +4805,7 @@ class FusionApp {
 
     const soundBtn = document.getElementById('sound-toggle-btn');
     if (soundBtn) {
-      soundBtn.innerHTML = sound.isMuted() ? '🔇' : '🔊';
+      soundBtn.innerHTML = sound.isMuted() ? FusionIcons.soundOff : FusionIcons.soundOn;
     }
   }
 
@@ -4845,7 +4840,7 @@ class FusionApp {
           </div>
         </div>
         <div class="streak-counter">
-          <div>🔥 ${profile.streak} Days</div>
+          <div>${FusionIcons.flameStreak} ${profile.streak} Days</div>
           <div style="font-size:0.75rem; color:var(--text-muted);">Family Streak</div>
         </div>
       </div>
@@ -4860,12 +4855,12 @@ class FusionApp {
     if (!track) return;
 
     const games = [
-      { id: 'buildDish', name: 'Build-a-Dish', icon: '🥘', desc: 'Pantry Rush & Recipe Simulation', activeDesc: 'Timed hunt + step sequence' },
-      { id: 'pronunciation', name: 'Pronounce Lab', icon: '🗣️', desc: 'Phonetic Matching & Voice Check', activeDesc: 'Listen, reorder & speak' },
-      { id: 'trivia', name: 'Family Trivia', icon: '🧠', desc: '10 Qs with Soft Timer & Hints', activeDesc: 'Food science & origins' },
-      { id: 'indiaMap', name: 'India Fusion Map', icon: '🗺️', desc: 'Metro Quests & Bazaar Markets', activeDesc: 'City quests & ingredients' },
-      { id: 'hotPotato', name: 'Hot Potato Rush', icon: '🥔', desc: 'Whack, Cook in Coals & Serve Golden', activeDesc: 'Cook on coals, serve golden' },
-      { id: 'spinScience', name: 'Science Wheel', icon: '🎡', desc: 'Food Chemistry Explanations', activeDesc: 'Spin & discover reactions' }
+      { id: 'buildDish', name: 'Build-a-Dish', icon: FusionIcons.buildDish, desc: 'Pantry Rush & Recipe Simulation', activeDesc: 'Timed hunt + step sequence' },
+      { id: 'pronunciation', name: 'Pronounce Lab', icon: FusionIcons.pronunciation, desc: 'Phonetic Matching & Voice Check', activeDesc: 'Listen, reorder & speak' },
+      { id: 'trivia', name: 'Family Trivia', icon: FusionIcons.trivia, desc: '10 Qs with Soft Timer & Hints', activeDesc: 'Food science & origins' },
+      { id: 'indiaMap', name: 'India Fusion Map', icon: FusionIcons.indiaMap, desc: 'Metro Quests & Bazaar Markets', activeDesc: 'City quests & ingredients' },
+      { id: 'hotPotato', name: 'Hot Potato Rush', icon: FusionIcons.goldenPotato, desc: 'Whack, Cook in Coals & Serve Golden', activeDesc: 'Cook on coals, serve golden' },
+      { id: 'spinScience', name: 'Science Wheel', icon: FusionIcons.spinScience, desc: 'Food Chemistry Explanations', activeDesc: 'Spin & discover reactions' }
     ];
 
     track.innerHTML = games.map(g => {
@@ -4876,7 +4871,7 @@ class FusionApp {
         <button type="button" class="game-card-tab ${isActive ? 'active' : ''}" data-game-id="${g.id}" role="tab" aria-selected="${isActive ? 'true' : 'false'}" aria-label="${g.name}: ${g.desc}">
           ${!isEnabled ? `
             <div class="game-disabled-overlay">
-              <span style="font-size:1.5rem;">🔒</span>
+              <span style="display:inline-flex; width:24px; height:24px;">${FusionIcons.adminLock}</span>
               <span>Disabled in Admin Mode</span>
             </div>
           ` : ''}
@@ -4902,7 +4897,7 @@ class FusionApp {
       tab.addEventListener('click', () => {
         const gameId = tab.getAttribute('data-game-id');
         if (!this.state.gameToggles[gameId]) {
-          showToast('🔒 This game is turned off in Admin Mode. Open Admin Settings (🔒) to enable it!', 'warning');
+          showToast('This game is turned off in Admin Mode. Open Admin Settings to enable it!', 'warning');
           return;
         }
         sound.playClick();
@@ -5001,7 +4996,7 @@ class FusionApp {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🥘</span>
+          <span class="arena-icon">${FusionIcons.buildDish}</span>
           <div>
             <h3>Build-a-Dish: Chef's Cooking Lab</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">Step-by-step vegetarian assembly & timed pantry rush</p>
@@ -5009,7 +5004,7 @@ class FusionApp {
         </div>
         <div class="arena-badges" style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
           <span class="pill-badge ${diff.badgeClass}" style="font-weight:800; border-color:var(--primary); color:var(--primary);">${diff.badgeText}</span>
-          <span class="pill-badge" style="color:var(--primary); font-weight:800;">⏱️ Rush Mode</span>
+          <span class="pill-badge" style="color:var(--primary); font-weight:800;">${FusionIcons.timerClock} Rush Mode</span>
           <span class="veg-badge"><span class="veg-icon-dot"></span> 100% Pure Veg</span>
         </div>
       </div>
@@ -5028,7 +5023,7 @@ class FusionApp {
           <!-- Pantry Shelf -->
           <div class="pantry-shelf">
             <h4>
-              <span>🛒 Pantry Shelf</span>
+              <span>${FusionIcons.pantry} Pantry Shelf</span>
               <span style="font-size:0.85rem; color:var(--secondary); font-weight:800;">
                 Collected: ${completedCount} / ${correctItems.length}
               </span>
@@ -5057,7 +5052,7 @@ class FusionApp {
           <!-- Cauldron & Steps -->
           <div class="prep-board">
             <div>
-              <h4>🍳 Step-by-Step Culinary Assembly</h4>
+              <h4>${FusionIcons.kitchenLab} Step-by-Step Culinary Assembly</h4>
               <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:0.75rem;">
                 Observe how ingredients transform in authentic recipe sequence:
               </p>
@@ -5071,7 +5066,7 @@ class FusionApp {
                       <div>
                         <strong>${step.title}</strong>
                         <div style="font-size:0.82rem; color:var(--text-muted); margin-top:2px;">${step.text}</div>
-                        ${step.kidSafe ? '<span class="pill-badge" style="font-size:0.7rem; color:var(--accent-green); background:var(--accent-green-light); margin-top:4px; display:inline-block;">👶 Kid-Friendly Step</span>' : '<span class="pill-badge" style="font-size:0.7rem; color:var(--secondary); background:var(--secondary-light); margin-top:4px; display:inline-block;">👨‍🍳 Parent Supervision</span>'}
+                        ${step.kidSafe ? '<span class="pill-badge" style="font-size:0.7rem; color:var(--accent-green); background:var(--accent-green-light); margin-top:4px; display:inline-block;">Kid-Friendly Step</span>' : '<span class="pill-badge" style="font-size:0.7rem; color:var(--secondary); background:var(--secondary-light); margin-top:4px; display:inline-block;">Parent Supervision</span>'}
                       </div>
                     </div>
                   `;
@@ -5082,16 +5077,16 @@ class FusionApp {
             <!-- Completion Banner -->
             ${isFinished ? `
               <div style="background:var(--accent-green-light); border:2px solid var(--accent-green); border-radius:var(--radius-md); padding:1.25rem; text-align:center; margin-top:1rem;">
-                <div style="font-size:1.85rem;">🎉 Dish Perfected!</div>
+                <div style="font-size:1.85rem;">Dish Perfected!</div>
                 <p style="font-size:0.92rem; color:var(--accent-green); margin:0.35rem 0; font-weight:700;">You earned <strong>+50 XP</strong> for authentic assembly!</p>
                 <div style="font-size:0.82rem; color:var(--text-muted); margin-bottom:0.85rem;">
-                  🔬 <em>${dish.scienceNote}</em>
+                  <em>${dish.scienceNote}</em>
                 </div>
                 <button class="btn btn-primary" id="reset-dish-btn" style="padding:0.45rem 1.15rem; font-size:0.85rem;">Assemble Another Dish →</button>
               </div>
             ` : `
               <div style="font-size:0.82rem; color:var(--text-muted); text-align:center; padding:0.5rem;">
-                💡 <em>Pro-Tip: ${dish.indianSubstitutes[0].why}</em>
+                <em>Pro-Tip: ${dish.indianSubstitutes[0].why}</em>
               </div>
             `}
           </div>
@@ -5122,7 +5117,7 @@ class FusionApp {
           this.buildDishSelectedIngredients.push(name);
           this.update3DIngredient(name);
           this.animate3DIngredientJump();
-          this.lastPantryFeedback = `<span style="color:var(--accent-green);">✨ Great choice! Added ${name} to the prep bowl.</span>`;
+          this.lastPantryFeedback = `<span style="color:var(--accent-green);">Great choice! Added ${name} to the prep bowl.</span>`;
           feedbackBox.innerHTML = this.lastPantryFeedback;
           
           if (this.buildDishSelectedIngredients.length === correctItems.length) {
@@ -5135,7 +5130,7 @@ class FusionApp {
               this.saveState();
               this.submitScoreToGlobal('buildDish', prof.bests.buildDish, 0).catch(() => {});
             }
-            this.addXP(50, '🥘 Dish Master');
+            this.addXP(50, 'Dish Master');
             showToast(`Perfected ${dish.name}! +50 XP`, 'success');
           }
           this.renderBuildDishGame(arena);
@@ -5148,7 +5143,7 @@ class FusionApp {
           const impostor = dish.pantryItems.find(i => i.name === name);
           feedbackBox.innerHTML = `
             <span style="color:#DC2626;">
-              ❌ Impostor Alert: ${name}! (-10 XP) ${impostor?.distractorReason || 'Not in this vegetarian recipe!'}
+              Impostor Alert: ${name}! (-10 XP) ${impostor?.distractorReason || 'Not in this vegetarian recipe!'}
             </span>
           `;
         }
@@ -5174,7 +5169,7 @@ class FusionApp {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🗣️</span>
+          <span class="arena-icon">${FusionIcons.pronunciation}</span>
           <div>
             <h3>Pronunciation Challenge & Phonetic Matching</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">Master authentic international accents & sound out syllables</p>
@@ -5194,16 +5189,24 @@ class FusionApp {
           
           <div class="ipa-badge">${dish.pronunciationIPA}</div>
           <div style="font-size:1.3rem; font-weight:800; color:var(--secondary); margin:0.65rem 0;">
-            🗣️ Say it: <em>"${dish.phonetic}"</em>
+            Say it: <em>"${dish.phonetic}"</em>
           </div>
 
           <div class="audio-listen-row">
             <button class="listen-btn" id="play-audio-btn">
-              <span>🔊 Listen Pronunciation</span>
+              <span>${FusionIcons.soundOn} Listen Pronunciation</span>
             </button>
             <button class="mic-check-btn" id="voice-practice-btn">
-              <span>🎤 Voice Practice Mic</span>
+              <span>${FusionIcons.pronunciation} Voice Practice Mic</span>
             </button>
+          </div>
+
+          <div class="audio-equalizer-container" id="pronounce-equalizer" style="display:flex; align-items:center; justify-content:center; gap:4px; height:24px; margin:0.6rem auto 0; opacity:0; transition:opacity 0.2s ease;">
+            <span class="eq-bar" style="width:4px; height:8px; background:var(--primary, #E05A47); border-radius:2px;"></span>
+            <span class="eq-bar" style="width:4px; height:16px; background:var(--secondary, #2A9D8F); border-radius:2px;"></span>
+            <span class="eq-bar" style="width:4px; height:22px; background:var(--accent-gold, #F59E0B); border-radius:2px;"></span>
+            <span class="eq-bar" style="width:4px; height:12px; background:var(--primary, #E05A47); border-radius:2px;"></span>
+            <span class="eq-bar" style="width:4px; height:18px; background:var(--secondary, #2A9D8F); border-radius:2px;"></span>
           </div>
 
           <div id="mic-result" role="status" aria-live="polite" aria-atomic="true" style="font-size:0.9rem; min-height:26px; font-weight:700; color:var(--secondary);"></div>
@@ -5212,7 +5215,7 @@ class FusionApp {
         <!-- Syllable Builder -->
         <div class="syllable-builder-box">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.85rem;">
-            <h4 style="font-size:1.1rem;">🧩 Tap Syllables in Exact Phonetic Order:</h4>
+            <h4 style="font-size:1.1rem;">Tap Syllables in Exact Phonetic Order:</h4>
             <button class="btn btn-secondary" id="clear-syllables-btn" style="padding:0.3rem 0.85rem; font-size:0.82rem;">Clear Reset</button>
           </div>
 
@@ -5222,7 +5225,7 @@ class FusionApp {
                 Tap the syllable chips below to assemble the phonetic pronunciation
               </span>
             ` : this.assembledSyllables.map((syl, sIdx) => `
-              <div class="syllable-chip" data-idx="${sIdx}">${syl} ✕</div>
+              <div class="syllable-chip" data-idx="${sIdx}">${syl} &times;</div>
             `).join('')}
           </div>
 
@@ -5242,7 +5245,7 @@ class FusionApp {
           <div id="pronounce-validation" style="margin-top:1.5rem;">
             ${isCompleted ? `
               <div style="background:var(--accent-green-light); border:2px solid var(--accent-green); border-radius:var(--radius-md); padding:1.25rem; text-align:center;">
-                <h4 style="color:var(--accent-green); margin-bottom:0.35rem; font-size:1.25rem;">🎉 Phonetically Flawless!</h4>
+                <h4 style="color:var(--accent-green); margin-bottom:0.35rem; font-size:1.25rem;">Phonetically Flawless!</h4>
                 <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:0.85rem;">
                   You correctly assembled: <strong>${dish.phonetic}</strong>
                 </p>
@@ -5296,7 +5299,7 @@ class FusionApp {
           const prof = this.getActiveProfile();
           if (!prof.bests) prof.bests = {};
           prof.bests.pronunciation = (prof.bests.pronunciation || 0) + 1;
-          this.addXP(30, '🗣️ Accent Virtuoso');
+          this.addXP(30, 'Accent Virtuoso');
           this.submitScoreToGlobal('pronunciation', prof.bests.pronunciation, 0).catch(() => {});
         }
 
@@ -5365,6 +5368,9 @@ class FusionApp {
       if (indianVoice) {
         utterance.voice = indianVoice;
       }
+      this.setPronounceEqualizer(true);
+      utterance.onend = () => this.setPronounceEqualizer(false);
+      utterance.onerror = () => this.setPronounceEqualizer(false);
       window.speechSynthesis.speak(utterance);
     }
   }
@@ -5375,7 +5381,7 @@ class FusionApp {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
     if (!SpeechRecognition) {
-      if (resultBox) resultBox.innerHTML = `⚠️ Microphone recognition not supported in this browser. Practice saying "${targetWord}" aloud with family!`;
+      if (resultBox) resultBox.innerHTML = `Microphone recognition not supported in this browser. Practice saying "${targetWord}" aloud with family!`;
       return;
     }
 
@@ -5388,7 +5394,8 @@ class FusionApp {
       btn.style.opacity = '0.6';
     }
 
-    if (resultBox) resultBox.innerHTML = '🎙️ Listening... Speak clearly now into your microphone!';
+    this.setPronounceEqualizer(true);
+    if (resultBox) resultBox.innerHTML = 'Listening... Speak clearly now into your microphone!';
     try {
       const recognition = new SpeechRecognition();
       recognition.lang = 'en-US';
@@ -5396,6 +5403,7 @@ class FusionApp {
 
       const resetListening = () => {
         this.isVoiceListening = false;
+        this.setPronounceEqualizer(false);
         if (btn) {
           btn.disabled = false;
           btn.style.opacity = '1';
@@ -5410,7 +5418,7 @@ class FusionApp {
         if (transcript.includes(targetWord.toLowerCase()) || targetWord.toLowerCase().includes(transcript)) {
           sound.playCorrect();
           launchConfetti();
-          if (resultBox) resultBox.innerHTML += ` — <span style="color:var(--accent-green); font-weight:800;">🌟 Outstanding pronunciation! (+25 Bonus XP)</span>`;
+          if (resultBox) resultBox.innerHTML += ` — <span style="color:var(--accent-green); font-weight:800;">Outstanding pronunciation! (+25 Bonus XP)</span>`;
           this.addXP(25, 'Pronounce Master');
         } else {
           if (resultBox) resultBox.innerHTML += ` — <span style="color:var(--secondary);">Good try! Listen to the audio and try once more.</span>`;
@@ -5419,7 +5427,7 @@ class FusionApp {
 
       recognition.onerror = () => {
         resetListening();
-        if (resultBox) resultBox.innerHTML = `⚠️ Mic permission needed or silence detected. Say it aloud with family!`;
+        if (resultBox) resultBox.innerHTML = `Mic permission needed or silence detected. Say it aloud with family!`;
       };
 
       recognition.onend = () => {
@@ -5433,7 +5441,7 @@ class FusionApp {
         btn.disabled = false;
         btn.style.opacity = '1';
       }
-      if (resultBox) resultBox.innerHTML = `⚠️ Could not start microphone: ${e.message}`;
+      if (resultBox) resultBox.innerHTML = `Could not start microphone: ${e.message}`;
     }
   }
 
@@ -5445,7 +5453,7 @@ class FusionApp {
       arena.innerHTML = `
         <div class="arena-header">
           <div class="arena-title-group">
-            <span class="arena-icon">🏆</span>
+            <span class="arena-icon">${FusionIcons.trophy}</span>
             <div>
               <h3>Family Tag-Team Trivia: Final Results</h3>
               <p style="font-size:0.85rem; color:var(--text-muted);">Quiz Complete! Outstanding family cooperation.</p>
@@ -5454,7 +5462,7 @@ class FusionApp {
         </div>
 
         <div style="text-align:center; padding:2.5rem 1.5rem; max-width:620px; margin:0 auto;">
-          <div style="font-size:3.8rem; margin-bottom:0.5rem;">🎉</div>
+          <div style="font-size:3.8rem; margin-bottom:0.5rem;">${FusionIcons.trophy}</div>
           <h2>Family Score: ${this.triviaScore} / 10 Correct</h2>
           <p style="color:var(--text-muted); margin:0.85rem 0 1.5rem; font-size:1.05rem;">
             You mastered international culinary origins, vegetarian bazaar substitutions, and kitchen chemistry!
@@ -5463,7 +5471,7 @@ class FusionApp {
             <div style="font-weight:800; color:var(--secondary); font-size:1.25rem;">Total XP Earned: +${this.triviaScore * 25} XP</div>
             <div style="font-size:0.88rem; color:var(--text-muted); margin-top:0.35rem;">Personal best recorded in Family Scoreboard!</div>
           </div>
-          <button class="btn btn-primary" id="restart-trivia-btn">Play Trivia Again 🔄</button>
+          <button class="btn btn-primary" id="restart-trivia-btn">Play Trivia Again</button>
         </div>
       `;
 
@@ -5493,7 +5501,7 @@ class FusionApp {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🧠</span>
+          <span class="arena-icon">${FusionIcons.trivia}</span>
           <div>
             <h3>Family Tag-Team Trivia</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">10 Questions with Soft Timer & Collaborative Hints</p>
@@ -5509,12 +5517,12 @@ class FusionApp {
       <div class="trivia-container">
         <div class="trivia-topbar">
           <div class="timer-soft-badge">
-            <span>⏳ Soft Timer:</span>
+            <span>Soft Timer:</span>
             <span id="trivia-timer-display">${diff.triviaTimer}s</span>
             <span style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">(Bonus XP for quick answers!)</span>
           </div>
           <button class="btn btn-secondary" id="toggle-parent-hint-btn" style="padding:0.4rem 0.95rem; font-size:0.85rem;">
-            💡 Parent Hint
+            ${FusionIcons.bulb} Parent Hint
           </button>
         </div>
 
@@ -5524,7 +5532,7 @@ class FusionApp {
 
           <div class="options-grid">
             ${q.options.map((opt, oIdx) => `
-              <button class="option-btn" data-opt-idx="${oIdx}">
+              <button class="option-btn quiz-option-btn" data-opt-idx="${oIdx}">
                 <span style="width:26px; height:26px; border-radius:50%; background:var(--bg-parchment); border:1.5px solid var(--border-color); display:flex; align-items:center; justify-content:center; font-size:0.78rem; font-weight:800;">
                   ${['A', 'B', 'C', 'D'][oIdx]}
                 </span>
@@ -5534,7 +5542,7 @@ class FusionApp {
           </div>
 
           <div id="parent-hint-container" class="parent-hint-box" style="display:none;">
-            <strong>👨‍🍳 Parent Clue:</strong> ${q.parentHint}
+            <strong>Parent Clue:</strong> ${q.parentHint}
           </div>
 
           <div id="trivia-feedback-box" role="status" aria-live="polite" aria-atomic="true" style="margin-top:1.5rem;"></div>
@@ -5562,8 +5570,8 @@ class FusionApp {
 
         if (selectedIdx === q.correctIndex) {
           sound.playCorrect();
-          btn.classList.add('correct');
-          btn.innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">✓</span>';
+          btn.classList.add('correct', 'is-correct');
+          btn.innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">' + FusionIcons.check + '</span>';
           this.triviaScore++;
           const speedBonus = this.triviaTimeLeft > (diff.triviaTimer / 2) ? 10 : 0;
           this.addXP(25 + speedBonus, q.badge);
@@ -5571,7 +5579,7 @@ class FusionApp {
           feedbackBox.innerHTML = `
             <div style="background:var(--accent-green-light); border:1.5px solid var(--accent-green); border-radius:var(--radius-md); padding:1.15rem; margin-top:1rem;">
               <div style="color:var(--accent-green); font-weight:800; margin-bottom:0.25rem; font-size:1.05rem;">
-                ✅ Spot On! (+${25 + speedBonus} XP)
+                Spot On! (+${25 + speedBonus} XP)
               </div>
               <div style="font-size:0.88rem; color:var(--text-muted);">${q.explanation}</div>
               <button class="btn btn-primary" id="next-trivia-btn" style="margin-top:0.85rem; padding:0.45rem 1.15rem; font-size:0.85rem;">
@@ -5581,18 +5589,18 @@ class FusionApp {
           `;
         } else {
           sound.playWrong();
-          btn.classList.add('wrong');
-          btn.innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">✕</span>';
+          btn.classList.add('wrong', 'is-wrong');
+          btn.innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">' + FusionIcons.cross + '</span>';
           if (allBtns[q.correctIndex]) {
-            allBtns[q.correctIndex].classList.add('correct');
-            allBtns[q.correctIndex].innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">✓</span>';
+            allBtns[q.correctIndex].classList.add('correct', 'is-correct');
+            allBtns[q.correctIndex].innerHTML += ' <span aria-hidden="true" style="float:right; font-weight:900;">' + FusionIcons.check + '</span>';
           }
           this.deductScoreAndXP(10, 'Wrong Trivia Answer');
 
           feedbackBox.innerHTML = `
             <div class="trivia-wrong-feedback-card" style="border-radius:var(--radius-md); padding:1.15rem; margin-top:1rem;">
               <div style="color:#DC2626; font-weight:800; margin-bottom:0.25rem; font-size:1.05rem;">
-                ❌ Not quite right! (-10 XP)
+                Not quite right! (-10 XP)
               </div>
               <div style="font-size:0.88rem; color:#881337;">${q.explanation}</div>
               <button class="btn btn-primary" id="next-trivia-btn" style="margin-top:0.85rem; padding:0.45rem 1.15rem; font-size:0.85rem;">
@@ -5644,7 +5652,7 @@ class FusionApp {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🗺️</span>
+          <span class="arena-icon">${FusionIcons.indiaMap}</span>
           <div>
             <h3>India Culinary Availability Map & City Quest</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">Explore regional fusion adoption & local Indian ingredient bazaars</p>
@@ -5652,7 +5660,7 @@ class FusionApp {
         </div>
         <div class="arena-badges" style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
           <button class="btn btn-secondary" id="toggle-map-tut-btn" style="padding:0.35rem 0.85rem; font-size:0.8rem; border-color:var(--primary); color:var(--primary);">
-            💡 ${this.showMapTutorial ? 'Hide Tutorial' : 'How to Play Tutorial'}
+            ${this.showMapTutorial ? 'Hide Tutorial' : 'How to Play Tutorial'}
           </button>
           <span class="pill-badge" style="color:var(--primary); font-weight:800;">7 Metro Hubs</span>
           <span class="pill-badge">Bazaar Substitutes</span>
@@ -5663,36 +5671,36 @@ class FusionApp {
         <div class="map-tutorial-banner" id="map-tutorial-box">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
             <h4 style="font-size:1.05rem; display:flex; align-items:center; gap:0.5rem;">
-              <span>🧭</span> <span>How to Play India City Quest:</span>
+              <span>How to Play India City Quest:</span>
             </h4>
-            <button class="btn btn-secondary" id="close-map-tut-btn" style="padding:0.25rem 0.65rem; font-size:0.75rem;">Dismiss ✕</button>
+            <button class="btn btn-secondary" id="close-map-tut-btn" style="padding:0.25rem 0.65rem; font-size:0.75rem;">Dismiss &times;</button>
           </div>
           <div class="tutorial-steps-grid">
             <div class="tutorial-step-card">
               <div class="tut-num">1</div>
               <div>
-                <strong>Tap City Pins 📍</strong>
+                <strong>Tap City Pins</strong>
                 <p>Click any pulsating metro pin on India's map (Mumbai, Delhi-NCR, Bengaluru, Goa, Pune, Hyderabad, Kolkata).</p>
               </div>
             </div>
             <div class="tutorial-step-card">
               <div class="tut-num">2</div>
               <div>
-                <strong>Scout Local Bazaars 🛒</strong>
+                <strong>Scout Local Bazaars ${FusionIcons.pantry}</strong>
                 <p>Discover authentic desi ingredient markets (Crawford Market, INA Bazaar, Begum Bazaar) for fusion cooking.</p>
               </div>
             </div>
             <div class="tutorial-step-card">
               <div class="tut-num">3</div>
               <div>
-                <strong>Compare Dish Trends 📊</strong>
+                <strong>Compare Dish Trends ${FusionIcons.trophy}</strong>
                 <p>Check the availability level for Nikkei Ceviche, Butter Paneer Tacos, Naanza, and Spiced Ramen in that city.</p>
               </div>
             </div>
             <div class="tutorial-step-card">
               <div class="tut-num">4</div>
               <div>
-                <strong>Earn Explorer XP 🌟</strong>
+                <strong>Earn Explorer XP ${FusionIcons.star}</strong>
                 <p>Hit "Complete City Quest" to earn +20 XP toward leveling up your Master Chef rank on the Leaderboard!</p>
               </div>
             </div>
@@ -5793,7 +5801,7 @@ class FusionApp {
                     <circle class="pin-halo" cx="${m.x}" cy="${m.y}" r="${isSel ? '18' : '12'}" fill="${pinColor}" opacity="${isSel ? '0.45' : '0.22'}" />
                     <circle class="pin-core" cx="${m.x}" cy="${m.y}" r="${isSel ? '8' : '6'}" fill="${pinColor}" stroke="#FFFFFF" stroke-width="${isSel ? '2.5' : '1.5'}" />
                     <text x="${m.x}" y="${m.y - 12}" text-anchor="middle" font-size="${isSel ? '13' : '11'}" font-weight="${isSel ? '900' : '700'}" fill="var(--text-main)">
-                      ${m.name} ${isVisited ? '✓' : ''}
+                      ${m.name} ${isVisited ? '(Visited)' : ''}
                     </text>
                   </g>
                 `;
@@ -5802,9 +5810,9 @@ class FusionApp {
           </div>
 
           <div style="margin-top:1.25rem; font-size:0.84rem; color:var(--text-muted); display:flex; justify-content:center; gap:1.25rem; flex-wrap:wrap;">
-            <span>🟢 Green ✓: Quest Mastered</span>
-            <span>🔵 Blue: Active Hub</span>
-            <span>🟠 Orange: Unscouted</span>
+            <span>Green: Quest Mastered</span>
+            <span>Blue: Active Hub</span>
+            <span>Orange: Unscouted</span>
           </div>
         </div>
 
@@ -5812,14 +5820,14 @@ class FusionApp {
         <div class="metro-details-card">
           <div style="border-bottom:2px dashed var(--border-dashed); padding-bottom:1rem; margin-bottom:1.25rem;">
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.35rem;">
-              <span class="pill-badge" style="color:var(--primary); font-weight:800;">📍 ${metro.state}</span>
+              <span class="pill-badge" style="color:var(--primary); font-weight:800;">${metro.state}</span>
               ${isQuestDone ? `
                 <span class="pill-badge" style="color:var(--accent-green); background:var(--accent-green-light); font-weight:800;">
-                  🌟 Quest Complete (+20 XP Earned)
+                  Quest Complete (+20 XP Earned)
                 </span>
               ` : `
                 <span class="pill-badge" style="color:var(--secondary); background:var(--secondary-light);">
-                  ⏳ Incomplete Quest
+                  Incomplete Quest
                 </span>
               `}
             </div>
@@ -5830,7 +5838,7 @@ class FusionApp {
           <!-- Famous Fusion Epicenters -->
           <div style="margin-bottom:1.15rem;">
             <h4 style="font-size:0.92rem; text-transform:uppercase; color:var(--text-muted); letter-spacing:0.05em; margin-bottom:0.35rem;">
-              🍽️ Famous Food Hubs & Gastropubs
+              Famous Food Hubs & Gastropubs
             </h4>
             <p style="font-size:0.92rem; font-weight:600;">${metro.famousHubs}</p>
           </div>
@@ -5838,20 +5846,20 @@ class FusionApp {
           <!-- Premier Desi Ingredient Sourcing Bazaar -->
           <div style="background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:var(--radius-md); padding:1rem 1.15rem; margin-bottom:1.25rem;">
             <h4 style="font-size:0.92rem; color:var(--primary); margin-bottom:0.25rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>🛒 Premier Sourcing Bazaar:</span>
+              <span>${FusionIcons.pantry} Premier Sourcing Bazaar:</span>
             </h4>
             <p style="font-size:0.9rem; font-weight:700; color:var(--text-main); margin-bottom:0.35rem;">
               ${metro.topMarket}
             </p>
             <div style="font-size:0.82rem; color:var(--text-muted); line-height:1.45;">
-              💡 <em>${metro.questTip}</em>
+              <em>${metro.questTip}</em>
             </div>
           </div>
 
           <!-- Dishes Available in this City -->
           <div style="margin-bottom:1.5rem;">
             <h4 style="font-size:0.92rem; text-transform:uppercase; color:var(--text-muted); letter-spacing:0.05em; margin-bottom:0.6rem;">
-              📊 Fusion Dish Availability Index
+              Fusion Dish Availability Index
             </h4>
             <div style="display:flex; flex-direction:column; gap:0.5rem;">
               ${metro.dishesAvailable.map(d => `
@@ -5866,11 +5874,11 @@ class FusionApp {
           <!-- Quest Action Button -->
           ${isQuestDone ? `
             <button class="btn btn-secondary" style="width:100%; padding:0.75rem; font-size:0.9rem;" disabled>
-              ✅ Quest Verified (+20 XP Recorded)
+              Quest Verified (+20 XP Recorded)
             </button>
           ` : `
             <button class="btn btn-primary" id="claim-city-xp-btn" style="width:100%; padding:0.75rem; font-size:0.95rem; font-weight:800;">
-              ✨ Complete ${metro.name} Quest (+20 XP)
+              Complete ${metro.name} Quest (+20 XP)
             </button>
           `}
         </div>
@@ -5915,7 +5923,7 @@ class FusionApp {
         this.state.completedCityQuests.push(metro.id);
         this.saveState();
       }
-      this.addXP(20, `🗺️ ${metro.name} Explorer`);
+      this.addXP(20, `${metro.name} Explorer`);
       showToast(`Completed ${metro.name} Quest! +20 XP`, 'success');
       this.renderIndiaMapGame(arena);
     });
@@ -5940,7 +5948,7 @@ class FusionApp {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🥔</span>
+          <span class="arena-icon">${FusionIcons.goldenPotato}</span>
           <div>
             <h3>Hot Potato Rush</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">
@@ -5958,9 +5966,9 @@ class FusionApp {
       <!-- Prominent Big Arcade Action Launch Button -->
       <div class="hp-mode-switch-row" style="display:flex; justify-content:center; margin:1rem 0 1.25rem;">
         <button class="btn btn-primary hp-big-arcade-btn" id="hp-launch-fullscreen-btn" style="width:100%; max-width:560px; padding:0.95rem 1.6rem; font-size:1.1rem; font-weight:900; background:linear-gradient(135deg, #F59E0B, #EA580C, #DC2626); border:2px solid rgba(255,255,255,0.3); border-radius:var(--radius-full); box-shadow:0 6px 26px rgba(234,88,12,0.5); display:inline-flex; align-items:center; justify-content:center; gap:0.75rem; text-transform:uppercase; letter-spacing:0.5px; cursor:pointer;">
-          <span style="font-size:1.4rem;">📱</span>
+          <span style="font-size:1.4rem;"></span>
           <span>Play Landscape Fullscreen (Arcade Mode)</span>
-          <span style="font-size:1.1rem;">⚡</span>
+          <span style="font-size:1.1rem;"></span>
         </button>
       </div>
 
@@ -5981,15 +5989,15 @@ class FusionApp {
             <canvas id="hp-3d-game-canvas" width="800" height="460" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:2;"></canvas>
             <div class="hot-potato-overlay" id="hp-start-overlay">
               <div class="hp-overlay-card">
-                <div class="hp-overlay-icon" style="animation:hpTumble 1.8s infinite ease-in-out;">🥔</div>
+                <div class="hp-overlay-icon" style="animation:hpTumble 1.8s infinite ease-in-out;">${FusionIcons.goldenPotato}</div>
                 <h3 class="hp-overlay-title">Hot Potato Rush!</h3>
                 <p class="hp-overlay-desc">
-                  🎯 <strong>Direct Jump:</strong> Tap anywhere on canvas to launch potato directly towards that target!<br>
-                  🔥 <strong>Roast:</strong> Bounce on coals at the bottom (${diff.role === 'student' ? 'Wide Safe Zone' : 'Fast Coals'}).<br>
-                  ✨ <strong>Serve:</strong> Once <strong>Golden Crispy</strong>, fling into the <strong>Green Serving Window</strong> on the right!
+                  <strong>Direct Jump:</strong> Tap anywhere on canvas to launch potato directly towards that target!<br>
+                   <strong>Roast:</strong> Bounce on coals at the bottom (${diff.role === 'student' ? 'Wide Safe Zone' : 'Fast Coals'}).<br>
+                  <strong>Serve:</strong> Once <strong>Golden Crispy</strong>, fling into the <strong>Green Serving Window</strong> on the right!
                 </p>
                 <button class="btn btn-primary" id="hp-start-btn" style="padding:0.75rem 2.2rem; font-size:1.05rem;">
-                  🎮 Start Cooking!
+                  Start Cooking!
                 </button>
               </div>
             </div>
@@ -5998,10 +6006,10 @@ class FusionApp {
           <!-- Touch Mobile Whack Controls -->
           <div class="hp-controls-bar" style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
             <button class="btn btn-primary hp-action-btn" id="hp-tap-whack-btn" style="flex:1; min-width:200px;">
-              💥 TAP TO LAUNCH (Or Click Anywhere On Canvas)
+              TAP TO LAUNCH (Or Click Anywhere On Canvas)
             </button>
             <button class="btn btn-secondary" id="hp-native-stop-btn" style="padding:0.6rem 1.1rem; font-weight:800; background:rgba(239,68,68,0.2); border:1px solid #EF4444; color:#FFF; border-radius:var(--radius-md); display:none; cursor:pointer;" title="Pause or Stop Current Game">
-              🛑 Stop Game
+              Stop Game
             </button>
             <div class="hp-status-strip" style="min-width:180px;">
               <div class="hp-meter-outer">
@@ -6177,7 +6185,7 @@ class FusionApp {
       startOverlay.style.display = 'flex';
       startOverlay.innerHTML = `
         <div class="hp-overlay-card">
-          <div class="hp-overlay-icon">⏸️</div>
+          <div class="hp-overlay-icon">${FusionIcons.pause}</div>
           <h3 class="hp-overlay-title" style="color:#F59E0B;">Cooking Paused</h3>
           <p style="color:var(--text-main); font-size:1.05rem; font-weight:800; margin-bottom:0.35rem;">
             Score: ${score} Potatoes Served • Doneness: ${Math.floor(potato.cookLevel)}%
@@ -6187,13 +6195,13 @@ class FusionApp {
           </p>
           <div style="display:flex; gap:0.65rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;">
             <button class="btn btn-primary" id="hp-resume-btn" style="padding:0.65rem 1.6rem; font-size:1rem;">
-              ▶️ Resume Cooking
+              Resume Cooking
             </button>
             <button class="btn btn-secondary" id="hp-finish-btn" style="padding:0.65rem 1.4rem; font-size:0.95rem; border-color:#EF4444; color:#EF4444; font-weight:800;">
-              🛑 Stop & Save Score
+              Stop & Save Score
             </button>
             <button class="btn btn-secondary" id="hp-pause-restart-btn" style="padding:0.65rem 1.2rem; font-size:0.95rem;">
-              🔄 Restart
+              Restart
             </button>
           </div>
         </div>
@@ -6212,7 +6220,7 @@ class FusionApp {
         showToast(`Game stopped! Registered score of ${score} potatoes served.`, 'info');
         startOverlay.innerHTML = `
           <div class="hp-overlay-card">
-            <div class="hp-overlay-icon">🏆</div>
+            <div class="hp-overlay-icon">${FusionIcons.trophy}</div>
             <h3 class="hp-overlay-title" style="color:#10B981;">Cooking Session Saved!</h3>
             <p style="color:var(--text-main); font-size:1.15rem; font-weight:800; margin-bottom:0.35rem;">
               Final Score: ${score} Potatoes Served
@@ -6221,7 +6229,7 @@ class FusionApp {
               Your score has been registered on the leaderboard!
             </p>
             <button class="btn btn-primary" id="hp-new-game-btn" style="padding:0.75rem 2.2rem; font-size:1.05rem; margin-top:0.75rem;">
-              🎮 Start New Game
+              Start New Game
             </button>
           </div>
         `;
@@ -6262,7 +6270,7 @@ class FusionApp {
       startOverlay.style.display = 'flex';
       startOverlay.innerHTML = `
         <div class="hp-overlay-card">
-          <div class="hp-overlay-icon">${reason === 'burnt' ? '🔥' : '💥'}</div>
+          <div class="hp-overlay-icon">Burn</div>
           <h3 class="hp-overlay-title" style="color:#F43F5E;">
             ${reason === 'burnt' ? 'Charcoal Alert! Burnt! (-15 XP / -20 pts)' : 'Dropped Potato!'}
           </h3>
@@ -6275,7 +6283,7 @@ class FusionApp {
               : 'Keep the potato airborne by tapping towards the green window!'}
           </p>
           <button class="btn btn-primary" id="hp-restart-btn" style="padding:0.75rem 2.2rem; font-size:1.05rem;">
-            🔄 Play Again
+            Play Again
           </button>
         </div>
       `;
@@ -6297,7 +6305,7 @@ class FusionApp {
       scoreBadge.innerText = `Score: ${score}`;
       updateLeaderboardScore(score);
 
-      this.addXP(15, '🥔 Master Potato Roaster');
+      this.addXP(15, 'Master Potato Roaster');
       showToast(`Served Golden Crispy Fusion Potato! +10 Pts (+15 XP)`, 'success');
 
       // Bonus celebration burst
@@ -6447,11 +6455,11 @@ class FusionApp {
         let label = `Raw (${cookPct}%)`;
         if (cookPct >= 38 && cookPct <= 85) {
           color = '#10B981';
-          label = `✨ GOLDEN & CRISPY! SERVE NOW! (${cookPct}%)`;
+          label = `GOLDEN & CRISPY! SERVE NOW! (${cookPct}%)`;
           if (meterFill) meterFill.style.background = 'linear-gradient(90deg, #10B981, #F59E0B)';
         } else if (cookPct > 85) {
           color = '#EF4444';
-          label = `⚠️ BURNING! SERVE FAST! (${cookPct}%)`;
+          label = `BURNING! SERVE FAST! (${cookPct}%)`;
           if (meterFill) meterFill.style.background = '#EF4444';
         } else {
           if (meterFill) meterFill.style.background = '#38BDF8';
@@ -6503,7 +6511,7 @@ class FusionApp {
 
       ctx.fillStyle = '#FFFFFF';
       ctx.font = 'bold 13px "Outfit", sans-serif';
-      ctx.fillText('🔥 HOT COALS TANDOOR ZONE (Bounce here to roast)', 20, canvas.height - 18);
+      ctx.fillText('HOT COALS TANDOOR ZONE (Bounce here to roast)', 20, canvas.height - 18);
 
       // 2. Draw Green Serving Window
       ctx.fillStyle = 'rgba(16, 185, 129, 0.25)';
@@ -6519,7 +6527,7 @@ class FusionApp {
       ctx.fillStyle = '#10B981';
       ctx.font = 'bold 13px "Outfit", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('🍽️ SERVING WINDOW', 0, 0);
+      ctx.fillText('SERVING WINDOW', 0, 0);
       ctx.restore();
 
       // 3. Draw Particles
@@ -6617,15 +6625,37 @@ class FusionApp {
     const diff = this.getDifficultySettings();
     const diffBadge = document.getElementById('hp-modal-diff-badge');
     if (diffBadge) {
-      diffBadge.innerText = diff.role === 'student' ? '🎒 Kid Chef Mode' : '👨‍🍳 Pro Parent Mode';
+      diffBadge.innerText = diff.role === 'student' ? 'Kid Chef Mode' : 'Pro Parent Mode';
     }
 
     const canvas = document.getElementById('hp-fullscreen-canvas');
     if (!canvas) return;
 
+    this.ensureHotPotatoTimerHUD();
+
+    // Responsive canvas resizing
+    const body = document.getElementById('hp-fullscreen-body');
+    const resizeCanvas = () => {
+      if (!canvas || !body) return;
+      const r = body.getBoundingClientRect();
+      const maxW = r.width - 24;
+      const maxH = r.height - 24;
+      const scale = Math.min(maxW / 960, maxH / 600, 1.4);
+      canvas.style.width = `${Math.floor(960 * Math.max(0.4, scale))}px`;
+      canvas.style.height = `${Math.floor(600 * Math.max(0.4, scale))}px`;
+    };
+    window.addEventListener('resize', resizeCanvas);
+    this._hpResizeListener = resizeCanvas;
+    if (window.ResizeObserver && body) {
+      this._hpResizeObserver = new ResizeObserver(resizeCanvas);
+      this._hpResizeObserver.observe(body);
+    }
+    resizeCanvas();
+
     // Fullscreen toggle
     const fsBtn = document.getElementById('hp-fullscreen-toggle-btn');
     if (fsBtn) {
+      fsBtn.textContent = 'Fullscreen';
       fsBtn.onclick = () => {
         if (!document.fullscreenElement) {
           modal.requestFullscreen().catch(() => {});
@@ -6635,8 +6665,18 @@ class FusionApp {
       };
     }
 
+    const stopBtn = document.getElementById('hp-modal-stop-btn');
+    if (stopBtn) {
+      stopBtn.textContent = 'Stop Game';
+      stopBtn.onclick = () => {
+        sound.playClick();
+        this.completeHotPotatoRound('STOPPED');
+      };
+    }
+
     const closeBtn = document.getElementById('close-hot-potato-modal-btn');
     if (closeBtn) {
+      closeBtn.innerHTML = FusionIcons.closeX;
       closeBtn.onclick = () => this.closeHotPotatoFullscreenModal();
     }
 
@@ -6649,6 +6689,14 @@ class FusionApp {
     sound.playClick();
     modal.classList.remove('open');
     document.body.classList.remove('has-modal-open');
+    if (this._hpResizeListener) {
+      window.removeEventListener('resize', this._hpResizeListener);
+      this._hpResizeListener = null;
+    }
+    if (this._hpResizeObserver) {
+      this._hpResizeObserver.disconnect();
+      this._hpResizeObserver = null;
+    }
     if (this.standaloneHPLoop) {
       cancelAnimationFrame(this.standaloneHPLoop);
       this.standaloneHPLoop = null;
@@ -6657,6 +6705,10 @@ class FusionApp {
       try { this.standaloneHPAudioCtx.close(); } catch (e) {}
       this.standaloneHPAudioCtx = null;
     }
+    HotPotatoTimerState.isRunning = false;
+    HotPotatoTimerState.isPaused = false;
+    const overlay = document.getElementById('hp-round-summary-overlay');
+    if (overlay) overlay.remove();
     if (document.fullscreenElement) {
       document.exitFullscreen().catch(() => {});
     }
@@ -6777,8 +6829,15 @@ class FusionApp {
       emberTimer = 28; toppingTimer = 5; respawnTimer = 0; hintTimer = 0;
       serveZone = { side: 1, y: 200, h: 96, flash: 0 };
       flashMsg = null;
+      HotPotatoTimerState.remainingMs = HotPotatoTimerState.durationSec * 1000;
+      HotPotatoTimerState.isPaused = false;
+      HotPotatoTimerState.isRunning = true;
+      HotPotatoTimerState.tickAudioLastSec = -1;
+      this.updateHotPotatoTimerDisplay();
       newPotato();
     };
+
+    this.resetStandaloneHotPotato = resetGame;
 
     const canvasPos = (e) => {
       const r = canvas.getBoundingClientRect();
@@ -6827,7 +6886,7 @@ class FusionApp {
       floaters.push({ x: zx, y: serveZone.y + 10, text: `+${pts}` + (combo > 1 ? ` x${combo}` : ''), color: '#FFF', life: 1.4 });
       if (cook < 0.35) sfx.raw(); else sfx.serve(perfect);
 
-      this.addXP(perfect ? 25 : 10, '🥔 Golden Spud');
+      this.addXP(perfect ? 25 : 10, 'Golden Spud');
       this.logInteraction('serve_potato', { score: pts, perfect, cook });
 
       serveZone.side = -serveZone.side;
@@ -6856,7 +6915,7 @@ class FusionApp {
       mouse = p;
       if (gameState === 'menu') { gameState = 'play'; resetGame(); return; }
       if (gameState === 'over') { gameState = 'menu'; return; }
-      if (gameState === 'play') tryWhack(p.x, p.y);
+      if (gameState === 'play' && !HotPotatoTimerState.isPaused) tryWhack(p.x, p.y);
     };
 
     let lastT = performance.now();
@@ -6865,82 +6924,108 @@ class FusionApp {
       lastT = now;
 
       if (gameState === 'play') {
-        elapsed += dt;
-        whackCooldown = Math.max(0, whackCooldown - dt);
-        if (flashMsg) { flashMsg.t -= dt; if (flashMsg.t <= 0) flashMsg = null; }
-        serveZone.flash = Math.max(0, serveZone.flash - dt * 2);
+        if (!HotPotatoTimerState.isPaused) {
+          HotPotatoTimerState.remainingMs -= dt * 1000;
+          if (HotPotatoTimerState.remainingMs <= 0) {
+            HotPotatoTimerState.remainingMs = 0;
+            this.updateHotPotatoTimerDisplay();
+            this.completeHotPotatoRound('TIME_UP', score, served, perfects);
+            gameState = 'over';
+            if (score > best) { best = score; localStorage.setItem('hotpotato_best', best); }
+            ctx.restore();
+            this.standaloneHPLoop = requestAnimationFrame(frame);
+            return;
+          }
+          this.updateHotPotatoTimerDisplay();
 
-        if (!potato.alive) {
-          respawnTimer -= dt;
-          if (respawnTimer <= 0) {
-            if (lives <= 0) {
-              gameState = 'over';
-              if (score > best) { best = score; localStorage.setItem('hotpotato_best', best); }
-              sfx.gameover();
+          // Audio ticking for final 10 seconds
+          const secLeft = Math.ceil(HotPotatoTimerState.remainingMs / 1000);
+          if (secLeft <= 10 && secLeft > 0 && secLeft !== HotPotatoTimerState.tickAudioLastSec) {
+            HotPotatoTimerState.tickAudioLastSec = secLeft;
+            if (typeof sound !== 'undefined' && sound.playTick) {
+              sound.playTick();
             } else {
-              newPotato();
+              tone(880 + (10 - secLeft) * 35, 0.05, 'triangle', 0.22);
             }
           }
-        } else {
-          const p = potato;
-          p.vy += 900 * dt;
-          p.vx *= Math.pow(0.55, dt);
-          p.x += p.vx * dt;
-          p.y += p.vy * dt;
-          p.angle += p.angVel * dt;
-          p.angVel *= Math.pow(0.4, dt);
-          p.squash = Math.max(0, p.squash - dt * 5);
 
-          const inZone = Math.abs(p.y - serveZone.y) < serveZone.h / 2;
-          if (p.x < POT_R) {
-            if (serveZone.side === -1 && inZone) { servePotato(); }
-            else { p.x = POT_R; p.vx = Math.abs(p.vx) * 0.7; }
+          elapsed += dt;
+          whackCooldown = Math.max(0, whackCooldown - dt);
+          if (flashMsg) { flashMsg.t -= dt; if (flashMsg.t <= 0) flashMsg = null; }
+          serveZone.flash = Math.max(0, serveZone.flash - dt * 2);
+
+          if (!potato.alive) {
+            respawnTimer -= dt;
+            if (respawnTimer <= 0) {
+              if (lives <= 0) {
+                gameState = 'over';
+                if (score > best) { best = score; localStorage.setItem('hotpotato_best', best); }
+                sfx.gameover();
+              } else {
+                newPotato();
+              }
+            }
+          } else {
+            const p = potato;
+            p.vy += 900 * dt;
+            p.vx *= Math.pow(0.55, dt);
+            p.x += p.vx * dt;
+            p.y += p.vy * dt;
+            p.angle += p.angVel * dt;
+            p.angVel *= Math.pow(0.4, dt);
+            p.squash = Math.max(0, p.squash - dt * 5);
+
+            const inZone = Math.abs(p.y - serveZone.y) < serveZone.h / 2;
+            if (p.x < POT_R) {
+              if (serveZone.side === -1 && inZone) { servePotato(); }
+              else { p.x = POT_R; p.vx = Math.abs(p.vx) * 0.7; }
+            }
+            if (p.x > W - POT_R) {
+              if (serveZone.side === 1 && inZone) { servePotato(); }
+              else { p.x = W - POT_R; p.vx = -Math.abs(p.vx) * 0.7; }
+            }
+            if (p.y < POT_R + 4) { p.y = POT_R + 4; p.vy = Math.abs(p.vy) * 0.6; }
+
+            if (p.y > GRILL_Y - POT_R) {
+              p.y = GRILL_Y - POT_R;
+              p.vy = -Math.max(Math.abs(p.vy) * 0.55, 330);
+              p.heat = Math.min(1, p.heat + 0.30);
+              p.cook += 0.05;
+              shake = Math.max(shake, 7);
+            }
+
+            const distAbove = GRILL_Y - (p.y + POT_R);
+            const heatField = Math.max(0, Math.min(1, 1 - distAbove / 260));
+            p.heat += (heatField * 1.1 - 0.38) * dt * 0.85;
+            p.heat = Math.max(0, Math.min(1, p.heat));
+            if (p.heat > 0.06) p.cook += p.heat * 0.115 * dt;
+
+            if (sizzleGain) sizzleGain.gain.value = p.heat * 0.22;
+            if (p.cook >= 1.08) burnPotato('BURNT!');
           }
-          if (p.x > W - POT_R) {
-            if (serveZone.side === 1 && inZone) { servePotato(); }
-            else { p.x = W - POT_R; p.vx = -Math.abs(p.vx) * 0.7; }
+
+          // Toppings Rain
+          toppingTimer -= dt;
+          if (toppingTimer <= 0) {
+            toppingTimer = 6 + Math.random() * 5;
+            toppingsFalling.push({
+              type: TOPPING_TYPES[Math.floor(Math.random() * TOPPING_TYPES.length)],
+              x: 80 + Math.random() * (W - 160),
+              y: -20, vy: 65, sway: Math.random() * 6
+            });
           }
-          if (p.y < POT_R + 4) { p.y = POT_R + 4; p.vy = Math.abs(p.vy) * 0.6; }
-
-          if (p.y > GRILL_Y - POT_R) {
-            p.y = GRILL_Y - POT_R;
-            p.vy = -Math.max(Math.abs(p.vy) * 0.55, 330);
-            p.heat = Math.min(1, p.heat + 0.30);
-            p.cook += 0.05;
-            shake = Math.max(shake, 7);
-          }
-
-          const distAbove = GRILL_Y - (p.y + POT_R);
-          const heatField = Math.max(0, Math.min(1, 1 - distAbove / 260));
-          p.heat += (heatField * 1.1 - 0.38) * dt * 0.85;
-          p.heat = Math.max(0, Math.min(1, p.heat));
-          if (p.heat > 0.06) p.cook += p.heat * 0.115 * dt;
-
-          if (sizzleGain) sizzleGain.gain.value = p.heat * 0.22;
-          if (p.cook >= 1.08) burnPotato('BURNT!');
-        }
-
-        // Toppings Rain
-        toppingTimer -= dt;
-        if (toppingTimer <= 0) {
-          toppingTimer = 6 + Math.random() * 5;
-          toppingsFalling.push({
-            type: TOPPING_TYPES[Math.floor(Math.random() * TOPPING_TYPES.length)],
-            x: 80 + Math.random() * (W - 160),
-            y: -20, vy: 65, sway: Math.random() * 6
-          });
-        }
-        for (let i = toppingsFalling.length - 1; i >= 0; i--) {
-          const t = toppingsFalling[i];
-          t.sway += dt * 2.2;
-          t.x += Math.sin(t.sway) * 28 * dt;
-          t.y += t.vy * dt;
-          if (t.y > GRILL_Y) { toppingsFalling.splice(i, 1); continue; }
-          if (potato.alive && Math.hypot(t.x - potato.x, t.y - potato.y) < POT_R + 12 && potato.toppings.length < 4) {
-            potato.toppings.push({ type: t.type, ox: Math.random() * 20 - 10, oy: Math.random() * 10 - 5 });
-            potato.heat = Math.max(0, potato.heat - t.type.cool);
-            sfx.pickup();
-            toppingsFalling.splice(i, 1);
+          for (let i = toppingsFalling.length - 1; i >= 0; i--) {
+            const t = toppingsFalling[i];
+            t.sway += dt * 2.2;
+            t.x += Math.sin(t.sway) * 28 * dt;
+            t.y += t.vy * dt;
+            if (t.y > GRILL_Y) { toppingsFalling.splice(i, 1); continue; }
+            if (potato.alive && Math.hypot(t.x - potato.x, t.y - potato.y) < POT_R + 12 && potato.toppings.length < 4) {
+              potato.toppings.push({ type: t.type, ox: Math.random() * 20 - 10, oy: Math.random() * 10 - 5 });
+              potato.heat = Math.max(0, potato.heat - t.type.cool);
+              sfx.pickup();
+              toppingsFalling.splice(i, 1);
+            }
           }
         }
       }
@@ -7034,11 +7119,59 @@ class FusionApp {
         ctx.fillStyle = '#FFF';
         ctx.textAlign = 'left';
         ctx.fillText(`Score: ${score}`, 20, 36);
-        ctx.fillText(`Lives: ${'🥔'.repeat(Math.max(0, lives))}`, W - 140, 36);
+
+        // Golden Potato vector lives
+        ctx.font = 'bold 18px sans-serif';
+        ctx.textAlign = 'right';
+        ctx.fillText('Lives:', W - 120, 35);
+        for (let i = 0; i < 3; i++) {
+          const lx = W - 100 + i * 26;
+          const ly = 30;
+          if (i < lives) {
+            ctx.save();
+            ctx.translate(lx, ly);
+            ctx.fillStyle = '#F59E0B';
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 10, 8, 0.2, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.fillStyle = '#FDE68A';
+            ctx.beginPath();
+            ctx.arc(-3, -2, 2, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.fillStyle = '#B45309';
+            ctx.beginPath();
+            ctx.arc(3, 2, 1.2, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+          } else {
+            ctx.save();
+            ctx.translate(lx, ly);
+            ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+            ctx.lineWidth = 1.5;
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 10, 8, 0.2, 0, Math.PI * 2);
+            ctx.stroke();
+            ctx.restore();
+          }
+        }
+
         if (combo > 1) {
           ctx.fillStyle = '#FFD94A';
           ctx.textAlign = 'center';
           ctx.fillText(`COMBO x${combo}!`, W / 2, 36);
+        }
+
+        // Paused overlay on canvas
+        if (HotPotatoTimerState.isPaused) {
+          ctx.fillStyle = 'rgba(0,0,0,0.65)';
+          ctx.fillRect(0, 0, W, H);
+          ctx.font = 'bold 38px sans-serif';
+          ctx.fillStyle = '#FFD94A';
+          ctx.textAlign = 'center';
+          ctx.fillText('PAUSED', W / 2, H * 0.46);
+          ctx.font = '18px sans-serif';
+          ctx.fillStyle = '#FFF';
+          ctx.fillText('Tap Resume in HUD to continue playing', W / 2, H * 0.55);
         }
       } else if (gameState === 'menu') {
         ctx.fillStyle = 'rgba(0,0,0,0.6)';
@@ -7070,14 +7203,13 @@ class FusionApp {
     this.standaloneHPLoop = requestAnimationFrame(frame);
   }
 
-  // ========================================================
-  // GAME 5: SPIN THE WHEEL & CULINARY FOOD SCIENCE
+    // GAME 5: SPIN THE WHEEL & CULINARY FOOD SCIENCE
   // ========================================================
   renderSpinScienceGame(arena) {
     arena.innerHTML = `
       <div class="arena-header">
         <div class="arena-title-group">
-          <span class="arena-icon">🎡</span>
+          <span class="arena-icon">${FusionIcons.spinScience}</span>
           <div>
             <h3>Spin the Wheel: Culinary Food Science Lab</h3>
             <p style="font-size:0.85rem; color:var(--text-muted);">Discover why acid, heat, and emulsions work at a molecular level</p>
@@ -7098,7 +7230,7 @@ class FusionApp {
           </div>
 
           <button class="spin-trigger-btn" id="spin-wheel-btn">
-            <span>🎲 Spin the Science Wheel!</span>
+            <span>Spin the Science Wheel!</span>
           </button>
           <div style="font-size:0.85rem; color:var(--text-muted);">Spin to land on a culinary reaction topic!</div>
         </div>
@@ -7106,7 +7238,7 @@ class FusionApp {
         <!-- Science Explanation Card -->
         <div class="science-explainer-card" id="science-explainer-display">
           <div style="text-align:center; padding:2rem 1rem;">
-            <div style="font-size:3.5rem; margin-bottom:0.5rem;">🧪</div>
+            <div style="font-size:3.5rem; margin-bottom:0.5rem;">${FusionIcons.bulb}</div>
             <h3 style="font-size:1.55rem;">Ready for Food Chemistry?</h3>
             <p style="color:var(--text-muted); margin:0.85rem 0; line-height:1.6;">
               Hit the <strong>Spin the Science Wheel</strong> button to unveil molecular secrets behind vegetarian fusion dishes: Acid Denaturation, Maillard Browning, Emulsions, Osmosis, and Spice Chemistry!
@@ -7231,12 +7363,12 @@ class FusionApp {
       <div id="molecule-3d-canvas" class="molecule-3d-canvas" aria-label="3D Interactive Molecular Spice Model"></div>
 
       <div style="background:var(--secondary-light); border-left:4px solid var(--secondary); padding:0.85rem 1.15rem; border-radius:var(--radius-sm); font-size:0.88rem; margin-bottom:1.5rem;">
-        <strong>💡 Fascinating Food Fact:</strong> ${topic.funFact}
+        <strong>Fascinating Food Fact:</strong> ${topic.funFact}
       </div>
 
       <div style="background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:var(--radius-md); padding:1.25rem;">
         <div style="font-size:0.88rem; font-weight:800; color:var(--primary); margin-bottom:0.5rem;">
-          ⚡ Rapid Science Challenge (+50 Bonus XP):
+          Rapid Science Challenge (+50 Bonus XP):
         </div>
         <p style="font-size:0.92rem; margin-bottom:0.85rem;"><strong>${topic.question.text}</strong></p>
 
@@ -7270,11 +7402,11 @@ class FusionApp {
           const prof = this.getActiveProfile();
           if (!prof.bests) prof.bests = {};
           prof.bests.scienceSpins = (prof.bests.scienceSpins || 0) + 1;
-          this.addXP(50, `🔬 ${topic.shortName} Master`);
+          this.addXP(50, `${topic.shortName} Master`);
           this.submitScoreToGlobal('scienceSpins', prof.bests.scienceSpins, 0).catch(() => {});
           feedback.innerHTML = `
             <div style="color:var(--accent-green); font-size:0.88rem; font-weight:800;">
-              🎉 Absolutely Correct! (+50 XP). ${topic.question.explanation}
+              Absolutely Correct! (+50 XP). ${topic.question.explanation}
             </div>
           `;
         } else {
@@ -7283,7 +7415,7 @@ class FusionApp {
           this.deductScoreAndXP(10, 'Wrong Science Quiz Answer');
           feedback.innerHTML = `
             <div style="color:#DC2626; font-size:0.88rem;">
-              ❌ Nice attempt! (-10 XP) The right answer was option ${['A','B','C','D'][topic.question.correctIndex]}. ${topic.question.explanation}
+              Nice attempt! (-10 XP) The right answer was option ${['A','B','C','D'][topic.question.correctIndex]}. ${topic.question.explanation}
             </div>
           `;
         }
@@ -7328,16 +7460,16 @@ class FusionApp {
             <span class="pill-badge">${dish.origin}</span>
           </div>
           <div style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap; margin-bottom:0.45rem; font-size:0.78rem; color:var(--text-muted);">
-            <span>⏱️ ${dish.prepTime || '15 mins'} prep • 🍳 ${dish.cookTime || '10 mins'} cook</span>
-            <span class="pill-badge" style="font-weight:700;">📊 ${dish.difficulty || 'Beginner'}</span>
+            <span>${dish.prepTime || '15 mins'} prep • ${dish.cookTime || '10 mins'} cook</span>
+            <span class="pill-badge" style="font-weight:700;">${dish.difficulty || 'Beginner'}</span>
           </div>
           <h3 style="font-size:1.45rem; margin-bottom:0.35rem;">${dish.name}</h3>
           <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:0.85rem;">${dish.description}</p>
           <div style="display:flex; flex-wrap:wrap; gap:0.35rem; margin-bottom:0.95rem;">
-            <span class="allergen-tag-contains">⚠️ Contains: ${(dish.allergens && dish.allergens.contains) ? dish.allergens.contains.join(', ') : 'Dairy, Gluten'}</span>
+            <span class="allergen-tag-contains">Contains: ${(dish.allergens && dish.allergens.contains) ? dish.allergens.contains.join(', ') : 'Dairy, Gluten'}</span>
           </div>
 
-          <h4 style="font-size:1rem; margin-bottom:0.45rem;">🛒 Indian Bazaar Substitutes:</h4>
+          <h4 style="font-size:1rem; margin-bottom:0.45rem;">Indian Bazaar Substitutes:</h4>
           <table class="substitutes-table">
             <thead>
               <tr>
@@ -7366,7 +7498,7 @@ class FusionApp {
         <div style="border-top:1px solid var(--border-color); padding-top:1.15rem; margin-top:1.15rem; display:flex; justify-content:space-between; align-items:center;">
           <span style="font-size:0.78rem; color:var(--text-muted);">Availability: <strong>${dish.availability}</strong></span>
           <button class="btn btn-primary open-recipe-popout-btn" data-dish-id="${dish.id}" style="padding:0.45rem 1rem; font-size:0.84rem;">
-            👨‍🍳 Step-by-Step & AI Chef →
+            Step-by-Step & AI Chef →
           </button>
         </div>
       </div>
@@ -7439,7 +7571,7 @@ class FusionApp {
       <div class="tandoor-skewer-card" style="background:var(--bg-card); border:2px solid var(--border-color); border-radius:var(--radius-lg); padding:1.5rem; margin-top:1.5rem; box-shadow:0 8px 30px rgba(0,0,0,0.06);">
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem; margin-bottom:1rem;">
           <div style="display:flex; align-items:center; gap:0.6rem;">
-            <span style="font-size:1.8rem;">🍢</span>
+            <span style="font-size:1.8rem;">${FusionIcons.tandoorSkewer}</span>
             <div>
               <h3 style="margin:0; font-size:1.25rem;">Tandoor Skewer Roaster & Plating Studio</h3>
               <p style="margin:0; font-size:0.82rem; color:var(--text-muted);">
@@ -7456,7 +7588,7 @@ class FusionApp {
           <!-- Skewer Interactive Canvas Stage -->
           <div style="position:relative; background:#111827; border-radius:var(--radius-md); overflow:hidden; border:1px solid rgba(255,255,255,0.1); height:220px; display:flex; flex-direction:column; justify-content:space-between; padding:0.75rem;">
             <div style="display:flex; justify-content:space-between; font-size:0.78rem; color:#9CA3AF;">
-              <span>🍢 Drag Skewer Vertically Towards Coals:</span>
+              <span>Drag Skewer Vertically Towards Coals:</span>
               <span id="skewer-roast-timer" style="color:#F59E0B; font-weight:700;">Heat Exposure: 0s</span>
             </div>
 
@@ -7497,7 +7629,7 @@ class FusionApp {
 
             <!-- Coals Heating Zone Indicator -->
             <div style="background:linear-gradient(90deg, #FF4500, #E11D48, #FF8800); height:28px; border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#FFF; font-weight:800; letter-spacing:0.5px; box-shadow:0 0 16px rgba(255,69,0,0.5);">
-              🔥 ACTIVE TANDOOR HEARTH ZONE (HOLD SKEWER HERE TO CHAR)
+              ACTIVE TANDOOR HEARTH ZONE (HOLD SKEWER HERE TO CHAR)
             </div>
           </div>
 
@@ -7505,27 +7637,27 @@ class FusionApp {
           <div style="display:flex; flex-direction:column; gap:0.75rem;">
             <div>
               <label style="font-size:0.84rem; font-weight:700; color:var(--text-muted); display:block; margin-bottom:0.35rem;">
-                🎨 Choose Garnish Dressing:
+                Choose Garnish Dressing:
               </label>
               <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                <button class="recipe-chip active skewer-garnish-btn" data-garnish="Mint Coriander Chutney">🌿 Mint Chutney</button>
-                <button class="recipe-chip skewer-garnish-btn" data-garnish="Toasted Sesame & Chili Crisp">🌶️ Chili Crisp</button>
-                <button class="recipe-chip skewer-garnish-btn" data-garnish="Chaat Masala & Lime Spritz">🍋 Lime & Chaat</button>
+                <button class="recipe-chip active skewer-garnish-btn" data-garnish="Mint Coriander Chutney">Mint Chutney</button>
+                <button class="recipe-chip skewer-garnish-btn" data-garnish="Toasted Sesame & Chili Crisp"> Chili Crisp</button>
+                <button class="recipe-chip skewer-garnish-btn" data-garnish="Chaat Masala & Lime Spritz">Lime & Chaat</button>
               </div>
             </div>
 
             <div style="display:flex; gap:0.6rem; margin-top:0.5rem; flex-wrap:wrap;">
               <button class="btn btn-primary" id="btn-plate-tandoor-dish" style="flex:1; min-width:180px; padding:0.6rem 1rem; font-weight:700;">
-                🍽️ Plate & Save Creation!
+                Plate & Save Creation!
               </button>
               <button class="btn btn-secondary" id="btn-reset-skewer" style="padding:0.6rem 0.9rem;">
-                🔄 Reset
+                Reset
               </button>
             </div>
 
             <!-- Last Plated Dish Showcase Pill -->
             <div id="plated-dish-showcase" style="font-size:0.8rem; background:var(--bg-card-subtle); border-radius:var(--radius-sm); padding:0.5rem 0.75rem; border:1px solid var(--border-color); color:var(--text-muted);">
-              ${savedDish ? `🏆 Last Creation: <strong>${savedDish.dishName}</strong> (${savedDish.doneness}) with ${savedDish.garnish} • Scored +${savedDish.score} XP` : '💡 Cook skewer to 100% doneness for Perfect Golden Char (+100 XP)!'}
+              ${savedDish ? `Last Creation: <strong>${savedDish.dishName}</strong> (${savedDish.doneness}) with ${savedDish.garnish} • Scored +${savedDish.score} XP` : 'Cook skewer to 100% doneness for Perfect Golden Char (+100 XP)!'}
             </div>
           </div>
         </div>
@@ -7570,14 +7702,14 @@ class FusionApp {
         pieces.forEach(p => p.style.filter = 'brightness(1)');
       } else if (pct <= 100) {
         if (statusPill) {
-          statusPill.innerText = `✨ PERFECT TANDOORI CHAR! (${pct}%)`;
+          statusPill.innerText = `PERFECT TANDOORI CHAR! (${pct}%)`;
           statusPill.style.background = '#10B981';
           statusPill.style.color = '#FFF';
         }
         pieces.forEach(p => p.style.filter = 'brightness(0.9) contrast(1.2)');
       } else {
         if (statusPill) {
-          statusPill.innerText = `⚠️ BURNT OVERCOALS! (${pct}%)`;
+          statusPill.innerText = `BURNT OVERCOALS! (${pct}%)`;
           statusPill.style.background = '#EF4444';
           statusPill.style.color = '#FFF';
         }
@@ -7645,12 +7777,12 @@ class FusionApp {
       if (pct < 40) {
         donenessStr = 'Under-roasted';
         scoreEarned = 15;
-        this.addXP(scoreEarned, '🍢 Skewer Apprentice');
+        this.addXP(scoreEarned, 'Skewer Apprentice');
         showToast('Skewer was slightly underdone (+15 XP)', 'info');
       } else if (pct <= 100) {
         donenessStr = 'Golden Char Perfection';
         scoreEarned = 100;
-        this.addXP(scoreEarned, '🔥 Tandoor Pitmaster');
+        this.addXP(scoreEarned, 'Tandoor Pitmaster');
         sound.playFanfare();
         launchConfetti();
         showToast('MASTERPIECE! Perfectly charred tandoori skewer (+100 XP)', 'success');
@@ -7681,7 +7813,7 @@ class FusionApp {
       // Re-render showcase
       const showcase = stage.querySelector('#plated-dish-showcase');
       if (showcase) {
-        showcase.innerHTML = `🏆 Last Creation: <strong>${dishRecord.dishName}</strong> (${dishRecord.doneness}) with ${dishRecord.garnish} • Scored +${dishRecord.score} XP`;
+        showcase.innerHTML = `Last Creation: <strong>${dishRecord.dishName}</strong> (${dishRecord.doneness}) with ${dishRecord.garnish} • Scored +${dishRecord.score} XP`;
       }
     });
 
@@ -7754,20 +7886,20 @@ class FusionApp {
           <div class="recipe-popout-meta-row recipe-meta-banner" style="display:flex; flex-wrap:wrap; gap:0.45rem; align-items:center;">
             <span class="veg-badge"><span class="veg-icon-dot"></span> 100% Pure Veg</span>
             <span class="pill-badge">${dish.origin}</span>
-            <span class="pill-badge prep-time">⏱️ ${dish.prepTime || '15 mins'} prep</span>
-            <span class="pill-badge cook-time">🍳 ${dish.cookTime || '10 mins'} cook</span>
-            <span class="pill-badge servings">🍽️ ${dish.servings || '2 servings'}</span>
-            <span class="pill-badge difficulty" style="font-weight:700;">📊 ${dish.difficulty || 'Beginner'}</span>
+            <span class="pill-badge prep-time">${dish.prepTime || '15 mins'} prep</span>
+            <span class="pill-badge cook-time">${dish.cookTime || '10 mins'} cook</span>
+            <span class="pill-badge servings"> ${dish.servings || '2 servings'}</span>
+            <span class="pill-badge difficulty" style="font-weight:700;">${dish.difficulty || 'Beginner'}</span>
             <span style="font-size:0.8rem; color:var(--text-muted);">Availability: <strong>${dish.availability}</strong></span>
           </div>
           <h2 id="popout-recipe-title">${dish.name}</h2>
           <div class="recipe-popout-phonetic-row">
             <span style="font-size:0.84rem; color:var(--text-muted);">Phonetic: <em>${dish.phonetic}</em></span>
-            <button class="icon-btn" id="popout-pronounce-btn" title="Listen to Pronunciation" aria-label="Listen to Pronunciation" style="min-width:44px; min-height:44px; font-size:1.05rem;">🗣️</button>
+            <button class="icon-btn" id="popout-pronounce-btn" title="Listen to Pronunciation" aria-label="Listen to Pronunciation" style="min-width:44px; min-height:44px; font-size:1.05rem;"></button>
           </div>
         </div>
 
-        <button class="modal-close-btn" id="close-recipe-popout-btn" aria-label="Close Recipe Popout">✕</button>
+        <button class="modal-close-btn" id="close-recipe-popout-btn" aria-label="Close Recipe Popout">&times;</button>
       </div>
 
       <!-- Two-Column Grid: Left Steps & Substitutes | Right Gemini AI Chatbot -->
@@ -7777,21 +7909,21 @@ class FusionApp {
           <!-- Comprehensive Food Safety & Allergen Transparency (FF-02, K-08) -->
           <div class="allergen-warning-box">
             <h4 style="font-size:0.95rem; margin-bottom:0.45rem; color:#DC2626; display:flex; align-items:center; gap:0.4rem;">
-              <span>🛡️ Food Safety & Allergen Transparency</span>
+              <span> Food Safety & Allergen Transparency</span>
             </h4>
             <div style="font-size:0.84rem; display:flex; flex-direction:column; gap:0.35rem;">
-              <div><strong>⚠️ Contains Allergens:</strong> <span class="allergen-tag-contains">${(dish.allergens && dish.allergens.contains) ? dish.allergens.contains.join(', ') : 'Dairy, Gluten'}</span></div>
-              ${(dish.allergens && dish.allergens.mayContain && dish.allergens.mayContain.length) ? `<div><strong>🏭 May Contain:</strong> <span class="allergen-tag-maycontain">${dish.allergens.mayContain.join(', ')}</span></div>` : ''}
+              <div><strong>Notice:  Contains Allergens:</strong> <span class="allergen-tag-contains">${(dish.allergens && dish.allergens.contains) ? dish.allergens.contains.join(', ') : 'Dairy, Gluten'}</span></div>
+              ${(dish.allergens && dish.allergens.mayContain && dish.allergens.mayContain.length) ? `<div><strong> May Contain:</strong> <span class="allergen-tag-maycontain">${dish.allergens.mayContain.join(', ')}</span></div>` : ''}
               <div style="color:var(--text-muted); font-size:0.8rem; line-height:1.4;"><strong>Cross-Contamination Warning:</strong> ${(dish.allergens && dish.allergens.warning) || 'Packaged ingredients may have cross-contact risks.'}</div>
-              <div style="color:var(--accent-green); font-size:0.8rem; line-height:1.4;"><strong>🌱 Allergen Substitutions:</strong> ${(dish.allergens && dish.allergens.swaps) || 'Gluten-free and dairy-free swaps available.'}</div>
-              <div style="font-size:0.76rem; color:var(--text-muted); font-style:italic; margin-top:0.2rem;">📦 Package Reminder: Never present a dish as universally allergen-free without verifying manufacturer packaging.</div>
+              <div style="color:var(--accent-green); font-size:0.8rem; line-height:1.4;"><strong> Allergen Substitutions:</strong> ${(dish.allergens && dish.allergens.swaps) || 'Gluten-free and dairy-free swaps available.'}</div>
+              <div style="font-size:0.76rem; color:var(--text-muted); font-style:italic; margin-top:0.2rem;"> Package Reminder: Never present a dish as universally allergen-free without verifying manufacturer packaging.</div>
             </div>
           </div>
 
           <!-- Backstory -->
           <div style="background:var(--bg-card-subtle); border:1.5px solid var(--border-color); border-radius:var(--radius-md); padding:1rem 1.25rem; margin-bottom:1.5rem;">
             <h4 style="font-size:0.95rem; margin-bottom:0.35rem; color:var(--primary); display:flex; align-items:center; gap:0.4rem;">
-              <span>🌏 The Fusion Heritage</span>
+              <span> The Fusion Heritage</span>
             </h4>
             <p style="font-size:0.86rem; color:var(--text-muted); line-height:1.55;">${dish.cultureStory}</p>
           </div>
@@ -7799,10 +7931,10 @@ class FusionApp {
           <!-- Substitutes Table -->
           <div style="margin-bottom:1.75rem;">
             <h4 style="font-size:1.1rem; margin-bottom:0.65rem; display:flex; align-items:center; gap:0.5rem;">
-              <span>🛒 Indian Bazaar Substitutions & Secrets</span>
+              <span> Indian Bazaar Substitutions & Secrets</span>
               </h4>
               <button class="btn btn-secondary" id="btn-copy-shopping-list" style="padding:0.35rem 0.75rem; font-size:0.78rem; font-weight:700;">
-                📋 Copy Bazaar Shopping List
+                 Copy Bazaar Shopping List
               </button>
             </div>
             <p style="font-size:0.84rem; color:var(--text-muted); margin-bottom:0.85rem;">
@@ -7834,7 +7966,7 @@ class FusionApp {
           <div style="margin-bottom:1.75rem;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.85rem; flex-wrap:wrap; gap:0.5rem;">
               <div>
-                <h4 style="font-size:1.15rem; margin-bottom:0.15rem;">👨‍🍳 Step-by-Step Cooking Procedure</h4>
+                <h4 style="font-size:1.15rem; margin-bottom:0.15rem;"> Step-by-Step Cooking Procedure</h4>
                 <p style="font-size:0.82rem; color:var(--text-muted);">Check off each step as you and your family prepare the dish!</p>
               </div>
               <div style="font-size:0.84rem; font-weight:800; color:var(--primary);" id="step-progress-indicator">
@@ -7855,11 +7987,11 @@ class FusionApp {
                       </div>
                       <div class="step-header-actions">
                         ${s.kidSafe 
-                          ? '<span class="pill-badge" style="background:var(--tag-veg-bg); color:var(--accent-green); border-color:var(--tag-veg-border); font-size:0.75rem;">👶 Kid-Friendly</span>'
-                          : '<span class="pill-badge" style="background:#fff1f2; color:#e11d48; border-color:#fecdd3; font-size:0.75rem;">🔥 Parent Assistance</span>'
+                          ? '<span class="pill-badge" style="background:var(--tag-veg-bg); color:var(--accent-green); border-color:var(--tag-veg-border); font-size:0.75rem;"> Kid-Friendly</span>'
+                          : '<span class="pill-badge" style="background:#fff1f2; color:#e11d48; border-color:#fecdd3; font-size:0.75rem;"> Parent Assistance</span>'
                         }
                         <button class="step-checkbox-btn ${isDone ? 'checked' : ''}" data-step="${s.step}">
-                          ${isDone ? '✅ Done' : '⬜ Mark Done'}
+                          ${isDone ? ' Done' : ' Mark Done'}
                         </button>
                       </div>
                     </div>
@@ -7875,7 +8007,7 @@ class FusionApp {
           <!-- Food Science Note -->
           <div style="background:linear-gradient(135deg, var(--bg-card-subtle), var(--bg-card)); border:2px dashed var(--border-dashed); border-radius:var(--radius-md); padding:1.25rem; position:relative;">
             <h4 style="font-size:0.95rem; margin-bottom:0.4rem; color:var(--secondary); display:flex; align-items:center; gap:0.4rem;">
-              <span>🧪 Food Chemistry Secret</span>
+              <span> Food Chemistry Secret</span>
             </h4>
             <p style="font-size:0.86rem; color:var(--text-muted); line-height:1.55;">
               ${dish.scienceNote || 'Understanding ingredient interactions allows Indian home cooks to replicate complex international textures without compromising on vegetarian values.'}
@@ -7889,7 +8021,7 @@ class FusionApp {
           <div class="ai-header-bar">
             <div>
               <div style="display:flex; align-items:center; gap:0.5rem;">
-                <span style="font-size:1.3rem;">✨</span>
+                <span style="font-size:1.3rem;"></span>
                 <strong style="font-size:1.05rem;">Gemini AI Sous-Chef</strong>
               </div>
               <span style="font-size:0.78rem; color:var(--text-muted);">Real-time cooking helper for ${dish.name}</span>
@@ -7897,7 +8029,7 @@ class FusionApp {
 
             <!-- AI Engine Live Status Badge (Configured securely via Admin Panel) -->
             <div class="pill-badge" style="font-size:0.75rem; font-weight:800; padding:0.25rem 0.65rem; border-radius:var(--radius-full); background:${hasApiKey ? 'rgba(34, 197, 94, 0.15)' : (hasWorkersAi ? 'rgba(2, 132, 199, 0.15)' : 'var(--bg-card-subtle)')}; color:${hasApiKey ? '#15803D' : (hasWorkersAi ? 'var(--primary)' : 'var(--text-muted)')}; border:1px solid ${hasApiKey ? '#86efac' : (hasWorkersAi ? 'var(--primary)' : 'var(--border-color)')};">
-              <span>${hasApiKey ? '✨ Cloud AI Ready' : (hasWorkersAi ? '⚡ Workers AI Ready' : '👩‍🍳 Offline AI Ready')}</span>
+              <span>${hasApiKey ? ' Cloud AI Ready' : (hasWorkersAi ? ' Workers AI Ready' : ' Offline AI Ready')}</span>
             </div>
           </div>
 
@@ -7906,7 +8038,7 @@ class FusionApp {
             <!-- Welcome Bubble -->
             <div class="chat-bubble ai">
               <div style="display:flex; align-items:center; gap:0.4rem; margin-bottom:0.25rem; font-weight:800; font-size:0.78rem; color:var(--primary);">
-                <span>👩‍🍳 Sous-Chef Maya</span>
+                <span>Sous-Chef Maya</span>
               </div>
               Namaste! I'm your AI Sous-Chef for <strong>${dish.name}</strong>. How can I assist your kitchen adventure today?
             </div>
@@ -7914,16 +8046,16 @@ class FusionApp {
 
           <!-- Quick Suggestions Chips -->
           <div class="chat-chip-suggestions" id="chat-chip-suggestions">
-            <button class="chat-chip" data-prompt="How can I make ${dish.name} less spicy and super kid-friendly?">🌶️ Kid-Friendly Spice</button>
-            <button class="chat-chip" data-prompt="What if I don't have the primary desi substitute, what can I use?">🥫 Missing Substitutes</button>
-            <button class="chat-chip" data-prompt="Can I prepare this in advance for a family party?">⏱️ Prep Shortcuts</button>
-            <button class="chat-chip" data-prompt="Explain the food science of ${dish.name} so I can teach my kids!">🧪 Science for Kids</button>
+            <button class="chat-chip" data-prompt="How can I make ${dish.name} less spicy and super kid-friendly?"> Kid-Friendly Spice</button>
+            <button class="chat-chip" data-prompt="What if I don't have the primary desi substitute, what can I use?"> Missing Substitutes</button>
+            <button class="chat-chip" data-prompt="Can I prepare this in advance for a family party?"> Prep Shortcuts</button>
+            <button class="chat-chip" data-prompt="Explain the food science of ${dish.name} so I can teach my kids!"> Science for Kids</button>
           </div>
 
           <!-- Chat Input Bar -->
           <form class="chat-input-bar" id="recipe-chat-form">
             <input type="text" id="recipe-chat-input" class="chat-input" placeholder="Ask Sous-Chef anything about this recipe..." aria-label="Ask AI Sous-Chef a question about this recipe" autocomplete="off">
-            <button type="submit" class="chat-send-btn" id="recipe-chat-send-btn" title="Send Question" aria-label="Send Question to AI Sous-Chef">➤</button>
+            <button type="submit" class="chat-send-btn" id="recipe-chat-send-btn" title="Send Question" aria-label="Send Question to AI Sous-Chef">&rarr;</button>
           </form>
         </div>
       </div>
@@ -7939,8 +8071,8 @@ class FusionApp {
     if (!dish) return;
     sound.playClick();
     const lines = [
-      `🛒 BAZAAR SHOPPING LIST: ${dish.name} (${dish.origin})`,
-      `⏱️ Prep: ${dish.prepTime || '15m'} | Cook: ${dish.cookTime || '10m'} | Servings: ${dish.servings || '2'}`,
+      ` BAZAAR SHOPPING LIST: ${dish.name} (${dish.origin})`,
+      ` Prep: ${dish.prepTime || '15m'} | Cook: ${dish.cookTime || '10m'} | Servings: ${dish.servings || '2'}`,
       '',
       '--- DESI INGREDIENTS & LOCAL SUBSTITUTES ---'
     ];
@@ -7950,13 +8082,13 @@ class FusionApp {
       });
     }
     lines.push('');
-    lines.push('⚠️ Allergen Notice: Always verify package ingredient labels before cooking.');
-    lines.push('🥘 FusionFood Family Lab (100% Pure Vegetarian)');
+    lines.push('Notice:  Allergen Notice: Always verify package ingredient labels before cooking.');
+    lines.push(' FusionFood Family Lab (100% Pure Vegetarian)');
     const text = lines.join('\n');
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(() => {
-        showToast('📋 Shopping list copied to clipboard! Ready for WhatsApp or bazaar.', 'success');
+        showToast(' Shopping list copied to clipboard! Ready for WhatsApp or bazaar.', 'success');
       }).catch(() => {
         this.fallbackCopyText(text);
       });
@@ -7974,7 +8106,7 @@ class FusionApp {
     ta.select();
     try {
       document.execCommand('copy');
-      showToast('📋 Shopping list copied to clipboard!', 'success');
+      showToast(' Shopping list copied to clipboard!', 'success');
     } catch (e) {
       prompt('Copy your bazaar shopping list:', text);
     }
@@ -8059,7 +8191,7 @@ class FusionApp {
         launchConfetti();
         sound.playFanfare();
         this.addXP(50, 'Master Recipe Completion');
-        showToast(`🎉 Mastered entire recipe for ${dish.name}! (+50 Bonus XP)`, 'success');
+        showToast(` Mastered entire recipe for ${dish.name}! (+50 Bonus XP)`, 'success');
       }
     } else {
       list.splice(index, 1);
@@ -8076,7 +8208,7 @@ class FusionApp {
       const isDone = list.includes(stepNumber);
       card.classList.toggle('completed', isDone);
       btn.classList.toggle('checked', isDone);
-      btn.innerText = isDone ? '✅ Done' : '⬜ Mark Done';
+      btn.innerText = isDone ? ' Done' : ' Mark Done';
 
       const indicator = document.getElementById('step-progress-indicator');
       if (indicator) {
@@ -8107,7 +8239,7 @@ class FusionApp {
     typingBubble.id = 'ai-typing-indicator';
     typingBubble.innerHTML = `
       <div style="display:flex; align-items:center; gap:0.4rem; margin-bottom:0.25rem; font-weight:800; font-size:0.78rem; color:var(--primary);">
-        <span>👩‍🍳 Sous-Chef Maya</span>
+        <span>Sous-Chef Maya</span>
       </div>
       <div class="typing-dots">
         <span></span><span></span><span></span>
@@ -8149,7 +8281,7 @@ Guidelines:
         typingBubble.remove();
         if (wData.result && (wData.result.response || wData.result.text)) {
           const aiText = wData.result.response || wData.result.text;
-          this.appendAiMessage(messagesContainer, aiText + '\n\n*(⚡ Generated via Cloudflare Workers AI)*');
+          this.appendAiMessage(messagesContainer, aiText + '\n\n*( Generated via Cloudflare Workers AI)*');
           sound.playCorrect();
           return;
         } else if (wData.errors && wData.errors.length) {
@@ -8263,7 +8395,7 @@ Guidelines:
 
     bubble.innerHTML = `
       <div style="display:flex; align-items:center; gap:0.4rem; margin-bottom:0.25rem; font-weight:800; font-size:0.78rem; color:var(--primary);">
-        <span>👩‍🍳 Sous-Chef Maya</span>
+        <span>Sous-Chef Maya</span>
       </div>
       <div>${formatted}</div>
     `;
@@ -8300,7 +8432,7 @@ Guidelines:
         `• Involve kids in Step 1 (the whisking bath) and Step 4 (garnish crunch plating)!`;
     }
 
-    advice += `\n\n*💡 Tip: Add your Google Gemini API key using the 🔑 button above to ask custom open-ended questions in real-time!*`;
+    advice += `\n\n* Tip: Add your Google Gemini API key using the  button above to ask custom open-ended questions in real-time!*`;
     return advice;
   }
 
@@ -8341,7 +8473,7 @@ Guidelines:
   renderLocalFamilyRoster(rosterContainer, filter, isOfflineFallback = false) {
     const noticeHtml = isOfflineFallback
       ? `<div style="font-size:0.82rem; color:var(--text-muted); margin-bottom:0.85rem; padding:0.4rem 0.8rem; background:var(--bg-card-subtle); border-radius:var(--radius-sm); border:1px solid var(--border-color);">
-          🌐 <em>Offline mode: Displaying local Family Roster rankings</em>
+           <em>Offline mode: Displaying local Family Roster rankings</em>
         </div>`
       : '';
 
@@ -8381,36 +8513,36 @@ Guidelines:
         const pRank = this.getCurrentRank(p.xp, p.role);
         const bests = p.bests || {};
         const rankPos = idx + 1;
-        const rankMedal = rankPos === 1 ? '🥇' : rankPos === 2 ? '🥈' : rankPos === 3 ? '🥉' : `#${rankPos}`;
+        const rankMedal = rankPos === 1 ? FusionIcons.medal1 : rankPos === 2 ? FusionIcons.medal2 : rankPos === 3 ? FusionIcons.medal3 : `#${rankPos}`;
 
         let metricDisplay = `
           <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">${p.xp} XP</div>
-          <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;">🔥 ${p.streak} Day Streak</div>
+          <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;"> ${p.streak} Day Streak</div>
         `;
 
         if (filter === 'hotPotato') {
           metricDisplay = `
-            <div style="font-weight:900; color:#10B981; font-size:1.35rem;">🥔 ${bests.hotPotato || 0} Served</div>
+            <div style="font-weight:900; color:#10B981; font-size:1.35rem;"> ${bests.hotPotato || 0} Served</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Personal Best</div>
           `;
         } else if (filter === 'buildDish') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;">🥘 ${bests.buildDish || 0} Dishes</div>
+            <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;"> ${bests.buildDish || 0} Dishes</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Completed Dishes</div>
           `;
         } else if (filter === 'trivia') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">🧠 ${bests.trivia || 0}/10 Correct</div>
+            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;"> ${bests.trivia || 0}/10 Correct</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Trivia Score</div>
           `;
         } else if (filter === 'pronunciation') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">🗣️ ${bests.pronunciation || 0} Solved</div>
+            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;"> ${bests.pronunciation || 0} Solved</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Phonetic Sequences</div>
           `;
         } else if (filter === 'scienceSpins') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--accent-green); font-size:1.35rem;">🔬 ${bests.scienceSpins || 0} Mastered</div>
+            <div style="font-weight:900; color:var(--accent-green); font-size:1.35rem;"> ${bests.scienceSpins || 0} Mastered</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Culinary Chemistry</div>
           `;
         }
@@ -8423,7 +8555,7 @@ Guidelines:
                 <span style="font-size:2.2rem;">${p.avatar}</span>
                 <div>
                   <strong style="font-size:1.05rem;">${this.escapeHtml(p.name)}</strong>
-                  <div style="font-size:0.82rem; color:var(--text-muted);">👑 Level ${pRank.level} — ${pRank.title} • ${p.role === 'parent' ? 'Parent Guide' : 'Student Chef'}</div>
+                  <div style="font-size:0.82rem; color:var(--text-muted);"> Level ${pRank.level} — ${pRank.title} • ${p.role === 'parent' ? 'Parent Guide' : 'Student Chef'}</div>
                 </div>
               </div>
               <div style="text-align:right; margin-right:2rem;">
@@ -8449,7 +8581,7 @@ Guidelines:
 
     rosterContainer.innerHTML = `
       <div style="text-align:center; padding:2rem 1rem; color:var(--text-muted);">
-        <div style="font-size:2rem; animation:spin 1s infinite linear;">🌐</div>
+        <div style="font-size:2rem; animation:spin 1s infinite linear;"></div>
         <p style="margin-top:0.5rem; font-weight:700;">Loading Global Hall of Fame rankings...</p>
       </div>
     `;
@@ -8478,40 +8610,40 @@ Guidelines:
 
       rosterContainer.innerHTML = `
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.85rem; font-size:0.84rem; color:var(--text-muted);">
-          <span>🌐 <strong>Cloudflare Global Hall of Fame</strong> (${items.length} Culinary Masters)</span>
+          <span> <strong>Cloudflare Global Hall of Fame</strong> (${items.length} Culinary Masters)</span>
           <span class="pill-badge" style="font-size:0.72rem; color:var(--accent-green); background:var(--accent-green-light);">● Live Synced</span>
         </div>
       ` + items.map((p, idx) => {
         const rankPos = p.rank || (idx + 1);
-        const rankMedal = rankPos === 1 ? '🥇' : rankPos === 2 ? '🥈' : rankPos === 3 ? '🥉' : `#${rankPos}`;
+        const rankMedal = rankPos === 1 ? FusionIcons.medal1 : rankPos === 2 ? FusionIcons.medal2 : rankPos === 3 ? FusionIcons.medal3 : `#${rankPos}`;
 
         let metricDisplay = `
           <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">${p.xp} XP</div>
-          <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;">🔥 ${p.streak} Day Streak</div>
+          <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;"> ${p.streak} Day Streak</div>
         `;
         if (filter === 'hotPotato') {
           metricDisplay = `
-            <div style="font-weight:900; color:#10B981; font-size:1.35rem;">🥔 ${p.score} Served</div>
+            <div style="font-weight:900; color:#10B981; font-size:1.35rem;"> ${p.score} Served</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Arcade High Score</div>
           `;
         } else if (filter === 'buildDish') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;">🥘 ${p.score} Dishes</div>
+            <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;"> ${p.score} Dishes</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Dish Assembly</div>
           `;
         } else if (filter === 'trivia') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">🧠 ${p.score}/10 Correct</div>
+            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;"> ${p.score}/10 Correct</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Trivia Accuracy</div>
           `;
         } else if (filter === 'pronunciation') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">🗣️ ${p.score} Solved</div>
+            <div style="font-weight:900; color:var(--primary); font-size:1.35rem;"> ${p.score} Solved</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Phonetic Sequences</div>
           `;
         } else if (filter === 'scienceSpins') {
           metricDisplay = `
-            <div style="font-weight:900; color:var(--accent-green); font-size:1.35rem;">🔬 ${p.score} Mastered</div>
+            <div style="font-weight:900; color:var(--accent-green); font-size:1.35rem;"> ${p.score} Mastered</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">Culinary Chemistry</div>
           `;
         }
@@ -8521,15 +8653,15 @@ Guidelines:
             <div style="position:absolute; top:0.75rem; right:0.85rem; font-size:${rankPos <= 3 ? '1.5rem' : '0.9rem'}; font-weight:800; color:${rankPos <= 3 ? 'inherit' : 'var(--text-muted)'};">${rankMedal}</div>
             <div style="display:flex; justify-content:space-between; align-items:center;">
               <div style="display:flex; align-items:center; gap:0.85rem;">
-                <span style="font-size:2.2rem;">${p.avatar || '👨‍🍳'}</span>
+                <span style="display:inline-flex; width:36px; height:36px;">${p.avatar === 'parent' ? FusionIcons.chefHat : FusionIcons.kidChef}</span>
                 <div>
                   <strong style="font-size:1.05rem;">${this.escapeHtml(p.userName || p.name)}</strong>
                   <div style="font-size:0.82rem; color:var(--text-muted); display:flex; gap:0.4rem; align-items:center; flex-wrap:wrap;">
-                    <span>📍 ${p.country || 'Global'}</span>
+                    <span>${p.country || 'Global'}</span>
                     <span>•</span>
-                    <span>👑 Level ${p.level || 1}</span>
+                    <span>Level ${p.level || 1}</span>
                     <span>•</span>
-                    <span>${p.role === 'parent' ? '👨‍🍳 Parent Guide' : '🎒 Student Chef'}</span>
+                    <span>${p.role === 'parent' ? 'Parent Guide' : 'Student Chef'}</span>
                   </div>
                 </div>
               </div>
@@ -8574,30 +8706,30 @@ Guidelines:
 
             rosterContainer.innerHTML = `
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.85rem; font-size:0.84rem; color:var(--text-muted);">
-                <span>🌐 <strong>Cloudflare Global Hall of Fame</strong> (${matching.length} Cached Culinary Masters)</span>
+                <span> <strong>Cloudflare Global Hall of Fame</strong> (${matching.length} Cached Culinary Masters)</span>
                 <span class="pill-badge" style="font-size:0.72rem; color:#F59E0B; background:#FEF3C7;">● Cached Offline</span>
               </div>
             ` + matching.map((p, idx) => {
               const rankPos = idx + 1;
-              const rankMedal = rankPos === 1 ? '🥇' : rankPos === 2 ? '🥈' : rankPos === 3 ? '🥉' : `#${rankPos}`;
+              const rankMedal = rankPos === 1 ? FusionIcons.medal1 : rankPos === 2 ? FusionIcons.medal2 : rankPos === 3 ? FusionIcons.medal3 : `#${rankPos}`;
 
               let metricDisplay = `
                 <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">${p.xp} XP</div>
-                <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;">🔥 ${p.streak || 0} Day Streak</div>
+                <div style="font-size:0.8rem; color:var(--secondary); font-weight:700;"> ${p.streak || 0} Day Streak</div>
               `;
               if (filter === 'hotPotato') {
                 metricDisplay = `
-                  <div style="font-weight:900; color:#10B981; font-size:1.35rem;">🥔 ${p.score || 0} Served</div>
+                  <div style="font-weight:900; color:#10B981; font-size:1.35rem;"> ${p.score || 0} Served</div>
                   <div style="font-size:0.78rem; color:var(--text-muted);">Arcade High Score</div>
                 `;
               } else if (filter === 'buildDish') {
                 metricDisplay = `
-                  <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;">🥘 ${p.score || 0} Dishes</div>
+                  <div style="font-weight:900; color:var(--secondary); font-size:1.35rem;"> ${p.score || 0} Dishes</div>
                   <div style="font-size:0.78rem; color:var(--text-muted);">Dish Assembly</div>
                 `;
               } else if (filter === 'trivia') {
                 metricDisplay = `
-                  <div style="font-weight:900; color:var(--primary); font-size:1.35rem;">🧠 ${p.score || 0}/10 Correct</div>
+                  <div style="font-weight:900; color:var(--primary); font-size:1.35rem;"> ${p.score || 0}/10 Correct</div>
                   <div style="font-size:0.78rem; color:var(--text-muted);">Trivia Accuracy</div>
                 `;
               }
@@ -8607,15 +8739,15 @@ Guidelines:
                   <div style="position:absolute; top:0.75rem; right:0.85rem; font-size:${rankPos <= 3 ? '1.5rem' : '0.9rem'}; font-weight:800; color:${rankPos <= 3 ? 'inherit' : 'var(--text-muted)'};">${rankMedal}</div>
                   <div style="display:flex; justify-content:space-between; align-items:center;">
                     <div style="display:flex; align-items:center; gap:0.85rem;">
-                      <span style="font-size:2.2rem;">${p.avatar || '👨‍🍳'}</span>
+                      <span style="display:inline-flex; width:36px; height:36px;">${p.avatar === 'parent' ? FusionIcons.chefHat : FusionIcons.kidChef}</span>
                       <div>
                         <strong style="font-size:1.05rem;">${this.escapeHtml(p.userName || p.name)}</strong>
                         <div style="font-size:0.82rem; color:var(--text-muted); display:flex; gap:0.4rem; align-items:center; flex-wrap:wrap;">
-                          <span>📍 ${p.country || 'Global'}</span>
+                          <span>${p.country || 'Global'}</span>
                           <span>•</span>
-                          <span>👑 Level ${p.level || 1}</span>
+                          <span>Level ${p.level || 1}</span>
                           <span>•</span>
-                          <span>${p.role === 'parent' ? '👨‍🍳 Parent Guide' : '🎒 Student Chef'}</span>
+                          <span>${p.role === 'parent' ? 'Parent Guide' : 'Student Chef'}</span>
                         </div>
                       </div>
                     </div>
@@ -8644,7 +8776,7 @@ Guidelines:
     const payload = {
       userId: this.state.currentProfile,
       userName: profile.name,
-      avatar: profile.avatar || '🎒',
+      avatar: profile.avatar || 'Chef',
       role: profile.role || 'student',
       level: currentRank.level || 1,
       gameType,
@@ -8716,22 +8848,42 @@ Guidelines:
         <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:1.25rem; line-height:1.5;">
           Enter your secret Admin PIN to manage game visibility toggles, change settings, or reset household scores.
         </p>
-        <div class="pin-input-group">
-          <input type="password" id="admin-pin-field" class="pin-input" placeholder="••••••••" maxlength="16" aria-label="Enter 8-character Secret Admin PIN" />
-          <button class="btn btn-primary" id="admin-submit-pin-btn">Unlock 🔓</button>
+        <div class="pin-input-group" style="position:relative; display:flex; align-items:center; gap:0.5rem;">
+          <input type="password" id="admin-pin-input" class="pin-input" placeholder="••••••••" maxlength="16" aria-label="Enter 8-character Secret Admin PIN" />
+          <button type="button" class="btn btn-secondary pin-toggle-btn" id="toggle-admin-pin-visibility-btn" aria-label="Toggle password visibility" style="padding:0.4rem 0.6rem; display:inline-flex; align-items:center; justify-content:center; cursor:pointer;" title="Show or Hide PIN">
+            <span class="eye-icon" style="display:inline-flex; width:20px; height:20px;">${FusionIcons.eye}</span>
+          </button>
+          <button class="btn btn-primary" id="admin-submit-pin-btn" style="display:inline-flex; align-items:center; gap:0.4rem;">
+            <span>Unlock</span> ${FusionIcons.adminLock}
+          </button>
         </div>
         <div id="pin-error-msg" class="admin-error-text" style="font-size:0.85rem; font-weight:700; min-height:22px;"></div>
       `;
 
+      const toggleEyeBtn = document.getElementById('toggle-admin-pin-visibility-btn');
+      if (toggleEyeBtn) {
+        toggleEyeBtn.onclick = () => {
+          sound.playClick();
+          const pinInput = document.getElementById('admin-pin-input') || document.getElementById('admin-pin-field');
+          if (!pinInput) return;
+          const isPwd = pinInput.type === 'password';
+          pinInput.type = isPwd ? 'text' : 'password';
+          const eyeSpan = toggleEyeBtn.querySelector('.eye-icon');
+          if (eyeSpan) {
+            eyeSpan.innerHTML = isPwd ? FusionIcons.eyeOff : FusionIcons.eye;
+          }
+        };
+      }
+
       document.getElementById('admin-submit-pin-btn')?.addEventListener('click', () => {
-        const val = document.getElementById('admin-pin-field')?.value;
+        const val = (document.getElementById('admin-pin-input') || document.getElementById('admin-pin-field'))?.value;
         if (val === this.state.adminPin) {
           sound.playChime();
           showToast('Admin Mode Unlocked', 'success');
           this.renderAdminModalContent(true);
         } else {
           sound.playWrong();
-          document.getElementById('pin-error-msg').innerText = '❌ Incorrect PIN. Please try again.';
+          document.getElementById('pin-error-msg').innerText = 'Incorrect PIN. Please try again.';
         }
       });
     } else {
@@ -8740,16 +8892,16 @@ Guidelines:
       const navHtml = `
         <div class="admin-subtab-nav" style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-bottom:1rem;">
           <button class="btn ${this.adminSubTab === 'features' ? 'btn-primary' : 'btn-secondary'}" id="admin-subtab-features" style="padding:0.35rem 0.75rem; font-size:0.8rem; font-weight:700;">
-            ⚙️ Version & Feature Toggles
+            Version & Feature Toggles
           </button>
           <button class="btn ${this.adminSubTab === 'verification' ? 'btn-primary' : 'btn-secondary'}" id="admin-subtab-verification" style="padding:0.35rem 0.75rem; font-size:0.8rem; font-weight:700;">
-            🛡️ Parent Verifications (${(this.state.kidScoreVerifications || []).filter(v => !v.verified).length})
+            Parent Verifications (${(this.state.kidScoreVerifications || []).filter(v => !v.verified).length})
           </button>
           <button class="btn ${this.adminSubTab === 'voice' ? 'btn-primary' : 'btn-secondary'}" id="admin-subtab-voice" style="padding:0.35rem 0.75rem; font-size:0.8rem; font-weight:700;">
-            🗣️ TTS & Voice Router
+            TTS & Voice Router
           </button>
           <button class="btn ${this.adminSubTab === 'api' ? 'btn-primary' : 'btn-secondary'}" id="admin-subtab-api" style="padding:0.35rem 0.75rem; font-size:0.8rem; font-weight:700;">
-            🔑 API Key Generator
+            API Key Generator
           </button>
         </div>
       `;
@@ -8761,7 +8913,7 @@ Guidelines:
           <!-- Master Version Switcher -->
           <div style="background:var(--bg-card-subtle); border:1.5px solid var(--border-color); border-radius:var(--radius-sm); padding:0.95rem; margin-bottom:1rem;">
             <label style="font-size:0.84rem; font-weight:800; color:var(--text-main); display:block; margin-bottom:0.4rem;">
-              🏷️ Master Architecture Version Switcher:
+              Master Architecture Version Switcher:
             </label>
             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
               <button class="recipe-chip ${this.state.appVersion === 'v1' ? 'active' : ''} admin-version-btn" data-ver="v1">v1 Classic Hub</button>
@@ -8777,42 +8929,42 @@ Guidelines:
           <h4 style="font-size:0.9rem; margin:0 0 0.5rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">Arcade Game Toggles</h4>
           <div class="admin-toggles-list" style="margin-bottom:1.25rem;">
             <div class="toggle-row">
-              <span id="lbl-toggle-buildDish">🥘 Build-a-Dish (Pantry Rush & Steps)</span>
+              <span id="lbl-toggle-buildDish">Build-a-Dish (Pantry Rush & Steps)</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-buildDish" aria-labelledby="lbl-toggle-buildDish" ${this.state.gameToggles.buildDish ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-pronunciation">🗣️ Pronunciation Challenge & Audio</span>
+              <span id="lbl-toggle-pronunciation">Pronunciation Challenge & Audio</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-pronunciation" aria-labelledby="lbl-toggle-pronunciation" ${this.state.gameToggles.pronunciation ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-trivia">🧠 Family Trivia Quiz (10 Qs)</span>
+              <span id="lbl-toggle-trivia">Family Trivia Quiz (10 Qs)</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-trivia" aria-labelledby="lbl-toggle-trivia" ${this.state.gameToggles.trivia ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-indiaMap">🗺️ India Fusion Map & City Quests</span>
+              <span id="lbl-toggle-indiaMap">India Fusion Map & City Quests</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-indiaMap" aria-labelledby="lbl-toggle-indiaMap" ${this.state.gameToggles.indiaMap !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-hotPotato">🥔 Hot Potato Rush (Arcade Cooking)</span>
+              <span id="lbl-toggle-hotPotato">Hot Potato Rush (Arcade Cooking)</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-hotPotato" aria-labelledby="lbl-toggle-hotPotato" ${this.state.gameToggles.hotPotato !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-spinScience">🎡 Spin the Wheel & Food Science</span>
+              <span id="lbl-toggle-spinScience">Spin the Wheel & Food Science</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-spinScience" aria-labelledby="lbl-toggle-spinScience" ${this.state.gameToggles.spinScience ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
@@ -8824,49 +8976,49 @@ Guidelines:
           <h4 style="font-size:0.9rem; margin:0 0 0.5rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">Granular Modular Sub-Toggles</h4>
           <div class="admin-toggles-list" style="margin-bottom:1.25rem;">
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-header-lb">🏆 Header Leaderboard Pill</span>
+              <span id="lbl-toggle-v2-header-lb">Header Leaderboard Pill</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-header-lb" aria-labelledby="lbl-toggle-v2-header-lb" ${v2.leaderboardInHeader !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-fusion-tab">🌍 Fusion Explorer Tab</span>
+              <span id="lbl-toggle-v2-fusion-tab">Fusion Explorer Tab</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-fusion-tab" aria-labelledby="lbl-toggle-v2-fusion-tab" ${v2.fusionExplorerTab !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-skewer">🍢 Tandoori Skewer & Plating Studio</span>
+              <span id="lbl-toggle-v2-skewer">Tandoori Skewer & Plating Studio</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-skewer" aria-labelledby="lbl-toggle-v2-skewer" ${v2.tandoorSkewerGame !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-camera">📸 Chef Hat AR Camera & Age Scanner</span>
+              <span id="lbl-toggle-v2-camera">Chef Hat AR Camera & Age Scanner</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-camera" aria-labelledby="lbl-toggle-v2-camera" ${v2.chefHatCameraFilter !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-face-dupe">🛡️ AI Facial Landmark Anti-Duplication Protection</span>
+              <span id="lbl-toggle-v2-face-dupe"> AI Facial Landmark Anti-Duplication Protection</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-face-dupe" aria-labelledby="lbl-toggle-v2-face-dupe" ${v2.faceVectorAntiDuplication !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-pdf">📄 PDF Portfolio & Career Roadmap Export</span>
+              <span id="lbl-toggle-v2-pdf">PDF Portfolio & Career Roadmap Export</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-pdf" aria-labelledby="lbl-toggle-v2-pdf" ${v2.pdfPortfolioExport !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
               </label>
             </div>
             <div class="toggle-row">
-              <span id="lbl-toggle-v2-tour">🤖 AI Face Guided Tour & Self-Explaining Overlay</span>
+              <span id="lbl-toggle-v2-tour">AI Face Guided Tour & Self-Explaining Overlay</span>
               <label class="switch">
                 <input type="checkbox" id="toggle-v2-tour" aria-labelledby="lbl-toggle-v2-tour" ${v2.aiFaceExplainerTour !== false ? 'checked' : ''} />
                 <span class="slider" aria-hidden="true"></span>
@@ -8878,11 +9030,11 @@ Guidelines:
           <div class="admin-ai-config-card">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.4rem;">
               <div style="display:flex; align-items:center; gap:0.5rem;">
-                <span style="font-size:1.2rem;">🤖</span>
+                <span style="font-size:1.2rem;"></span>
                 <strong style="font-size:0.95rem;">Gemini & Workers AI Setup</strong>
               </div>
               <span id="admin-ai-status-pill" class="pill-badge" style="background:${this.getGeminiKey() ? 'rgba(34, 197, 94, 0.15)' : (this.getWorkersAiKey() ? 'rgba(2, 132, 199, 0.15)' : 'var(--bg-card-subtle)')}; color:${this.getGeminiKey() ? 'var(--accent-green)' : (this.getWorkersAiKey() ? 'var(--primary)' : 'var(--text-muted)')}; border-color:${this.getGeminiKey() ? 'var(--accent-green)' : (this.getWorkersAiKey() ? 'var(--primary)' : 'var(--border-color)')}; font-size:0.75rem;">
-                ${this.getGeminiKey() ? '🟢 Gemini API Active' : (this.getWorkersAiKey() ? '⚡ Workers AI Active' : '⚪ Smart Offline Mode')}
+                ${this.getGeminiKey() ? 'Gemini API Active' : (this.getWorkersAiKey() ? 'Workers AI Active' : 'Smart Offline Mode')}
               </span>
             </div>
 
@@ -8891,19 +9043,19 @@ Guidelines:
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem; flex-wrap:wrap; gap:0.3rem;">
                 <span style="font-weight:700; font-size:0.82rem;">Google Gemini API Key:</span>
                 <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener" style="font-size:0.76rem; color:var(--primary); font-weight:700;">
-                  Get Free Key from Google AI Studio ↗
+                  Get Free Key from Google AI Studio &nearr;
                 </a>
               </div>
               <div class="api-key-input-row" style="display:flex; gap:0.4rem; flex-wrap:wrap;">
                 <input type="password" id="admin-gemini-key-input" class="api-key-input" placeholder="Paste AI Studio API key (AIzaSy...)" value="${this.getGeminiKey()}" style="flex:1 1 180px; min-width:0;">
-                <button class="icon-btn" id="admin-show-hide-key-btn" title="Toggle visibility" style="width:34px; height:34px; font-size:0.9rem; flex-shrink:0;">👁️</button>
+                <button class="icon-btn" id="admin-show-hide-key-btn" title="Toggle visibility" style="width:34px; height:34px; font-size:0.9rem; flex-shrink:0;"></button>
                 <button class="btn btn-primary" id="admin-save-gemini-key-btn" style="padding:0.35rem 0.85rem; font-size:0.8rem; flex-shrink:0;">Save Key</button>
               </div>
             </div>
 
             <!-- Cloudflare Workers AI Token -->
             <div style="border-top:1px dashed var(--border-color); padding-top:0.75rem;">
-              <span style="font-weight:700; font-size:0.82rem; display:block; margin-bottom:0.35rem;">⚡ Or Cloudflare Workers AI (Alternative):</span>
+              <span style="font-weight:700; font-size:0.82rem; display:block; margin-bottom:0.35rem;"> Or Cloudflare Workers AI (Alternative):</span>
               <div style="display:flex; flex-direction:column; gap:0.4rem;">
                 <input type="password" id="admin-workers-token-input" class="api-key-input" placeholder="Cloudflare API Token with Workers AI Read" value="${this.getWorkersAiKey()}">
                 <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
@@ -8925,7 +9077,7 @@ Guidelines:
           <!-- Secret Admin PIN -->
           <div style="background:var(--bg-parchment); border:1.5px solid var(--border-color); border-radius:var(--radius-sm); padding:0.95rem; margin-bottom:1.25rem;">
             <label style="font-size:0.82rem; font-weight:800; color:var(--text-muted); display:block; margin-bottom:0.35rem;">
-              🔑 Update Secret Admin PIN:
+               Update Secret Admin PIN:
             </label>
             <div style="display:flex; gap:0.5rem;">
               <input type="password" id="new-admin-pin" class="pin-input" style="padding:0.45rem 0.75rem; font-size:0.9rem;" placeholder="New PIN" />
@@ -8936,19 +9088,19 @@ Guidelines:
           <!-- Data Safety, Backup & Recovery Hub (FF-01) -->
           <div style="border-top:1px solid var(--border-color); padding-top:1.15rem; margin-top:1rem;">
             <label style="display:block; font-weight:700; font-size:0.88rem; margin-bottom:0.45rem;">
-              📦 Data Backup, Export & Reset Safety
+               Data Backup, Export & Reset Safety
             </label>
             <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
               <button class="btn btn-secondary" id="admin-export-data-btn" style="padding:0.4rem 0.8rem; font-size:0.8rem; font-weight:700;">
-                📥 Export & Backup Data (JSON)
+                Export & Backup Data (JSON)
               </button>
               <button class="btn btn-secondary" id="admin-import-data-btn" style="padding:0.4rem 0.8rem; font-size:0.8rem; font-weight:700;">
-                📤 Import Backup (JSON)
+                Import Backup (JSON)
               </button>
               <input type="file" id="admin-import-file-input" accept=".json" style="display:none;" />
               ${this.lastBackupState ? `
                 <button class="btn btn-secondary" id="admin-undo-clear-btn" style="color:#10B981; border-color:#10B981; padding:0.4rem 0.8rem; font-size:0.8rem; font-weight:700;">
-                  ↩️ Undo Last Wipe
+                  Undo Last Wipe
                 </button>
               ` : ''}
             </div>
@@ -8957,13 +9109,13 @@ Guidelines:
           <div style="border-top:1px solid var(--border-color); padding-top:1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem;">
             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
               <button class="btn btn-secondary" id="reset-admin-btn" style="color:var(--primary); border-color:var(--primary); padding:0.45rem 0.85rem; font-size:0.82rem;">
-                🔄 Reset Admin Defaults
+                Reset Admin Defaults
               </button>
               <button class="btn btn-secondary" id="reset-scores-btn" style="color:#F59E0B; border-color:#F59E0B; padding:0.45rem 0.85rem; font-size:0.82rem;">
-                ⚠️ Reset XP & Levels
+                Notice:  Reset XP & Levels
               </button>
               <button class="btn btn-secondary" id="clear-all-data-admin-btn" style="color:#DC2626; border-color:#DC2626; padding:0.45rem 0.85rem; font-size:0.82rem; font-weight:800;">
-                🗑️ Clear All Website Data
+                Clear All Website Data
               </button>
             </div>
             <button class="btn btn-primary" id="save-admin-settings-btn" style="padding:0.5rem 1.4rem; font-size:0.88rem;">
@@ -8990,7 +9142,7 @@ Guidelines:
         body.innerHTML = `
           ${navHtml}
           <div style="background:var(--accent-green-light); border:1.5px solid var(--accent-green); border-radius:var(--radius-sm); padding:0.85rem; margin-bottom:1.25rem;">
-            <strong style="color:var(--accent-green); font-size:0.95rem;">🛡️ Parent Physical Score Verification Queue</strong>
+            <strong style="color:var(--accent-green); font-size:0.95rem;"> Parent Physical Score Verification Queue</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0.3rem 0 0;">
               Review and certify high scores submitted by kid chefs in the living room before granting the official Verified Badge on global leaderboards.
             </p>
@@ -9008,7 +9160,7 @@ Guidelines:
                 <div>
                   ${item.verified ? `
                     <span class="pill-badge" style="background:#10B981; color:#FFF; font-weight:800; font-size:0.78rem;">
-                      ✅ Verified by ${item.verifiedBy || 'Parent'}
+                       Verified by ${item.verifiedBy || 'Parent'}
                     </span>
                   ` : `
                     <div style="display:flex; gap:0.4rem;">
@@ -9059,7 +9211,7 @@ Guidelines:
         body.innerHTML = `
           ${navHtml}
           <div style="background:var(--accent-green-light); border:1.5px solid var(--accent-green); border-radius:var(--radius-sm); padding:0.85rem; margin-bottom:1.25rem;">
-            <strong style="color:var(--accent-green); font-size:0.95rem;">🗣️ ElevenLabs & Indian Voice TTS Router</strong>
+            <strong style="color:var(--accent-green); font-size:0.95rem;"> ElevenLabs & Indian Voice TTS Router</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0.3rem 0 0;">
               Route pronunciation practice audio and AI sous-chef voice synthesis between standard browser speech engines and ultra-realistic neural Indian voices.
             </p>
@@ -9071,10 +9223,10 @@ Guidelines:
             </label>
             <div style="display:flex; gap:0.5rem; margin-bottom:1rem; flex-wrap:wrap;">
               <button class="recipe-chip ${tts.provider === 'browser' ? 'active' : ''} tts-provider-btn" data-provider="browser">
-                🌐 Native Browser Voice (Offline Safe)
+                 Native Browser Voice (Offline Safe)
               </button>
               <button class="recipe-chip ${tts.provider === 'elevenlabs' ? 'active' : ''} tts-provider-btn" data-provider="elevenlabs">
-                🎙️ ElevenLabs Neural API
+                ElevenLabs Neural API
               </button>
             </div>
 
@@ -9083,9 +9235,9 @@ Guidelines:
                 Select Indian Accent Voice Model:
               </label>
               <select id="tts-voice-select" style="width:100%; padding:0.45rem 0.75rem; border-radius:var(--radius-sm); border:1px solid var(--border-color); background:var(--bg-card); color:var(--text-main); font-size:0.88rem;">
-                <option value="en-IN-Wavenet-D" ${tts.voiceId === 'en-IN-Wavenet-D' ? 'selected' : ''}>🇮🇳 Indian English (Professional Chef — Wavenet-D)</option>
-                <option value="hi-IN-Swara" ${tts.voiceId === 'hi-IN-Swara' ? 'selected' : ''}>🇮🇳 Hindi / Hinglish (Warm Desi Rasoi — Swara)</option>
-                <option value="en-IN-Standard-B" ${tts.voiceId === 'en-IN-Standard-B' ? 'selected' : ''}>🇮🇳 Indian English (Kid Friendly Guide — Standard-B)</option>
+                <option value="en-IN-Wavenet-D" ${tts.voiceId === 'en-IN-Wavenet-D' ? 'selected' : ''}>Indian English (Professional Chef — Wavenet-D)</option>
+                <option value="hi-IN-Swara" ${tts.voiceId === 'hi-IN-Swara' ? 'selected' : ''}> Hindi / Hinglish (Warm Desi Rasoi — Swara)</option>
+                <option value="en-IN-Standard-B" ${tts.voiceId === 'en-IN-Standard-B' ? 'selected' : ''}> Indian English (Kid Friendly Guide — Standard-B)</option>
               </select>
             </div>
 
@@ -9098,7 +9250,7 @@ Guidelines:
 
             <div style="display:flex; gap:0.5rem;">
               <button class="btn btn-secondary" id="btn-test-tts-voice" style="padding:0.45rem 0.95rem; font-size:0.82rem;">
-                🔊 Test Pronunciation Audio
+                 Test Pronunciation Audio
               </button>
               <button class="btn btn-primary" id="btn-save-tts-config" style="padding:0.45rem 1.15rem; font-size:0.82rem;">
                 Save TTS Settings
@@ -9155,10 +9307,10 @@ Guidelines:
         adminShowHideBtn?.addEventListener('click', () => {
           if (adminKeyInput.type === 'password') {
             adminKeyInput.type = 'text';
-            adminShowHideBtn.innerText = '🙈';
+            adminShowHideBtn.innerHTML = FusionIcons.eyeOff;
           } else {
             adminKeyInput.type = 'password';
-            adminShowHideBtn.innerText = '👁️';
+            adminShowHideBtn.innerHTML = FusionIcons.eye;
           }
         });
 
@@ -9307,7 +9459,7 @@ Guidelines:
           }
         });
         document.getElementById('clear-all-data-admin-btn')?.addEventListener('click', async () => {
-          if (confirm('⚠️ PERMANENT ACTION:\n\nDo you want to completely clear all website data, including database records, XP, levels, leaderboards, and progress?')) {
+          if (confirm('Notice:  PERMANENT ACTION:\n\nDo you want to completely clear all website data, including database records, XP, levels, leaderboards, and progress?')) {
             await this.clearAllWebsiteData();
             this.closeAdminModal();
           }
@@ -9340,8 +9492,8 @@ Guidelines:
           ? this.state.apiKeys.map(k => {
               const isActive = k.status === 'active';
               const statusBadge = isActive
-                ? `<span style="display:inline-block; padding:0.15rem 0.45rem; border-radius:12px; font-size:0.72rem; font-weight:700; background:rgba(34,197,94,0.15); color:var(--accent-green);">🟢 Active</span>`
-                : `<span style="display:inline-block; padding:0.15rem 0.45rem; border-radius:12px; font-size:0.72rem; font-weight:700; background:rgba(239,68,68,0.15); color:#EF4444;">🔴 Revoked</span>`;
+                ? `<span style="display:inline-block; padding:0.15rem 0.45rem; border-radius:12px; font-size:0.72rem; font-weight:700; background:rgba(34,197,94,0.15); color:var(--accent-green);"> Active</span>`
+                : `<span style="display:inline-block; padding:0.15rem 0.45rem; border-radius:12px; font-size:0.72rem; font-weight:700; background:rgba(239,68,68,0.15); color:#EF4444;">Revoked</span>`;
               
               const scopeColor = k.scope === 'admin' ? '#8B5CF6' : (k.scope === 'read' ? '#3B82F6' : '#10B981');
               const scopeBadge = `<span style="display:inline-block; padding:0.15rem 0.45rem; border-radius:4px; font-size:0.72rem; font-weight:700; background:rgba(0,0,0,0.06); color:${scopeColor}; border:1px solid ${scopeColor}; text-transform:uppercase;">${this.escapeHtml(k.scope)}</span>`;
@@ -9366,7 +9518,7 @@ Guidelines:
                   <td style="padding:0.6rem 0.6rem; vertical-align:middle; text-align:right; white-space:nowrap;">
                     ${isActive ? `
                       <button class="btn btn-secondary revoke-api-key-btn" data-key-id="${this.escapeHtml(k.keyId)}" style="color:#DC2626; border-color:rgba(220,38,38,0.35); padding:0.25rem 0.6rem; font-size:0.74rem; font-weight:700;">
-                        🗑️ Revoke
+                         Revoke
                       </button>
                     ` : `<span style="font-size:0.72rem; color:var(--text-muted); font-style:italic;">Revoked</span>`}
                   </td>
@@ -9386,7 +9538,7 @@ Guidelines:
 
           <div style="background:var(--accent-green-light); border:1.5px solid var(--accent-green); border-radius:var(--radius-sm); padding:0.85rem 1rem; margin-bottom:1.25rem;">
             <div style="display:flex; align-items:center; gap:0.5rem; font-weight:800; font-size:0.95rem; color:var(--accent-green);">
-              <span>🛡️ Production REST API & Key Generator</span>
+              <span> Production REST API & Key Generator</span>
             </div>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0.35rem 0 0; line-height:1.45;">
               Create cryptographically secure bearer tokens (<code>ff_live_...</code>) to authenticate client applications, mobile tablets, and automated sync jobs against Cloudflare Workers and D1 database.
@@ -9397,17 +9549,17 @@ Guidelines:
             <div class="api-token-reveal-card">
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
                 <span style="font-weight:800; color:#B45309; font-size:0.9rem;">
-                  🎉 New Secret API Key Generated: <strong>${this.escapeHtml(this.lastGeneratedKey.name)}</strong>
+                   New Secret API Key Generated: <strong>${this.escapeHtml(this.lastGeneratedKey.name)}</strong>
                 </span>
-                <button class="icon-btn" id="dismiss-generated-key-btn" title="Dismiss" style="font-size:0.85rem; width:28px; height:28px;">✕</button>
+                <button class="icon-btn" id="dismiss-generated-key-btn" title="Dismiss" style="font-size:0.85rem; width:28px; height:28px;">&times;</button>
               </div>
               <p style="font-size:0.78rem; color:#92400E; margin-bottom:0.6rem; font-weight:600;">
-                ⚠️ Copy this secret token now. For security purposes, it will never be displayed in full again:
+                Notice:  Copy this secret token now. For security purposes, it will never be displayed in full again:
               </p>
               <div style="display:flex; gap:0.5rem; align-items:center; background:var(--bg-card); border:1px solid #D97706; border-radius:var(--radius-sm); padding:0.45rem 0.65rem;">
                 <code id="newly-generated-token-text" style="font-family:monospace; font-size:0.82rem; color:#1E293B; word-break:break-all; flex:1;">${this.lastGeneratedKey.token}</code>
                 <button class="btn btn-primary" id="copy-new-token-btn" style="padding:0.35rem 0.85rem; font-size:0.78rem; white-space:nowrap; font-weight:700;">
-                  📋 Copy Token
+                   Copy Token
                 </button>
               </div>
             </div>
@@ -9416,7 +9568,7 @@ Guidelines:
           <!-- Key Generation Form -->
           <div class="admin-ai-config-card">
             <h4 style="margin:0 0 0.75rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>⚡ Generate New API Access Token</span>
+              <span> Generate New API Access Token</span>
             </h4>
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:0.75rem;">
               <div>
@@ -9449,7 +9601,7 @@ Guidelines:
                 </select>
               </div>
               <button class="btn btn-primary" id="generate-api-key-submit-btn" style="padding:0.45rem 1.15rem; font-size:0.84rem; font-weight:800;">
-                ✨ Generate API Key
+                 Generate API Key
               </button>
             </div>
           </div>
@@ -9458,7 +9610,7 @@ Guidelines:
           <div class="admin-ai-config-card">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
               <h4 style="margin:0; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-                <span>🗝️ Active API Keys</span>
+                <span>Active API Keys</span>
               </h4>
               <span class="pill-badge" style="font-size:0.72rem; padding:0.15rem 0.5rem;">
                 ${(this.state.apiKeys || []).length} Keys
@@ -9485,17 +9637,17 @@ Guidelines:
           <!-- Live Endpoint Diagnostics -->
           <div class="admin-ai-config-card">
             <h4 style="margin:0 0 0.5rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>📡 Live Endpoint Diagnostics & Testing</span>
+              <span>Live Endpoint Diagnostics & Testing</span>
             </h4>
             <p style="font-size:0.78rem; color:var(--text-muted); margin-bottom:0.75rem;">
               Verify live REST API reachability, HTTP headers, and response latency:
             </p>
             <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
               <button class="btn btn-secondary" id="test-ping-leaderboard-btn" style="font-size:0.8rem; padding:0.35rem 0.75rem;">
-                📡 Test GET /api/leaderboard
+                 Test GET /api/leaderboard
               </button>
               <button class="btn btn-secondary" id="test-ping-feedback-btn" style="font-size:0.8rem; padding:0.35rem 0.75rem;">
-                📡 Test GET /api/feedback
+                 Test GET /api/feedback
               </button>
             </div>
             <div id="api-diagnostic-output" style="background:#0F172A; color:#E2E8F0; padding:0.75rem; border-radius:var(--radius-sm); font-family:monospace; font-size:0.76rem; min-height:55px; max-height:140px; overflow-y:auto; white-space:pre-wrap;">Click a diagnostic test button above to ping the production REST API.</div>
@@ -9504,7 +9656,7 @@ Guidelines:
           <!-- Developer Reference -->
           <div class="admin-ai-config-card" style="margin-bottom:0;">
             <h4 style="margin:0 0 0.5rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>💻 Developer Integration Reference</span>
+              <span>Developer Integration Reference</span>
             </h4>
             <div style="background:var(--bg-parchment); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.78rem; line-height:1.5;">
               <div style="font-weight:700; color:var(--text-main); margin-bottom:0.3rem;">Authentication Header:</div>
@@ -9537,10 +9689,10 @@ Guidelines:
           if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(tokenText).then(() => {
               sound.playChime();
-              if (copyBtn) copyBtn.innerText = '✅ Copied!';
+              if (copyBtn) copyBtn.innerText = ' Copied!';
               showToast('API Token copied to clipboard!', 'success');
               setTimeout(() => {
-                if (copyBtn) copyBtn.innerText = '📋 Copy Token';
+                if (copyBtn) copyBtn.innerText = ' Copy Token';
               }, 2500);
             }).catch(() => {
               showToast('Copied token to clipboard', 'info');
@@ -9676,7 +9828,7 @@ Guidelines:
 
   async runApiDiagnosticPing(endpoint, outputEl) {
     if (!outputEl) return;
-    outputEl.innerHTML = `<span style="color:#60A5FA;">📡 Pinging ${endpoint}...</span>`;
+    outputEl.innerHTML = `<span style="color:#60A5FA;"> Pinging ${endpoint}...</span>`;
     const t0 = performance.now();
     try {
       if (typeof window !== 'undefined' && window.location.protocol === 'file:') {
@@ -9688,7 +9840,7 @@ Guidelines:
         } else {
           sampleData = { success: true, ratingAvg: 4.9, count: 18, status: '200 OK' };
         }
-        outputEl.innerHTML = `<span style="color:#34D399;">✔ HTTP 200 OK (${latency}ms)</span>\nEndpoint: ${endpoint}\nProtocol: file:/// diagnostic fallback\nResponse:\n${JSON.stringify(sampleData, null, 2)}`;
+        outputEl.innerHTML = `<span style="color:#34D399;">HTTP 200 OK (${latency}ms)</span>\nEndpoint: ${endpoint}\nProtocol: file:/// diagnostic fallback\nResponse:\n${JSON.stringify(sampleData, null, 2)}`;
         return;
       }
 
@@ -9696,10 +9848,10 @@ Guidelines:
       const latency = Math.round(performance.now() - t0);
       const data = await res.json();
       const statusColor = res.ok ? '#34D399' : '#F87171';
-      outputEl.innerHTML = `<span style="color:${statusColor};">${res.ok ? '✔' : '✖'} HTTP ${res.status} ${res.statusText} (${latency}ms)</span>\nEndpoint: ${endpoint}\nHeaders: Content-Type: ${res.headers.get('content-type') || 'application/json'}\nResponse:\n${JSON.stringify(data, null, 2).slice(0, 400)}${JSON.stringify(data).length > 400 ? '...' : ''}`;
+      outputEl.innerHTML = `<span style="color:${statusColor};">${res.ok ? 'OK' : 'ERR'} HTTP ${res.status} ${res.statusText} (${latency}ms)</span>\nEndpoint: ${endpoint}\nHeaders: Content-Type: ${res.headers.get('content-type') || 'application/json'}\nResponse:\n${JSON.stringify(data, null, 2).slice(0, 400)}${JSON.stringify(data).length > 400 ? '...' : ''}`;
     } catch (err) {
       const latency = Math.round(performance.now() - t0);
-      outputEl.innerHTML = `<span style="color:#F87171;">✖ Connection Notice (${latency}ms)</span>\nEndpoint: ${endpoint}\nDetail: ${err.message || 'Network unreachable'}\nFallback: Local offline cache active.`;
+      outputEl.innerHTML = `<span style="color:#F87171;">ERR Connection Notice (${latency}ms)</span>\nEndpoint: ${endpoint}\nDetail: ${err.message || 'Network unreachable'}\nFallback: Local offline cache active.`;
     }
   }
 
@@ -9738,7 +9890,7 @@ Guidelines:
       if (e.target.id === 'recipe-popout-modal') this.closeRecipePopout();
     });
     document.getElementById('clear-website-data-btn')?.addEventListener('click', async () => {
-      if (confirm('🗑️ CLEAR ALL WEBSITE DATA:\n\nAre you sure you want to completely clear all user XP, leaderboards, levels, best scores, and website history?')) {
+      if (confirm(' CLEAR ALL WEBSITE DATA:\n\nAre you sure you want to completely clear all user XP, leaderboards, levels, best scores, and website history?')) {
         await this.clearAllWebsiteData();
       }
     });
@@ -10110,13 +10262,13 @@ Guidelines:
     container.innerHTML = `
       <div class="model-3d-hud">
         <div style="display:flex; align-items:center; gap:0.5rem; pointer-events:auto; flex-wrap:wrap;">
-          <span class="model-3d-badge" style="background:linear-gradient(135deg, #B91C1C, #D97706); border:none; box-shadow:0 2px 10px rgba(185,28,28,0.5);">🔥 3D Tandoor Hearth</span>
+          <span class="model-3d-badge" style="background:linear-gradient(135deg, #B91C1C, #D97706); border:none; box-shadow:0 2px 10px rgba(185,28,28,0.5);"> 3D Tandoor Hearth</span>
           <span class="model-3d-badge" id="tandoor-temp-display">Tandoori Roast: 350°C</span>
-          <span class="model-3d-badge" id="tandoor-thermometer-pill" style="background:rgba(15,23,42,0.85); border:1px solid #F59E0B; color:#F59E0B;">🌡️ Skewer Core: 25°C</span>
+          <span class="model-3d-badge" id="tandoor-thermometer-pill" style="background:rgba(15,23,42,0.85); border:1px solid #F59E0B; color:#F59E0B;">Skewer Core: 25°C</span>
         </div>
         <div style="display:flex; align-items:center; gap:0.5rem; pointer-events:auto; flex-wrap:wrap;">
-          <span class="model-3d-badge" id="tandoor-roll-badge" style="background:rgba(30,41,59,0.9); border:1px solid rgba(255,255,255,0.18); color:#38BDF8;">🔄 Roll: 0°</span>
-          <span class="model-3d-badge" id="tandoor-skewer-badge" style="background:rgba(30,41,59,0.9); border:1px solid rgba(255,255,255,0.18); color:#F8FAFC; transition:all 0.3s;">🍢 Skewer: Resting (Click Roast)</span>
+          <span class="model-3d-badge" id="tandoor-roll-badge" style="background:rgba(30,41,59,0.9); border:1px solid rgba(255,255,255,0.18); color:#38BDF8;"> Roll: 0°</span>
+          <span class="model-3d-badge" id="tandoor-skewer-badge" style="background:rgba(30,41,59,0.9); border:1px solid rgba(255,255,255,0.18); color:#F8FAFC; transition:all 0.3s;"> Skewer: Resting (Click Roast)</span>
         </div>
       </div>
 
@@ -10137,38 +10289,38 @@ Guidelines:
           </div>
           <!-- Live Ingredients Char Status Strip -->
           <div id="tandoor-ingredients-status-strip" style="display:flex; justify-content:space-between; font-size:0.68rem; color:#94A3B8; font-weight:700;">
-            <span>🧀 Paneer: Raw</span>
-            <span>🫑 Pepper: Fresh</span>
-            <span>🍍 Pineapple: Glazed</span>
-            <span>🍄 Mushroom: Earthy</span>
+            <span>Paneer: Raw</span>
+            <span>Pepper: Fresh</span>
+            <span>Pineapple: Glazed</span>
+            <span>Mushroom Mushroom: Earthy</span>
           </div>
         </div>
 
         <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap; justify-content:center; pointer-events:auto;">
           <!-- Heat Selector -->
           <div class="tandoor-heat-controls" role="group" aria-label="Tandoor Heat Level" style="position:static; transform:none; margin:0;">
-            <button class="tandoor-heat-btn" data-heat="simmer">♨️ Gentle Simmer</button>
-            <button class="tandoor-heat-btn active" data-heat="roast">🔥 Tandoori Roast</button>
-            <button class="tandoor-heat-btn" data-heat="inferno">⚡ Inferno Sear</button>
+            <button class="tandoor-heat-btn" data-heat="simmer">Gentle Simmer</button>
+            <button class="tandoor-heat-btn active" data-heat="roast"> Tandoori Roast</button>
+            <button class="tandoor-heat-btn" data-heat="inferno"> Inferno Sear</button>
           </div>
 
           <!-- Prominent Roast Animation Trigger Button -->
           <button id="btn-tandoor-roast-action" class="tandoor-roast-main-btn" title="Click to gracefully lower skewer onto coals">
-            <span>🔥</span> <span id="tandoor-roast-btn-label">Roast on Charcoal</span>
+            <span></span> <span id="tandoor-roast-btn-label">Roast on Charcoal</span>
           </button>
 
           <!-- 360° Skewer Roll Button -->
           <button id="btn-tandoor-roll-action" class="tandoor-skewer-rotate-btn" title="Rotate skewer 90° for uniform 360° charring">
-            <span>🔄</span> <span>Roll 90°</span>
+            <span></span> <span>Roll 90°</span>
           </button>
 
           <!-- Reset Skewer Button -->
           <button id="btn-tandoor-reset-action" class="btn" title="Reset Skewer" style="background:rgba(30,41,59,0.85); color:#94A3B8; border:1px solid rgba(255,255,255,0.15); border-radius:999px; padding:0.35rem 0.65rem; font-size:0.8rem; cursor:pointer;">
-            🔄
+            
           </button>
         </div>
       </div>
-      <div class="model-3d-hint" style="bottom:4.8rem;">💡 Click "Roast on Charcoal" to lower skewer. Click "Roll 90°" to cook all 4 sides evenly!</div>
+      <div class="model-3d-hint" style="bottom:4.8rem;"> Click "Roast on Charcoal" to lower skewer. Click "Roll 90°" to cook all 4 sides evenly!</div>
     `;
 
     const width = container.clientWidth || 800;
@@ -10806,7 +10958,7 @@ Guidelines:
       // Update Thermometer Core Temp
       const coreTemp = Math.round(25 + Math.min(140, (doneness * 1.15) * heatMultiplier));
       if (thermoPill) {
-        thermoPill.innerText = `🌡️ Skewer Core: ${coreTemp}°C`;
+        thermoPill.innerText = `Skewer Core: ${coreTemp}°C`;
         if (coreTemp < 60) thermoPill.style.color = '#38BDF8';
         else if (coreTemp <= 110) thermoPill.style.color = '#10B981';
         else thermoPill.style.color = '#EF4444';
@@ -10815,15 +10967,15 @@ Guidelines:
       // Sensory Floating Popups on Key Cooking Stages
       if (pct >= 40 && lastToastStage < 1) {
         lastToastStage = 1;
-        spawnFloatingToast('🔥 Searing at 350°C (+5 XP)', '#F59E0B');
+        spawnFloatingToast('Searing at 350°C (+5 XP)', '#F59E0B');
         sound.triggerHaptic([30]);
       } else if (pct >= 75 && lastToastStage < 2) {
         lastToastStage = 2;
-        spawnFloatingToast('✨ Maillard Caramelization Active (+25 XP)', '#10B981');
+        spawnFloatingToast('Maillard Caramelization Active (+25 XP)', '#10B981');
         sound.triggerHaptic([40, 30, 40]);
       } else if (pct >= 98 && lastToastStage < 3) {
         lastToastStage = 3;
-        spawnFloatingToast('🏆 100% PERFECT GOLDEN CHAR! LIFT NOW!', '#059669');
+        spawnFloatingToast('100% PERFECT GOLDEN CHAR! LIFT NOW!', '#059669');
         sound.triggerHaptic([50, 40, 80]);
       }
 
@@ -10843,10 +10995,10 @@ Guidelines:
           donenessPct.innerText = `${pct}% Raw Marinated`;
           donenessPct.style.color = '#38BDF8';
         } else if (pct <= 100) {
-          donenessPct.innerText = `✨ ${pct}% Golden Char (Pitmaster Zone)`;
+          donenessPct.innerText = `${pct}% Golden Char (Pitmaster Zone)`;
           donenessPct.style.color = '#10B981';
         } else {
-          donenessPct.innerText = `⚠️ ${pct}% Overcharred!`;
+          donenessPct.innerText = `${pct}% Overcharred!`;
           donenessPct.style.color = '#EF4444';
         }
       }
@@ -10854,11 +11006,11 @@ Guidelines:
       // Live ingredient breakdown strip
       if (statusStrip) {
         if (pct < 40) {
-          statusStrip.innerHTML = '<span>🧀 Paneer: Marinated</span><span>🫑 Pepper: Raw</span><span>🍍 Pineapple: Glazed</span><span>🍄 Mushroom: Earthy</span>';
+          statusStrip.innerHTML = '<span>Paneer: Marinated</span><span>Pepper: Raw</span><span>Pineapple: Glazed</span><span>Mushroom: Earthy</span>';
         } else if (pct <= 100) {
-          statusStrip.innerHTML = '<span style="color:#10B981;">🧀 Paneer: Blistered</span><span style="color:#10B981;">🫑 Pepper: Charred</span><span style="color:#10B981;">🍍 Pineapple: Caramel</span><span style="color:#10B981;">🍄 Mushroom: Sizzling</span>';
+          statusStrip.innerHTML = '<span style="color:#10B981;">Paneer: Blistered</span><span style="color:#10B981;">Pepper: Charred</span><span style="color:#10B981;">Pineapple: Caramel</span><span style="color:#10B981;">Mushroom: Sizzling</span>';
         } else {
-          statusStrip.innerHTML = '<span style="color:#EF4444;">🧀 Paneer: Ash</span><span style="color:#EF4444;">🫑 Pepper: Scorched</span><span style="color:#EF4444;">🍍 Pineapple: Burnt</span><span style="color:#EF4444;">🍄 Mushroom: Dry</span>';
+          statusStrip.innerHTML = '<span style="color:#EF4444;">Paneer: Ash</span><span style="color:#EF4444;">Pepper: Scorched</span><span style="color:#EF4444;">Pineapple: Burnt</span><span style="color:#EF4444;">Mushroom: Dry</span>';
         }
       }
     };
@@ -10871,12 +11023,12 @@ Guidelines:
 
       const degrees = Math.round((targetRollAngle / (Math.PI / 2)) * 90) % 360;
       if (rollBadge) {
-        rollBadge.innerText = `🔄 Roll: ${degrees}°`;
+        rollBadge.innerText = `Roll: ${degrees}°`;
         rollBadge.style.color = '#38BDF8';
       }
 
-      spawnFloatingToast('🔄 Rolled 90°! Uniform 360° Char (+15 XP)', '#38BDF8');
-      this.addXP(15, '🍢 Skewer Roll');
+      spawnFloatingToast('Rolled 90°! Uniform 360° Char (+15 XP)', '#38BDF8');
+      this.addXP(15, ' Skewer Roll');
     };
 
     rollBtn?.addEventListener('click', (e) => {
@@ -10899,7 +11051,7 @@ Guidelines:
           roastBtn.style.boxShadow = '0 0 16px rgba(16,185,129,0.6)';
         }
         if (skewerBadge) {
-          skewerBadge.innerText = '🔥 Gracefully Lowering onto Coals...';
+          skewerBadge.innerText = 'Gracefully Lowering onto Coals...';
           skewerBadge.style.background = '#EA580C';
         }
       } else {
@@ -10916,15 +11068,15 @@ Guidelines:
           sound.playFanfare();
           launchConfetti();
           sound.triggerHaptic([50, 40, 60, 40, 100]);
-          showToast('✨ MASTERPIECE! Perfect Golden Char (+100 XP)', 'success');
-          this.addXP(100, '🔥 Tandoor Pitmaster');
+          showToast('MASTERPIECE! Perfect Golden Char (+100 XP)', 'success');
+          this.addXP(100, 'Tandoor Pitmaster');
           if (skewerBadge) {
-            skewerBadge.innerText = '🏆 Golden Char Perfection!';
+            skewerBadge.innerText = 'Golden Char Perfection!';
             skewerBadge.style.background = '#10B981';
           }
         } else {
           if (skewerBadge) {
-            skewerBadge.innerText = '🍢 Skewer: Resting';
+            skewerBadge.innerText = 'Skewer: Resting';
             skewerBadge.style.background = '#1E293B';
           }
         }
@@ -10953,11 +11105,11 @@ Guidelines:
         roastBtn.style.boxShadow = '0 0 16px rgba(220,38,38,0.6)';
       }
       if (skewerBadge) {
-        skewerBadge.innerText = '🍢 Skewer: Resting';
+        skewerBadge.innerText = 'Skewer: Resting';
         skewerBadge.style.background = '#1E293B';
       }
       if (rollBadge) {
-        rollBadge.innerText = '🔄 Roll: 0°';
+        rollBadge.innerText = 'Roll: 0°';
       }
       updateFoodCharring();
     });
@@ -11056,7 +11208,7 @@ Guidelines:
           sound.triggerHaptic([35, 45]);
           lastSizzleTime = Date.now();
           if (skewerBadge) {
-            skewerBadge.innerText = '🔥 Sizzling Gracefully on Charcoal Coals!';
+            skewerBadge.innerText = 'Sizzling Gracefully on Charcoal Coals!';
             skewerBadge.style.background = '#DC2626';
           }
         }
@@ -11199,10 +11351,10 @@ Guidelines:
 
     container.innerHTML = `
       <div class="model-3d-hud">
-        <span class="model-3d-badge" id="dish-3d-badge">🍄 King Oyster Mushroom</span>
+        <span class="model-3d-badge" id="dish-3d-badge">King Oyster Mushroom</span>
         <span class="model-3d-badge" id="dish-3d-status">Drag to Rotate 360°</span>
       </div>
-      <div class="model-3d-hint">👆 Drag to inspect vegetarian ingredient in 3D</div>
+      <div class="model-3d-hint">Drag to inspect vegetarian ingredient in 3D</div>
     `;
 
     const width = container.clientWidth || 380;
@@ -11361,7 +11513,7 @@ Guidelines:
         activeMesh = createModel(ingredientName);
         scene.add(activeMesh);
         const badge = container.querySelector('#dish-3d-badge');
-        if (badge) badge.innerText = `🌿 ${ingredientName}`;
+        if (badge) badge.innerText = ingredientName;
       },
       animateJump: () => {
         if (!activeMesh) return;
@@ -11405,10 +11557,10 @@ Guidelines:
     const formula = topic.formula || (topic.shortName || 'Molecule');
     container.innerHTML = `
       <div class="model-3d-hud">
-        <span class="model-3d-badge" id="molecule-3d-badge">🧪 ${formula}</span>
+        <span class="model-3d-badge" id="molecule-3d-badge">${formula}</span>
         <span class="model-3d-badge">CPK Ball-and-Stick Model</span>
       </div>
-      <div class="model-3d-hint">👆 Drag to inspect 360° • Auto-rotating</div>
+      <div class="model-3d-hint">Drag to inspect 360° • Auto-rotating</div>
     `;
 
     const width = container.clientWidth || 340;
@@ -11691,6 +11843,12 @@ Guidelines:
       tourBtn.style.display = showTour ? 'inline-flex' : 'none';
     }
 
+    // Ensure admin access is never disabled in v3
+    const adminBtn = document.getElementById('admin-modal-open-btn');
+    if (adminBtn) adminBtn.style.display = 'inline-flex';
+    const adminFooter = document.getElementById('admin-footer-link');
+    if (adminFooter) adminFooter.style.display = 'inline-block';
+
     // Re-render feedback summary widget on main landing page
     this.renderMainFeedbackSummary();
     this.renderFeedbackSection();
@@ -11742,11 +11900,11 @@ Guidelines:
         <!-- Portfolio Header -->
         <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--border-color); padding-bottom:1rem; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.75rem;">
           <div style="display:flex; align-items:center; gap:0.85rem;">
-            <div style="font-size:2.8rem; background:var(--bg-card-subtle); border-radius:50%; width:64px; height:64px; display:flex; align-items:center; justify-content:center; border:2px solid var(--primary);">${profile.avatar || '🎒'}</div>
+            <div style="font-size:2.8rem; background:var(--bg-card-subtle); border-radius:50%; width:64px; height:64px; display:flex; align-items:center; justify-content:center; border:2px solid var(--primary);">${profile.avatar === 'parent' ? FusionIcons.chefHat : FusionIcons.kidChef}</div>
             <div>
               <h3 style="margin:0; font-size:1.35rem; color:var(--primary);">${this.escapeHtml(profile.name)}</h3>
               <div style="font-size:0.88rem; color:var(--text-muted); font-weight:700;">
-                👑 ${rank.badge} Level ${rank.level}: ${rank.title} • 100% Pure Vegetarian Safe
+                Level ${rank.level}: ${rank.title} • 100% Pure Vegetarian Safe
               </div>
             </div>
           </div>
@@ -11759,9 +11917,9 @@ Guidelines:
         <!-- Plated Dish Photo & AI Sous-Chef Review -->
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-bottom:1.25rem;">
           <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:1rem;">
-            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:0.4rem;">🍽️ Signature Creation Photo</span>
+            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); display:block; margin-bottom:0.4rem;">Signature Creation Photo</span>
             <div style="background:#1E293B; border-radius:var(--radius-sm); height:110px; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#FFF; margin-bottom:0.5rem;">
-              <span style="font-size:2.2rem;">🍢</span>
+              <span style="font-size:2.2rem;">${FusionIcons.tandoorSkewer}</span>
               <strong style="font-size:0.88rem; margin-top:0.25rem;">${this.escapeHtml(savedDish.dishName)}</strong>
             </div>
             <div style="font-size:0.78rem; color:var(--text-muted); line-height:1.4;">
@@ -11771,7 +11929,7 @@ Guidelines:
           </div>
 
           <div style="background:var(--accent-green-light); border:1px solid var(--accent-green); border-radius:var(--radius-sm); padding:1rem;">
-            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-green); display:block; margin-bottom:0.4rem;">👩‍🍳 AI Sous-Chef Evaluation</span>
+            <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-green); display:block; margin-bottom:0.4rem;">AI Sous-Chef Evaluation</span>
             <p style="font-size:0.82rem; color:var(--text-main); margin:0 0 0.5rem; line-height:1.45;">
               "Outstanding sensory balance! ${this.escapeHtml(profile.name)} demonstrates exceptional command over Maillard char reactions, emulsion balance, and regional Indian spice chemistry."
             </p>
@@ -11790,24 +11948,24 @@ Guidelines:
             </label>
           </div>
           <button class="btn btn-secondary" id="btn-portfolio-ai-talk" style="padding:0.35rem 0.85rem; font-size:0.8rem; font-weight:700;">
-            🗣️ Hear AI Career & Recipe Guidance
+            Hear AI Career & Recipe Guidance
           </button>
         </div>
 
         <!-- Favorite Recipes for Print Portfolio -->
         <div style="margin-bottom:1.25rem;">
-          <h4 style="font-size:0.92rem; margin:0 0 0.6rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">📖 Favorite Mastered Recipes</h4>
+          <h4 style="font-size:0.92rem; margin:0 0 0.6rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">Favorite Mastered Recipes</h4>
           <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:0.6rem;">
             <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.6rem; font-size:0.8rem;">
-              <strong style="color:var(--text-main); display:block;">🥘 Nikkei Mushroom Ceviche</strong>
+              <strong style="color:var(--text-main); display:block;">Nikkei Mushroom Ceviche</strong>
               <span style="color:var(--text-muted); font-size:0.72rem;">Yuzu lime denaturation • 100% Pure Veg</span>
             </div>
             <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.6rem; font-size:0.8rem;">
-              <strong style="color:var(--text-main); display:block;">🍕 Sourdough Naan Pizza</strong>
+              <strong style="color:var(--text-main); display:block;">Sourdough Naan Pizza</strong>
               <span style="color:var(--text-muted); font-size:0.72rem;">Paneer makhani glaze • Maillard browning</span>
             </div>
             <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.6rem; font-size:0.8rem;">
-              <strong style="color:var(--text-main); display:block;">🍰 Gulab Jamun Cheesecake</strong>
+              <strong style="color:var(--text-main); display:block;">Gulab Jamun Cheesecake</strong>
               <span style="color:var(--text-muted); font-size:0.72rem;">Cardamom sugar osmosis • Emulsion base</span>
             </div>
           </div>
@@ -11815,7 +11973,7 @@ Guidelines:
 
         <!-- Culinary Institute Career Roadmap -->
         <div style="margin-bottom:1.25rem;">
-          <h4 style="font-size:0.92rem; margin:0 0 0.6rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">🎓 Professional Culinary Institutes Roadmap</h4>
+          <h4 style="font-size:0.92rem; margin:0 0 0.6rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px;">Professional Culinary Institutes Roadmap</h4>
           <div style="display:flex; flex-direction:column; gap:0.5rem;">
             ${institutes.map(inst => `
               <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.6rem 0.85rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; font-size:0.82rem;">
@@ -11841,7 +11999,7 @@ Guidelines:
             </div>
           </div>
           <button class="btn btn-primary" id="btn-trigger-pdf-print" style="padding:0.5rem 1.25rem; font-size:0.85rem; font-weight:800;">
-            📥 Download / Print Portfolio PDF
+            Download / Print Portfolio PDF
           </button>
         </div>
       </div>
@@ -11920,8 +12078,8 @@ Guidelines:
 
     widget.innerHTML = `
       <div style="display:inline-flex; align-items:center; gap:0.6rem; background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:var(--radius-full); padding:0.4rem 1.1rem; box-shadow:0 4px 16px rgba(0,0,0,0.06); cursor:pointer;" id="main-feedback-chip-btn">
-        <span style="color:#F59E0B; font-size:1.1rem;">★★★★★</span>
-        <strong style="font-size:0.85rem; color:var(--text-main);">★ ${avg} / 5.0</strong>
+        <span style="color:#F59E0B; font-size:1.1rem;">${FusionIcons.star.repeat(5)}</span>
+        <strong style="font-size:0.85rem; color:var(--text-main);">${avg} / 5.0</strong>
         <span style="font-size:0.78rem; color:var(--text-muted);">(${count} Verified Family Reviews)</span>
         <span style="font-size:0.75rem; color:var(--primary); font-weight:700;">Explore Reviews →</span>
       </div>
@@ -11954,7 +12112,7 @@ Guidelines:
         <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">
           <div>
             <div style="display:flex; align-items:center; gap:0.5rem;">
-              <span style="font-size:1.6rem;">🏙️</span>
+              <span>[City]</span>
               <h3 style="margin:0; font-size:1.35rem;">India Metro Culinary Hubs & Local Bazaars</h3>
             </div>
             <p style="margin:0.25rem 0 0; font-size:0.85rem; color:var(--text-muted);">
@@ -11968,7 +12126,7 @@ Guidelines:
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.5rem;" role="tablist" aria-label="India Metros">
           ${INDIA_METROS_DATA.map(m => `
             <button type="button" class="recipe-chip ${m.id === metro.id ? 'active' : ''} metro-select-btn" data-metro-id="${m.id}" role="tab" aria-selected="${m.id === metro.id ? 'true' : 'false'}">
-              <span>📍 ${m.name}</span>
+              <span>${m.name}</span>
             </button>
           `).join('')}
         </div>
@@ -11980,18 +12138,18 @@ Guidelines:
               <h4 style="margin:0; font-size:1.4rem;">${metro.name} <span style="font-size:0.85rem; color:var(--text-muted); font-weight:400;">(${metro.state})</span></h4>
               <p style="margin:0.2rem 0 0; font-size:0.92rem; color:var(--secondary); font-weight:700;">"${metro.tagline}"</p>
             </div>
-            <span class="pill-badge" style="color:var(--primary); font-weight:800;">🍽️ Prime Hubs: ${metro.famousHubs.split(',')[0]}</span>
+            <span class="pill-badge" style="color:var(--primary); font-weight:800;">Prime Hubs: ${metro.famousHubs.split(',')[0]}</span>
           </div>
 
           <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; margin-top:1rem;">
             <div style="background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
-              <strong style="color:var(--primary); font-size:0.88rem; display:block; margin-bottom:0.35rem;">🛒 Signature Ingredient Bazaar:</strong>
+              <strong style="color:var(--primary); font-size:0.88rem; display:block; margin-bottom:0.35rem;">Signature Ingredient Bazaar:</strong>
               <div style="font-weight:700; font-size:0.92rem;">${metro.topMarket}</div>
-              <div style="font-size:0.82rem; color:var(--text-muted); margin-top:0.35rem;">💡 ${metro.questTip}</div>
+              <div style="font-size:0.82rem; color:var(--text-muted); margin-top:0.35rem;">${metro.questTip}</div>
             </div>
 
             <div style="background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
-              <strong style="color:var(--primary); font-size:0.88rem; display:block; margin-bottom:0.35rem;">📊 Fusion Dish Penetration:</strong>
+              <strong style="color:var(--primary); font-size:0.88rem; display:block; margin-bottom:0.35rem;">Fusion Dish Penetration:</strong>
               <div style="display:flex; flex-direction:column; gap:0.35rem; font-size:0.82rem;">
                 ${metro.dishesAvailable.slice(0, 3).map(d => `
                   <div style="display:flex; justify-content:space-between; gap:0.5rem;">
@@ -12010,7 +12168,7 @@ Guidelines:
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">
           <div>
             <div style="display:flex; align-items:center; gap:0.5rem;">
-              <span style="font-size:1.6rem;">🥘</span>
+              <span style="font-size:1.6rem;">${FusionIcons.buildDish}</span>
               <h3 style="margin:0; font-size:1.35rem;">Trending Fusion Dishes Availability Matrix</h3>
             </div>
             <p style="margin:0.25rem 0 0; font-size:0.85rem; color:var(--text-muted);">
@@ -12038,7 +12196,7 @@ Guidelines:
                   <tr>
                     <td>
                       <strong>${dish.name}</strong>
-                      <div style="font-size:0.75rem; color:var(--text-muted);">⏱️ ${dish.prepTime || '15m'} • 📊 ${dish.difficulty || 'Beginner'}</div>
+                      <div style="font-size:0.75rem; color:var(--text-muted);">${dish.prepTime || '15m'} • ${dish.difficulty || 'Beginner'}</div>
                     </td>
                     <td>
                       <span class="pill-badge" style="font-size:0.78rem;">${dish.origin}</span>
@@ -12053,7 +12211,7 @@ Guidelines:
                     </td>
                     <td>
                       <button class="btn btn-secondary open-matrix-dish-btn" data-dish-id="${dish.id}" style="padding:0.35rem 0.75rem; font-size:0.78rem; font-weight:700;">
-                        📖 View Recipe →
+                        View Recipe →
                       </button>
                     </td>
                   </tr>
@@ -12067,7 +12225,7 @@ Guidelines:
       <!-- 3. Culinary Harmony & Flavor Pairing Compass -->
       <div style="background:var(--bg-card); border:2px solid var(--border-color); border-radius:var(--radius-lg); padding:1.75rem; box-shadow:0 8px 30px rgba(0,0,0,0.05);">
         <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:1rem;">
-          <span style="font-size:1.6rem;">🧭</span>
+          <span style="font-size:1.6rem;">${FusionIcons.fusionExplorer}</span>
           <h3 style="margin:0; font-size:1.35rem;">The Global Flavor Pairing Compass</h3>
         </div>
         <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1.25rem;">
@@ -12076,7 +12234,7 @@ Guidelines:
 
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:1rem;">
           <div style="background:var(--bg-card-subtle); padding:1rem; border-radius:var(--radius-md); border:1px solid var(--border-color);">
-            <div style="font-size:1.5rem; margin-bottom:0.25rem;">🍋 + 🌶️</div>
+            <div style="font-size:1.1rem; font-weight:800; margin-bottom:0.25rem;">Lemon + Chili</div>
             <strong style="display:block; font-size:0.95rem; margin-bottom:0.25rem;">Citrus Cure + Desi Chilis</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">
               Peruvian Aji Amarillo meets Gondhoraj lime to denature mushroom proteins without heat.
@@ -12084,7 +12242,7 @@ Guidelines:
           </div>
 
           <div style="background:var(--bg-card-subtle); padding:1rem; border-radius:var(--radius-md); border:1px solid var(--border-color);">
-            <div style="font-size:1.5rem; margin-bottom:0.25rem;">🍅 + 🧈</div>
+            <div style="font-size:1.1rem; font-weight:800; margin-bottom:0.25rem;">Tomato + Butter</div>
             <strong style="display:block; font-size:0.95rem; margin-bottom:0.25rem;">Pomodoro + Makhani Gravy</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">
               Italian stewed Roma tomatoes emulsified with creamy cashew paste and Punjabi makhani butter.
@@ -12092,7 +12250,7 @@ Guidelines:
           </div>
 
           <div style="background:var(--bg-card-subtle); padding:1rem; border-radius:var(--radius-md); border:1px solid var(--border-color);">
-            <div style="font-size:1.5rem; margin-bottom:0.25rem;">🌽 + 🧀</div>
+            <div style="font-size:1.1rem; font-weight:800; margin-bottom:0.25rem;">Corn + Cheese</div>
             <strong style="display:block; font-size:0.95rem; margin-bottom:0.25rem;">Corn Masa + Charred Tikka</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">
               Mexican nixtamalized corn tortillas paired with clay tandoor charred paneer and mint salsa.
@@ -12100,7 +12258,7 @@ Guidelines:
           </div>
 
           <div style="background:var(--bg-card-subtle); padding:1rem; border-radius:var(--radius-md); border:1px solid var(--border-color);">
-            <div style="font-size:1.5rem; margin-bottom:0.25rem;">🍜 + 🌿</div>
+            <div style="font-size:1.1rem; font-weight:800; margin-bottom:0.25rem;">Noodles + Herbs</div>
             <strong style="display:block; font-size:0.95rem; margin-bottom:0.25rem;">Miso Umami + Garam Masala</strong>
             <p style="font-size:0.82rem; color:var(--text-muted); margin:0;">
               Fermented Japanese dashi broth deepened with roasted whole cumin, cloves, and star anise.
@@ -12155,7 +12313,7 @@ Guidelines:
         <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">
           <div>
             <div style="display:flex; align-items:center; gap:0.5rem;">
-              <span style="font-size:1.6rem;">💬</span>
+              <span>[Reviews]</span>
               <h3 style="margin:0; font-size:1.35rem;">Community Guest Reviews & Family Feedback</h3>
             </div>
             <p style="margin:0.25rem 0 0; font-size:0.85rem; color:var(--text-muted);">
@@ -12163,26 +12321,26 @@ Guidelines:
             </p>
           </div>
           <div style="text-align:right;">
-            <div style="font-size:1.4rem; font-weight:900; color:#F59E0B;">★ ${avg} / 5.0</div>
+            <div style="font-size:1.4rem; font-weight:900; color:#F59E0B;">${avg} / 5.0</div>
             <div style="font-size:0.78rem; color:var(--text-muted);">${count} Verified Culinary Critiques</div>
           </div>
         </div>
 
         <!-- Add Review Form -->
         <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
-          <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--text-main);">✍️ Submit Your Family Feedback</h4>
+          <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--text-main);">Submit Your Family Feedback</h4>
           <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:0.75rem;">
             <input type="text" id="feedback-author-input" placeholder="Your Name or Family (e.g. The Sharma Family)" class="api-key-input" style="font-size:0.84rem;">
             <select id="feedback-rating-select" class="api-key-input" style="font-size:0.84rem;">
-              <option value="5">★★★★★ (5 Stars — Extraordinary)</option>
-              <option value="4">★★★★☆ (4 Stars — Delicious & Fun)</option>
-              <option value="3">★★★☆☆ (3 Stars — Good Learning)</option>
+              <option value="5">5 Stars (Extraordinary)</option>
+              <option value="4">4 Stars (Delicious & Fun)</option>
+              <option value="3">3 Stars (Good Learning)</option>
             </select>
           </div>
           <textarea id="feedback-comment-input" rows="2" placeholder="Share your experience cooking these vegetarian fusion dishes or playing the arcade games..." class="api-key-input" style="width:100%; font-size:0.84rem; margin-bottom:0.75rem; resize:vertical;"></textarea>
           <div style="text-align:right;">
             <button class="btn btn-primary" id="btn-submit-feedback" style="padding:0.45rem 1.25rem; font-size:0.84rem; font-weight:700;">
-              ✨ Post Community Review
+              Post Community Review
             </button>
           </div>
         </div>
@@ -12194,7 +12352,7 @@ Guidelines:
               <div>
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
                   <strong style="font-size:0.88rem; color:var(--text-main);">${this.escapeHtml(r.author)}</strong>
-                  <span style="color:#F59E0B; font-size:0.82rem;">${'★'.repeat(r.rating || 5)}</span>
+                  <span style="color:#F59E0B; font-size:0.82rem;">${FusionIcons.star.repeat(r.rating || 5)}</span>
                 </div>
                 <div style="font-size:0.74rem; color:var(--text-muted); margin-bottom:0.5rem;">${this.escapeHtml(r.role || 'Family Chef')} • ${r.date || 'Recent'}</div>
                 <p style="font-size:0.82rem; color:var(--text-main); margin:0; line-height:1.45;">
@@ -12270,7 +12428,7 @@ Guidelines:
 
     body.innerHTML = `
       <div class="camera-consent-card" style="padding:1.25rem; text-align:center;">
-        <div style="font-size:3rem; margin-bottom:0.5rem;" aria-hidden="true">📸</div>
+        <div style="font-size:3rem; margin-bottom:0.5rem;" aria-hidden="true">${FusionIcons.cameraAr}</div>
         <h3 style="font-size:1.35rem; margin-bottom:0.5rem;">Chef Hat AR Camera & Age Scanner</h3>
         <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.5; margin-bottom:1rem;">
           Try on interactive 3D virtual chef hats and test our playful facial animation studio!
@@ -12278,7 +12436,7 @@ Guidelines:
 
         <div style="background:var(--bg-card-subtle); border:1.5px solid var(--border-color); border-radius:var(--radius-md); padding:1rem; margin-bottom:1.25rem; text-align:left; font-size:0.84rem; line-height:1.55;">
           <div style="display:flex; align-items:center; gap:0.45rem; margin-bottom:0.4rem; color:var(--primary); font-weight:800;">
-            <span aria-hidden="true">🔒</span>
+            <span aria-hidden="true">${FusionIcons.adminLock}</span>
             <span>100% On-Device Privacy Guarantee</span>
           </div>
           <ul style="margin:0.25rem 0 0.5rem 1.25rem; padding:0; color:var(--text-muted); display:flex; flex-direction:column; gap:0.35rem;">
@@ -12290,10 +12448,10 @@ Guidelines:
 
         <div style="display:flex; flex-direction:column; gap:0.65rem;">
           <button class="btn btn-primary" id="btn-grant-camera" style="padding:0.75rem 1.25rem; font-size:0.92rem; font-weight:800;">
-            📸 Enable Webcam & Try Chef Hat AR
+            Enable Webcam & Try Chef Hat AR
           </button>
           <button class="btn btn-secondary" id="btn-skip-camera" style="padding:0.65rem 1.25rem; font-size:0.88rem;">
-            🧑‍🍳 Continue in Non-Camera Virtual Mode
+            Continue in Non-Camera Virtual Mode
           </button>
         </div>
       </div>
@@ -12316,8 +12474,8 @@ Guidelines:
       <div style="display:flex; flex-direction:column; gap:1rem; text-align:center; padding:1rem;">
         <div style="position:relative; width:100%; height:260px; background:radial-gradient(circle at center, #1E293B, #0F172A); border-radius:var(--radius-md); overflow:hidden; border:2px solid var(--border-color); display:flex; flex-direction:column; align-items:center; justify-content:center;">
           <div style="font-size:5rem; position:relative;" id="virtual-avatar-container">
-            ${profile.avatar || '🧑‍🍳'}
-            <div style="position:absolute; top:-36px; left:50%; transform:translateX(-50%); font-size:3.5rem; animation:floatUpFade 3s infinite ease-in-out;">👨‍🍳</div>
+            ${profile.avatar === 'parent' ? FusionIcons.chefHat : FusionIcons.kidChef}
+            <div style="position:absolute; top:-36px; left:50%; transform:translateX(-50%); font-size:3.5rem; animation:floatUpFade 3s infinite ease-in-out;">${FusionIcons.chefHat}</div>
           </div>
           <div style="margin-top:0.75rem; color:#E2E8F0; font-weight:700; font-size:1rem;">
             ${profile.name} (Virtual Chef Mode)
@@ -12329,7 +12487,7 @@ Guidelines:
 
         <div style="display:flex; gap:0.5rem;">
           <button class="btn btn-primary" id="btn-snap-virtual-avatar" style="flex:1; padding:0.5rem; font-size:0.85rem; font-weight:800;">
-            ✅ Set as Active Chef Avatar
+            Set as Active Chef Avatar
           </button>
           <button class="btn btn-secondary" id="btn-close-virtual" style="padding:0.5rem 0.85rem; font-size:0.85rem;">
             Close
@@ -12368,7 +12526,7 @@ Guidelines:
           <video id="ar-camera-video" playsinline muted autoplay style="position:absolute; width:100%; height:100%; object-fit:cover;"></video>
           <canvas id="ar-camera-canvas" width="480" height="320" style="position:absolute; width:100%; height:100%; pointer-events:none; z-index:2;"></canvas>
           <div id="camera-loading-overlay" style="position:absolute; z-index:3; text-align:center; color:#E2E8F0; font-size:0.85rem; padding:1rem;">
-            <div style="font-size:2rem; animation:pulse 1s infinite;">📸</div>
+            <div style="font-size:2rem; animation:pulse 1s infinite;">${FusionIcons.cameraAr}</div>
             <p style="margin:0.5rem 0 0;">Connecting AR Chef Hat Camera Scanner...</p>
           </div>
         </div>
@@ -12376,20 +12534,20 @@ Guidelines:
         <!-- Scan Status & Face Vector Anti-Duplication Pill -->
         <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.82rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem;">
           <div>
-            <strong style="color:var(--text-main); display:block;">🛡️ Facial Landmark Anti-Duplication Vector</strong>
+            <strong style="color:var(--text-main); display:block;">${FusionIcons.shieldCheck} Facial Landmark Anti-Duplication Vector</strong>
             <span id="face-hash-indicator" style="font-family:monospace; color:var(--text-muted); font-size:0.74rem;">Scanning landmarks...</span>
           </div>
           <span class="pill-badge" id="camera-verdict-pill" style="background:#10B981; color:#FFF; font-weight:800; font-size:0.74rem;">
-            🟢 Single Identity Certified
+            Single Identity Certified
           </span>
         </div>
 
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
           <button class="btn btn-primary" id="btn-snap-chef-photo" style="flex:1; padding:0.5rem; font-size:0.85rem; font-weight:800;">
-            📸 Snap Certified Chef Avatar
+            Snap Certified Chef Avatar
           </button>
           <button class="btn btn-secondary" id="btn-stop-camera-stream" style="color:#DC2626; border-color:#DC2626; padding:0.5rem 0.85rem; font-size:0.85rem; font-weight:700;">
-            ⏹️ Stop Camera
+            Stop Camera
           </button>
           <button class="btn btn-secondary" id="btn-close-scanner" style="padding:0.5rem 0.85rem; font-size:0.85rem;">
             Close
@@ -12432,7 +12590,7 @@ Guidelines:
     } catch (e) {
       if (overlay) {
         overlay.innerHTML = `
-          <div style="font-size:2rem;">🧑‍🍳</div>
+          <div style="font-size:2rem;">${FusionIcons.chefHat}</div>
           <p style="margin:0.4rem 0 0; font-weight:700;">Simulated AR Camera Studio Active</p>
           <span style="font-size:0.75rem; color:#94A3B8;">(Live webcam stream or fallback virtual avatar)</span>
         `;
@@ -12480,8 +12638,8 @@ Guidelines:
         // Floating Gold Sparkles
         ctx.fillStyle = '#F59E0B';
         ctx.font = '14px sans-serif';
-        ctx.fillText('✨', canvas.width / 2 - 60, hatY + 20);
-        ctx.fillText('⭐', canvas.width / 2 + 50, hatY + 25);
+        
+        ctx.save(); ctx.translate(canvas.width / 2 + 50, hatY + 25); ctx.fillStyle = '#F59E0B'; ctx.beginPath(); for (let i = 0; i < 5; i++) { ctx.lineTo(Math.cos((18 + i * 72) * Math.PI / 180) * 12, -Math.sin((18 + i * 72) * Math.PI / 180) * 12); ctx.lineTo(Math.cos((54 + i * 72) * Math.PI / 180) * 5, -Math.sin((54 + i * 72) * Math.PI / 180) * 5); } ctx.closePath(); ctx.fill(); ctx.restore();
       }
       requestAnimationFrame(drawLoop);
     };
@@ -12535,7 +12693,7 @@ Guidelines:
           <video id="tour-camera-video" playsinline muted autoplay style="position:absolute; width:100%; height:100%; object-fit:cover;"></video>
           <canvas id="tour-camera-canvas" width="480" height="260" style="position:absolute; width:100%; height:100%; pointer-events:none; z-index:2;"></canvas>
           <div id="tour-camera-overlay" style="position:absolute; z-index:3; text-align:center; color:#E2E8F0; font-size:0.85rem; padding:1rem;">
-            <div style="font-size:2.2rem; animation:pulse 1s infinite;">🤖</div>
+            <div style="font-size:2.2rem; animation:pulse 1s infinite;">${FusionIcons.aiTour}</div>
             <p style="margin:0.5rem 0 0; font-weight:700;">AI Face Sensor Active & Verified</p>
             <span style="font-size:0.75rem; color:#94A3B8;">Vector Hash: <code>${faceHash.slice(0, 16)}...</code> (Permanent Identity)</span>
           </div>
@@ -12543,7 +12701,7 @@ Guidelines:
 
         <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:1rem;">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-            <strong style="color:var(--text-main); font-size:0.95rem;">🗣️ Self-Explanatory Website Guide</strong>
+            <strong style="color:var(--text-main); font-size:0.95rem;">Self-Explanatory Website Guide</strong>
             <span class="pill-badge" style="background:#10B981; color:#FFF; font-size:0.75rem; font-weight:800;">Face Present</span>
           </div>
           <p id="tour-ai-dialogue" style="font-size:0.85rem; color:var(--text-main); margin:0; line-height:1.5;">
@@ -12553,7 +12711,7 @@ Guidelines:
 
         <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
           <button class="btn btn-primary" id="btn-tour-speak-narration" style="flex:1; padding:0.55rem; font-size:0.85rem; font-weight:800;">
-            🔊 Narrate Interactive Tour (Indian Voice)
+            Narrate Interactive Tour (Indian Voice)
           </button>
           <button class="btn btn-secondary" id="btn-close-tour-modal" style="padding:0.55rem 1rem; font-size:0.85rem;">
             Close

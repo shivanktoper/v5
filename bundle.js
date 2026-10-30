@@ -15,6 +15,455 @@ if (typeof window !== 'undefined' && window.fetch) {
 // ==========================================
 // 1. DATASET (100% VEGETARIAN FUSIONS)
 // ==========================================
+
+// ============================================================================
+// CUSTOM SVG ICON SYSTEM — ZERO UNICODE EMOJIS (40+ BESPOKE VECTORS)
+// ============================================================================
+const FusionIcons = {
+  brandLogo: `<svg class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="#F97316" fill-opacity="0.22"/><path d="M4 14h16"/></svg>`,
+  gamesHub: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="#38BDF8" fill-opacity="0.16"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg>`,
+  kitchenLab: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="#F59E0B" fill-opacity="0.16"/><line x1="6" y1="17" x2="18" y2="17"/></svg>`,
+  fusionExplorer: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="#8B5CF6" fill-opacity="0.14"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+  trophy: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="#F59E0B" fill-opacity="0.24"/></svg>`,
+  cameraAr: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" fill="#38BDF8" fill-opacity="0.22"/></svg>`,
+  portfolioPdf: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="#10B981" fill-opacity="0.14"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`,
+  aiTour: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2" fill="#A855F7" fill-opacity="0.16"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><circle cx="8.5" cy="16" r="1" fill="currentColor"/><circle cx="15.5" cy="16" r="1" fill="currentColor"/></svg>`,
+  kidChef: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5" fill="#F97316" fill-opacity="0.18"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>`,
+  soundOn: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" fill-opacity="0.16"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`,
+  soundOff: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>`,
+  themeMoon: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" fill="#38BDF8" fill-opacity="0.2"/></svg>`,
+  themeSun: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4" fill="#F59E0B" fill-opacity="0.25"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>`,
+  adminLock: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="#F43F5E" fill-opacity="0.15"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`,
+  closeX: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`,
+  goldenPotato: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 6.5c2.5 2 3.5 6 2 9.5-1.5 3.5-5.5 5.5-9.5 4.5-4-1-6.5-4.5-5.5-8.5 1-4 4.5-7 8.5-6.5 1.8.2 3.3.2 4.5 1z" fill="#F59E0B" fill-opacity="0.32"/><circle cx="10" cy="10" r="0.8" fill="currentColor"/><circle cx="15" cy="13" r="0.8" fill="currentColor"/><circle cx="11" cy="15" r="0.8" fill="currentColor"/></svg>`,
+  timerClock: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8" fill="#0284C7" fill-opacity="0.16"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/><path d="M12 2v3"/></svg>`,
+  pause: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>`,
+  play: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 4 20 12 6 20 6 4" fill="currentColor" fill-opacity="0.2"/></svg>`,
+  stop: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor" fill-opacity="0.2"/></svg>`,
+  vegLeaf: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.24"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>`,
+  shieldCheck: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="#10B981" fill-opacity="0.16"/><path d="m9 12 2 2 4-4"/></svg>`,
+  flameStreak: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" fill="#F97316" fill-opacity="0.25"/></svg>`,
+  sparkles: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z" fill="#FBBF24" fill-opacity="0.24"/></svg>`,
+  panSkillet: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="12" r="7" fill="#F97316" fill-opacity="0.18"/><path d="m15 17 6 4"/></svg>`,
+  voiceWave: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" fill="#38BDF8" fill-opacity="0.2"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>`,
+  triviaBrain: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04Z" fill="#EC4899" fill-opacity="0.16"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04Z" fill="#8B5CF6" fill-opacity="0.16"/></svg>`,
+  scienceWheel: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" fill="#06B6D4" fill-opacity="0.15"/><circle cx="12" cy="12" r="2"/><path d="M12 3v7m0 4v7M3 12h7m4 0h7"/></svg>`,
+  mushroom: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13a8 8 0 0 1 16 0H4Z" fill="#D97706" fill-opacity="0.22"/><path d="M9 13v6a3 3 0 0 0 6 0v-6"/></svg>`,
+  citrusLime: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5c-4.5 0-9 1.5-11.5 4S3 16 3 20c4 0 8.5-2 11-4.5S19 9.5 19 5Z" fill="#84CC16" fill-opacity="0.28"/><path d="M5 19 19 5"/></svg>`,
+  chiliPepper: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6c2 2 2 6-1 10s-8 5-12 4c2-2 4-5 5-8s3-6 8-6Z" fill="#EF4444" fill-opacity="0.25"/><path d="M17 6c1-2 3-3 4-2"/></svg>`,
+  garlicClove: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2 3-7 5-7 11a7 7 0 0 0 14 0c0-6-5-8-7-11Z" fill="#E2E8F0" fill-opacity="0.3"/><path d="M12 3v18"/></svg>`,
+  hintBulb: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" fill="#FACC15" fill-opacity="0.25"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>`,
+  indiaBadge: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.1"/><line x1="2" y1="9.3" x2="22" y2="9.3" stroke="#F97316"/><line x1="2" y1="14.7" x2="22" y2="14.7" stroke="#10B981"/><circle cx="12" cy="12" r="2" stroke="#3B82F6"/></svg>`
+};
+
+const EMOJI_TO_SVG_MAP = {
+  '🍕': FusionIcons.brandLogo,
+  '🎮': FusionIcons.gamesHub,
+  '📖': FusionIcons.kitchenLab,
+  '🌐': FusionIcons.fusionExplorer,
+  '🏆': FusionIcons.trophy,
+  '🥇': FusionIcons.trophy,
+  '🥈': FusionIcons.trophy,
+  '🥉': FusionIcons.trophy,
+  '📷': FusionIcons.cameraAr,
+  '📸': FusionIcons.cameraAr,
+  '📄': FusionIcons.portfolioPdf,
+  '🤖': FusionIcons.aiTour,
+  '🎒': FusionIcons.kidChef,
+  '👶': FusionIcons.kidChef,
+  '🔊': FusionIcons.soundOn,
+  '🔇': FusionIcons.soundOff,
+  '🌙': FusionIcons.themeMoon,
+  '☀️': FusionIcons.themeSun,
+  '🔒': FusionIcons.adminLock,
+  '🔑': FusionIcons.adminLock,
+  '🗙': FusionIcons.closeX,
+  '🥔': FusionIcons.goldenPotato,
+  '🍠': FusionIcons.goldenPotato,
+  '⏱️': FusionIcons.timerClock,
+  '⏳': FusionIcons.timerClock,
+  '🌿': FusionIcons.vegLeaf,
+  '🌱': FusionIcons.vegLeaf,
+  '🛡️': FusionIcons.shieldCheck,
+  '🔥': FusionIcons.flameStreak,
+  '✨': FusionIcons.sparkles,
+  '🥘': FusionIcons.panSkillet,
+  '🍲': FusionIcons.panSkillet,
+  '🗣️': FusionIcons.voiceWave,
+  '🎤': FusionIcons.voiceWave,
+  '🧠': FusionIcons.triviaBrain,
+  '🧩': FusionIcons.triviaBrain,
+  '🎡': FusionIcons.scienceWheel,
+  '🎲': FusionIcons.scienceWheel,
+  '🍄': FusionIcons.mushroom,
+  '🍋': FusionIcons.citrusLime,
+  '🌶️': FusionIcons.chiliPepper,
+  '🧄': FusionIcons.garlicClove,
+  '🥜': FusionIcons.garlicClove,
+  '💡': FusionIcons.hintBulb,
+  '🇮🇳': FusionIcons.indiaBadge
+};
+
+const EMOJI_REGEX = new RegExp(
+  Object.keys(EMOJI_TO_SVG_MAP)
+    .sort((a, b) => b.length - a.length)
+    .map(k => k.replace(/[.*+?^\$\{\}()|[\]\\]/g, '\\$&'))
+    .join('|'),
+  'g'
+);
+
+function scrubEmojisInSubtree(root = document.body) {
+  if (!root || typeof document === 'undefined') return;
+
+  root.querySelectorAll?.('.modal-close-btn').forEach(btn => {
+    if (!btn.querySelector('svg')) {
+      btn.innerHTML = FusionIcons.closeX;
+      btn.setAttribute('aria-label', 'Close modal');
+    }
+  });
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent) return NodeFilter.FILTER_REJECT;
+      const tag = parent.tagName;
+      if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'TEXTAREA' || tag === 'CODE') {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return EMOJI_REGEX.test(node.nodeValue)
+        ? NodeFilter.FILTER_ACCEPT
+        : NodeFilter.FILTER_SKIP;
+    }
+  });
+
+  const nodesToReplace = [];
+  let currentNode;
+  while ((currentNode = walker.nextNode())) {
+    nodesToReplace.push(currentNode);
+  }
+
+  nodesToReplace.forEach(textNode => {
+    const val = textNode.nodeValue;
+    EMOJI_REGEX.lastIndex = 0;
+    if (!EMOJI_REGEX.test(val)) return;
+
+    const span = document.createElement('span');
+    span.className = 'svg-inline-text-wrap';
+    span.innerHTML = val.replace(EMOJI_REGEX, match => EMOJI_TO_SVG_MAP[match] || match);
+    textNode.parentNode?.replaceChild(span, textNode);
+  });
+}
+
+function initCustomSVGObserver() {
+  if (typeof document === 'undefined' || !document.body) return;
+  scrubEmojisInSubtree(document.body);
+  const observer = new MutationObserver(mutations => {
+    for (const m of mutations) {
+      m.addedNodes.forEach(node => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          scrubEmojisInSubtree(node);
+        }
+      });
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+}
+
+// ============================================================================
+// PART 4: HOT POTATO RUSH — FIXED DURATION TIMER & HUD CONTROLLER
+// ============================================================================
+const HotPotatoTimerState = {
+  durationSec: 60,
+  remainingMs: 60000,
+  lastFrameTime: 0,
+  isRunning: false,
+  isPaused: false,
+  lastBeepSecond: null
+};
+
+function ensureHotPotatoTimerHUD() {
+  if (typeof document === 'undefined') return;
+  const dialog = document.querySelector('#hot-potato-modal .hp-fullscreen-dialog');
+  if (!dialog || document.getElementById('hp-timer-hud-cluster')) return;
+
+  const barWrap = document.createElement('div');
+  barWrap.className = 'hp-timer-bar-track';
+  barWrap.innerHTML = `<div id="hp-timer-bar" class="hp-timer-bar-fill" style="width: 100%;"></div>`;
+  dialog.prepend(barWrap);
+
+  const headerEl = dialog.querySelector('.hp-fullscreen-header') || dialog;
+
+  const cluster = document.createElement('div');
+  cluster.id = 'hp-timer-hud-cluster';
+  cluster.className = 'hp-timer-hud-cluster';
+  cluster.innerHTML = `
+    <div class="hp-timer-pill" id="hp-timer-pill" aria-live="polite">
+      ${FusionIcons.timerClock}
+      <span id="hp-timer">01:00</span>
+    </div>
+    <div class="hp-duration-selector" role="group" aria-label="Round Duration">
+      <button type="button" class="hp-dur-btn" data-duration="45">45s</button>
+      <button type="button" class="hp-dur-btn active" data-duration="60">60s</button>
+      <button type="button" class="hp-dur-btn" data-duration="90">90s</button>
+    </div>
+    <div class="hp-hud-controls">
+      <button type="button" id="hp-pause-btn" class="hp-ctrl-btn" title="Pause / Resume Game (P)">
+        ${FusionIcons.pause}
+        <span id="hp-pause-label">Pause</span>
+      </button>
+      <button type="button" id="hp-stop-btn" class="hp-ctrl-btn hp-ctrl-danger" title="End Round">
+        ${FusionIcons.stop}
+        <span>End</span>
+      </button>
+    </div>
+  `;
+  headerEl.appendChild(cluster);
+
+  cluster.querySelectorAll('.hp-dur-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const sec = parseInt(btn.getAttribute('data-duration'), 10) || 60;
+      HotPotatoTimerState.durationSec = sec;
+      cluster.querySelectorAll('.hp-dur-btn').forEach(b => b.classList.toggle('active', b === btn));
+      resetHotPotatoTimer(sec);
+    });
+  });
+
+  document.getElementById('hp-pause-btn')?.addEventListener('click', togglePauseHotPotatoGame);
+  document.getElementById('hp-stop-btn')?.addEventListener('click', () => {
+    completeHotPotatoRound('STOPPED_BY_PLAYER');
+  });
+}
+
+function formatHotPotatoTime(ms) {
+  const clamped = Math.max(0, ms);
+  const totalSeconds = Math.ceil(clamped / 1000);
+  const mins = Math.floor(totalSeconds / 60);
+  const secs = totalSeconds % 60;
+  if (clamped <= 10000 && clamped > 0) {
+    const tenths = Math.floor((clamped % 1000) / 100);
+    return `00:${String(Math.floor(clamped / 1000)).padStart(2, '0')}.${tenths}`;
+  }
+  return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+function resetHotPotatoTimer(durationSec = HotPotatoTimerState.durationSec) {
+  HotPotatoTimerState.durationSec = durationSec;
+  HotPotatoTimerState.remainingMs = durationSec * 1000;
+  HotPotatoTimerState.lastFrameTime = performance.now();
+  HotPotatoTimerState.isPaused = false;
+  HotPotatoTimerState.lastBeepSecond = null;
+  updateHotPotatoTimerUI();
+}
+
+function updateHotPotatoTimerUI() {
+  if (typeof document === 'undefined') return;
+  const timerEl = document.getElementById('hp-timer');
+  const pillEl = document.getElementById('hp-timer-pill');
+  const barEl = document.getElementById('hp-timer-bar');
+  const totalMs = HotPotatoTimerState.durationSec * 1000;
+  const rem = Math.max(0, HotPotatoTimerState.remainingMs);
+  const pct = totalMs > 0 ? (rem / totalMs) * 100 : 0;
+
+  if (timerEl) timerEl.textContent = formatHotPotatoTime(rem);
+  if (barEl) {
+    barEl.style.width = `${pct.toFixed(2)}%`;
+    barEl.dataset.urgency = rem <= 10000 ? 'critical' : rem <= 25000 ? 'warning' : 'normal';
+  }
+  if (pillEl) {
+    pillEl.classList.toggle('is-critical', rem <= 10000 && rem > 0);
+  }
+}
+
+function tickHotPotatoFixedTimer(timestamp = performance.now()) {
+  if (!HotPotatoTimerState.isRunning || HotPotatoTimerState.isPaused) {
+    HotPotatoTimerState.lastFrameTime = timestamp;
+    return true;
+  }
+  const delta = Math.min(100, Math.max(0, timestamp - HotPotatoTimerState.lastFrameTime));
+  HotPotatoTimerState.lastFrameTime = timestamp;
+  HotPotatoTimerState.remainingMs = Math.max(0, HotPotatoTimerState.remainingMs - delta);
+
+  const currentSec = Math.ceil(HotPotatoTimerState.remainingMs / 1000);
+  if (currentSec <= 10 && currentSec > 0 && HotPotatoTimerState.lastBeepSecond !== currentSec) {
+    HotPotatoTimerState.lastBeepSecond = currentSec;
+    if (typeof sound !== 'undefined' && sound.playClick) {
+      sound.playClick();
+    }
+  }
+
+  updateHotPotatoTimerUI();
+
+  if (HotPotatoTimerState.remainingMs <= 0) {
+    completeHotPotatoRound('TIME_UP');
+    return false;
+  }
+  return true;
+}
+
+function togglePauseHotPotatoGame() {
+  if (!HotPotatoTimerState.isRunning) return;
+  HotPotatoTimerState.isPaused = !HotPotatoTimerState.isPaused;
+  HotPotatoTimerState.lastFrameTime = performance.now();
+
+  const pauseBtn = document.getElementById('hp-pause-btn');
+  if (pauseBtn) {
+    pauseBtn.innerHTML = HotPotatoTimerState.isPaused
+      ? `${FusionIcons.play}<span id="hp-pause-label">Resume</span>`
+      : `${FusionIcons.pause}<span id="hp-pause-label">Pause</span>`;
+  }
+}
+
+function completeHotPotatoRound(reason = 'TIME_UP') {
+  HotPotatoTimerState.isRunning = false;
+  HotPotatoTimerState.isPaused = false;
+
+  const body = document.getElementById('hp-fullscreen-body');
+  if (!body) return;
+
+  const existing = document.getElementById('hp-round-summary-overlay');
+  if (existing) existing.remove();
+
+  const scoreText = (document.getElementById('hp-score') || {}).textContent || '0';
+  const title = reason === 'TIME_UP'
+    ? 'Time Up! Golden Potato Plated!'
+    : 'Round Ended';
+
+  const overlay = document.createElement('div');
+  overlay.id = 'hp-round-summary-overlay';
+  overlay.className = 'hp-round-summary-overlay';
+  overlay.innerHTML = `
+    <div class="hp-summary-card">
+      <div class="hp-summary-icon">${FusionIcons.trophy}</div>
+      <h3 style="color:#FFFFFF; font-size:1.35rem; margin-bottom:0.4rem;">${title}</h3>
+      <p class="hp-summary-sub" style="color:var(--text-muted); font-size:0.9rem;">Fixed Duration Run: <strong>${HotPotatoTimerState.durationSec}s</strong></p>
+      <div class="hp-summary-stat" style="font-size:1.4rem; font-weight:800; margin:1.25rem 0; color:var(--primary);">Final Score: <strong>${scoreText}</strong></div>
+      <div class="hp-summary-actions" style="display:flex; justify-content:center; gap:0.75rem;">
+        <button type="button" id="hp-replay-btn" class="btn btn-primary" style="min-height:44px; padding:0.6rem 1.4rem;">Play ${HotPotatoTimerState.durationSec}s Again</button>
+      </div>
+    </div>
+  `;
+  body.appendChild(overlay);
+
+  if (typeof sound !== 'undefined' && sound.playVictoryFanfare) {
+    sound.playVictoryFanfare();
+  }
+
+  document.getElementById('hp-replay-btn')?.addEventListener('click', () => {
+    overlay.remove();
+    if (window.app && window.app.startStandaloneHotPotatoSimulation) {
+      const canvas = document.getElementById('hp-fullscreen-canvas');
+      if (canvas) window.app.startStandaloneHotPotatoSimulation(canvas);
+    }
+  });
+}
+
+function hookHotPotatoFixedTimer() {
+  // Hooks for global access and integration
+  window.startHotPotatoGame = function() {
+    if (window.app && window.app.openHotPotatoFullscreenModal) {
+      window.app.openHotPotatoFullscreenModal();
+    }
+  };
+  window.stopHotPotatoGame = function() {
+    if (window.app && window.app.closeHotPotatoFullscreenModal) {
+      window.app.closeHotPotatoFullscreenModal();
+    }
+  };
+}
+
+// ============================================================================
+// PART 5: SAFE WEBGL RENDERER & 2D TANDOORI COALS PARTICLE FALLBACK
+// ============================================================================
+function createSafeWebGLRenderer(options = {}) {
+  try {
+    if (typeof THREE !== 'undefined' && THREE.WebGLRenderer) {
+      const renderer = new THREE.WebGLRenderer({
+        antialias: true,
+        alpha: true,
+        powerPreference: 'high-performance',
+        ...options
+      });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      return renderer;
+    }
+  } catch (err) {
+    console.warn('[FusionFoodLab] WebGL context limit reached; activating 60fps 2D Canvas Hearth fallback.');
+  }
+  return null;
+}
+
+function mount2DTandooriCoalsFallback(containerOrCanvas) {
+  if (!containerOrCanvas) return;
+  const canvas = containerOrCanvas.tagName === 'CANVAS'
+    ? containerOrCanvas
+    : containerOrCanvas.querySelector('canvas') || document.createElement('canvas');
+
+  if (!canvas.parentElement && containerOrCanvas !== canvas) {
+    containerOrCanvas.appendChild(canvas);
+  }
+  canvas.width = canvas.clientWidth || 360;
+  canvas.height = canvas.clientHeight || 220;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  const embers = Array.from({ length: 36 }, (_, i) => ({
+    x: (canvas.width * 0.15) + (i / 36) * (canvas.width * 0.7),
+    y: canvas.height * (0.68 + (i % 3) * 0.08),
+    r: 8 + (i % 7) * 2.5,
+    phase: i * 0.45
+  }));
+
+  const sparks = Array.from({ length: 24 }, (_, i) => ({
+    x: Math.random() * canvas.width,
+    y: canvas.height * (0.3 + Math.random() * 0.5),
+    vy: 0.6 + Math.random() * 1.2,
+    size: 1.5 + Math.random() * 2,
+    alpha: 0.4 + Math.random() * 0.6
+  }));
+
+  function renderHearthFrame(t) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const glow = ctx.createRadialGradient(
+      canvas.width * 0.5, canvas.height * 0.75, 10,
+      canvas.width * 0.5, canvas.height * 0.75, canvas.width * 0.5
+    );
+    glow.addColorStop(0, 'rgba(249, 115, 22, 0.35)');
+    glow.addColorStop(1, 'rgba(15, 23, 42, 0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    embers.forEach(e => {
+      const pulse = 0.65 + 0.35 * Math.sin(t * 0.004 + e.phase);
+      ctx.beginPath();
+      ctx.arc(e.x, e.y, e.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(239, ${Math.floor(68 + 80 * pulse)}, 28, ${0.75 * pulse})`;
+      ctx.fill();
+    });
+
+    sparks.forEach(s => {
+      s.y -= s.vy;
+      if (s.y < 10) {
+        s.y = canvas.height * 0.75;
+        s.x = (canvas.width * 0.2) + Math.random() * (canvas.width * 0.6);
+      }
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(253, 224, 71, ${s.alpha})`;
+      ctx.fill();
+    });
+
+    requestAnimationFrame(renderHearthFrame);
+  }
+  requestAnimationFrame(renderHearthFrame);
+}
+
+if (typeof window !== 'undefined') {
+  window.FusionIcons = FusionIcons;
+  window.HotPotatoTimerState = HotPotatoTimerState;
+  window.createSafeWebGLRenderer = createSafeWebGLRenderer;
+  window.mount2DTandooriCoalsFallback = mount2DTandooriCoalsFallback;
+}
+
 const FUSION_DISHES = [
   {
     "id": "nikkei-ceviche",
@@ -2468,7 +2917,11 @@ class ThreeJSCulinaryManager {
 
   createRenderer(container) {
     if (!this.isSupported()) return null;
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
+    let renderer = createSafeWebGLRenderer();
+    if (!renderer) {
+      mount2DTandooriCoalsFallback(container);
+      return;
+    }
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     renderer.setPixelRatio(dpr);
     const width = container.clientWidth || 300;
@@ -4343,6 +4796,10 @@ class FusionApp {
     this.initScrolltideShowcase();
     this.updateNavAccessibility();
     this.applyV2FeatureVisibility();
+    try {
+      initCustomSVGObserver();
+      hookHotPotatoFixedTimer();
+    } catch (e) {}
 
     // Auto-prompt onboarding modal on first session if not onboarded
     if (this.state.onboarded === false) {
@@ -6620,6 +7077,8 @@ class FusionApp {
       diffBadge.innerText = diff.role === 'student' ? '🎒 Kid Chef Mode' : '👨‍🍳 Pro Parent Mode';
     }
 
+    ensureHotPotatoTimerHUD();
+    resetHotPotatoTimer(HotPotatoTimerState.durationSec);
     const canvas = document.getElementById('hp-fullscreen-canvas');
     if (!canvas) return;
 

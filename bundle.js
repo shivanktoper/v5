@@ -1580,72 +1580,576 @@ const CHEF_RANKS = [
 
 
 // ==========================================
-// CENTRALIZED FUSION ICONS (SCALABLE 24x24 SVGs)
-// ==========================================
+
+// ============================================================================
+// PART 3: CENTRALIZED FUSION ICONS REGISTRY (ZERO UNICODE EMOJIS)
+// ============================================================================
 const FusionIcons = {
-  brandLogo: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-brandLogo"><circle cx="12" cy="12" r="9" stroke="var(--primary, #E05A47)"/><path d="M12 3a9 9 0 0 1 9 9c0 4.97-4.03 9-9 9" stroke="var(--secondary, #2A9D8F)" stroke-dasharray="2 2"/><path d="M12 7v5l3 3" stroke="currentColor"/></svg>`,
-  gamesHub: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-gamesHub"><rect x="2" y="6" width="20" height="12" rx="4" fill="rgba(42,157,143,0.12)" stroke="currentColor"/><path d="M6 12h4m-2-2v4m7-2h.01m3-2h.01" stroke-width="2.5"/></svg>`,
-  kitchenLab: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-kitchenLab"><path d="M6 3v6a3 3 0 0 0 6 0V3M9 12v9m9-18v18a2 2 0 0 1-2 2h-1" stroke="currentColor"/><path d="M16 6h4" stroke="var(--primary, #E05A47)"/></svg>`,
-  fusionExplorer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-fusionExplorer"><circle cx="12" cy="12" r="10" stroke="currentColor"/><path d="M16.24 7.76l-2.12 6.36-6.36 2.12 2.12-6.36 6.36-2.12z" fill="rgba(224,90,71,0.25)" stroke="var(--primary, #E05A47)"/></svg>`,
-  trophy: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trophy"><path d="M6 9H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2m12 6h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2" stroke="currentColor"/><path d="M6 3h12v7a6 6 0 0 1-12 0V3z" fill="rgba(245,158,11,0.18)" stroke="var(--accent-gold, #F59E0B)"/><path d="M12 16v5m-4 0h8" stroke="currentColor"/></svg>`,
-  cameraAr: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-cameraAr"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" stroke="currentColor"/><circle cx="12" cy="13" r="4" fill="rgba(42,157,143,0.2)" stroke="var(--secondary, #2A9D8F)"/><path d="M9 13h6" stroke="var(--primary, #E05A47)" stroke-dasharray="1 1"/></svg>`,
-  portfolioPdf: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-portfolioPdf"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor"/><polyline points="14 2 14 8 20 8" stroke="currentColor"/><line x1="16" y1="13" x2="8" y2="13" stroke="var(--primary, #E05A47)"/><line x1="16" y1="17" x2="8" y2="17" stroke="currentColor"/><polyline points="10 9 9 9 8 9" stroke="var(--secondary, #2A9D8F)"/></svg>`,
-  aiTour: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-aiTour"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor"/><circle cx="9" cy="10" r="1.5" fill="var(--primary, #E05A47)"/><circle cx="15" cy="10" r="1.5" fill="var(--primary, #E05A47)"/><path d="M9 15c.8 1 2.2 1 3 1s2.2 0 3-1" stroke="currentColor"/><line x1="12" y1="1" x2="12" y2="4" stroke="currentColor"/></svg>`,
-  kidChef: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-kidChef"><path d="M6 10a4 4 0 0 1 8 0 4 4 0 0 1 4 4v2H2v-2a4 4 0 0 1 4-4z" stroke="currentColor"/><circle cx="10" cy="10" r="2" fill="var(--secondary, #2A9D8F)"/><path d="M4 16v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4" stroke="currentColor"/><path d="M6 6a3 3 0 0 1 6-2 3 3 0 0 1 6 2" stroke="var(--primary, #E05A47)"/></svg>`,
-  soundOn: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-soundOn"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="rgba(42,157,143,0.18)" stroke="currentColor"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" stroke="var(--secondary, #2A9D8F)"/></svg>`,
-  soundOff: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-soundOff"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" stroke="currentColor"/><line x1="23" y1="9" x2="17" y2="15" stroke="var(--primary, #E05A47)"/><line x1="17" y1="9" x2="23" y2="15" stroke="var(--primary, #E05A47)"/></svg>`,
-  themeMoon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-themeMoon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="rgba(245,158,11,0.15)" stroke="var(--accent-gold, #F59E0B)"/></svg>`,
-  themeSun: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-themeSun"><circle cx="12" cy="12" r="5" fill="rgba(245,158,11,0.2)" stroke="var(--accent-gold, #F59E0B)"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor"/></svg>`,
-  adminLock: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-adminLock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="rgba(42,157,143,0.12)" stroke="currentColor"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="var(--primary, #E05A47)"/><circle cx="12" cy="16" r="1.5" fill="currentColor"/></svg>`,
-  closeX: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-closeX"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
-  goldenPotato: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-goldenPotato"><path d="M12 3c4.5 0 9 2.5 9 7.5s-3.5 10.5-9 10.5S3 17 3 11 7.5 3 12 3z" fill="rgba(245,158,11,0.25)" stroke="#F59E0B"/><circle cx="9" cy="9" r="1" fill="#D97706"/><circle cx="15" cy="13" r="1" fill="#D97706"/><circle cx="10" cy="15" r="1" fill="#D97706"/><path d="M13 7a2 2 0 0 1 2 2" stroke="#FDE68A" stroke-linecap="round"/></svg>`,
-  timerClock: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-timerClock"><circle cx="12" cy="12" r="9" stroke="currentColor"/><polyline points="12 7 12 12 15 15" stroke="var(--primary, #E05A47)"/></svg>`,
-  pause: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pause"><rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/><rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/></svg>`,
-  play: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-play"><polygon points="5 3 19 12 5 21 5 3" fill="rgba(42,157,143,0.2)" stroke="currentColor"/></svg>`,
-  stop: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-stop"><rect x="4" y="4" width="16" height="16" rx="2" fill="rgba(239,68,68,0.2)" stroke="var(--accent-red, #EF4444)"/></svg>`,
-  vegLeaf: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-vegLeaf"><path d="M2 22s5-1 9-5 5-9 5-9-1 5-5 9-9 5-9 5z" fill="rgba(16,185,129,0.2)" stroke="#10B981"/><path d="M11 13l7-7" stroke="#10B981"/></svg>`,
-  shieldCheck: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-shieldCheck"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="rgba(42,157,143,0.15)" stroke="currentColor"/><polyline points="9 12 11 14 15 10" stroke="#10B981"/></svg>`,
-  flameStreak: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-flameStreak"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 17c1.38 0 2.5-1.12 2.5-2.5 0-1.78-1.5-2.88-2.5-4.5-1 1.62-2.5 2.72-2.5 4.5z" fill="rgba(245,158,11,0.4)" stroke="#F59E0B"/><path d="M12 2c-3.5 4-7 7.5-7 12a7 7 0 0 0 14 0c0-4.5-3.5-8-7-12z" stroke="#E05A47"/></svg>`,
-  buildDish: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-buildDish"><path d="M4 11h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z" fill="rgba(224,90,71,0.2)"/><path d="M2 11h20M7 8a4 4 0 0 1 4-4 4 4 0 0 1 4 4"/></svg>`,
-  pronunciation: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pronunciation"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="rgba(42,157,143,0.15)" stroke="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4m-4 0h8" stroke="currentColor"/></svg>`,
-  trivia: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trivia"><path d="M9.5 2A4.5 4.5 0 0 0 5 6.5c0 1.2.5 2.3 1.3 3.1A6 6 0 0 0 5 13a6 6 0 0 0 4 5.7V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1.3A6 6 0 0 0 19 13a6 6 0 0 0-1.3-3.4A4.5 4.5 0 0 0 19 6.5 4.5 4.5 0 0 0 14.5 2h-5z" fill="rgba(245,158,11,0.18)"/><line x1="12" y1="6" x2="12" y2="14"/></svg>`,
-  indiaMap: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-indiaMap"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" fill="rgba(42,157,143,0.15)"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>`,
-  spinScience: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-spinScience"><circle cx="12" cy="12" r="10" fill="rgba(245,158,11,0.15)"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="4.93" y2="19.07"/><circle cx="12" cy="12" r="3" fill="#FFF"/></svg>`,
-  tandoorSkewer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-tandoorSkewer"><line x1="3" y1="21" x2="21" y2="3"/><circle cx="9" cy="15" r="3" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><circle cx="15" cy="9" r="3" fill="rgba(224,90,71,0.3)" stroke="#E05A47"/></svg>`,
-  eye: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3" fill="rgba(42,157,143,0.2)" stroke="var(--secondary, #2A9D8F)"/></svg>`,
-  eyeOff: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-eyeOff"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23" stroke="var(--primary, #E05A47)"/></svg>`,
-  check: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-check"><polyline points="20 6 9 17 4 12" stroke="#10B981"/></svg>`,
-  cross: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-cross"><line x1="18" y1="6" x2="6" y2="18" stroke="#EF4444"/><line x1="6" y1="6" x2="18" y2="18" stroke="#EF4444"/></svg>`,
-  star: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="rgba(245,158,11,0.25)" stroke="#F59E0B"/></svg>`,
-  starEmpty: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-starEmpty"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor"/></svg>`,
-  refresh: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-refresh"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>`,
-  sparkles: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-sparkles"><path d="M12 3l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/><path d="M19 15l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" stroke="#2A9D8F"/></svg>`,
-  bulb: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-bulb"><path d="M9 18h6m-4 4h2m-5-8a6 6 0 1 1 8 0c-.5.8-1.5 2-1.5 3h-5c0-1-1-2.2-1.5-3z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
-  alert: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-alert"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
-  gear: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-gear"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
-  key: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-key"><path d="M21 2l-2 2m-1.5 1.5L14 9l-3-3L8 9 5 6 2 9l6 6 3-3 3.5 3.5M16 5l3 3"/><circle cx="7.5" cy="16.5" r="4.5" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
-  pantry: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pantry"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
-  chefHat: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-chefHat"><path d="M6 14v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4M4 14c-1.5 0-2-1.5-2-3a4 4 0 0 1 6-3.5 4.5 4.5 0 0 1 8 0A4 4 0 0 1 22 11c0 1.5-.5 3-2 3H4z" fill="rgba(255,255,255,0.1)" stroke="currentColor"/><line x1="6" y1="17" x2="18" y2="17" stroke="var(--primary, #E05A47)"/></svg>`,
-  mapPin: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-mapPin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="rgba(224,90,71,0.18)" stroke="#E05A47"/><circle cx="12" cy="10" r="3" fill="currentColor"/></svg>`,
-  medal1: /* Gold Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal1"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
-  medal2: /* Silver Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal2"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
-  medal3: /* Bronze Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal3"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
-  trash: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trash"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>`,
-  download: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
-  upload: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-upload"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>`,
-  thermometer: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-thermometer"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>`,
-  book: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`
+  brandLogo: `<svg class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="#F97316" fill-opacity="0.22"/><path d="M4 14h16"/></svg>`,
+  gamesHub: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="#38BDF8" fill-opacity="0.16"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg>`,
+  kitchenLab: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="#F59E0B" fill-opacity="0.16"/><line x1="6" y1="17" x2="18" y2="17"/></svg>`,
+  fusionExplorer: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="#8B5CF6" fill-opacity="0.14"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+  trophy: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="#F59E0B" fill-opacity="0.24"/></svg>`,
+  cameraAr: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" fill="#38BDF8" fill-opacity="0.22"/></svg>`,
+  portfolioPdf: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="#10B981" fill-opacity="0.14"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>`,
+  aiTour: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2" fill="#A855F7" fill-opacity="0.16"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><circle cx="8.5" cy="16" r="1" fill="currentColor"/><circle cx="15.5" cy="16" r="1" fill="currentColor"/></svg>`,
+  kidChef: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5" fill="#F97316" fill-opacity="0.18"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>`,
+  soundOn: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" fill-opacity="0.16"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`,
+  soundOff: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>`,
+  themeMoon: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" fill="#38BDF8" fill-opacity="0.2"/></svg>`,
+  themeSun: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4" fill="#F59E0B" fill-opacity="0.25"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>`,
+  adminLock: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="#F43F5E" fill-opacity="0.15"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`,
+  closeX: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`,
+  goldenPotato: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 6.5c2.5 2 3.5 6 2 9.5-1.5 3.5-5.5 5.5-9.5 4.5-4-1-6.5-4.5-5.5-8.5 1-4 4.5-7 8.5-6.5 1.8.2 3.3.2 4.5 1z" fill="#F59E0B" fill-opacity="0.32"/><circle cx="10" cy="10" r="0.8" fill="currentColor"/><circle cx="15" cy="13" r="0.8" fill="currentColor"/><circle cx="11" cy="15" r="0.8" fill="currentColor"/></svg>`,
+  timerClock: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8" fill="#0284C7" fill-opacity="0.16"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/><path d="M12 2v3"/></svg>`,
+  pause: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>`,
+  play: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 4 20 12 6 20 6 4" fill="currentColor" fill-opacity="0.2"/></svg>`,
+  stop: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor" fill-opacity="0.2"/></svg>`,
+  vegLeaf: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.24"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>`,
+  shieldCheck: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="#10B981" fill-opacity="0.16"/><path d="m9 12 2 2 4-4"/></svg>`,
+  flameStreak: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" fill="#F97316" fill-opacity="0.25"/></svg>`,
+  sparkles: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z" fill="#FBBF24" fill-opacity="0.24"/></svg>`,
+  panSkillet: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="12" r="7" fill="#F97316" fill-opacity="0.18"/><path d="m15 17 6 4"/></svg>`,
+  voiceWave: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" fill="#38BDF8" fill-opacity="0.2"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>`,
+  triviaBrain: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04Z" fill="#EC4899" fill-opacity="0.16"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04Z" fill="#8B5CF6" fill-opacity="0.16"/></svg>`,
+  scienceWheel: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" fill="#06B6D4" fill-opacity="0.15"/><circle cx="12" cy="12" r="2"/><path d="M12 3v7m0 4v7M3 12h7m4 0h7"/></svg>`,
+  mushroom: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13a8 8 0 0 1 16 0H4Z" fill="#D97706" fill-opacity="0.22"/><path d="M9 13v6a3 3 0 0 0 6 0v-6"/></svg>`,
+  citrusLime: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5c-4.5 0-9 1.5-11.5 4S3 16 3 20c4 0 8.5-2 11-4.5S19 9.5 19 5Z" fill="#84CC16" fill-opacity="0.28"/><path d="M5 19 19 5"/></svg>`,
+  chiliPepper: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6c2 2 2 6-1 10s-8 5-12 4c2-2 4-5 5-8s3-6 8-6Z" fill="#EF4444" fill-opacity="0.25"/><path d="M17 6c1-2 3-3 4-2"/></svg>`,
+  garlicClove: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2 3-7 5-7 11a7 7 0 0 0 14 0c0-6-5-8-7-11Z" fill="#E2E8F0" fill-opacity="0.3"/><path d="M12 3v18"/></svg>`,
+  hintBulb: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" fill="#FACC15" fill-opacity="0.25"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>`,
+  indiaBadge: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.1"/><line x1="2" y1="9.3" x2="22" y2="9.3" stroke="#F97316"/><line x1="2" y1="14.7" x2="22" y2="14.7" stroke="#10B981"/><circle cx="12" cy="12" r="2" stroke="#3B82F6"/></svg>`,
+  buildDish: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-6z" fill="rgba(224,90,71,0.2)"/><path d="M2 11h20M7 8a4 4 0 0 1 4-4 4 4 0 0 1 4 4"/></svg>`,
+  pronunciation: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="rgba(42,157,143,0.15)" stroke="currentColor"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4m-4 0h8" stroke="currentColor"/></svg>`,
+  trivia: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A4.5 4.5 0 0 0 5 6.5c0 1.2.5 2.3 1.3 3.1A6 6 0 0 0 5 13a6 6 0 0 0 4 5.7V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1.3A6 6 0 0 0 19 13a6 6 0 0 0-1.3-3.4A4.5 4.5 0 0 0 19 6.5 4.5 4.5 0 0 0 14.5 2h-5z" fill="rgba(245,158,11,0.18)"/><line x1="12" y1="6" x2="12" y2="14"/></svg>`,
+  indiaMap: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" fill="rgba(42,157,143,0.15)"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>`,
+  spinScience: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="rgba(245,158,11,0.15)"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/><line x1="19.07" y1="4.93" x2="4.93" y2="19.07"/><circle cx="12" cy="12" r="3" fill="#FFF"/></svg>`,
+  tandoorSkewer: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="3"/><circle cx="9" cy="15" r="3" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><circle cx="15" cy="9" r="3" fill="rgba(224,90,71,0.3)" stroke="#E05A47"/></svg>`,
+  eye: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3" fill="rgba(42,157,143,0.2)" stroke="var(--secondary, #2A9D8F)"/></svg>`,
+  eyeOff: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23" stroke="var(--primary, #E05A47)"/></svg>`,
+  check: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" stroke="#10B981"/></svg>`,
+  cross: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18" stroke="#EF4444"/><line x1="6" y1="6" x2="18" y2="18" stroke="#EF4444"/></svg>`,
+  star: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" fill="rgba(245,158,11,0.25)" stroke="#F59E0B"/></svg>`,
+  starEmpty: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor"/></svg>`,
+  refresh: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>`,
+  bulb: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6m-4 4h2m-5-8a6 6 0 1 1 8 0c-.5.8-1.5 2-1.5 3h-5c0-1-1-2.2-1.5-3z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
+  alert: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+  gear: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
+  key: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-1.5 1.5L14 9l-3-3L8 9 5 6 2 9l6 6 3-3 3.5 3.5M16 5l3 3"/><circle cx="7.5" cy="16.5" r="4.5" fill="rgba(245,158,11,0.2)" stroke="#F59E0B"/></svg>`,
+  pantry: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
+  chefHat: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4M4 14c-1.5 0-2-1.5-2-3a4 4 0 0 1 6-3.5 4.5 4.5 0 0 1 8 0A4 4 0 0 1 22 11c0 1.5-.5 3-2 3H4z" fill="rgba(255,255,255,0.1)" stroke="currentColor"/><line x1="6" y1="17" x2="18" y2="17" stroke="var(--primary, #E05A47)"/></svg>`,
+  mapPin: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="rgba(224,90,71,0.18)" stroke="#E05A47"/><circle cx="12" cy="10" r="3" fill="currentColor"/></svg>`,
+  medal1: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
+  medal2: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
+  medal3: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
+  trash: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>`,
+  download: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
+  upload: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>`,
+  thermometer: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>`,
+  book: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`
 };
 
-// Hot Potato Fixed Duration Timer State
+const EMOJI_TO_SVG_MAP = {
+  '\u{1F355}': FusionIcons.brandLogo,
+  '\u{1F3AE}': FusionIcons.gamesHub,
+  '\u{1F4D6}': FusionIcons.kitchenLab,
+  '\u{1F310}': FusionIcons.fusionExplorer,
+  '\u{1F3C6}': FusionIcons.trophy,
+  '\u{1F947}': FusionIcons.medal1,
+  '\u{1F948}': FusionIcons.medal2,
+  '\u{1F949}': FusionIcons.medal3,
+  '\u{1F4F7}': FusionIcons.cameraAr,
+  '\u{1F4F8}': FusionIcons.cameraAr,
+  '\u{1F4C4}': FusionIcons.portfolioPdf,
+  '\u{1F916}': FusionIcons.aiTour,
+  '\u{1F392}': FusionIcons.kidChef,
+  '\u{1F476}': FusionIcons.kidChef,
+  '\u{1F50A}': FusionIcons.soundOn,
+  '\u{1F507}': FusionIcons.soundOff,
+  '\u{1F319}': FusionIcons.themeMoon,
+  '\u{2600}️': FusionIcons.themeSun,
+  '\u{1F512}': FusionIcons.adminLock,
+  '\u{1F511}': FusionIcons.adminLock,
+  '\u{1F5D9}': FusionIcons.closeX,
+  '\u{1F954}': FusionIcons.goldenPotato,
+  '\u{1F360}': FusionIcons.goldenPotato,
+  '\u{23F1}️': FusionIcons.timerClock,
+  '\u{23F3}': FusionIcons.timerClock,
+  '\u{1F33F}': FusionIcons.vegLeaf,
+  '\u{1F331}': FusionIcons.vegLeaf,
+  '\u{1F6E1}️': FusionIcons.shieldCheck,
+  '\u{1F525}': FusionIcons.flameStreak,
+  '\u{2728}': FusionIcons.sparkles,
+  '\u{1F958}': FusionIcons.panSkillet,
+  '\u{1F372}': FusionIcons.panSkillet,
+  '\u{1F5E3}️': FusionIcons.voiceWave,
+  '\u{1F3A4}': FusionIcons.voiceWave,
+  '\u{1F9E0}': FusionIcons.triviaBrain,
+  '\u{1F9E9}': FusionIcons.triviaBrain,
+  '\u{1F3A1}': FusionIcons.scienceWheel,
+  '\u{1F3B2}': FusionIcons.scienceWheel,
+  '\u{1F344}': FusionIcons.mushroom,
+  '\u{1F34B}': FusionIcons.citrusLime,
+  '\u{1F336}️': FusionIcons.chiliPepper,
+  '\u{1F9C4}': FusionIcons.garlicClove,
+  '\u{1F95C}': FusionIcons.garlicClove,
+  '\u{1F4A1}': FusionIcons.hintBulb,
+  '\u{1F1EE}\u{1F1F3}': FusionIcons.indiaBadge
+};
+
+const EMOJI_REGEX = new RegExp(
+  Object.keys(EMOJI_TO_SVG_MAP)
+    .sort((a, b) => b.length - a.length)
+    .map(k => k.replace(/[.*+?^${}()|[]\]/g, '\\$&'))
+    .join('|'),
+  'g'
+);
+
+function scrubEmojisInSubtree(root = document.body) {
+  if (!root || typeof document === 'undefined') return;
+
+  root.querySelectorAll?.('.modal-close-btn').forEach(btn => {
+    if (!btn.querySelector('svg')) {
+      btn.innerHTML = FusionIcons.closeX;
+      btn.setAttribute('aria-label', 'Close modal');
+    }
+  });
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent) return NodeFilter.FILTER_REJECT;
+      const tag = parent.tagName;
+      if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'TEXTAREA' || tag === 'CODE') {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return EMOJI_REGEX.test(node.nodeValue)
+        ? NodeFilter.FILTER_ACCEPT
+        : NodeFilter.FILTER_SKIP;
+    }
+  });
+
+  const nodesToReplace = [];
+  let currentNode;
+  while ((currentNode = walker.nextNode())) {
+    nodesToReplace.push(currentNode);
+  }
+
+  nodesToReplace.forEach(textNode => {
+    const val = textNode.nodeValue;
+    EMOJI_REGEX.lastIndex = 0;
+    if (!EMOJI_REGEX.test(val)) return;
+
+    const span = document.createElement('span');
+    span.className = 'svg-inline-text-wrap';
+    span.innerHTML = val.replace(EMOJI_REGEX, match => EMOJI_TO_SVG_MAP[match] || match);
+    textNode.parentNode?.replaceChild(span, textNode);
+  });
+}
+
+function initCustomSVGObserver() {
+  if (typeof document === 'undefined' || !document.body) return;
+  scrubEmojisInSubtree(document.body);
+  const observer = new MutationObserver(mutations => {
+    for (const m of mutations) {
+      m.addedNodes.forEach(node => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          scrubEmojisInSubtree(node);
+        }
+      });
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+}
+
+// ============================================================================
+// PART 4: HOT POTATO RUSH — FIXED DURATION TIMER & HUD CONTROLLER
+// ============================================================================
 const HotPotatoTimerState = {
   durationSec: 60,
   remainingMs: 60000,
-  isPaused: false,
-  isRunning: false,
   lastFrameTime: 0,
-  tickAudioLastSec: -1
+  isRunning: false,
+  isPaused: false,
+  lastBeepSecond: null
 };
+
+function ensureHotPotatoTimerHUD() {
+  if (typeof document === 'undefined') return;
+  const dialog = document.querySelector('#hot-potato-modal .hp-fullscreen-dialog');
+  if (!dialog) return;
+
+  let barTrack = dialog.querySelector('.hp-timer-bar-track');
+  if (!barTrack) {
+    barTrack = document.createElement('div');
+    barTrack.className = 'hp-timer-bar-track';
+    barTrack.innerHTML = `<div id="hp-timer-bar" class="hp-timer-bar-fill" style="width: 100%;"></div>`;
+    dialog.prepend(barTrack);
+  }
+
+  const headerEl = dialog.querySelector('.hp-fullscreen-header') || dialog;
+  let cluster = document.getElementById('hp-timer-hud-cluster');
+  if (!cluster) {
+    cluster = document.createElement('div');
+    cluster.id = 'hp-timer-hud-cluster';
+    cluster.className = 'hp-timer-hud-cluster';
+    cluster.innerHTML = `
+      <div class="hp-timer-pill" id="hp-timer-pill" aria-live="polite">
+        ${FusionIcons.timerClock}
+        <span id="hp-timer">01:00</span>
+      </div>
+      <div class="hp-duration-selector" role="group" aria-label="Round Duration">
+        <button type="button" class="hp-dur-btn" data-duration="45">45s</button>
+        <button type="button" class="hp-dur-btn active" data-duration="60">60s</button>
+        <button type="button" class="hp-dur-btn" data-duration="90">90s</button>
+      </div>
+      <div class="hp-hud-controls">
+        <button type="button" id="hp-pause-btn" class="hp-ctrl-btn" title="Pause / Resume Game (P)">
+          ${FusionIcons.pause}
+          <span id="hp-pause-label">Pause</span>
+        </button>
+        <button type="button" id="hp-stop-btn" class="hp-ctrl-btn hp-ctrl-danger" title="End Round">
+          ${FusionIcons.stop}
+          <span>End</span>
+        </button>
+      </div>
+    `;
+    const closeBtn = document.getElementById('close-hot-potato-modal-btn');
+    if (closeBtn && closeBtn.parentElement === headerEl) {
+      headerEl.insertBefore(cluster, closeBtn);
+    } else {
+      headerEl.appendChild(cluster);
+    }
+  }
+
+  if (!cluster.dataset.bound) {
+    cluster.dataset.bound = 'true';
+    cluster.querySelectorAll('.hp-dur-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const sec = parseInt(btn.getAttribute('data-duration'), 10) || 60;
+        HotPotatoTimerState.durationSec = sec;
+        cluster.querySelectorAll('.hp-dur-btn').forEach(b => b.classList.toggle('active', b === btn));
+        resetHotPotatoTimer(sec);
+      });
+    });
+
+    document.getElementById('hp-pause-btn')?.addEventListener('click', togglePauseHotPotatoGame);
+    document.getElementById('hp-stop-btn')?.addEventListener('click', () => {
+      completeHotPotatoRound('STOPPED_BY_PLAYER');
+    });
+  }
+}
+
+function formatHotPotatoTime(ms) {
+  const clamped = Math.max(0, ms);
+  const totalSeconds = Math.ceil(clamped / 1000);
+  const mins = Math.floor(totalSeconds / 60);
+  const secs = totalSeconds % 60;
+  if (clamped <= 10000 && clamped > 0) {
+    const tenths = Math.floor((clamped % 1000) / 100);
+    return `00:${String(Math.floor(clamped / 1000)).padStart(2, '0')}.${tenths}`;
+  }
+  return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+function resetHotPotatoTimer(durationSec = HotPotatoTimerState.durationSec) {
+  HotPotatoTimerState.durationSec = durationSec;
+  HotPotatoTimerState.remainingMs = durationSec * 1000;
+  HotPotatoTimerState.lastFrameTime = performance.now();
+  HotPotatoTimerState.isPaused = false;
+  HotPotatoTimerState.lastBeepSecond = null;
+  updateHotPotatoTimerUI();
+}
+
+function updateHotPotatoTimerUI() {
+  if (typeof document === 'undefined') return;
+  const timerEl = document.getElementById('hp-timer');
+  const pillEl = document.getElementById('hp-timer-pill');
+  const barEl = document.getElementById('hp-timer-bar');
+  const totalMs = HotPotatoTimerState.durationSec * 1000;
+  const rem = Math.max(0, HotPotatoTimerState.remainingMs);
+  const pct = totalMs > 0 ? (rem / totalMs) * 100 : 0;
+
+  if (timerEl) timerEl.textContent = formatHotPotatoTime(rem);
+  if (barEl) {
+    barEl.style.width = `${pct.toFixed(2)}%`;
+    barEl.dataset.urgency = rem <= 10000 ? 'critical' : rem <= 25000 ? 'warning' : 'normal';
+  }
+  if (pillEl) {
+    pillEl.classList.toggle('is-critical', rem <= 10000 && rem > 0);
+  }
+}
+
+function playSynthTick(freq = 880) {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    if (!window._tickAudioCtx) window._tickAudioCtx = new AudioCtx();
+    const ctx = window._tickAudioCtx;
+    if (ctx.state === 'suspended') ctx.resume();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'triangle';
+    osc.frequency.setValueAtTime(freq, ctx.currentTime);
+    gain.gain.setValueAtTime(0.18, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.08);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.08);
+  } catch (e) {}
+}
+
+function tickHotPotatoFixedTimer(timestamp = performance.now()) {
+  if (!HotPotatoTimerState.isRunning || HotPotatoTimerState.isPaused) {
+    HotPotatoTimerState.lastFrameTime = timestamp;
+    return true;
+  }
+  const delta = Math.min(100, Math.max(0, timestamp - HotPotatoTimerState.lastFrameTime));
+  HotPotatoTimerState.lastFrameTime = timestamp;
+  HotPotatoTimerState.remainingMs = Math.max(0, HotPotatoTimerState.remainingMs - delta);
+
+  const currentSec = Math.ceil(HotPotatoTimerState.remainingMs / 1000);
+  if (currentSec <= 10 && currentSec > 0 && HotPotatoTimerState.lastBeepSecond !== currentSec) {
+    HotPotatoTimerState.lastBeepSecond = currentSec;
+    playSynthTick(880 + (10 - currentSec) * 35);
+  }
+
+  updateHotPotatoTimerUI();
+
+  if (HotPotatoTimerState.remainingMs <= 0) {
+    completeHotPotatoRound('TIME_UP');
+    return false;
+  }
+  return true;
+}
+
+function togglePauseHotPotatoGame() {
+  if (!HotPotatoTimerState.isRunning) return;
+  HotPotatoTimerState.isPaused = !HotPotatoTimerState.isPaused;
+  HotPotatoTimerState.lastFrameTime = performance.now();
+
+  const pauseBtn = document.getElementById('hp-pause-btn');
+  if (pauseBtn) {
+    pauseBtn.innerHTML = HotPotatoTimerState.isPaused
+      ? `${FusionIcons.play}<span id="hp-pause-label">Resume</span>`
+      : `${FusionIcons.pause}<span id="hp-pause-label">Pause</span>`;
+  }
+}
+
+function completeHotPotatoRound(reason = 'TIME_UP', score = null, served = 0, perfects = 0) {
+  HotPotatoTimerState.isRunning = false;
+  HotPotatoTimerState.isPaused = false;
+  if (typeof window._origStopHotPotatoGame === 'function') {
+    window._origStopHotPotatoGame();
+  } else if (typeof stopHotPotatoGame === 'function') {
+    stopHotPotatoGame();
+  }
+  if (window.app && window.app.standaloneHPLoop) {
+    cancelAnimationFrame(window.app.standaloneHPLoop);
+    window.app.standaloneHPLoop = null;
+  }
+
+  const body = document.getElementById('hp-fullscreen-body');
+  if (!body) return;
+
+  const existing = document.getElementById('hp-round-summary-overlay');
+  if (existing) existing.remove();
+
+  const finalScore = score !== null ? String(score) : ((document.getElementById('hp-score') || {}).textContent || '0');
+  const title = reason === 'TIME_UP'
+    ? 'Time Up! Golden Potato Plated!'
+    : (reason === 'STOPPED_BY_PLAYER' || reason === 'STOPPED') ? 'Round Stopped' : 'Round Ended';
+
+  const overlay = document.createElement('div');
+  overlay.id = 'hp-round-summary-overlay';
+  overlay.className = 'hp-round-summary-overlay';
+  overlay.innerHTML = `
+    <div class="hp-summary-card">
+      <div class="hp-summary-icon" style="color:#F59E0B; margin-bottom:0.75rem;">${FusionIcons.trophy}</div>
+      <h3 style="color:#FFFFFF; font-size:1.35rem; margin-bottom:0.4rem;">${title}</h3>
+      <p class="hp-summary-sub" style="color:var(--text-muted); font-size:0.9rem;">Fixed Duration Run: <strong>${HotPotatoTimerState.durationSec}s</strong></p>
+      <div class="hp-summary-stat" style="font-size:1.4rem; font-weight:800; margin:1.25rem 0; color:var(--primary);">Final Score: <strong>${finalScore}</strong></div>
+      <div class="hp-summary-actions" style="display:flex; justify-content:center; gap:0.75rem;">
+        <button type="button" id="hp-replay-btn" class="btn btn-primary" style="min-height:44px; padding:0.6rem 1.4rem;">Play ${HotPotatoTimerState.durationSec}s Again</button>
+      </div>
+    </div>
+  `;
+  body.appendChild(overlay);
+
+  if (typeof sound !== 'undefined' && sound.playVictoryFanfare) {
+    sound.playVictoryFanfare();
+  }
+  if (typeof launchConfetti === 'function') {
+    launchConfetti();
+  }
+
+  document.getElementById('hp-replay-btn')?.addEventListener('click', () => {
+    overlay.remove();
+    if (window.app && window.app.startStandaloneHotPotatoSimulation) {
+      const canvas = document.getElementById('hp-fullscreen-canvas');
+      if (canvas) {
+        resetHotPotatoTimer(HotPotatoTimerState.durationSec);
+        HotPotatoTimerState.isRunning = true;
+        window.app.startStandaloneHotPotatoSimulation(canvas);
+      }
+    }
+  });
+}
+
+function hookHotPotatoFixedTimer() {
+  window.initHotPotatoGame = function(arena) {
+    if (window.app) {
+      if (arena) return window.app.renderHotPotatoGame(arena);
+      return window.app.openHotPotatoFullscreenModal();
+    }
+  };
+  window.startHotPotatoGame = function() {
+    ensureHotPotatoTimerHUD();
+    const summary = document.getElementById('hp-round-summary-overlay');
+    if (summary) summary.remove();
+    resetHotPotatoTimer(HotPotatoTimerState.durationSec);
+    HotPotatoTimerState.isRunning = true;
+    HotPotatoTimerState.isPaused = false;
+    if (window.app && window.app.openHotPotatoFullscreenModal) {
+      window.app.openHotPotatoFullscreenModal();
+    }
+  };
+  window.stopHotPotatoGame = function() {
+    HotPotatoTimerState.isRunning = false;
+    HotPotatoTimerState.isPaused = false;
+    if (window.app) {
+      if (window.app.closeHotPotatoFullscreenModal) window.app.closeHotPotatoFullscreenModal();
+      if (window.app.standaloneHPLoop) {
+        cancelAnimationFrame(window.app.standaloneHPLoop);
+        window.app.standaloneHPLoop = null;
+      }
+      if (window.app.hotPotatoLoop) {
+        cancelAnimationFrame(window.app.hotPotatoLoop);
+        window.app.hotPotatoLoop = null;
+      }
+    }
+  };
+  window.hotPotatoGameLoop = function(timestamp = performance.now()) {
+    if (!HotPotatoTimerState.isRunning) return;
+    if (HotPotatoTimerState.isPaused) {
+      HotPotatoTimerState.lastFrameTime = timestamp;
+      requestAnimationFrame(window.hotPotatoGameLoop);
+      return;
+    }
+    const keepGoing = tickHotPotatoFixedTimer(timestamp);
+    if (!keepGoing) return;
+  };
+}
+
+// ============================================================================
+// PART 5: RESILIENT 3D WEBGL CONTEXT POOL & 2D TANDOORI COALS FALLBACK
+// ============================================================================
+function createSafeWebGLRenderer(options = {}) {
+  try {
+    if (typeof THREE !== 'undefined' && THREE.WebGLRenderer) {
+      const renderer = new THREE.WebGLRenderer({
+        antialias: true,
+        alpha: true,
+        powerPreference: 'high-performance',
+        ...options
+      });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      return renderer;
+    }
+  } catch (err) {
+    console.warn('[FusionFoodLab] WebGL context limit reached or unsupported; activating fallback.', err);
+  }
+  return null;
+}
+
+function mount2DTandooriCoalsFallback(containerOrCanvas) {
+  if (!containerOrCanvas) return;
+  const canvas = containerOrCanvas.tagName === 'CANVAS'
+    ? containerOrCanvas
+    : containerOrCanvas.querySelector('canvas') || document.createElement('canvas');
+
+  if (!canvas.parentElement && containerOrCanvas !== canvas) {
+    containerOrCanvas.appendChild(canvas);
+  }
+  canvas.width = canvas.clientWidth || 800;
+  canvas.height = canvas.clientHeight || 260;
+  canvas.style.width = '100%';
+  canvas.style.height = '100%';
+  canvas.style.display = 'block';
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  const embers = Array.from({ length: 36 }, (_, i) => ({
+    x: (canvas.width * 0.15) + (i / 36) * (canvas.width * 0.7),
+    y: canvas.height * (0.68 + (i % 3) * 0.08),
+    r: 8 + (i % 7) * 2.5,
+    phase: i * 0.45
+  }));
+
+  const sparks = Array.from({ length: 24 }, (_, i) => ({
+    x: Math.random() * canvas.width,
+    y: canvas.height * (0.3 + Math.random() * 0.5),
+    vy: 0.6 + Math.random() * 1.2,
+    size: 1.5 + Math.random() * 2,
+    alpha: 0.4 + Math.random() * 0.6
+  }));
+
+  function renderHearthFrame(t) {
+    if (!canvas.parentElement) return;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const glow = ctx.createRadialGradient(
+      canvas.width * 0.5, canvas.height * 0.75, 10,
+      canvas.width * 0.5, canvas.height * 0.75, canvas.width * 0.5
+    );
+    glow.addColorStop(0, 'rgba(249, 115, 22, 0.35)');
+    glow.addColorStop(1, 'rgba(15, 23, 42, 0)');
+    ctx.fillStyle = glow;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    embers.forEach(e => {
+      const pulse = 0.65 + 0.35 * Math.sin(t * 0.004 + e.phase);
+      ctx.beginPath();
+      ctx.arc(e.x, e.y, e.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(239, ${Math.floor(68 + 80 * pulse)}, 28, ${0.75 * pulse})`;
+      ctx.fill();
+    });
+
+    sparks.forEach(s => {
+      s.y -= s.vy;
+      if (s.y < 10) {
+        s.y = canvas.height * 0.75;
+        s.x = (canvas.width * 0.2) + Math.random() * (canvas.width * 0.6);
+      }
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(253, 224, 71, ${s.alpha})`;
+      ctx.fill();
+    });
+
+    requestAnimationFrame(renderHearthFrame);
+  }
+  requestAnimationFrame(renderHearthFrame);
+}
+
+if (typeof window !== 'undefined') {
+  window.FusionIcons = FusionIcons;
+  window.HotPotatoTimerState = HotPotatoTimerState;
+  window.createSafeWebGLRenderer = createSafeWebGLRenderer;
+  window.mount2DTandooriCoalsFallback = mount2DTandooriCoalsFallback;
+  window.ensureHotPotatoTimerHUD = ensureHotPotatoTimerHUD;
+  window.formatHotPotatoTime = formatHotPotatoTime;
+  window.resetHotPotatoTimer = resetHotPotatoTimer;
+  window.updateHotPotatoTimerUI = updateHotPotatoTimerUI;
+  window.updateHotPotatoTimerDisplay = updateHotPotatoTimerUI;
+  window.tickHotPotatoFixedTimer = tickHotPotatoFixedTimer;
+  window.togglePauseHotPotatoGame = togglePauseHotPotatoGame;
+  window.completeHotPotatoRound = completeHotPotatoRound;
+  window.hookHotPotatoFixedTimer = hookHotPotatoFixedTimer;
+  window.initCustomSVGObserver = initCustomSVGObserver;
+  window.scrubEmojisInSubtree = scrubEmojisInSubtree;
+}
+
 
 // ==========================================
 // 2. WEB AUDIO API SYNTHESIZER
@@ -2435,7 +2939,11 @@ class ThreeJSCulinaryManager {
 
   createRenderer(container) {
     if (!this.isSupported()) return null;
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
+    let renderer = createSafeWebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
+    if (!renderer) {
+      mount2DTandooriCoalsFallback(container);
+      return;
+    }
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
     renderer.setPixelRatio(dpr);
     const width = container.clientWidth || 300;
@@ -3446,7 +3954,8 @@ class Fusion3DManager {
     const camera = new THREE.OrthographicCamera(0, 800, 0, 460, 0.1, 1000);
     camera.position.z = 400;
 
-    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true, powerPreference: 'high-performance' });
+    let renderer = createSafeWebGLRenderer({ alpha: true, antialias: true, powerPreference: 'high-performance' });
+    if (!renderer) return;
     renderer.setPixelRatio(this.clampDPR());
     renderer.setSize(width, height);
     renderer.domElement.id = 'hp-3d-game-canvas';
@@ -6906,6 +7415,11 @@ class FusionApp {
     if (!canvas) return;
 
     this.ensureHotPotatoTimerHUD();
+    const summary = document.getElementById('hp-round-summary-overlay');
+    if (summary) summary.remove();
+    this.resetHotPotatoTimer(HotPotatoTimerState.durationSec);
+    HotPotatoTimerState.isRunning = true;
+    HotPotatoTimerState.isPaused = false;
 
     // Responsive canvas resizing
     const body = document.getElementById('hp-fullscreen-body');
@@ -7198,6 +7712,12 @@ class FusionApp {
       lastT = now;
 
       if (gameState === 'play') {
+        const scoreEl = document.getElementById('hp-score');
+        if (scoreEl) scoreEl.textContent = String(score);
+        const livesEl = document.getElementById('hp-lives');
+        if (livesEl) livesEl.textContent = String(lives);
+        const heatEl = document.getElementById('hp-heat');
+        if (heatEl) heatEl.textContent = `${Math.round((potato && potato.alive ? potato.heat : 0) * 100)}%`;
         if (!HotPotatoTimerState.isPaused) {
           HotPotatoTimerState.remainingMs -= dt * 1000;
           if (HotPotatoTimerState.remainingMs <= 0) {
@@ -13039,6 +13559,13 @@ Guidelines:
 
 
 // Launch on DOM Ready
+
+FusionApp.prototype.ensureHotPotatoTimerHUD = ensureHotPotatoTimerHUD;
+FusionApp.prototype.updateHotPotatoTimerDisplay = updateHotPotatoTimerUI;
+FusionApp.prototype.resetHotPotatoTimer = resetHotPotatoTimer;
+FusionApp.prototype.completeHotPotatoRound = completeHotPotatoRound;
+FusionApp.prototype.togglePauseHotPotatoGame = togglePauseHotPotatoGame;
+
 window.addEventListener('DOMContentLoaded', () => {
   try {
     window.app = new FusionApp();
@@ -13053,3 +13580,129 @@ window.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(d);
   }
 });
+
+
+// ============================================================================
+// PART 7: UNIFIED AUTO-BOOTSTRAPPER (PASTE AT BOTTOM OF app.js & bundle.js)
+// ============================================================================
+(function bootstrapFusionFoodUIRemediation() {
+  function enhanceAdminModalUI() {
+    const adminModal = document.getElementById('admin-modal');
+    if (!adminModal || adminModal.dataset.uiEnhanced === 'true') return;
+    adminModal.dataset.uiEnhanced = 'true';
+
+    // 1. Upgrade Admin Modal Title with Custom SVG Lock
+    const titleEl = document.getElementById('admin-modal-title');
+    if (titleEl) {
+      titleEl.innerHTML = `${FusionIcons.adminLock} <span>Admin Game & Architecture Controls</span>`;
+    }
+
+    // 2. Add Show/Hide Password Toggle for "careers2026" PIN input
+    const passInput = adminModal.querySelector('input[type="password"]');
+    if (passInput && !passInput.parentElement.querySelector('.admin-pw-toggle')) {
+      const wrap = document.createElement('div');
+      wrap.style.cssText = 'position:relative;display:flex;align-items:center;width:100%;';
+      passInput.parentNode.insertBefore(wrap, passInput);
+      wrap.appendChild(passInput);
+
+      const toggleBtn = document.createElement('button');
+      toggleBtn.type = 'button';
+      toggleBtn.className = 'icon-btn admin-pw-toggle';
+      toggleBtn.style.cssText = 'position:absolute;right:8px;width:36px;height:36px;border:none;background:transparent;';
+      toggleBtn.setAttribute('aria-label', 'Toggle password visibility');
+      toggleBtn.innerHTML = FusionIcons.sparkles;
+      toggleBtn.addEventListener('click', () => {
+        const isPw = passInput.type === 'password';
+        passInput.type = isPw ? 'text' : 'password';
+        toggleBtn.style.opacity = isPw ? '1' : '0.65';
+      });
+      wrap.appendChild(toggleBtn);
+    }
+
+    // 3. Inject Default Hot Potato Fixed Timer Duration setting inside #admin-modal-body
+    const adminBody = document.getElementById('admin-modal-body');
+    if (adminBody && !document.getElementById('admin-hp-duration-config')) {
+      const configCard = document.createElement('div');
+      configCard.id = 'admin-hp-duration-config';
+      configCard.style.cssText = 'margin-top:1rem;padding:0.9rem 1rem;border-radius:0.85rem;border:1px solid var(--border-color,rgba(255,255,255,0.14));background:var(--bg-card-subtle,rgba(24,27,38,0.6));display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;';
+      configCard.innerHTML = `
+        <div style="display:flex;align-items:center;gap:0.5rem;font-weight:600;">
+          ${FusionIcons.timerClock}
+          <span>Hot Potato Fixed Timer Duration</span>
+        </div>
+        <div class="hp-duration-selector" role="group" aria-label="Default Hot Potato Duration">
+          <button type="button" class="hp-dur-btn" data-admin-hp-sec="45">45s Blitz</button>
+          <button type="button" class="hp-dur-btn active" data-admin-hp-sec="60">60s Standard</button>
+          <button type="button" class="hp-dur-btn" data-admin-hp-sec="90">90s Marathon</button>
+        </div>
+      `;
+      adminBody.appendChild(configCard);
+
+      configCard.querySelectorAll('[data-admin-hp-sec]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const sec = parseInt(btn.getAttribute('data-admin-hp-sec'), 10) || 60;
+          HotPotatoTimerState.durationSec = sec;
+          configCard.querySelectorAll('[data-admin-hp-sec]').forEach(b => b.classList.toggle('active', b === btn));
+          resetHotPotatoTimer(sec);
+        });
+      });
+    }
+  }
+
+  function bindHotPotatoTouchAndKeyboardControls() {
+    // Allow 'P' to pause/resume Hot Potato Rush when modal is open
+    window.addEventListener('keydown', e => {
+      const hpModal = document.getElementById('hot-potato-modal');
+      if (!hpModal || hpModal.style.display === 'none' || hpModal.getAttribute('aria-hidden') === 'true') return;
+      if (e.key === 'p' || e.key === 'P') {
+        e.preventDefault();
+        togglePauseHotPotatoGame();
+      }
+    });
+
+    // Ensure touch dragging on #hp-fullscreen-canvas never scrolls the underlying page on phones
+    const hpCanvas = document.getElementById('hp-fullscreen-canvas');
+    if (hpCanvas) {
+      hpCanvas.style.touchAction = 'none';
+    }
+  }
+
+  function bindArchitectureVersionSync() {
+    const versionBtns = [
+      ['footer-v1-btn', 'arch-v1'],
+      ['footer-v2-btn', 'arch-v2'],
+      ['footer-v3-btn', 'arch-v3']
+    ];
+    versionBtns.forEach(([btnId, archClass]) => {
+      const btn = document.getElementById(btnId);
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        // Ensure Admin Lock button remains accessible even in v3
+        const adminBtn = document.getElementById('admin-modal-open-btn') || document.getElementById('admin-btn');
+        if (adminBtn) {
+          adminBtn.style.setProperty('display', 'inline-flex', 'important');
+        }
+        // Smooth scroll games hub into view when switching to v1 carousel
+        if (archClass === 'arch-v1') {
+          const gamesHub = document.getElementById('tab-btn-games');
+          if (gamesHub) gamesHub.click();
+        }
+      });
+    });
+  }
+
+  function runAllUIRemediations() {
+    initCustomSVGObserver();
+    ensureHotPotatoTimerHUD();
+    hookHotPotatoFixedTimer();
+    enhanceAdminModalUI();
+    bindHotPotatoTouchAndKeyboardControls();
+    bindArchitectureVersionSync();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runAllUIRemediations);
+  } else {
+    runAllUIRemediations();
+  }
+})();

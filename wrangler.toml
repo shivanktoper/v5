@@ -3,7 +3,7 @@
 # ====================================================================
 
 name = "fusionfood"
-compatibility_date = "2024-04-01"
+compatibility_date = "2026-10-30"
 compatibility_flags = ["nodejs_compat"]
 
 # Cloudflare Pages Static Assets Directory

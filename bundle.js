@@ -1627,9 +1627,9 @@ const FusionIcons = {
   pantry: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-pantry"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
   chefHat: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-chefHat"><path d="M6 14v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4M4 14c-1.5 0-2-1.5-2-3a4 4 0 0 1 6-3.5 4.5 4.5 0 0 1 8 0A4 4 0 0 1 22 11c0 1.5-.5 3-2 3H4z" fill="rgba(255,255,255,0.1)" stroke="currentColor"/><line x1="6" y1="17" x2="18" y2="17" stroke="var(--primary, #E05A47)"/></svg>`,
   mapPin: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-mapPin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="rgba(224,90,71,0.18)" stroke="#E05A47"/><circle cx="12" cy="10" r="3" fill="currentColor"/></svg>`,
-  medal1: /* 🥇 Gold Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal1"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
-  medal2: /* 🥈 Silver Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal2"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
-  medal3: /* 🥉 Bronze Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal3"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
+  medal1: /* Gold Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal1"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
+  medal2: /* Silver Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal2"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
+  medal3: /* Bronze Medal */ `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-medal3"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
   trash: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-trash"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>`,
   download: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
   upload: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fusion-icon fusion-icon-upload"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>`,
@@ -1656,34 +1656,7 @@ class SoundEngine {
     this.muted = localStorage.getItem('fusion_muted') === 'true';
   }
 
-  updateDailyStreak() {
-    try {
-      const today = new Date().toISOString().slice(0, 10);
-      const lastDate = this.state.lastActiveDate;
-      if (!lastDate) {
-        this.state.lastActiveDate = today;
-        return;
-      }
-      if (lastDate === today) return;
-
-      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-      const prof = this.getActiveProfile();
-      if (prof) {
-        if (lastDate === yesterday) {
-          prof.streak = (prof.streak || 1) + 1;
-        } else {
-          prof.streak = 1;
-        }
-      }
-      this.state.lastActiveDate = today;
-      this.saveState();
-    } catch (e) {
-      console.warn('Could not update daily streak:', e);
-    }
-  }
-
   init() {
-    this.updateDailyStreak();
     if (!this.audioCtx) {
       const AudioContext = window.AudioContext || window.webkitAudioContext;
       if (AudioContext) {
@@ -4130,6 +4103,307 @@ class Fusion3DManager {
 
 
 class FusionApp {
+  setPronounceEqualizer(active) {
+    const eq = document.getElementById('pronounce-equalizer');
+    if (eq) {
+      if (active) {
+        eq.classList.add('is-active', 'active', 'is-playing', 'is-recording');
+        eq.style.opacity = '1';
+      } else {
+        eq.classList.remove('is-active', 'active', 'is-playing', 'is-recording');
+        eq.style.opacity = '0';
+      }
+    }
+  }
+
+  upgradeAllIconsToCustomSVGs() {
+    if (typeof document === 'undefined') return;
+
+    // Header brand logo
+    const brandLogoEl = document.getElementById('site-logo');
+    if (brandLogoEl && !brandLogoEl.querySelector('.fusion-icon')) {
+      brandLogoEl.innerHTML = FusionIcons.brandLogo;
+    }
+
+    // Navigation tab icons
+    const tabGames = document.getElementById('tab-btn-games');
+    if (tabGames) {
+      const icon = tabGames.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.gamesHub;
+    }
+    const tabKitchen = document.getElementById('tab-btn-kitchen');
+    if (tabKitchen) {
+      const icon = tabKitchen.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.kitchenLab;
+    }
+    const tabFusion = document.getElementById('tab-btn-fusion');
+    if (tabFusion) {
+      const icon = tabFusion.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.fusionExplorer;
+    }
+
+    // Mobile bottom nav
+    const mobGames = document.querySelector('.mobile-bottom-nav [data-tab-target="games"]');
+    if (mobGames) {
+      const icon = mobGames.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.gamesHub;
+    }
+    const mobKitchen = document.querySelector('.mobile-bottom-nav [data-tab-target="kitchen"]');
+    if (mobKitchen) {
+      const icon = mobKitchen.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.kitchenLab;
+    }
+    const mobFusion = document.querySelector('.mobile-bottom-nav [data-tab-target="fusion"]');
+    if (mobFusion) {
+      const icon = mobFusion.querySelector('.tab-icon');
+      if (icon) icon.innerHTML = FusionIcons.fusionExplorer;
+    }
+
+    // Header action buttons
+    const lbBtn = document.getElementById('open-leaderboard-btn');
+    if (lbBtn) {
+      const icon = lbBtn.querySelector('.header-action-icon') || lbBtn.querySelector('span');
+      if (icon) icon.innerHTML = FusionIcons.trophy;
+    }
+    const camBtn = document.getElementById('open-camera-scanner-btn');
+    if (camBtn) {
+      const icon = camBtn.querySelector('.header-action-icon') || camBtn.querySelector('span');
+      if (icon) icon.innerHTML = FusionIcons.cameraAr;
+    }
+    const pdfBtn = document.getElementById('open-portfolio-btn');
+    if (pdfBtn) {
+      const icon = pdfBtn.querySelector('.header-action-icon') || pdfBtn.querySelector('span');
+      if (icon) icon.innerHTML = FusionIcons.portfolioPdf;
+    }
+    const aiTourBtn = document.getElementById('header-ai-tour-btn');
+    if (aiTourBtn) {
+      const icon = aiTourBtn.querySelector('.header-action-icon') || aiTourBtn.querySelector('span');
+      if (icon) icon.innerHTML = FusionIcons.aiTour;
+    }
+    const roleToggle = document.getElementById('role-toggle-btn');
+    if (roleToggle) {
+      const icon = roleToggle.querySelector('.header-action-icon') || roleToggle.querySelector('span');
+      if (icon) icon.innerHTML = FusionIcons.kidChef;
+    }
+
+    // Footer admin link
+    const adminFooter = document.getElementById('admin-footer-link');
+    if (adminFooter && !adminFooter.querySelector('.fusion-icon')) {
+      adminFooter.innerHTML = `${FusionIcons.adminLock} Admin Settings & Controls`;
+    }
+  }
+
+  ensureHotPotatoTimerHUD() {
+    const modal = document.getElementById('hot-potato-modal');
+    if (!modal) return;
+    const dialog = modal.querySelector('.hp-fullscreen-dialog');
+    const header = modal.querySelector('.hp-fullscreen-header');
+    if (!dialog || !header) return;
+
+    // 1. #hp-timer-bar progress track and fill
+    let timerBar = document.getElementById('hp-timer-bar');
+    if (!timerBar) {
+      timerBar = document.createElement('div');
+      timerBar.id = 'hp-timer-bar';
+      timerBar.className = 'hp-timer-bar';
+      timerBar.style.cssText = 'height:6px; background:rgba(255,255,255,0.18); width:100%; position:relative; overflow:hidden; z-index:11;';
+      timerBar.innerHTML = '<div id="hp-timer-fill" style="height:100%; width:100%; background:linear-gradient(90deg, #10B981 0%, #F59E0B 60%, #EF4444 100%); transition:width 0.1s linear;"></div>';
+      header.insertAdjacentElement('afterend', timerBar);
+    }
+
+    // 2. #hp-timer-hud-cluster
+    let cluster = document.getElementById('hp-timer-hud-cluster');
+    if (!cluster) {
+      cluster = document.createElement('div');
+      cluster.id = 'hp-timer-hud-cluster';
+      cluster.style.cssText = 'display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;';
+      cluster.innerHTML = `
+        <div class="pill-badge" id="hp-timer" style="display:inline-flex; align-items:center; gap:0.35rem; font-family:monospace; font-size:0.95rem; font-weight:900; background:rgba(0,0,0,0.6); border:1px solid rgba(255,255,255,0.3); color:#FFD94A; padding:0.3rem 0.75rem; border-radius:100px;">
+          <span style="display:inline-flex; align-items:center; width:16px; height:16px;">${FusionIcons.timerClock}</span>
+          <span id="hp-timer-text">01:00</span>
+        </div>
+        <div class="hp-duration-selector" id="hp-duration-selector" style="display:inline-flex; gap:0.25rem;">
+          <button type="button" class="btn btn-secondary hp-duration-btn" data-sec="45" style="padding:0.25rem 0.55rem; font-size:0.75rem; font-weight:700;">45s Blitz</button>
+          <button type="button" class="btn btn-secondary hp-duration-btn active" data-sec="60" style="padding:0.25rem 0.55rem; font-size:0.75rem; font-weight:700; background:var(--primary, #E05A47); color:#FFF;">60s Standard</button>
+          <button type="button" class="btn btn-secondary hp-duration-btn" data-sec="90" style="padding:0.25rem 0.55rem; font-size:0.75rem; font-weight:700;">90s Marathon</button>
+        </div>
+        <button type="button" class="btn btn-secondary" id="hp-pause-btn" style="padding:0.25rem 0.65rem; font-size:0.78rem; font-weight:700; display:inline-flex; align-items:center; gap:0.3rem;">
+          <span class="hp-pause-icon" style="display:inline-flex; width:16px; height:16px;">${FusionIcons.pause}</span>
+          <span class="hp-pause-label">Pause</span>
+        </button>
+        <button type="button" class="btn btn-secondary" id="hp-stop-btn" style="padding:0.25rem 0.65rem; font-size:0.78rem; font-weight:700; background:rgba(239,68,68,0.35); border-color:#EF4444; color:#FFF; display:inline-flex; align-items:center; gap:0.3rem;" title="Stop Game">
+          <span style="display:inline-flex; width:16px; height:16px;">${FusionIcons.stop}</span>
+          <span>Stop</span>
+        </button>
+      `;
+
+      const headerActions = header.querySelector('div:last-child');
+      if (headerActions) {
+        header.insertBefore(cluster, headerActions);
+      } else {
+        header.appendChild(cluster);
+      }
+    }
+
+    // Attach listeners
+    cluster.querySelectorAll('.hp-duration-btn').forEach(btn => {
+      btn.onclick = () => {
+        sound.playClick();
+        const sec = parseInt(btn.getAttribute('data-sec'), 10) || 60;
+        HotPotatoTimerState.durationSec = sec;
+        HotPotatoTimerState.remainingMs = sec * 1000;
+        HotPotatoTimerState.isPaused = false;
+        cluster.querySelectorAll('.hp-duration-btn').forEach(b => {
+          b.classList.remove('active');
+          b.style.background = '';
+          b.style.color = '';
+        });
+        btn.classList.add('active');
+        btn.style.background = 'var(--primary, #E05A47)';
+        btn.style.color = '#FFF';
+        this.updateHotPotatoTimerDisplay();
+        if (this.resetStandaloneHotPotato) this.resetStandaloneHotPotato();
+      };
+    });
+
+    const pauseBtn = document.getElementById('hp-pause-btn');
+    if (pauseBtn) {
+      pauseBtn.onclick = () => {
+        sound.playClick();
+        HotPotatoTimerState.isPaused = !HotPotatoTimerState.isPaused;
+        const iconSpan = pauseBtn.querySelector('.hp-pause-icon');
+        const labelSpan = pauseBtn.querySelector('.hp-pause-label');
+        if (HotPotatoTimerState.isPaused) {
+          if (iconSpan) iconSpan.innerHTML = FusionIcons.play;
+          if (labelSpan) labelSpan.textContent = 'Resume';
+        } else {
+          if (iconSpan) iconSpan.innerHTML = FusionIcons.pause;
+          if (labelSpan) labelSpan.textContent = 'Pause';
+        }
+      };
+    }
+
+    const stopBtn = document.getElementById('hp-stop-btn');
+    if (stopBtn) {
+      stopBtn.onclick = () => {
+        sound.playClick();
+        this.completeHotPotatoRound('STOPPED');
+      };
+    }
+  }
+
+  updateHotPotatoTimerDisplay() {
+    const textEl = document.getElementById('hp-timer-text');
+    const timerFillEl = document.getElementById('hp-timer-fill');
+    const timerPill = document.getElementById('hp-timer');
+    const ms = HotPotatoTimerState.remainingMs;
+    const durMs = HotPotatoTimerState.durationSec * 1000;
+
+    if (textEl) {
+      const totalSec = Math.max(0, ms / 1000);
+      const m = Math.floor(totalSec / 60);
+      const s = Math.floor(totalSec % 60);
+      const mm = String(m).padStart(2, '0');
+      const ss = String(s).padStart(2, '0');
+      if (totalSec <= 10 && totalSec > 0) {
+        const tenths = Math.floor((ms % 1000) / 100);
+        textEl.textContent = `${mm}:${ss}.${tenths}`;
+        if (timerPill) timerPill.style.color = '#EF4444';
+      } else {
+        textEl.textContent = `${mm}:${ss}`;
+        if (timerPill) timerPill.style.color = '#FFD94A';
+      }
+    }
+
+    if (timerFillEl) {
+      const pct = Math.max(0, Math.min(100, (ms / durMs) * 100));
+      timerFillEl.style.width = `${pct}%`;
+    }
+  }
+
+  completeHotPotatoRound(reason, score = 0, served = 0, perfects = 0) {
+    HotPotatoTimerState.isRunning = false;
+    HotPotatoTimerState.isPaused = false;
+    sound.playFanfare();
+    launchConfetti();
+
+    const xpAward = Math.max(50, Math.round(score * 0.15) + (reason === 'TIME_UP' ? 30 : 0));
+    this.addXP(xpAward, 'Hot Potato Rush Master');
+
+    const modal = document.getElementById('hot-potato-modal');
+    if (!modal) return;
+    const dialog = modal.querySelector('.hp-fullscreen-dialog');
+    if (!dialog) return;
+
+    let overlay = document.getElementById('hp-round-summary-overlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'hp-round-summary-overlay';
+      overlay.className = 'hp-round-summary-overlay';
+      dialog.appendChild(overlay);
+    }
+
+    overlay.style.cssText = 'position:absolute; inset:0; z-index:50; background:rgba(0,0,0,0.85); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:2rem; backdrop-filter:blur(6px);';
+    overlay.innerHTML = `
+      <div style="width:64px; height:64px; margin-bottom:0.75rem; color:#F59E0B;">${FusionIcons.trophy}</div>
+      <h2 style="font-size:2rem; color:#FFD94A; margin-bottom:0.5rem;">${reason === 'TIME_UP' ? "Time's Up! Round Complete" : "Round Finished"}</h2>
+      <p style="font-size:1.1rem; color:#FFF; margin-bottom:1rem;">Final Score: <strong>${score} pts</strong> (${served} served, ${perfects} perfect)</p>
+      <div style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.25); border-radius:8px; padding:0.8rem 1.5rem; margin-bottom:1.5rem;">
+        <span style="color:#10B981; font-weight:800; font-size:1.2rem;">+${xpAward} XP Awarded!</span>
+      </div>
+      <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;">
+        <button type="button" class="btn btn-primary" id="hp-summary-play-again-btn" style="padding:0.75rem 1.5rem; font-size:1rem; font-weight:800; display:inline-flex; align-items:center; gap:0.5rem;">
+          <span style="display:inline-flex; width:20px; height:20px;">${FusionIcons.play}</span>
+          <span>Play Again</span>
+        </button>
+        <button type="button" class="btn btn-secondary" id="hp-summary-switch-duration-btn" style="padding:0.75rem 1.5rem; font-size:1rem; font-weight:800; display:inline-flex; align-items:center; gap:0.5rem;">
+          <span style="display:inline-flex; width:20px; height:20px;">${FusionIcons.timerClock}</span>
+          <span>Switch Duration (${HotPotatoTimerState.durationSec}s)</span>
+        </button>
+      </div>
+    `;
+
+    document.getElementById('hp-summary-play-again-btn')?.addEventListener('click', () => {
+      sound.playClick();
+      overlay.remove();
+      HotPotatoTimerState.remainingMs = HotPotatoTimerState.durationSec * 1000;
+      HotPotatoTimerState.isPaused = false;
+      HotPotatoTimerState.isRunning = true;
+      this.updateHotPotatoTimerDisplay();
+      if (this.resetStandaloneHotPotato) this.resetStandaloneHotPotato();
+    });
+
+    document.getElementById('hp-summary-switch-duration-btn')?.addEventListener('click', () => {
+      sound.playClick();
+      const current = HotPotatoTimerState.durationSec;
+      const next = current === 45 ? 60 : (current === 60 ? 90 : 45);
+      HotPotatoTimerState.durationSec = next;
+      HotPotatoTimerState.remainingMs = next * 1000;
+      HotPotatoTimerState.isPaused = false;
+      HotPotatoTimerState.isRunning = true;
+
+      const cluster = document.getElementById('hp-timer-hud-cluster');
+      if (cluster) {
+        cluster.querySelectorAll('.hp-duration-btn').forEach(b => {
+          const s = parseInt(b.getAttribute('data-sec'), 10);
+          if (s === next) {
+            b.classList.add('active');
+            b.style.background = 'var(--primary, #E05A47)';
+            b.style.color = '#FFF';
+          } else {
+            b.classList.remove('active');
+            b.style.background = '';
+            b.style.color = '';
+          }
+        });
+      }
+
+      overlay.remove();
+      this.updateHotPotatoTimerDisplay();
+      if (this.resetStandaloneHotPotato) this.resetStandaloneHotPotato();
+    });
+  }
+
   constructor() {
     this.db = new FusionDatabase();
     this.state = this.loadState();

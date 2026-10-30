@@ -5840,236 +5840,35 @@ body.arch-v1 .games-scroll-container .scroll-arrow-btn {
   min-height: 44px;
 }
 
-
 /* ==========================================================================
-   PART 6: MASTER UI/UX AUDIT & SVG SYSTEM REMEDIATION PATCH
+   PART 6: SUPPLEMENTARY UI/UX & GEMINI SOUS-CHEF REMEDIATIONS
    ========================================================================== */
 
-/* 1. CUSTOM SVG ICON SIZING & ALIGNMENT */
-.fusion-svg-icon {
-  width: 1.2rem;
-  height: 1.2rem;
-  display: inline-block;
-  vertical-align: -0.2em;
-  flex-shrink: 0;
-  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.fusion-svg-icon.icon-lg {
-  width: 1.75rem;
-  height: 1.75rem;
-}
-.svg-inline-text-wrap {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
+/* Kitchen Lab Recipe Cards */
+.recipe-card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  height: 100% !important;
 }
 
-/* 2. HEADER PILL, BRAND SUBTITLE & DARK MODE WCAG AAA CONTRAST FIX */
-.header-inner {
-  padding: 0.55rem 1.15rem !important;
-  gap: 0.85rem !important;
-  align-items: center;
-  justify-content: space-between;
+/* Gemini AI Sous-Chef Drawer & Chatbot Z-Index & Clearance */
+.recipe-popout-modal,
+#recipe-detail-modal {
+  z-index: 1100 !important;
 }
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-}
-.brand-text h1 {
-  line-height: 1.15 !important;
-  margin: 0 !important;
-}
-.brand-text span {
-  font-size: 0.68rem !important;
-  line-height: 1.25 !important;
-  letter-spacing: 0.08em !important;
-  opacity: 0.88;
-}
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding-right: 0.25rem;
+.recipe-ai-column,
+.recipe-chat-input-bar {
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px)) !important;
 }
 
-/* Fix Dark Mode Header Contrast (<2:1 bug -> >12:1 WCAG AAA) */
-[data-theme="dark"] .site-header .header-inner {
-  background: rgba(14, 16, 23, 0.9) !important;
-  border: 1px solid rgba(255, 255, 255, 0.14) !important;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55) !important;
-  color: #FFFFFF !important;
-}
-[data-theme="dark"] .brand-text h1,
-[data-theme="dark"] .brand-text span,
-[data-theme="dark"] .profile-pill,
-[data-theme="dark"] .header-leaderboard-pill {
-  color: #F8FAFC !important;
-}
-[data-theme="dark"] .profile-pill,
-[data-theme="dark"] .header-leaderboard-pill,
-[data-theme="dark"] .header-actions .icon-btn {
-  background: rgba(24, 27, 38, 0.95) !important;
-  border: 1px solid rgba(255, 255, 255, 0.14) !important;
-}
-
-/* 3. ARCHITECTURE v1, v2, v3 FIXES (KEEP ADMIN ACCESSIBLE IN v3) */
-body.arch-v3 #admin-modal-open-btn,
-body.arch-v3 #admin-btn {
-  display: inline-flex !important;
-  opacity: 0.92;
-}
-
-/* 4. MODAL CLOSE BUTTON (44x44px TOUCH TARGET + SVG X) */
-.modal-close-btn {
-  width: 44px !important;
-  height: 44px !important;
-  min-width: 44px !important;
-  min-height: 44px !important;
-  border-radius: 9999px !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 0 !important;
-  cursor: pointer;
-}
-
-/* 5. HOT POTATO RUSH — FIXED TIMER BAR, HUD & SUMMARY OVERLAY */
-.hp-timer-bar-track {
-  width: 100%;
-  height: 8px;
-  background: rgba(15, 23, 42, 0.35);
-  overflow: hidden;
-  border-radius: 8px 8px 0 0;
-}
-.hp-timer-bar-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #10B981, #059669);
-  transition: width 0.1s linear, background-color 0.3s ease;
-}
-.hp-timer-bar-fill[data-urgency="warning"] {
-  background: linear-gradient(90deg, #F59E0B, #D97706);
-}
-.hp-timer-bar-fill[data-urgency="critical"] {
-  background: linear-gradient(90deg, #F43F5E, #E11D48);
-}
-.hp-timer-hud-cluster {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  flex-wrap: wrap;
-}
-.hp-timer-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.35rem 0.75rem;
-  border-radius: 9999px;
-  font-variant-numeric: tabular-nums;
-  font-weight: 700;
-  background: rgba(2, 132, 199, 0.15);
-  border: 1px solid rgba(2, 132, 199, 0.4);
-}
-.hp-timer-pill.is-critical {
-  background: rgba(244, 63, 94, 0.22);
-  border-color: #F43F5E;
-  color: #FDA4AF;
-  animation: hpPulseUrgent 0.55s infinite alternate;
-}
-@keyframes hpPulseUrgent {
-  from { transform: scale(1); }
-  to { transform: scale(1.06); }
-}
-.hp-duration-selector {
-  display: inline-flex;
-  background: rgba(15, 23, 42, 0.4);
-  padding: 2px;
-  border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-.hp-dur-btn {
-  border: none;
-  background: transparent;
-  color: inherit;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.6rem;
-  border-radius: 9999px;
-  cursor: pointer;
-  min-width: 44px;
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.hp-dur-btn.active {
-  background: var(--primary, #0284C7);
-  color: #FFFFFF;
-}
-.hp-hud-controls {
-  display: inline-flex;
-  gap: 0.4rem;
-}
-.hp-ctrl-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.35rem 0.7rem;
-  border-radius: 0.5rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  background: rgba(30, 41, 59, 0.75);
-  color: #F8FAFC;
-  cursor: pointer;
-  min-width: 44px;
-  min-height: 44px;
-  justify-content: center;
-}
-.hp-ctrl-btn.hp-ctrl-danger {
-  background: rgba(244, 63, 94, 0.2);
-  border-color: rgba(244, 63, 94, 0.45);
-}
-.hp-round-summary-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(7, 8, 11, 0.82);
-  backdrop-filter: blur(8px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 30;
-}
-.hp-summary-card {
-  background: var(--bg-card, #12141D);
-  border: 1px solid var(--border-color, rgba(255,255,255,0.15));
-  border-radius: 1.25rem;
-  padding: 2rem;
-  text-align: center;
-  max-width: 380px;
-  width: 90%;
-}
-.hp-summary-icon {
-  margin-bottom: 0.75rem;
-}
-.hp-summary-icon svg {
-  width: 2.75rem;
-  height: 2.75rem;
-  color: #F59E0B;
-}
-.hp-summary-stat {
-  font-size: 1.25rem;
-  margin: 1rem 0;
-  color: var(--primary, #0284C7);
-}
-
-/* 6. HERO BOTTOM CLEARANCE, LEADERBOARD TABLE & COMMUNITY REVIEWS FIXES */
-main,
-.main-tab-pane {
-  padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px)) !important;
-}
+/* Leaderboard Table Scroll Wrap & Light Mode Contrast */
+.leaderboard-table-wrap,
+.leaderboard-table-scroll,
 #pane-leaderboard {
+  width: 100%;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 #pane-leaderboard table {
   width: 100%;
@@ -6083,80 +5882,29 @@ main,
   font-weight: 700 !important;
   border-bottom: 2px solid #BAE6FD !important;
 }
+
+/* Community Reviews & Feedback Responsive Grid */
 #reviews-section,
 .community-reviews {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
-  align-items: stretch;
-  margin-top: 1.25rem;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+  gap: 1.25rem !important;
+  align-items: stretch !important;
+  margin-top: 1.25rem !important;
+}
+.review-card {
+  box-sizing: border-box !important;
+  padding: 1.5rem !important;
+  overflow: hidden !important;
+}
+.review-verified-badge {
+  display: inline-flex !important;
+  margin-bottom: 0.75rem !important;
 }
 
-/* 7. BUILD-A-DISH, PRONOUNCE LAB, TRIVIA & MAP FIXES */
-#pantry-ingredients-container .pantry-item-chip {
-  white-space: normal !important;
-  line-height: 1.25 !important;
-  min-height: 48px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-#syllable-container {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 0.65rem !important;
-  justify-content: center !important;
-}
-#syllable-container .syllable-chip {
-  margin: 0 !important;
-  min-height: 44px;
-}
-.quiz-option-btn.is-wrong {
-  border-color: #F43F5E !important;
-  background: rgba(244, 63, 94, 0.14) !important;
-  animation: quizErrorShake 0.38s ease;
-}
-@keyframes quizErrorShake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-6px); }
-  75% { transform: translateX(6px); }
-}
-#india-map-container {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  aspect-ratio: 500 / 580;
-  margin: 0 auto;
-}
-
-/* 8. MOBILE PHONE (<768px) & GEMINI SOUS-CHEF DRAWER RESPONSIVENESS */
-@media (max-width: 768px) {
-  body {
-    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)) !important;
-    overflow-x: hidden !important;
-  }
-  .site-header .site-nav#main-nav-bar,
-  #mobile-nav-bar,
-  .mobile-bottom-nav {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    height: 64px !important;
-    background: var(--bg-card, #12141D) !important;
-    border-top: 1px solid var(--border-color, rgba(255,255,255,0.12)) !important;
-    display: flex !important;
-    justify-content: space-around !important;
-    align-items: center !important;
-    padding: 0 0.5rem env(safe-area-inset-bottom, 0px) !important;
-    z-index: 1000 !important;
-    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.25) !important;
-  }
-  #hp-fullscreen-canvas {
-    width: 100% !important;
-    height: auto !important;
-    max-height: calc(100dvh - 140px) !important;
-    aspect-ratio: 16 / 10 !important;
-    object-fit: contain;
-  }
+/* Main Content & Hero Clearance above Fixed Bottom Nav */
+main,
+.main-tab-pane,
+.hero-section {
+  padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px)) !important;
 }

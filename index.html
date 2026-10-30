@@ -64,6 +64,11 @@
               <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2" fill="currentColor" fill-opacity="0.12"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg>
               <span>AI Guided Tour</span>
             </button>
+            <!-- Keyboard Shortcuts & Quick Guide -->
+            <button id="open-shortcuts-btn" class="dropdown-item-btn" title="Keyboard Shortcuts &amp; Quick Guide (?)" aria-label="Keyboard Shortcuts and Quick Guide" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--text-main); font-size:0.85rem; font-weight:600; cursor:pointer; width:100%; text-align:left;">
+              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              <span>Shortcuts &amp; Guide (?)</span>
+            </button>
             <div style="height:1px; background:var(--border-color); margin:0.25rem 0;"></div>
             <!-- Admin Settings Lock (PIN protected) -->
             <button id="admin-modal-open-btn" class="dropdown-item-btn" title="Admin Settings &amp; Game Controls" aria-label="Admin Settings &amp; Game Controls" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--secondary); font-size:0.85rem; font-weight:700; cursor:pointer; width:100%; text-align:left;">
@@ -421,6 +426,36 @@
     </div>
   </div>
 
+  <!-- Keyboard Shortcuts & Quick Help Modal -->
+  <div class="modal-overlay" id="shortcuts-modal" role="dialog" aria-modal="true" aria-labelledby="shortcuts-modal-title" style="display:none;">
+    <div class="modal-dialog" style="max-width:540px;">
+      <div class="modal-header">
+        <h3 id="shortcuts-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
+          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <span>Keyboard Shortcuts &amp; Quick Guide</span>
+        </h3>
+        <button class="modal-close-btn" id="close-shortcuts-modal-btn" aria-label="Close Shortcuts Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+      </div>
+      <div class="modal-body" style="padding:1.25rem;">
+        <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--text-main);">Navigation Shortcuts</h4>
+        <div style="display:grid; grid-template-columns:auto 1fr; gap:0.6rem 1.25rem; align-items:center; font-size:0.88rem; margin-bottom:1.25rem;">
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">1</kbd><span>Switch to Games Hub</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">2</kbd><span>Switch to Kitchen Lab</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">3</kbd><span>Switch to Fusion Explorer</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">4</kbd><span>Switch to Leaderboard &amp; Ranks</span>
+        </div>
+        <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--text-main);">Gameplay &amp; Utility Shortcuts</h4>
+        <div style="display:grid; grid-template-columns:auto 1fr; gap:0.6rem 1.25rem; align-items:center; font-size:0.88rem;">
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">M</kbd><span>Toggle Sound (Mute / Unmute)</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">T</kbd><span>Toggle Dark / Light Theme</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">P</kbd><span>Pause / Resume Hot Potato Rush</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">Esc</kbd><span>Dismiss any active modal dialog</span>
+          <kbd style="padding:0.25rem 0.55rem; background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:4px; font-weight:700;">?</kbd><span>Open this Help &amp; Shortcuts dialog</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Hot Potato Fullscreen / Landscape Arcade Modal -->
   <div class="modal-overlay hot-potato-fullscreen-modal" id="hot-potato-modal" role="dialog" aria-modal="true" aria-label="Hot Potato Arcade Game">
     <div class="hp-fullscreen-dialog">
@@ -563,7 +598,10 @@
 
       <div class="footer-bottom">
         <div>© 2026 Fusion Food Family Lab • Warm Illustrated Cookbook Edition</div>
-        <div>Family Kitchen & Interactive Learning • Sound & Dark Mode enabled</div>
+        <div style="display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;">
+          <span>Family Kitchen &amp; Interactive Learning • Sound &amp; Dark Mode enabled</span>
+          <div id="network-sync-status" class="network-sync-badge" style="display:inline-flex; align-items:center; gap:0.4rem; font-size:0.82rem; font-weight:600; color:var(--text-muted);"><span style="width:8px; height:8px; border-radius:50%; background:#10B981; display:inline-block;" id="network-status-dot"></span><span id="network-status-text">Cloud Sync Ready</span></div>
+        </div>
       </div>
     </div>
   </footer>

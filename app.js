@@ -5458,16 +5458,25 @@ class FusionApp {
       this.switchMainTab('games');
     });
 
-    // Global keyboard hotkeys (1-4) for main tab navigation
+    // Global keyboard hotkeys for main tab navigation, utility toggles, and help
     document.addEventListener('keydown', (e) => {
       const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
-      if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select' || document.body.classList.contains('has-modal-open')) {
+      if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
         return;
       }
       if (e.altKey || e.ctrlKey || e.metaKey) return;
+      if (document.body.classList.contains('has-modal-open')) {
+        return;
+      }
       const keyMap = { '1': 'games', '2': 'kitchen', '3': 'fusion', '4': 'leaderboard' };
       if (keyMap[e.key]) {
         this.switchMainTab(keyMap[e.key]);
+      } else if (e.key === 'm' || e.key === 'M') {
+        this.toggleSound();
+      } else if (e.key === 't' || e.key === 'T') {
+        this.toggleTheme();
+      } else if (e.key === '?') {
+        this.openShortcutsModal();
       }
     });
 
@@ -7068,9 +7077,9 @@ class FusionApp {
       ` : `
         <div class="hot-potato-arena-wrapper">
           <div class="hot-potato-canvas-container" id="hp-canvas-container">
-            <canvas id="hot-potato-canvas" width="800" height="460"></canvas>
-            <canvas id="hp-three-canvas" width="800" height="460" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:2;"></canvas>
-            <canvas id="hp-3d-game-canvas" width="800" height="460" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:2;"></canvas>
+            <canvas id="hot-potato-canvas" width="800" height="460" role="img" aria-label="Hot Potato Rush 2D interactive arcade course"></canvas>
+            <canvas id="hp-three-canvas" width="800" height="460" role="img" aria-label="3D Tumbling golden potato physics simulation" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:2;"></canvas>
+            <canvas id="hp-3d-game-canvas" width="800" height="460" role="img" aria-label="3D Roasted tandoor sparks overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:2;"></canvas>
             <div class="hot-potato-overlay" id="hp-start-overlay">
               <div class="hp-overlay-card">
                 <div class="hp-overlay-icon" style="animation:hpTumble 1.8s infinite ease-in-out;">${FusionIcons.goldenPotato}</div>
@@ -11274,6 +11283,32 @@ console.log('Feedback Submitted:', result);`;
       });
     }
 
+    // Shortcuts & Quick Help Modal Bindings
+    document.getElementById('open-shortcuts-btn')?.addEventListener('click', () => this.openShortcutsModal());
+    document.getElementById('close-shortcuts-modal-btn')?.addEventListener('click', () => this.closeShortcutsModal());
+    document.getElementById('shortcuts-modal')?.addEventListener('click', (e) => {
+      if (e.target.id === 'shortcuts-modal') this.closeShortcutsModal();
+    });
+
+    // Real-Time Online / Offline Connectivity Indicator
+    const updateNetworkStatus = () => {
+      const isOnline = navigator.onLine;
+      const dot = document.getElementById('network-status-dot');
+      const text = document.getElementById('network-status-text');
+      if (dot && text) {
+        if (isOnline) {
+          dot.style.background = '#10B981';
+          text.textContent = 'Cloud Sync Ready';
+        } else {
+          dot.style.background = '#F59E0B';
+          text.textContent = 'Offline Safe (Saved Locally)';
+        }
+      }
+    };
+    window.addEventListener('online', updateNetworkStatus);
+    window.addEventListener('offline', updateNetworkStatus);
+    updateNetworkStatus();
+
     // Global Modal Escape & Focus Trapping (MOD-05, MOD-06, MOD-07)
     const handleModalKeydown = (e) => {
       if (e.key === 'Escape' || e.keyCode === 27) {
@@ -11283,6 +11318,7 @@ console.log('Feedback Submitted:', result);`;
         this.closeCameraScannerModal();
         this.closePortfolioModal();
         this.closeTourModal();
+        this.closeShortcutsModal();
         this.closeHotPotatoFullscreenModal();
         this.closeLeaderboardModal();
         document.body.classList.remove('has-modal-open');
@@ -14059,6 +14095,28 @@ console.log('Feedback Submitted:', result);`;
     if (this.tourMediaStream) {
       this.tourMediaStream.getTracks().forEach(t => t.stop());
       this.tourMediaStream = null;
+    }
+  }
+
+  openShortcutsModal() {
+    sound.playClick();
+    const modal = document.getElementById('shortcuts-modal');
+    if (!modal) return;
+    this.lastFocusedElement = document.activeElement;
+    document.body.classList.add('has-modal-open');
+    modal.style.display = 'flex';
+    modal.classList.add('open');
+    modal.querySelector('#close-shortcuts-modal-btn')?.focus();
+  }
+
+  closeShortcutsModal() {
+    const modal = document.getElementById('shortcuts-modal');
+    if (!modal) return;
+    modal.style.display = 'none';
+    modal.classList.remove('open');
+    document.body.classList.remove('has-modal-open');
+    if (this.lastFocusedElement && typeof this.lastFocusedElement.focus === 'function') {
+      this.lastFocusedElement.focus();
     }
   }
 

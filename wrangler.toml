@@ -14,7 +14,7 @@ pages_build_output_dir = "."
 # --------------------------------------------------------------------
 [[d1_databases]]
 binding = "DB"
-database_name = "fusionfood"
+database_name = "fusionfoodweb"
 database_id = "af600698-1afa-4b2f-8684-82bdf975b554"
 
 # --------------------------------------------------------------------

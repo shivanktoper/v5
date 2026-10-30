@@ -9,6 +9,7 @@ import * as leaderboardHandler from '../functions/api/leaderboard.js';
 import * as submitScoreHandler from '../functions/api/submit-score.js';
 import * as feedbackHandler from '../functions/api/feedback.js';
 import * as adminKeysHandler from '../functions/api/admin/keys.js';
+import * as configHandler from '../functions/api/config.js';
 
 function getCorsHeaders(request) {
   const origin = request.headers.get('Origin') || '*';
@@ -108,6 +109,14 @@ export default {
           response = await adminKeysHandler.onRequestPost(context);
         } else if (request.method === 'DELETE') {
           response = await adminKeysHandler.onRequestDelete(context);
+        } else {
+          response = jsonResponse({ success: false, error: 'Method Not Allowed' }, 405);
+        }
+      } else if (pathname === '/api/config' || pathname === '/api/admin/config') {
+        if (request.method === 'GET') {
+          response = await configHandler.onRequestGet(context);
+        } else if (request.method === 'POST') {
+          response = await configHandler.onRequestPost(context);
         } else {
           response = jsonResponse({ success: false, error: 'Method Not Allowed' }, 405);
         }

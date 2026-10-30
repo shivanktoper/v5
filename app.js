@@ -1639,9 +1639,9 @@ const FusionIcons = {
   pantry: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
   chefHat: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4M4 14c-1.5 0-2-1.5-2-3a4 4 0 0 1 6-3.5 4.5 4.5 0 0 1 8 0A4 4 0 0 1 22 11c0 1.5-.5 3-2 3H4z" fill="rgba(255,255,255,0.1)" stroke="currentColor"/><line x1="6" y1="17" x2="18" y2="17" stroke="var(--primary, #E05A47)"/></svg>`,
   mapPin: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="rgba(224,90,71,0.18)" stroke="#E05A47"/><circle cx="12" cy="10" r="3" fill="currentColor"/></svg>`,
-  medal1: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
-  medal2: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
-  medal3: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
+  medal1: /* 🥇 1st Gold Medal */ `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(245,158,11,0.3)" stroke="#F59E0B"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#B45309" stroke="none" text-anchor="middle">1</text></svg>`,
+  medal2: /* 🥈 2nd Silver Medal */ `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(156,163,175,0.3)" stroke="#9CA3AF"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#4B5563" stroke="none" text-anchor="middle">2</text></svg>`,
+  medal3: /* 🥉 3rd Bronze Medal */ `<svg class="fusion-svg-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" fill="rgba(217,119,6,0.3)" stroke="#D97706"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/><text x="12" y="10" font-size="8" font-weight="900" fill="#78350F" stroke="none" text-anchor="middle">3</text></svg>`,
   trash: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>`,
   download: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
   upload: `<svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>`,
@@ -1655,6 +1655,10 @@ const EMOJI_TO_SVG_MAP = {
   '\u{1F4D6}': FusionIcons.kitchenLab,
   '\u{1F310}': FusionIcons.fusionExplorer,
   '\u{1F3C6}': FusionIcons.trophy,
+  '🏆': FusionIcons.trophy,
+  '🥇': FusionIcons.medal1,
+  '🥈': FusionIcons.medal2,
+  '🥉': FusionIcons.medal3,
   '\u{1F947}': FusionIcons.medal1,
   '\u{1F948}': FusionIcons.medal2,
   '\u{1F949}': FusionIcons.medal3,
@@ -2766,39 +2770,38 @@ class FusionDatabase {
 }
 
 const DEFAULT_STATE = {
-  currentProfile: 'kid',
+  currentProfile: 'parent', // Default to Adult Chef Mode
   currentTab: 'games', // 'games', 'kitchen', 'leaderboard'
-  onboarded: false,
+  onboarded: true,
   hpMode: 'native', // 'native' or 'itch'
   leaderboardFilter: 'all', // 'all', 'hotPotato', 'buildDish', 'trivia'
   leaderboardScope: 'global', // 'global' (Global Hall of Fame)
   profiles: {
+    parent: {
+      name: 'Adult Chef',
+      role: 'parent', // 'parent' (Adult default)
+      rankLevel: 1,
+      avatar: '👨‍🍳',
+      xp: 450,
+      streak: 5,
+      bests: { hotPotato: 20, trivia: 9, buildDish: 6, pronunciation: 7, scienceSpins: 8 },
+      unlockedBadges: ['Master Chef', 'Tandoor Wizard', 'Nikkei Explorer']
+    },
     kid: {
-      name: 'Maya',
+      name: 'Student Chef',
       role: 'student', // 'student' or 'parent'
       rankLevel: 1,
-      avatar: 'kid',
+      avatar: '🎒',
       xp: 270,
       streak: 3,
       bests: { hotPotato: 10, trivia: 8, buildDish: 4, pronunciation: 5, scienceSpins: 6 },
       unlockedBadges: ['Junior Taster', 'Shroom Alchemist', 'Dish Master']
-    },
-    parent: {
-      name: 'Chef Priya',
-      role: 'parent',
-      rankLevel: 1,
-      avatar: 'parent',
-      xp: 450,
-      streak: 5,
-      bests: { hotPotato: 20, trivia: 9, buildDish: 6, pronunciation: 7, scienceSpins: 8 },
-      unlockedBadges: ['Sous-Chef Guide', 'Tandoor Wizard', 'Nikkei Explorer']
     }
   },
   gameToggles: {
     buildDish: true,
     pronunciation: true,
     trivia: true,
-    indiaMap: true,
     hotPotato: true,
     spinScience: true
   },
@@ -3384,80 +3387,264 @@ class ThreeJSCulinaryManager {
     hint.innerText = 'Drag to rotate 360° • Click pantry item to view';
     container.appendChild(hint);
 
-    const ambient = new THREE.AmbientLight(0xFFFFFF, 0.95);
+    // High-End Studio Lighting for Ultra-Realistic Culinary Presentation
+    const ambient = new THREE.AmbientLight(0xFFFFFF, 0.85);
     scene.add(ambient);
-    const light = new THREE.DirectionalLight(0xFFFFFF, 1.2);
-    light.position.set(10, 20, 15);
-    scene.add(light);
-
-    const stageLight = new THREE.PointLight(0x0284C7, 1.5, 20);
-    stageLight.position.set(0, -3, 3);
+    const keyLight = new THREE.DirectionalLight(0xFFF7ED, 1.4);
+    keyLight.position.set(8, 14, 10);
+    scene.add(keyLight);
+    const fillLight = new THREE.DirectionalLight(0x60A5FA, 0.55);
+    fillLight.position.set(-8, 6, 8);
+    scene.add(fillLight);
+    const rimLight = new THREE.DirectionalLight(0xF59E0B, 0.85);
+    rimLight.position.set(-6, -4, -8);
+    scene.add(rimLight);
+    const stageLight = new THREE.PointLight(0x0284C7, 1.2, 25);
+    stageLight.position.set(0, -3.5, 3.5);
     scene.add(stageLight);
 
     const ingredientGroup = new THREE.Group();
     scene.add(ingredientGroup);
+
+    // Procedural Ultra-Realistic Canvas Texture Generator
+    const createProceduralTexture = (type) => {
+      const c = document.createElement('canvas');
+      c.width = 256;
+      c.height = 256;
+      const ctx = c.getContext('2d');
+      if (type === 'shroom_cap') {
+        const grad = ctx.createRadialGradient(128, 128, 10, 128, 128, 128);
+        grad.addColorStop(0, '#B08968');
+        grad.addColorStop(0.5, '#7F5539');
+        grad.addColorStop(0.85, '#58311B');
+        grad.addColorStop(1, '#3A1E0D');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 256, 256);
+        for (let i = 0; i < 400; i++) {
+          ctx.fillStyle = Math.random() > 0.5 ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.08)';
+          ctx.beginPath();
+          ctx.arc(Math.random() * 256, Math.random() * 256, Math.random() * 2, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      } else if (type === 'shroom_gills') {
+        ctx.fillStyle = '#E6CCB2';
+        ctx.fillRect(0, 0, 256, 256);
+        for (let i = 0; i < 72; i++) {
+          const angle = (i / 72) * Math.PI * 2;
+          ctx.strokeStyle = i % 2 === 0 ? '#9C6644' : '#7F5539';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(128 + Math.cos(angle) * 18, 128 + Math.sin(angle) * 18);
+          ctx.lineTo(128 + Math.cos(angle) * 126, 128 + Math.sin(angle) * 126);
+          ctx.stroke();
+        }
+      } else if (type === 'lime_pulp') {
+        const grad = ctx.createRadialGradient(128, 128, 8, 128, 128, 128);
+        grad.addColorStop(0, '#DCFCE7');
+        grad.addColorStop(0.65, '#86EFAC');
+        grad.addColorStop(0.9, '#4ADE80');
+        grad.addColorStop(1, '#22C55E');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 256, 256);
+        for (let s = 0; s < 8; s++) {
+          const a = (s / 8) * Math.PI * 2;
+          ctx.strokeStyle = '#FFFFFF';
+          ctx.lineWidth = 3;
+          ctx.beginPath();
+          ctx.moveTo(128, 128);
+          ctx.lineTo(128 + Math.cos(a) * 126, 128 + Math.sin(a) * 126);
+          ctx.stroke();
+        }
+        for (let i = 0; i < 350; i++) {
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.45)';
+          ctx.beginPath();
+          ctx.ellipse(Math.random() * 240 + 8, Math.random() * 240 + 8, 3, 1.5, Math.random() * Math.PI, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      } else if (type === 'paneer_tikka') {
+        const grad = ctx.createLinearGradient(0, 0, 256, 256);
+        grad.addColorStop(0, '#EA580C');
+        grad.addColorStop(0.5, '#F97316');
+        grad.addColorStop(1, '#C2410C');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 256, 256);
+        for (let i = 0; i < 60; i++) {
+          ctx.fillStyle = '#22543D';
+          ctx.fillRect(Math.random() * 256, Math.random() * 256, 3, 2);
+        }
+        ctx.strokeStyle = 'rgba(30, 10, 5, 0.85)';
+        ctx.lineWidth = 14;
+        [65, 140, 210].forEach(y => {
+          ctx.beginPath();
+          ctx.moveTo(10, y - 25);
+          ctx.bezierCurveTo(90, y - 5, 170, y + 15, 246, y + 25);
+          ctx.stroke();
+        });
+      }
+      const tex = new THREE.CanvasTexture(c);
+      tex.wrapS = THREE.RepeatWrapping;
+      tex.wrapT = THREE.RepeatWrapping;
+      return tex;
+    };
 
     const buildModel = (name) => {
       ingredientGroup.clear();
       const n = (name || '').toLowerCase();
 
       if (n.includes('mushroom') || n.includes('shroom')) {
-        // King Oyster Mushroom
-        const stemGeo = new THREE.CylinderGeometry(0.5, 0.72, 2.2, 24);
-        const stemMat = new THREE.MeshStandardMaterial({ color: 0xFDFBF7, roughness: 0.65 });
+        // Ultra-Realistic King Oyster Mushroom (Pleurotus eryngii)
+        const stemGeo = new THREE.CylinderGeometry(0.52, 0.78, 2.3, 32);
+        const stemMat = new THREE.MeshStandardMaterial({
+          color: 0xFDFBF7,
+          roughness: 0.55,
+          metalness: 0.02
+        });
         const stem = new THREE.Mesh(stemGeo, stemMat);
-        stem.position.y = -0.2;
+        stem.position.y = -0.25;
         ingredientGroup.add(stem);
 
-        const capGeo = new THREE.SphereGeometry(1.15, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2);
-        const capMat = new THREE.MeshStandardMaterial({ color: 0xA07855, roughness: 0.75 });
+        const capGeo = new THREE.SphereGeometry(1.22, 32, 24, 0, Math.PI * 2, 0, Math.PI / 2);
+        const capMat = new THREE.MeshStandardMaterial({
+          map: createProceduralTexture('shroom_cap'),
+          roughness: 0.65,
+          metalness: 0.03
+        });
         const cap = new THREE.Mesh(capGeo, capMat);
         cap.position.y = 0.9;
         ingredientGroup.add(cap);
+
+        const gillsGeo = new THREE.CircleGeometry(1.18, 32);
+        const gillsMat = new THREE.MeshStandardMaterial({
+          map: createProceduralTexture('shroom_gills'),
+          roughness: 0.75,
+          side: THREE.DoubleSide
+        });
+        const gills = new THREE.Mesh(gillsGeo, gillsMat);
+        gills.rotation.x = Math.PI / 2;
+        gills.position.y = 0.89;
+        ingredientGroup.add(gills);
       } else if (n.includes('lime') || n.includes('lemon')) {
-        // Fresh Lime Half
-        const peelGeo = new THREE.SphereGeometry(1.2, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2);
-        const peelMat = new THREE.MeshStandardMaterial({ color: 0x22C55E, roughness: 0.45 });
+        // Ultra-Realistic Fresh Gondhoraj Lime Half with Glistening Pulp
+        const peelGeo = new THREE.SphereGeometry(1.25, 32, 24, 0, Math.PI * 2, 0, Math.PI / 2);
+        const peelMat = new THREE.MeshStandardMaterial({
+          color: 0x16A34A,
+          roughness: 0.35,
+          metalness: 0.05
+        });
         const peel = new THREE.Mesh(peelGeo, peelMat);
         ingredientGroup.add(peel);
 
-        const pulpGeo = new THREE.CircleGeometry(1.18, 24);
-        const pulpMat = new THREE.MeshStandardMaterial({ color: 0x86EFAC, roughness: 0.35, side: THREE.DoubleSide });
+        const pithGeo = new THREE.RingGeometry(1.12, 1.24, 32);
+        const pithMat = new THREE.MeshStandardMaterial({
+          color: 0xFEFCE8,
+          roughness: 0.8,
+          side: THREE.DoubleSide
+        });
+        const pith = new THREE.Mesh(pithGeo, pithMat);
+        pith.rotation.x = Math.PI / 2;
+        pith.position.y = 0.01;
+        ingredientGroup.add(pith);
+
+        const pulpGeo = new THREE.CircleGeometry(1.12, 32);
+        const pulpMat = new THREE.MeshStandardMaterial({
+          map: createProceduralTexture('lime_pulp'),
+          roughness: 0.22,
+          metalness: 0.08,
+          side: THREE.DoubleSide
+        });
         const pulp = new THREE.Mesh(pulpGeo, pulpMat);
         pulp.rotation.x = Math.PI / 2;
+        pulp.position.y = 0.02;
         ingredientGroup.add(pulp);
       } else if (n.includes('chili') || n.includes('chilli') || n.includes('pepper')) {
-        // Yellow Bhavnagri Chili
-        const bodyGeo = new THREE.ConeGeometry(0.55, 2.8, 20);
-        const bodyMat = new THREE.MeshStandardMaterial({ color: 0xFACC15, roughness: 0.38 });
+        // Ultra-Realistic Bhavnagri / Peruvian Chili with Waxy Gloss & Green Calyx
+        const bodyGeo = new THREE.ConeGeometry(0.58, 2.9, 24);
+        const bodyMat = new THREE.MeshStandardMaterial({
+          color: 0xFACC15,
+          roughness: 0.22,
+          metalness: 0.05
+        });
         const body = new THREE.Mesh(bodyGeo, bodyMat);
-        body.rotation.z = Math.PI * 0.95;
+        body.rotation.z = Math.PI * 0.94;
         body.position.y = 0.2;
         ingredientGroup.add(body);
 
-        const stemGeo = new THREE.CylinderGeometry(0.1, 0.1, 0.55, 12);
-        const stemMat = new THREE.MeshStandardMaterial({ color: 0x15803D, roughness: 0.5 });
+        const calyxGeo = new THREE.CylinderGeometry(0.32, 0.22, 0.2, 12);
+        const calyxMat = new THREE.MeshStandardMaterial({ color: 0x15803D, roughness: 0.5 });
+        const calyx = new THREE.Mesh(calyxGeo, calyxMat);
+        calyx.position.y = 1.35;
+        ingredientGroup.add(calyx);
+
+        const stemGeo = new THREE.CylinderGeometry(0.08, 0.1, 0.65, 12);
+        const stemMat = new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.5 });
         const stem = new THREE.Mesh(stemGeo, stemMat);
-        stem.position.y = 1.35;
+        stem.rotation.z = 0.25;
+        stem.position.set(0.06, 1.68, 0);
         ingredientGroup.add(stem);
       } else if (n.includes('paneer') || n.includes('cheese') || n.includes('tofu')) {
-        // Pure Dairy Paneer Cube
-        const cubeGeo = new THREE.BoxGeometry(1.6, 1.6, 1.6);
-        const cubeMat = new THREE.MeshStandardMaterial({ color: 0xF8FAFC, roughness: 0.65 });
+        // Ultra-Realistic Tandoori Paneer Tikka Cube with Charred Grill Marks
+        const cubeGeo = new THREE.BoxGeometry(1.65, 1.65, 1.65);
+        const cubeMat = new THREE.MeshStandardMaterial({
+          map: createProceduralTexture('paneer_tikka'),
+          roughness: 0.38,
+          metalness: 0.05
+        });
         const cube = new THREE.Mesh(cubeGeo, cubeMat);
         ingredientGroup.add(cube);
+      } else if (n.includes('avocado')) {
+        // Hass Avocado Half with Pit
+        const skinGeo = new THREE.SphereGeometry(1.2, 28, 20, 0, Math.PI * 2, 0, Math.PI / 2);
+        const skinMat = new THREE.MeshStandardMaterial({ color: 0x1C2D1F, roughness: 0.85 });
+        const skin = new THREE.Mesh(skinGeo, skinMat);
+        ingredientGroup.add(skin);
+
+        const fleshGeo = new THREE.CircleGeometry(1.18, 28);
+        const fleshMat = new THREE.MeshStandardMaterial({ color: 0xA3E635, roughness: 0.45, side: THREE.DoubleSide });
+        const flesh = new THREE.Mesh(fleshGeo, fleshMat);
+        flesh.rotation.x = Math.PI / 2;
+        ingredientGroup.add(flesh);
+
+        const pitGeo = new THREE.SphereGeometry(0.48, 20, 16);
+        const pitMat = new THREE.MeshStandardMaterial({ color: 0x78350F, roughness: 0.25 });
+        const pit = new THREE.Mesh(pitGeo, pitMat);
+        pit.position.y = 0.12;
+        ingredientGroup.add(pit);
+      } else if (n.includes('tomato')) {
+        // High-Gloss Vine Ripe Tomato
+        const tomGeo = new THREE.SphereGeometry(1.1, 28, 24);
+        const tomMat = new THREE.MeshStandardMaterial({ color: 0xDC2626, roughness: 0.18, metalness: 0.05 });
+        const tom = new THREE.Mesh(tomGeo, tomMat);
+        ingredientGroup.add(tom);
+
+        const calyxGeo = new THREE.ConeGeometry(0.45, 0.1, 5);
+        const calyxMat = new THREE.MeshStandardMaterial({ color: 0x15803D, roughness: 0.6 });
+        const calyx = new THREE.Mesh(calyxGeo, calyxMat);
+        calyx.position.y = 1.05;
+        ingredientGroup.add(calyx);
       } else {
-        // Roasted Chana / Makhana
-        const chanaGeo = new THREE.DodecahedronGeometry(0.9, 2);
-        const cPos = chanaGeo.attributes.position;
-        for (let i = 0; i < cPos.count; i++) {
-          const noise = 1 + 0.12 * Math.sin(cPos.getX(i) * 3) * Math.cos(cPos.getY(i) * 3);
-          cPos.setXYZ(i, cPos.getX(i) * noise, cPos.getY(i) * noise, cPos.getZ(i) * noise);
+        // Puffed Roasted Makhana / Spiced Foxnut
+        const makhanaGroup = new THREE.Group();
+        const baseGeo = new THREE.DodecahedronGeometry(0.85, 2);
+        const bPos = baseGeo.attributes.position;
+        for (let i = 0; i < bPos.count; i++) {
+          const noise = 1 + 0.15 * Math.sin(bPos.getX(i) * 3) * Math.cos(bPos.getY(i) * 3);
+          bPos.setXYZ(i, bPos.getX(i) * noise, bPos.getY(i) * noise, bPos.getZ(i) * noise);
         }
-        chanaGeo.computeVertexNormals();
-        const chanaMat = new THREE.MeshStandardMaterial({ color: 0xD97706, roughness: 0.8 });
-        const chana = new THREE.Mesh(chanaGeo, chanaMat);
-        ingredientGroup.add(chana);
+        baseGeo.computeVertexNormals();
+        const makhanaMat = new THREE.MeshStandardMaterial({
+          color: 0xFEF3C7,
+          roughness: 0.72,
+          metalness: 0.02
+        });
+        const m1 = new THREE.Mesh(baseGeo, makhanaMat);
+        makhanaGroup.add(m1);
+
+        const blisterGeo = new THREE.SphereGeometry(0.35, 12, 10);
+        const blisterMat = new THREE.MeshStandardMaterial({ color: 0xB45309, roughness: 0.85 });
+        const b1 = new THREE.Mesh(blisterGeo, blisterMat);
+        b1.position.set(0.4, 0.4, 0.4);
+        makhanaGroup.add(b1);
+        ingredientGroup.add(makhanaGroup);
       }
     };
 
@@ -4700,6 +4887,13 @@ class FusionApp {
     if (adminFooter && !adminFooter.querySelector('.fusion-icon')) {
       adminFooter.innerHTML = `${FusionIcons.adminLock} Admin Settings & Controls`;
     }
+
+    // Enforce aria-hidden="true" on all decorative SVGs that lack accessible names
+    document.querySelectorAll('svg').forEach(svg => {
+      if (!svg.hasAttribute('aria-hidden') && !svg.hasAttribute('aria-label') && !svg.hasAttribute('role')) {
+        svg.setAttribute('aria-hidden', 'true');
+      }
+    });
   }
 
   ensureHotPotatoTimerHUD() {
@@ -5102,7 +5296,49 @@ class FusionApp {
       this.threeManager.onTabChanged(this.state.currentTab || 'games');
     }
     sound.playCorrect();
-    showToast('All website data, XP, and leaderboards cleared!', 'success');
+    this.showDataResetToast();
+  }
+
+  showDataResetToast() {
+    const container = document.getElementById('toast-container');
+    if (!container) return;
+    const toast = document.createElement('div');
+    toast.className = 'toast toast-warning data-reset-undo-toast';
+    toast.style.cssText = 'display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:0.85rem 1.25rem; background:#1E1B18; border:1.5px solid #F59E0B; border-radius:12px; color:#FBF9F5; box-shadow:0 12px 32px rgba(0,0,0,0.5); z-index:9999; max-width:440px;';
+    toast.innerHTML = `
+      <div style="display:flex; align-items:center; gap:0.6rem;">
+        <span style="color:#F59E0B;">${FusionIcons.bulb || '⚠️'}</span>
+        <span style="font-size:0.92rem; font-weight:600;">Website data was reset.</span>
+      </div>
+      <button id="toast-undo-reset-btn" class="btn" style="background:#10B981; color:#FFFFFF; border:none; padding:0.35rem 0.85rem; font-size:0.85rem; font-weight:800; border-radius:6px; cursor:pointer;">
+        Undo Reset
+      </button>
+    `;
+    container.appendChild(toast);
+
+    const undoBtn = toast.querySelector('#toast-undo-reset-btn');
+    undoBtn?.addEventListener('click', () => {
+      if (this.lastBackupState) {
+        this.state = JSON.parse(JSON.stringify(this.lastBackupState));
+        this.lastBackupState = null;
+        this.saveState();
+        this.renderHeader();
+        this.renderProgressStrip();
+        this.renderLeaderboard();
+        this.renderKitchenLab(this.state.recipeFilter);
+        toast.remove();
+        sound.playCorrect();
+        showToast('Reset undone! Your data has been fully restored.', 'success');
+      }
+    });
+
+    setTimeout(() => {
+      if (toast.parentElement) {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateY(15px)';
+        setTimeout(() => toast.remove(), 300);
+      }
+    }, 20000);
   }
 
   init() {
@@ -5121,12 +5357,48 @@ class FusionApp {
     this.initScrolltideShowcase();
     this.updateNavAccessibility();
     this.applyV2FeatureVisibility();
+    this.fetchGlobalConfig();
 
     // Auto-prompt onboarding modal on first session if not onboarded
     if (this.state.onboarded === false) {
       setTimeout(() => {
         this.openProfileModal();
       }, 400);
+    }
+  }
+
+  async fetchGlobalConfig() {
+    try {
+      if (typeof window !== 'undefined' && window.location.protocol !== 'http:' && window.location.protocol !== 'https:') {
+        return;
+      }
+      const res = await fetch('/api/config');
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data.success && data.config) {
+        let changed = false;
+        if (data.config.gameToggles) {
+          this.state.gameToggles = { ...this.state.gameToggles, ...data.config.gameToggles };
+          changed = true;
+        }
+        if (data.config.defaultDifficulty && !localStorage.getItem('fusion_app_state')) {
+          this.state.currentProfile = data.config.defaultDifficulty;
+          changed = true;
+        }
+        if (data.config.v2Features) {
+          this.state.v2Features = { ...this.state.v2Features, ...data.config.v2Features };
+          changed = true;
+        }
+        if (changed) {
+          this.saveState();
+          this.renderGameTabs();
+          this.renderActiveGame();
+          this.renderHeader();
+          this.applyV2FeatureVisibility();
+        }
+      }
+    } catch (e) {
+      // Graceful fallback to cached state
     }
   }
 
@@ -5186,6 +5458,19 @@ class FusionApp {
       this.switchMainTab('games');
     });
 
+    // Global keyboard hotkeys (1-4) for main tab navigation
+    document.addEventListener('keydown', (e) => {
+      const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+      if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select' || document.body.classList.contains('has-modal-open')) {
+        return;
+      }
+      if (e.altKey || e.ctrlKey || e.metaKey) return;
+      const keyMap = { '1': 'games', '2': 'kitchen', '3': 'fusion', '4': 'leaderboard' };
+      if (keyMap[e.key]) {
+        this.switchMainTab(keyMap[e.key]);
+      }
+    });
+
     // Activate initial tab from state
     this.switchMainTab(this.state.currentTab || 'games', false);
   }
@@ -5235,12 +5520,12 @@ class FusionApp {
   }
 
   getActiveProfile() {
-    return this.state.profiles[this.state.currentProfile] || this.state.profiles.kid;
+    return this.state.profiles[this.state.currentProfile] || this.state.profiles.parent || this.state.profiles.kid;
   }
 
   getDifficultySettings() {
     const prof = this.getActiveProfile();
-    const isStudent = prof.role === 'student' || this.state.currentProfile === 'kid';
+    const isStudent = prof.role === 'student' && this.state.currentProfile !== 'parent';
     if (isStudent) {
       return {
         role: 'student',
@@ -5249,7 +5534,7 @@ class FusionApp {
         hpCoalsBoost: -8.5,
         coalsHeight: 70,
         impostorCount: 3,
-        badgeText: 'Student Mode (Forgiving Timers & Hints)',
+        badgeText: 'Student Chef Mode (Assisted)',
         badgeClass: 'student-mode-badge'
       };
     } else {
@@ -5259,8 +5544,8 @@ class FusionApp {
         hpGravity: 0.32,
         hpCoalsBoost: -7.0,
         coalsHeight: 45,
-        impostorCount: 6,
-        badgeText: 'Parent Mode (Pro Kitchen Challenge)',
+        impostorCount: 5,
+        badgeText: 'Adult Chef Mode (Default Mastery)',
         badgeClass: 'parent-mode-badge'
       };
     }
@@ -5549,8 +5834,12 @@ class FusionApp {
     document.documentElement.setAttribute('data-theme', theme);
     const themeBtn = document.getElementById('theme-toggle-btn');
     if (themeBtn) {
-      themeBtn.innerHTML = theme === 'dark' ? FusionIcons.themeSun : FusionIcons.themeMoon;
-      themeBtn.setAttribute('title', theme === 'dark' ? 'Switch to Light-Blue Mode' : 'Switch to Obsidian Black Mode');
+      const isDark = theme === 'dark';
+      themeBtn.innerHTML = `
+        <span class="header-btn-emoji" id="theme-toggle-emoji" aria-hidden="true">${isDark ? '🌙' : '☀️'}</span>
+        <span class="header-btn-text" id="theme-toggle-text">${isDark ? 'Dark Mode' : 'Light Mode'}</span>
+      `;
+      themeBtn.setAttribute('title', isDark ? 'Switch to Light Theme' : 'Switch to Dark Theme');
     }
     this.saveState();
   }
@@ -5567,7 +5856,10 @@ class FusionApp {
     sound.playClick();
     const soundBtn = document.getElementById('sound-toggle-btn');
     if (soundBtn) {
-      soundBtn.innerHTML = muted ? FusionIcons.soundOff : FusionIcons.soundOn;
+      soundBtn.innerHTML = `
+        <span class="header-btn-emoji" id="sound-toggle-emoji" aria-hidden="true">${muted ? '🔇' : '🔊'}</span>
+        <span class="header-btn-text" id="sound-toggle-text">${muted ? 'Sound: OFF' : 'Sound: ON'}</span>
+      `;
       soundBtn.setAttribute('title', muted ? 'Unmute Sound Effects' : 'Mute Sound Effects');
     }
     showToast(muted ? 'Sound Effects Muted' : 'Sound Effects Enabled', 'info');
@@ -5577,18 +5869,31 @@ class FusionApp {
     const profile = this.getActiveProfile();
     const rank = this.getCurrentRank(profile.xp, profile.role);
     
+    // Minimalistic Adult Default Chef Profile Pill (No Kid Chef Maya / Sous-Chef Guide clutter)
     const profilePill = document.getElementById('profile-switch-btn');
     if (profilePill) {
       profilePill.innerHTML = `
-        <span class="profile-avatar">${profile.avatar}</span>
-        <span class="profile-name">${profile.name}</span>
-        <span class="pill-badge profile-rank-badge">${rank.title}</span>
+        <span class="profile-avatar" id="header-profile-avatar" aria-hidden="true">${profile.avatar || '👨‍🍳'}</span>
+        <span class="profile-name" id="header-profile-name">${profile.role === 'parent' ? (profile.name || 'Adult Chef') : profile.name}</span>
       `;
     }
 
     const soundBtn = document.getElementById('sound-toggle-btn');
     if (soundBtn) {
-      soundBtn.innerHTML = sound.isMuted() ? FusionIcons.soundOff : FusionIcons.soundOn;
+      const isMuted = sound.isMuted();
+      soundBtn.innerHTML = `
+        <span class="header-btn-emoji" id="sound-toggle-emoji" aria-hidden="true">${isMuted ? '🔇' : '🔊'}</span>
+        <span class="header-btn-text" id="sound-toggle-text">${isMuted ? 'Sound: OFF' : 'Sound: ON'}</span>
+      `;
+    }
+
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (themeBtn) {
+      const isDark = (this.state.theme || 'dark') === 'dark';
+      themeBtn.innerHTML = `
+        <span class="header-btn-emoji" id="theme-toggle-emoji" aria-hidden="true">${isDark ? '🌙' : '☀️'}</span>
+        <span class="header-btn-text" id="theme-toggle-text">${isDark ? 'Dark Mode' : 'Light Mode'}</span>
+      `;
     }
   }
 
@@ -5641,7 +5946,6 @@ class FusionApp {
       { id: 'buildDish', name: 'Build-a-Dish', icon: FusionIcons.buildDish, desc: 'Pantry Rush & Recipe Simulation', activeDesc: 'Timed hunt + step sequence' },
       { id: 'pronunciation', name: 'Pronounce Lab', icon: FusionIcons.pronunciation, desc: 'Phonetic Matching & Voice Check', activeDesc: 'Listen, reorder & speak' },
       { id: 'trivia', name: 'Family Trivia', icon: FusionIcons.trivia, desc: '10 Qs with Soft Timer & Hints', activeDesc: 'Food science & origins' },
-      { id: 'indiaMap', name: 'India Fusion Map', icon: FusionIcons.indiaMap, desc: 'Metro Quests & Bazaar Markets', activeDesc: 'City quests & ingredients' },
       { id: 'hotPotato', name: 'Hot Potato Rush', icon: FusionIcons.goldenPotato, desc: 'Whack, Cook in Coals & Serve Golden', activeDesc: 'Cook on coals, serve golden' },
       { id: 'spinScience', name: 'Science Wheel', icon: FusionIcons.spinScience, desc: 'Food Chemistry Explanations', activeDesc: 'Spin & discover reactions' }
     ];
@@ -5749,9 +6053,6 @@ class FusionApp {
         break;
       case 'trivia':
         this.renderTriviaGame(arena);
-        break;
-      case 'indiaMap':
-        this.renderIndiaMapGame(arena);
         break;
       case 'hotPotato':
         this.renderHotPotatoGame(arena);
@@ -10156,13 +10457,12 @@ Guidelines:
           }
         });
 
-        // Save toggles
-        document.getElementById('save-admin-settings-btn')?.addEventListener('click', () => {
+        // Save toggles & sync globally to Cloudflare D1
+        document.getElementById('save-admin-settings-btn')?.addEventListener('click', async () => {
           sound.playCorrect();
           this.state.gameToggles.buildDish = document.getElementById('toggle-buildDish')?.checked ?? true;
           this.state.gameToggles.pronunciation = document.getElementById('toggle-pronunciation')?.checked ?? true;
           this.state.gameToggles.trivia = document.getElementById('toggle-trivia')?.checked ?? true;
-          this.state.gameToggles.indiaMap = document.getElementById('toggle-indiaMap')?.checked ?? true;
           this.state.gameToggles.hotPotato = document.getElementById('toggle-hotPotato')?.checked ?? true;
           this.state.gameToggles.spinScience = document.getElementById('toggle-spinScience')?.checked ?? true;
 
@@ -10179,8 +10479,34 @@ Guidelines:
           this.applyV2FeatureVisibility();
           this.renderGameTabs();
           this.renderActiveGame();
+
+          // Sync worldwide to Cloudflare D1 so all users worldwide see admin changes
+          if (typeof window !== 'undefined' && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
+            try {
+              const resp = await fetch('/api/config', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  adminPin: this.state.adminPin,
+                  gameToggles: this.state.gameToggles,
+                  defaultDifficulty: this.state.currentProfile || 'parent',
+                  v2Features: this.state.v2Features
+                })
+              });
+              const resData = await resp.json();
+              if (resData.success) {
+                showToast('Admin settings saved & applied worldwide via Cloudflare D1!', 'success');
+              } else {
+                showToast('Settings saved locally. Server: ' + (resData.error || 'OK'), 'info');
+              }
+            } catch (netErr) {
+              showToast('Settings saved locally (Offline mode active).', 'info');
+            }
+          } else {
+            showToast('Settings saved locally (Local storage active).', 'info');
+          }
+
           this.closeAdminModal();
-          showToast('Admin settings & modular toggles applied!', 'success');
         });
 
         // Reset scores
@@ -10428,39 +10754,71 @@ Guidelines:
             </div>
           </div>
 
-          <!-- Live Endpoint Diagnostics -->
+          <!-- Live Endpoint Diagnostics & Testing -->
           <div class="admin-ai-config-card">
             <h4 style="margin:0 0 0.5rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>Live Endpoint Diagnostics & Testing</span>
+              <span>Live Endpoint Diagnostics &amp; Testing</span>
             </h4>
             <p style="font-size:0.78rem; color:var(--text-muted); margin-bottom:0.75rem;">
-              Verify live REST API reachability, HTTP headers, and response latency:
+              Verify live REST API reachability, read &amp; write authentication, and latency:
             </p>
             <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:0.75rem;">
-              <button class="btn btn-secondary" id="test-ping-leaderboard-btn" style="font-size:0.8rem; padding:0.35rem 0.75rem;">
-                 Test GET /api/leaderboard
+              <button class="btn btn-secondary" id="test-ping-leaderboard-btn" style="font-size:0.78rem; padding:0.35rem 0.65rem;">
+                Test GET /api/leaderboard
               </button>
-              <button class="btn btn-secondary" id="test-ping-feedback-btn" style="font-size:0.8rem; padding:0.35rem 0.75rem;">
-                 Test GET /api/feedback
+              <button class="btn btn-secondary" id="test-post-leaderboard-btn" style="font-size:0.78rem; padding:0.35rem 0.65rem;">
+                Test POST /api/leaderboard (Write)
+              </button>
+              <button class="btn btn-secondary" id="test-ping-feedback-btn" style="font-size:0.78rem; padding:0.35rem 0.65rem;">
+                Test GET /api/feedback
+              </button>
+              <button class="btn btn-secondary" id="test-post-feedback-btn" style="font-size:0.78rem; padding:0.35rem 0.65rem;">
+                Test POST /api/feedback (Write)
               </button>
             </div>
             <div id="api-diagnostic-output" style="background:#0F172A; color:#E2E8F0; padding:0.75rem; border-radius:var(--radius-sm); font-family:monospace; font-size:0.76rem; min-height:55px; max-height:140px; overflow-y:auto; white-space:pre-wrap;">Click a diagnostic test button above to ping the production REST API.</div>
           </div>
 
+          <!-- API Generation for Leaderboard & Feedback (Read and Write) -->
+          <div class="admin-ai-config-card">
+            <h4 style="margin:0 0 0.5rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
+              <span>API Generation Suite for Leaderboard &amp; Feedback</span>
+            </h4>
+            <p style="font-size:0.78rem; color:var(--text-muted); margin-bottom:0.75rem;">
+              Select an API to generate ready-to-use cURL commands, HTTP payloads, and JavaScript fetch snippets:
+            </p>
+            <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; flex-wrap:wrap;">
+              <select id="api-generator-type-select" class="api-key-input" style="flex:1 1 220px; font-size:0.82rem; padding:0.4rem 0.6rem;">
+                <option value="lb_read">1. Leaderboard Read API (GET /api/leaderboard)</option>
+                <option value="lb_write">2. Leaderboard Write API (POST /api/leaderboard)</option>
+                <option value="fb_read">3. Feedback Read API (GET /api/feedback)</option>
+                <option value="fb_write">4. Feedback Write API (POST /api/feedback)</option>
+              </select>
+              <button class="btn btn-primary" id="copy-generated-api-snippet-btn" style="padding:0.4rem 0.85rem; font-size:0.78rem; font-weight:700;">
+                Copy Snippet
+              </button>
+            </div>
+            <div style="position:relative;">
+              <pre id="api-generated-snippet-box" style="background:#0F172A; color:#E2E8F0; padding:0.85rem; border-radius:var(--radius-sm); font-family:monospace; font-size:0.75rem; overflow-x:auto; line-height:1.45; max-height:220px; margin:0;"></pre>
+            </div>
+          </div>
+
           <!-- Developer Reference -->
           <div class="admin-ai-config-card" style="margin-bottom:0;">
             <h4 style="margin:0 0 0.5rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
-              <span>Developer Integration Reference</span>
+              <span>Developer Integration Reference &amp; Global D1 Architecture</span>
             </h4>
             <div style="background:var(--bg-parchment); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.78rem; line-height:1.5;">
               <div style="font-weight:700; color:var(--text-main); margin-bottom:0.3rem;">Authentication Header:</div>
-              <code style="background:rgba(0,0,0,0.06); padding:0.2rem 0.4rem; border-radius:4px; font-family:monospace; display:block; margin-bottom:0.6rem;">Authorization: Bearer ff_live_...</code>
+              <code style="background:rgba(0,0,0,0.06); padding:0.2rem 0.4rem; border-radius:4px; font-family:monospace; display:block; margin-bottom:0.6rem;">Authorization: Bearer ff_live_... (or X-API-Key: ff_live_...)</code>
               <div style="font-weight:700; color:var(--text-main); margin-bottom:0.25rem;">Available REST Endpoints:</div>
               <ul style="margin:0; padding-left:1.2rem; color:var(--text-muted); font-size:0.76rem; line-height:1.6;">
                 <li><code>GET /api/leaderboard</code> — Read global player rankings, streaks, and XP</li>
                 <li><code>POST /api/leaderboard</code> — Write / upsert player challenge scores and level</li>
                 <li><code>GET /api/feedback</code> — Read customer reviews and average rating metrics</li>
-                <li><code>POST /api/feedback</code> — Submit pure vegetarian recipes feedback & star ratings</li>
+                <li><code>POST /api/feedback</code> — Submit pure vegetarian recipes feedback &amp; star ratings</li>
+                <li><code>GET /api/config</code> — Read worldwide synchronized admin configuration from D1</li>
+                <li><code>POST /api/config</code> — Save admin configuration globally to Cloudflare D1</li>
               </ul>
             </div>
           </div>
@@ -10522,14 +10880,50 @@ Guidelines:
           });
         });
 
+        // Wire Code Generator Dropdown
+        const snippetBox = document.getElementById('api-generated-snippet-box');
+        const snippetSelect = document.getElementById('api-generator-type-select');
+        const copySnippetBtn = document.getElementById('copy-generated-api-snippet-btn');
+        const activeToken = (this.lastGeneratedKey?.token) || (this.state.apiKeys && this.state.apiKeys[0]?.token) || 'ff_live_rw_sample_token_2026';
+        
+        const updateSnippet = () => {
+          if (snippetBox && snippetSelect) {
+            snippetBox.innerText = this.getApiCodeSnippet(snippetSelect.value, activeToken);
+          }
+        };
+        updateSnippet();
+        snippetSelect?.addEventListener('change', updateSnippet);
+
+        copySnippetBtn?.addEventListener('click', () => {
+          if (snippetBox && navigator.clipboard) {
+            navigator.clipboard.writeText(snippetBox.innerText).then(() => {
+              sound.playChime();
+              copySnippetBtn.innerText = 'Copied!';
+              showToast('API code snippet copied to clipboard!', 'success');
+              setTimeout(() => { copySnippetBtn.innerText = 'Copy Snippet'; }, 2000);
+            });
+          }
+        });
+
+        // Diagnostic Ping Buttons (Read & Write)
         document.getElementById('test-ping-leaderboard-btn')?.addEventListener('click', () => {
           const out = document.getElementById('api-diagnostic-output');
-          this.runApiDiagnosticPing('/api/leaderboard', out);
+          this.runApiDiagnosticPing('/api/leaderboard', out, 'GET');
+        });
+
+        document.getElementById('test-post-leaderboard-btn')?.addEventListener('click', () => {
+          const out = document.getElementById('api-diagnostic-output');
+          this.runApiDiagnosticPing('/api/leaderboard', out, 'POST');
         });
 
         document.getElementById('test-ping-feedback-btn')?.addEventListener('click', () => {
           const out = document.getElementById('api-diagnostic-output');
-          this.runApiDiagnosticPing('/api/feedback', out);
+          this.runApiDiagnosticPing('/api/feedback', out, 'GET');
+        });
+
+        document.getElementById('test-post-feedback-btn')?.addEventListener('click', () => {
+          const out = document.getElementById('api-diagnostic-output');
+          this.runApiDiagnosticPing('/api/feedback', out, 'POST');
         });
       }
     }
@@ -10620,32 +11014,153 @@ Guidelines:
     }
   }
 
-  async runApiDiagnosticPing(endpoint, outputEl) {
+  getApiCodeSnippet(type, token = 'ff_live_sample_token_2026') {
+    const origin = (typeof window !== 'undefined' && window.location.origin && window.location.origin !== 'null') ? window.location.origin : 'https://fusionfood.pages.dev';
+    if (type === 'lb_read') {
+      return `# 1. Leaderboard Read API (GET)
+curl -X GET "${origin}/api/leaderboard?filter=all&limit=25" \\
+  -H "Authorization: Bearer ${token}"
+
+// JavaScript Fetch:
+const res = await fetch('${origin}/api/leaderboard?filter=all&limit=25', {
+  headers: { 'Authorization': 'Bearer ${token}' }
+});
+const data = await res.json();
+console.log('Leaderboard Top Ranks:', data.leaderboard);`;
+    } else if (type === 'lb_write') {
+      return `# 2. Leaderboard Write API (POST)
+curl -X POST "${origin}/api/leaderboard" \\
+  -H "Content-Type: application/json" \\
+  -H "X-API-Key: ${token}" \\
+  -d '{
+    "userId": "chef_raj",
+    "userName": "Chef Raj",
+    "avatar": "👨‍🍳",
+    "role": "parent",
+    "gameType": "hotPotato",
+    "score": 45,
+    "xp": 3600,
+    "streak": 12,
+    "level": 3,
+    "country": "India"
+  }'
+
+// JavaScript Fetch:
+const res = await fetch('${origin}/api/leaderboard', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'X-API-Key': '${token}'
+  },
+  body: JSON.stringify({
+    userId: 'chef_raj',
+    userName: 'Chef Raj',
+    role: 'parent',
+    gameType: 'hotPotato',
+    score: 45,
+    xp: 3600
+  })
+});
+const result = await res.json();
+console.log('Leaderboard Write Result:', result);`;
+    } else if (type === 'fb_read') {
+      return `# 3. Community Feedback Read API (GET)
+curl -X GET "${origin}/api/feedback?limit=20" \\
+  -H "Authorization: Bearer ${token}"
+
+// JavaScript Fetch:
+const res = await fetch('${origin}/api/feedback?limit=20', {
+  headers: { 'Authorization': 'Bearer ${token}' }
+});
+const data = await res.json();
+console.log('Average Rating:', data.stats?.averageRating);
+console.log('Reviews:', data.feedbacks);`;
+    } else {
+      return `# 4. Community Feedback Write API (POST)
+curl -X POST "${origin}/api/feedback" \\
+  -H "Content-Type: application/json" \\
+  -H "X-API-Key: ${token}" \\
+  -d '{
+    "userName": "The Mehta Family",
+    "role": "parent",
+    "rating": 5,
+    "category": "recipe",
+    "recipeId": "nikkei_mushroom_ceviche",
+    "comment": "Incredible vegetarian adaptation with Gondhoraj lime and King Oyster shrooms!"
+  }'
+
+// JavaScript Fetch:
+const res = await fetch('${origin}/api/feedback', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'X-API-Key': '${token}'
+  },
+  body: JSON.stringify({
+    userName: 'The Mehta Family',
+    role: 'parent',
+    rating: 5,
+    category: 'recipe',
+    comment: 'Delicious!'
+  })
+});
+const result = await res.json();
+console.log('Feedback Submitted:', result);`;
+    }
+  }
+
+  async runApiDiagnosticPing(endpoint, outputEl, method = 'GET') {
     if (!outputEl) return;
-    outputEl.innerHTML = `<span style="color:#60A5FA;"> Pinging ${endpoint}...</span>`;
+    outputEl.innerHTML = `<span style="color:#60A5FA;"> Sending ${method} ${endpoint}...</span>`;
     const t0 = performance.now();
     try {
       if (typeof window !== 'undefined' && window.location.protocol === 'file:') {
         await new Promise(r => setTimeout(r, 60));
         const latency = Math.round(performance.now() - t0);
-        let sampleData = {};
-        if (endpoint.includes('leaderboard')) {
-          sampleData = { success: true, count: 5, source: 'local_storage', status: '200 OK' };
-        } else {
-          sampleData = { success: true, ratingAvg: 4.9, count: 18, status: '200 OK' };
-        }
-        outputEl.innerHTML = `<span style="color:#34D399;">HTTP 200 OK (${latency}ms)</span>\nEndpoint: ${endpoint}\nProtocol: file:/// diagnostic fallback\nResponse:\n${JSON.stringify(sampleData, null, 2)}`;
+        const sampleData = endpoint.includes('leaderboard')
+          ? { success: true, action: method === 'POST' ? 'created' : 'read', status: '200 OK' }
+          : { success: true, action: method === 'POST' ? 'created' : 'read', status: '200 OK' };
+        outputEl.innerHTML = `<span style="color:#34D399;">HTTP 200 OK (${latency}ms)</span>\nMethod: ${method} ${endpoint}\nProtocol: file:/// diagnostic simulation\nResponse:\n${JSON.stringify(sampleData, null, 2)}`;
         return;
       }
 
-      const res = await fetch(endpoint);
+      const activeToken = (this.lastGeneratedKey?.token) || (this.state.apiKeys && this.state.apiKeys[0]?.token) || 'ff_live_rw_guest_token';
+      const opts = {
+        method,
+        headers: {
+          'Content-Type': 'application/json',
+          'X-API-Key': activeToken
+        }
+      };
+      if (method === 'POST') {
+        if (endpoint.includes('leaderboard')) {
+          opts.body = JSON.stringify({
+            userId: 'diagnostic_chef',
+            userName: 'Diagnostic Chef',
+            avatar: '👨‍🍳',
+            role: 'parent',
+            gameType: 'overall',
+            score: 100,
+            xp: 1000
+          });
+        } else {
+          opts.body = JSON.stringify({
+            userName: 'Diagnostic Reviewer',
+            role: 'parent',
+            rating: 5,
+            comment: 'Diagnostic automated review ping test'
+          });
+        }
+      }
+
+      const res = await fetch(endpoint, opts);
       const latency = Math.round(performance.now() - t0);
       const data = await res.json();
       const statusColor = res.ok ? '#34D399' : '#F87171';
-      outputEl.innerHTML = `<span style="color:${statusColor};">${res.ok ? 'OK' : 'ERR'} HTTP ${res.status} ${res.statusText} (${latency}ms)</span>\nEndpoint: ${endpoint}\nHeaders: Content-Type: ${res.headers.get('content-type') || 'application/json'}\nResponse:\n${JSON.stringify(data, null, 2).slice(0, 400)}${JSON.stringify(data).length > 400 ? '...' : ''}`;
+      outputEl.innerHTML = `<span style="color:${statusColor};">${res.ok ? 'OK' : 'ERR'} HTTP ${res.status} ${res.statusText} (${latency}ms)</span>\nMethod: ${method} ${endpoint}\nResponse:\n${JSON.stringify(data, null, 2).slice(0, 500)}`;
     } catch (err) {
       const latency = Math.round(performance.now() - t0);
-      outputEl.innerHTML = `<span style="color:#F87171;">ERR Connection Notice (${latency}ms)</span>\nEndpoint: ${endpoint}\nDetail: ${err.message || 'Network unreachable'}\nFallback: Local offline cache active.`;
+      outputEl.innerHTML = `<span style="color:#F87171;">ERR Connection Notice (${latency}ms)</span>\nMethod: ${method} ${endpoint}\nDetail: ${err.message || 'Network unreachable'}\nFallback: Local offline cache active.`;
     }
   }
 
@@ -10714,7 +11229,11 @@ Guidelines:
     // Header Actions: Camera, Portfolio, and Leaderboard
     document.getElementById('header-leaderboard-pill')?.addEventListener('click', () => {
       sound.playClick();
-      this.openLeaderboardModal();
+      this.switchMainTab('leaderboard');
+      const lbCard = document.querySelector('.family-roster-card') || document.getElementById('pane-leaderboard');
+      if (lbCard) {
+        lbCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     });
     document.getElementById('close-leaderboard-modal-btn')?.addEventListener('click', () => this.closeLeaderboardModal());
     document.getElementById('leaderboard-modal')?.addEventListener('click', (e) => {
@@ -10736,6 +11255,24 @@ Guidelines:
     document.getElementById('ai-face-tour-modal')?.addEventListener('click', (e) => {
       if (e.target.id === 'ai-face-tour-modal') this.closeTourModal();
     });
+
+    // More Tools Dropdown Toggle
+    const moreToolsBtn = document.getElementById('more-tools-btn');
+    const toolsMenu = document.getElementById('header-tools-menu');
+    if (moreToolsBtn && toolsMenu) {
+      moreToolsBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = toolsMenu.style.display === 'flex';
+        toolsMenu.style.display = isOpen ? 'none' : 'flex';
+        moreToolsBtn.setAttribute('aria-expanded', !isOpen);
+      });
+      document.addEventListener('click', (e) => {
+        if (!toolsMenu.contains(e.target) && e.target !== moreToolsBtn) {
+          toolsMenu.style.display = 'none';
+          moreToolsBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
 
     // Global Modal Escape & Focus Trapping (MOD-05, MOD-06, MOD-07)
     const handleModalKeydown = (e) => {
@@ -11117,15 +11654,17 @@ Guidelines:
       <div class="model-3d-hint" style="bottom:4.8rem;"> Click "Roast on Charcoal" to lower skewer. Click "Roll 90°" to cook all 4 sides evenly!</div>
     `;
 
-    const width = container.clientWidth || 800;
-    const height = container.clientHeight || 260;
+    const width = container.clientWidth || 900;
+    const height = container.clientHeight || 420;
 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x07080D);
 
-    const camera = new THREE.PerspectiveCamera(44, width / height, 0.1, 1000);
-    camera.position.set(0, 72, 148);
-    camera.lookAt(0, -6, 0);
+    const isMobile = width < 768;
+    const fov = isMobile ? 52 : 40;
+    const camera = new THREE.PerspectiveCamera(fov, width / height, 0.1, 1000);
+    camera.position.set(0, 56, isMobile ? 180 : 160);
+    camera.lookAt(0, 6, 0);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
@@ -11287,33 +11826,59 @@ Guidelines:
     const sparks = new THREE.Points(sparkGeo, sparkMat);
     scene.add(sparks);
 
-    // Culinary Smoke Wisps
-    const smokeCount = 35;
-    const smokeGeo = new THREE.BufferGeometry();
-    const smokePositions = new Float32Array(smokeCount * 3);
-    const smokeVelocities = [];
+    // Ultra-Realistic Aesthetic Culinary Billowing Smoke System
+    const smokeCanvas = document.createElement('canvas');
+    smokeCanvas.width = 64;
+    smokeCanvas.height = 64;
+    const sCtx = smokeCanvas.getContext('2d');
+    const sGrad = sCtx.createRadialGradient(32, 32, 2, 32, 32, 30);
+    sGrad.addColorStop(0, 'rgba(255, 255, 255, 0.95)');
+    sGrad.addColorStop(0.35, 'rgba(240, 235, 225, 0.65)');
+    sGrad.addColorStop(0.7, 'rgba(215, 210, 205, 0.22)');
+    sGrad.addColorStop(1, 'rgba(200, 195, 190, 0)');
+    sCtx.fillStyle = sGrad;
+    sCtx.fillRect(0, 0, 64, 64);
+    const smokeTexture = new THREE.CanvasTexture(smokeCanvas);
+
+    const smokeGroup = new THREE.Group();
+    const smokeCount = 95;
+    const smokeParticles = [];
+
     for (let i = 0; i < smokeCount; i++) {
-      const a = Math.random() * Math.PI * 2;
-      const d = Math.random() * 45;
-      smokePositions[i * 3] = Math.cos(a) * d;
-      smokePositions[i * 3 + 1] = -30 + Math.random() * 80;
-      smokePositions[i * 3 + 2] = Math.sin(a) * d;
-      smokeVelocities.push({
-        vx: (Math.random() - 0.5) * 0.2,
-        vy: 0.4 + Math.random() * 0.6,
-        vz: (Math.random() - 0.5) * 0.2
+      const sMat = new THREE.SpriteMaterial({
+        map: smokeTexture,
+        transparent: true,
+        opacity: 0.26,
+        depthWrite: false,
+        blending: THREE.NormalBlending
       });
+      const sprite = new THREE.Sprite(sMat);
+      const angle = Math.random() * Math.PI * 2;
+      const radius = Math.random() * 42;
+      const x = Math.cos(angle) * radius;
+      const y = -28 + Math.random() * 95;
+      const z = Math.sin(angle) * radius;
+      const initialScale = 14 + Math.random() * 16;
+      sprite.position.set(x, y, z);
+      sprite.scale.set(initialScale, initialScale, 1);
+
+      smokeParticles.push({
+        sprite,
+        x,
+        z,
+        angle,
+        radius,
+        vy: 0.55 + Math.random() * 0.85,
+        wobbleSpeed: 0.02 + Math.random() * 0.04,
+        wobbleAmp: 0.3 + Math.random() * 0.45,
+        baseScale: initialScale,
+        maxScale: 44 + Math.random() * 26,
+        life: Math.random(),
+        seed: Math.random() * Math.PI * 2
+      });
+      smokeGroup.add(sprite);
     }
-    smokeGeo.setAttribute('position', new THREE.BufferAttribute(smokePositions, 3));
-    const smokeMat = new THREE.PointsMaterial({
-      color: 0x554433,
-      size: 9.5,
-      transparent: true,
-      opacity: 0.26,
-      blending: THREE.NormalBlending
-    });
-    const smokePoints = new THREE.Points(smokeGeo, smokeMat);
-    scene.add(smokePoints);
+    scene.add(smokeGroup);
 
     // 5. Procedural Culinary Texture Generator for High Realism
     const createFoodCanvasTexture = (type) => {
@@ -12077,21 +12642,44 @@ Guidelines:
       }
       sparkGeo.attributes.position.needsUpdate = true;
 
-      // Culinary Smoke Puffs Physics
-      const sArr = smokeGeo.attributes.position.array;
-      for (let i = 0; i < smokeCount; i++) {
-        sArr[i * 3 + 1] += smokeVelocities[i].vy * heatMultiplier * roastBoost;
-        sArr[i * 3] += smokeVelocities[i].vx;
-        sArr[i * 3 + 2] += smokeVelocities[i].vz;
-        if (sArr[i * 3 + 1] > 65) {
-          const a = Math.random() * Math.PI * 2;
-          const d = Math.random() * 42;
-          sArr[i * 3] = Math.cos(a) * d;
-          sArr[i * 3 + 1] = -30;
-          sArr[i * 3 + 2] = Math.sin(a) * d;
+      // Ultra-Realistic Billowing Aesthetic Culinary Smoke Physics
+      for (let i = 0; i < smokeParticles.length; i++) {
+        const p = smokeParticles[i];
+        p.life += 0.007 * (isRoasting ? 1.5 : 1.0);
+        if (p.life > 1.0) {
+          p.life = 0;
+          p.radius = Math.random() * 38;
+          p.angle = Math.random() * Math.PI * 2;
+          p.sprite.position.x = Math.cos(p.angle) * p.radius;
+          p.sprite.position.y = -28 + Math.random() * 8;
+          p.sprite.position.z = Math.sin(p.angle) * p.radius;
+        }
+
+        p.sprite.position.y += p.vy * heatMultiplier * roastBoost * 0.85;
+        p.sprite.position.x += Math.sin(Date.now() * p.wobbleSpeed + p.seed) * p.wobbleAmp;
+        p.sprite.position.z += Math.cos(Date.now() * p.wobbleSpeed + p.seed) * p.wobbleAmp;
+
+        // Realistic volumetric expansion as smoke billows higher
+        const currentScale = p.baseScale + (p.maxScale - p.baseScale) * p.life;
+        p.sprite.scale.set(currentScale, currentScale, 1);
+
+        // Alpha curve: fade in at hearth bed, peak mid-air, dissolve softly into air
+        const heightProgress = Math.max(0, Math.min(1, (p.sprite.position.y - (-28)) / 95));
+        let alpha = 0.28;
+        if (heightProgress < 0.2) {
+          alpha = heightProgress * 1.4;
+        } else if (heightProgress > 0.6) {
+          alpha = Math.max(0, (1 - heightProgress) * 0.7);
+        }
+        p.sprite.material.opacity = alpha * (isRoasting ? 1.35 : 0.9);
+
+        // Aesthetic coloration: warm amber-tinted ember smoke near coals, silky ash-white aloft
+        if (heightProgress < 0.35) {
+          p.sprite.material.color.setHex(0xFFB066);
+        } else {
+          p.sprite.material.color.setHex(0xE2E8F0);
         }
       }
-      smokeGeo.attributes.position.needsUpdate = true;
 
       renderer.render(scene, camera);
     };
@@ -12102,7 +12690,10 @@ Guidelines:
       const w = container.clientWidth;
       const h = container.clientHeight;
       if (w === 0 || h === 0) return;
+      const mob = w < 768;
+      camera.fov = mob ? 52 : 40;
       camera.aspect = w / h;
+      camera.position.set(0, 56, mob ? 180 : 160);
       camera.updateProjectionMatrix();
       renderer.setSize(w, h, false);
     };
@@ -13124,14 +13715,14 @@ Guidelines:
         <div style="background:var(--bg-card-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
           <h4 style="margin:0 0 0.75rem; font-size:0.95rem; color:var(--text-main);">Submit Your Family Feedback</h4>
           <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:0.75rem;">
-            <input type="text" id="feedback-author-input" placeholder="Your Name or Family (e.g. The Sharma Family)" class="api-key-input" style="font-size:0.84rem;">
-            <select id="feedback-rating-select" class="api-key-input" style="font-size:0.84rem;">
+            <input type="text" id="feedback-author-input" aria-label="Your Name or Family Name" placeholder="Your Name or Family (e.g. The Sharma Family)" class="api-key-input" style="font-size:0.84rem;">
+            <select id="feedback-rating-select" aria-label="Family Experience Rating" class="api-key-input" style="font-size:0.84rem;">
               <option value="5">5 Stars (Extraordinary)</option>
               <option value="4">4 Stars (Delicious & Fun)</option>
               <option value="3">3 Stars (Good Learning)</option>
             </select>
           </div>
-          <textarea id="feedback-comment-input" rows="2" placeholder="Share your experience cooking these vegetarian fusion dishes or playing the arcade games..." class="api-key-input" style="width:100%; font-size:0.84rem; margin-bottom:0.75rem; resize:vertical;"></textarea>
+          <textarea id="feedback-comment-input" aria-label="Share your culinary experience or recipe feedback" rows="2" placeholder="Share your experience cooking these vegetarian fusion dishes or playing the arcade games..." class="api-key-input" style="width:100%; font-size:0.84rem; margin-bottom:0.75rem; resize:vertical;"></textarea>
           <div style="text-align:right;">
             <button class="btn btn-primary" id="btn-submit-feedback" style="padding:0.45rem 1.25rem; font-size:0.84rem; font-weight:700;">
               Post Community Review

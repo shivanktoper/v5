@@ -22,6 +22,7 @@ package-lock.json
 
 # Ephemeral artifacts & test recordings
 .agents/
+.impeccable/
 hyperframes/
 mobile_snapshots/
 scratch/

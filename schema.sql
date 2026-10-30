@@ -96,7 +96,23 @@ CREATE INDEX IF NOT EXISTS idx_api_keys_status ON api_keys (status);
 CREATE INDEX IF NOT EXISTS idx_api_keys_token ON api_keys (key_token);
 
 -- --------------------------------------------------------------------
--- 5. GLOBAL SEED DATA
+-- 5. SITE CONFIGURATION TABLE
+-- Stores global admin-configured settings synced worldwide across all browsers
+-- --------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS site_config (
+  key TEXT PRIMARY KEY NOT NULL,
+  value_json TEXT NOT NULL,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Seed Site Configuration
+INSERT OR IGNORE INTO site_config (key, value_json) VALUES
+  ('game_toggles', '{"buildDish":true,"pronunciation":true,"trivia":true,"hotPotato":true,"spinScience":true}'),
+  ('default_difficulty', '{"role":"parent","name":"Adult Chef"}'),
+  ('v2_features', '{"chefHatCameraFilter":true,"faceVectorAntiDuplication":true,"tandoorSkewerGame":true,"pdfPortfolioExport":true,"communityFeedback":true}');
+
+-- --------------------------------------------------------------------
+-- 6. GLOBAL SEED DATA
 -- Diverse international culinary students and parent master chefs
 -- --------------------------------------------------------------------
 

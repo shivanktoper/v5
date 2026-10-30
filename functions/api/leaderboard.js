@@ -21,6 +21,20 @@ export async function onRequestGet(context) {
     return jsonResponse({ success: false, error: 'Database binding (DB) not configured' }, 503);
   }
 
+  // Optional Secure API Key Authentication
+  const authKey = request.headers.get('X-API-Key') || (request.headers.get('Authorization') || '').replace(/^Bearer\s+/i, '');
+  if (authKey) {
+    try {
+      const keyRow = await db.prepare("SELECT id, scope, status, expires_at FROM api_keys WHERE key_token = ? AND status = 'active'").bind(authKey).first();
+      if (!keyRow) {
+        return jsonResponse({ success: false, error: 'Invalid or revoked API key token' }, 401);
+      }
+      if (keyRow.expires_at && new Date(keyRow.expires_at) < new Date()) {
+        return jsonResponse({ success: false, error: 'API key expired' }, 403);
+      }
+    } catch (e) {}
+  }
+
   // Ensure leaderboard table exists
   try {
     await db.prepare(`
@@ -113,6 +127,20 @@ export async function onRequestPost(context) {
 
   if (!db) {
     return jsonResponse({ success: false, error: 'Database binding (DB) not configured' }, 503);
+  }
+
+  // Optional Secure API Key Authentication
+  const authKey = request.headers.get('X-API-Key') || (request.headers.get('Authorization') || '').replace(/^Bearer\s+/i, '');
+  if (authKey) {
+    try {
+      const keyRow = await db.prepare("SELECT id, scope, status, expires_at FROM api_keys WHERE key_token = ? AND status = 'active'").bind(authKey).first();
+      if (!keyRow) {
+        return jsonResponse({ success: false, error: 'Invalid or revoked API key token' }, 401);
+      }
+      if (keyRow.expires_at && new Date(keyRow.expires_at) < new Date()) {
+        return jsonResponse({ success: false, error: 'API key expired' }, 403);
+      }
+    } catch (e) {}
   }
 
   let body;

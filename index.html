@@ -19,7 +19,7 @@
   <header class="site-header">
     <div class="header-inner">
       <button type="button" class="brand-logo" id="logo-home-link" aria-label="Fusion Food Lab - Return to Games Hub">
-        <div class="brand-icon" aria-hidden="true"><svg class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="currentColor" fill-opacity="0.18"/><path d="M4 14h16"/></svg></div>
+        <div class="brand-icon" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="currentColor" fill-opacity="0.18"/><path d="M4 14h16"/></svg></div>
         <div class="brand-text">
           <span class="brand-title">Fusion Food Lab</span>
           <span class="brand-sub">Family Kitchen &amp; Games</span>
@@ -29,61 +29,66 @@
       <!-- Main View Tabs (Instant Tab Switcher - No Endless Scrolling) -->
       <nav class="site-nav" id="main-nav-bar" aria-label="Main Navigation" role="tablist">
         <button class="nav-link active" data-tab-target="games" id="tab-btn-games" role="tab" aria-selected="true" aria-controls="pane-games">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Games Hub</span>
+          <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Games Hub</span>
         </button>
         <button class="nav-link" data-tab-target="kitchen" id="tab-btn-kitchen" role="tab" aria-selected="false" aria-controls="pane-kitchen">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Kitchen Lab</span>
+          <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Kitchen Lab</span>
         </button>
         <button class="nav-link" data-tab-target="fusion" id="tab-btn-fusion" role="tab" aria-selected="false" aria-controls="pane-fusion">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <span>Fusion Explorer</span>
+          <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <span>Fusion Explorer</span>
         </button>
         <button class="nav-link" data-tab-target="leaderboard" id="tab-btn-leaderboard" role="tab" aria-selected="false" aria-controls="pane-leaderboard">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg> <span>Leaderboard</span>
+          <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg> <span>Leaderboard</span>
         </button>
       </nav>
 
       <div class="header-actions">
-        <!-- Live Leaderboard Top Header Pill (Unambiguous Leaderboard Access) -->
-        <button id="header-leaderboard-pill" class="header-leaderboard-pill" title="View Global Hall of Fame & Leaderboard" aria-label="View Leaderboard & Hall of Fame, Current Rank #1">
-          <span class="lb-trophy" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg></span>
-          <span class="lb-title">Leaderboard</span>
-          <span class="lb-rank" id="header-lb-rank">#1</span>
+        <!-- More Tools & Settings Dropdown (Consolidated Executive Layout) -->
+        <div class="header-tools-dropdown" style="position:relative; display:inline-flex;">
+          <button id="more-tools-btn" class="icon-btn" title="More Culinary Tools &amp; Settings" aria-label="More Culinary Tools and Settings menu" aria-expanded="false" aria-haspopup="true">
+            <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="1.5" fill="currentColor"/><circle cx="19" cy="12" r="1.5" fill="currentColor"/><circle cx="5" cy="12" r="1.5" fill="currentColor"/></svg>
+          </button>
+          <div class="header-tools-menu" id="header-tools-menu" role="menu" style="display:none; position:absolute; right:0; top:calc(100% + 8px); background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-md); box-shadow:0 12px 32px rgba(0,0,0,0.28); padding:0.6rem; flex-direction:column; gap:0.5rem; z-index:1100; min-width:210px;">
+            <!-- Chef Hat AR Camera & Age Scanner -->
+            <button id="open-camera-scanner-btn" class="dropdown-item-btn" title="Chef Hat AR Camera &amp; Age Scanner" aria-label="Chef Hat AR Camera &amp; Age Scanner" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--text-main); font-size:0.85rem; font-weight:600; cursor:pointer; width:100%; text-align:left;">
+              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" fill="currentColor" fill-opacity="0.2"/></svg>
+              <span>AR Chef Hat Camera</span>
+            </button>
+            <!-- Chef Portfolio & Career Certificate -->
+            <button id="open-portfolio-btn" class="dropdown-item-btn" title="View &amp; Export Chef Career Portfolio (PDF)" aria-label="View &amp; Export Chef Career Portfolio (PDF)" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--text-main); font-size:0.85rem; font-weight:600; cursor:pointer; width:100%; text-align:left;">
+              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="currentColor" fill-opacity="0.1"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+              <span>Chef Portfolio (PDF)</span>
+            </button>
+            <!-- AI Face Tour & Explainer Overlay Button -->
+            <button id="open-tour-btn" class="dropdown-item-btn" title="AI Face Guided Self-Explanatory Website Tour" aria-label="AI Guided Interactive Website Tour" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--text-main); font-size:0.85rem; font-weight:600; cursor:pointer; width:100%; text-align:left;">
+              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2" fill="currentColor" fill-opacity="0.12"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg>
+              <span>AI Guided Tour</span>
+            </button>
+            <div style="height:1px; background:var(--border-color); margin:0.25rem 0;"></div>
+            <!-- Admin Settings Lock (PIN protected) -->
+            <button id="admin-modal-open-btn" class="dropdown-item-btn" title="Admin Settings &amp; Game Controls" aria-label="Admin Settings &amp; Game Controls" style="display:flex; align-items:center; gap:0.6rem; padding:0.5rem 0.75rem; border-radius:var(--radius-sm); border:none; background:transparent; color:var(--secondary); font-size:0.85rem; font-weight:700; cursor:pointer; width:100%; text-align:left;">
+              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="currentColor" fill-opacity="0.12"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              <span>Admin Settings</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chef Profile Pill (Minimalist Adult Chef Default) -->
+        <button id="profile-switch-btn" class="profile-pill" title="Click to Edit Chef Profile &amp; Difficulty" aria-label="Adult Chef Profile and Difficulty Setup">
+          <span class="profile-avatar" id="header-profile-avatar" aria-hidden="true">👨‍🍳</span>
+          <span class="profile-name" id="header-profile-name">Adult Chef</span>
         </button>
 
-        <!-- Chef Hat AR Camera & Age Scanner -->
-        <button id="open-camera-scanner-btn" class="icon-btn" title="Chef Hat AR Camera & Age Scanner" aria-label="Chef Hat AR Camera & Age Scanner" style="font-size:1.05rem;">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" fill="currentColor" fill-opacity="0.2"/></svg>
+        <!-- Sound Toggle with Visible Text & Emoji in Both Themes -->
+        <button id="sound-toggle-btn" class="header-action-btn theme-sound-btn" title="Toggle Sound Effects" aria-label="Toggle Sound Effects (Mute/Unmute)">
+          <span class="header-btn-emoji" id="sound-toggle-emoji" aria-hidden="true">🔊</span>
+          <span class="header-btn-text" id="sound-toggle-text">Sound: ON</span>
         </button>
 
-        <!-- Chef Portfolio & Career Certificate -->
-        <button id="open-portfolio-btn" class="icon-btn" title="View & Export Chef Career Portfolio (PDF)" aria-label="View & Export Chef Career Portfolio (PDF)" style="font-size:1.05rem;">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="currentColor" fill-opacity="0.1"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
-        </button>
-
-        <!-- AI Face Tour & Explainer Overlay Button -->
-        <button id="open-tour-btn" class="icon-btn" title="AI Face Guided Self-Explanatory Website Tour" aria-label="AI Guided Interactive Website Tour" style="font-size:1.05rem;">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2" fill="currentColor" fill-opacity="0.12"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg>
-        </button>
-
-        <!-- Chef Profile Pill (Unambiguous Profile Control: Name, Role & Rank) -->
-        <button id="profile-switch-btn" class="profile-pill" title="Click to Edit Chef Profile & Rank" aria-label="Maya's Chef Profile & Rank Setup">
-          <span class="profile-avatar" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5" fill="currentColor" fill-opacity="0.15"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></span>
-          <span id="header-profile-name">Maya's Profile</span>
-        </button>
-
-        <!-- Sound Toggle -->
-        <button id="sound-toggle-btn" class="icon-btn" title="Toggle Sound Effects" aria-label="Toggle Sound Effects (Mute/Unmute)">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor" fill-opacity="0.15"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-        </button>
-
-        <!-- Theme Toggle (Light-Blue / Obsidian Black) -->
-        <button id="theme-toggle-btn" class="icon-btn" title="Toggle Theme (Light-Blue / Obsidian Black)" aria-label="Toggle Theme (Light-Blue / Obsidian Black)">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" fill="currentColor" fill-opacity="0.15"/></svg>
-        </button>
-
-        <!-- Admin Settings Lock (PIN protected) -->
-        <button id="admin-modal-open-btn" class="icon-btn" title="Admin Settings & Game Controls" aria-label="Admin Settings & Game Controls" style="border-color:var(--secondary); color:var(--secondary);">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="currentColor" fill-opacity="0.12"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <!-- Theme Toggle with Visible Text & Emoji in Both Themes -->
+        <button id="theme-toggle-btn" class="header-action-btn theme-sound-btn" title="Toggle Theme (Light-Blue / Obsidian Black)" aria-label="Toggle Theme (Light-Blue / Obsidian Black)">
+          <span class="header-btn-emoji" id="theme-toggle-emoji" aria-hidden="true">🌙</span>
+          <span class="header-btn-text" id="theme-toggle-text">Dark Mode</span>
         </button>
       </div>
     </div>
@@ -98,10 +103,10 @@
       <div class="container scrolltide-hero-inner">
         <!-- Floating Culinary Badges Row -->
         <div class="scrolltide-badge-row">
-          <span class="scrolltide-badge badge-float-1"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg> Next-Gen Food Science</span>
-          <span class="scrolltide-badge badge-float-2"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.2"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg> 100% Vegetarian</span>
-          <span class="scrolltide-badge badge-float-3"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity="0.1"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg> Indian Fusion Wonders</span>
-          <span class="scrolltide-badge badge-float-4"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> 3D WebGL Labs</span>
+          <span class="scrolltide-badge badge-float-1"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg> Next-Gen Food Science</span>
+          <span class="scrolltide-badge badge-float-2"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.2"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg> 100% Vegetarian</span>
+          <span class="scrolltide-badge badge-float-3"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity="0.1"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg> Indian Fusion Wonders</span>
+          <span class="scrolltide-badge badge-float-4"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> 3D WebGL Labs</span>
         </div>
 
         <h1 class="scrolltide-hero-title">
@@ -115,62 +120,64 @@
         <!-- Primary & Secondary Action CTAs (FF-10) -->
         <div class="hero-cta-group">
           <button class="btn btn-primary hero-main-cta" id="hero-primary-cta" data-target-tab="games" aria-label="Play Arcade Games">
-            <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Play Arcade Games</span>
+            <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Play Arcade Games</span>
           </button>
           <button class="btn btn-secondary hero-secondary-cta" id="hero-secondary-cta" data-target-tab="kitchen" aria-label="Explore Kitchen Lab">
-            <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Explore Kitchen Lab</span>
+            <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Explore Kitchen Lab</span>
           </button>
         </div>
 
         <!-- 2.5D Animated Stat Counters Grid -->
         <div class="scrolltide-stats-grid">
           <div class="scrolltide-stat-card" data-stat-target="5" aria-label="5 Arcade Labs">
-            <span class="scrolltide-stat-icon" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg></span>
+            <span class="scrolltide-stat-icon" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg></span>
             <span class="scrolltide-stat-num" id="stat-counter-labs">5</span>
             <span class="scrolltide-stat-label">Arcade Labs</span>
             <span class="scrolltide-stat-sub">3D & Interactive</span>
           </div>
 
           <div class="scrolltide-stat-card" data-stat-target="8" aria-label="8 Indian Fusion Replications">
-            <span class="scrolltide-stat-icon" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a1 1 0 0 1 1 1c0 5-4 9-9 9s-9-4-9-9a1 1 0 0 1 1-1z" fill="currentColor" fill-opacity="0.15"/><path d="M8 8V4m4 4V4m4 4V4"/></svg></span>
+            <span class="scrolltide-stat-icon" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a1 1 0 0 1 1 1c0 5-4 9-9 9s-9-4-9-9a1 1 0 0 1 1-1z" fill="currentColor" fill-opacity="0.15"/><path d="M8 8V4m4 4V4m4 4V4"/></svg></span>
             <span class="scrolltide-stat-num" id="stat-counter-recipes">8</span>
             <span class="scrolltide-stat-label">Fusion Replications</span>
             <span class="scrolltide-stat-sub">Desi Bazaar Replications</span>
           </div>
 
           <div class="scrolltide-stat-card" data-stat-target="100" aria-label="100% Pure Vegetarian">
-            <span class="scrolltide-stat-icon" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-8"/><path d="M12 14c-3.5 0-6-2.5-6-6 4 0 6 2.5 6 6z" fill="currentColor" fill-opacity="0.15"/><path d="M12 11c3.5 0 6-2 6-5-3.5 0-6 2-6 5z" fill="currentColor" fill-opacity="0.15"/></svg></span>
+            <span class="scrolltide-stat-icon" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-8"/><path d="M12 14c-3.5 0-6-2.5-6-6 4 0 6 2.5 6 6z" fill="currentColor" fill-opacity="0.15"/><path d="M12 11c3.5 0 6-2 6-5-3.5 0-6 2-6 5z" fill="currentColor" fill-opacity="0.15"/></svg></span>
             <span class="scrolltide-stat-num" id="stat-counter-veg">100%</span>
             <span class="scrolltide-stat-label">100% Pure Veg</span>
             <span class="scrolltide-stat-sub">Zero Meat • Plant Powered</span>
           </div>
 
           <div class="scrolltide-stat-card" data-stat-target="100" aria-label="100% Allergen Transparency">
-            <span class="scrolltide-stat-icon" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="currentColor" fill-opacity="0.12"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <span class="scrolltide-stat-icon" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="currentColor" fill-opacity="0.12"/><path d="m9 12 2 2 4-4"/></svg></span>
             <span class="scrolltide-stat-num" id="stat-counter-allergens">100%</span>
             <span class="scrolltide-stat-label">Allergen Flags</span>
             <span class="scrolltide-stat-sub">Itemized Warning Flags</span>
           </div>
         </div>
 
+        <h2 class="sr-only">Featured Interactive Experiences &amp; Kitchen Metrics</h2>
+
         <!-- 2.5D Feature Preview Cards (Spotlights for Arcade Labs) -->
         <div class="scrolltide-preview-cards">
           <div class="scrolltide-preview-card" id="showcase-card-potato">
-            <span class="scrolltide-preview-tag"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" fill="#F97316" fill-opacity="0.22"/></svg> 3D Physics Arena</span>
+            <span class="scrolltide-preview-tag"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" fill="#F97316" fill-opacity="0.22"/></svg> 3D Physics Arena</span>
             <h3 class="scrolltide-preview-title">Hot Potato Rush</h3>
             <p class="scrolltide-preview-desc">Roll the hot potato through the sizzling tandoor, avoid obstacles and earn points before time runs out!</p>
             <span class="scrolltide-preview-action">Launch Arcade →</span>
           </div>
 
           <div class="scrolltide-preview-card" id="showcase-card-science">
-            <span class="scrolltide-preview-tag"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" fill="currentColor" fill-opacity="0.12"/><path d="M8.5 2h7M7 16h10"/></svg> Molecular 3D Viewer</span>
+            <span class="scrolltide-preview-tag"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" fill="currentColor" fill-opacity="0.12"/><path d="M8.5 2h7M7 16h10"/></svg> Molecular 3D Viewer</span>
             <h3 class="scrolltide-preview-title">Science Wheel</h3>
             <p class="scrolltide-preview-desc">Inspect 3D ball-and-stick chemical molecules of capsaicin, curcumin, and citric acid with interactive orbit controls.</p>
             <span class="scrolltide-preview-action">Spin & Learn →</span>
           </div>
 
           <div class="scrolltide-preview-card" id="showcase-card-kitchen">
-            <span class="scrolltide-preview-tag"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> Glowing Hearth</span>
+            <span class="scrolltide-preview-tag"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> Glowing Hearth</span>
             <h3 class="scrolltide-preview-title">Kitchen Lab</h3>
             <p class="scrolltide-preview-desc">Step-by-step global fusion guides with 3D glowing tandoor coals, floating sparks, and Indian bazaar substitute tables.</p>
             <span class="scrolltide-preview-action">Explore Recipes →</span>
@@ -207,8 +214,8 @@
           </div>
           <div class="banner-quick-chips">
             <span class="veg-badge"><span class="veg-icon-dot"></span> 100% Pure Veg</span>
-            <span class="pill-badge" style="color:var(--primary); font-weight:800;">5 Arcade Labs</span>
-            <span class="pill-badge" style="color:var(--secondary); font-weight:800;">Earn XP</span>
+            <span class="pill-badge" style="color:var(--primary-dark, #8E2B16); font-weight:800;">5 Arcade Labs</span>
+            <span class="pill-badge" style="color:var(--secondary-text, #92400E); font-weight:800;">Earn XP</span>
           </div>
         </div>
 
@@ -216,7 +223,7 @@
         <div class="games-scroll-container">
           <button class="scroll-arrow-btn scroll-left" id="games-scroll-left" title="Previous featured game" aria-label="Previous featured game"><span aria-hidden="true">‹</span></button>
           
-          <div class="games-scroll-track" id="games-grid-tabs">
+          <div class="games-scroll-track" id="games-grid-tabs" role="tablist" aria-label="Arcade Games Selector">
             <!-- Rendered dynamically as a single horizontal scroll row (No awkward wrapping!) -->
           </div>
 
@@ -253,7 +260,7 @@
         <div class="recipe-search-bar">
           <div style="position:relative; flex:1; max-width:480px;">
             <input type="search" id="kitchen-recipe-search" placeholder="Search dishes, ingredients, or cuisines..." aria-label="Search recipes, ingredients, or cuisines" style="width:100%; padding:0.5rem 1rem 0.5rem 2.2rem; border-radius:var(--radius-full); border:1.5px solid var(--border-color); background:var(--bg-card-subtle); color:var(--text-main); font-size:0.88rem;">
-            <span style="position:absolute; left:0.75rem; top:50%; transform:translateY(-50%); pointer-events:none; display:inline-flex; align-items:center;" aria-hidden="true"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+            <span style="position:absolute; left:0.75rem; top:50%; transform:translateY(-50%); pointer-events:none; display:inline-flex; align-items:center;" aria-hidden="true"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
           </div>
           <span id="recipe-search-count" style="font-size:0.82rem; color:var(--text-muted); font-weight:600;">Showing 8 dishes</span>
         </div>
@@ -284,10 +291,10 @@
     <!-- ========================================================
          TAB PANE 3: LEADERBOARD & CHEF RANKS
          ======================================================== -->
-    <div class="main-tab-pane" id="pane-leaderboard" role="tabpanel" aria-labelledby="header-leaderboard-pill" tabindex="0">
+    <div class="main-tab-pane" id="pane-leaderboard" role="tabpanel" aria-labelledby="tab-btn-leaderboard" tabindex="0">
       <div class="container">
         <div class="section-head" style="margin-bottom:1.75rem;">
-          <span class="handwritten">The Hall of Culinary Fame</span>
+          <span class="handwritten">🏆 The Hall of Culinary Fame</span>
           <h2>Chef Rank Ladder & Family Leaderboard</h2>
           <p>
             Level up from Kitchen Apprentice to Michelin Star Sorcerer! Compare Kid Chef and Parent Sous-Chef personal bests and unlock achievement trophies.
@@ -299,11 +306,11 @@
           <div class="family-roster-card">
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1rem;">
               <h3 style="font-size:1.4rem; display:flex; align-items:center; gap:0.6rem; margin:0;">
-                <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Leaderboard & Hall of Fame</span></span>
+                <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Leaderboard & Hall of Fame</span></span>
               </h3>
               <div class="leaderboard-scope-toggle" id="leaderboard-scope-toggle" role="tablist" aria-label="Leaderboard View Scope">
-                <button class="scope-btn active" data-scope="local" role="tab" aria-selected="true" style="display:inline-flex; align-items:center; gap:0.35rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Family Roster (Private)</span></button>
-                <button class="scope-btn" data-scope="global" role="tab" aria-selected="false" style="display:inline-flex; align-items:center; gap:0.35rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Global Hall of Fame</span></button>
+                <button class="scope-btn active" data-scope="local" role="tab" aria-selected="true" style="display:inline-flex; align-items:center; gap:0.35rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Family Roster (Private)</span></button>
+                <button class="scope-btn" data-scope="global" role="tab" aria-selected="false" style="display:inline-flex; align-items:center; gap:0.35rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Global Hall of Fame</span></button>
               </div>
             </div>
 
@@ -314,7 +321,7 @@
                 <span><strong>Privacy Shield:</strong> Local family scores are kept private on this device. Publishing to the Global Hall of Fame requires parental confirmation.</span>
               </div>
               <button class="btn btn-secondary" id="publish-global-score-btn" style="padding:0.3rem 0.75rem; font-size:0.78rem; font-weight:700;">
-                <span style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Publish Score</span></span>
+                <span style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Publish Score</span></span>
               </button>
             </div>
 
@@ -322,13 +329,13 @@
               Filter rankings and arcade high scores across challenges:
             </p>
             <div class="leaderboard-filter-tabs" id="leaderboard-filter-tabs" style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.25rem;">
-              <button class="recipe-chip active" data-lb-filter="all" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14v2H5z" fill="currentColor" fill-opacity="0.15"/></svg><span>Level Leaderboard</span></button>
-              <button class="recipe-chip" data-lb-filter="ladder" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v20M18 2v20M6 6h12M6 10h12M6 14h12M6 18h12"/></svg><span>Level Ranking Ladder</span></button>
-              <button class="recipe-chip" data-lb-filter="hotPotato" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 6.5c2.5 2 3.5 6 2 9.5-1.5 3.5-5.5 5.5-9.5 4.5-4-1-6.5-4.5-5.5-8.5 1-4 4.5-7 8.5-6.5 1.8.2 3.3.2 4.5 1z" fill="#F59E0B" fill-opacity="0.28"/><circle cx="10" cy="10" r="0.8" fill="currentColor"/><circle cx="15" cy="13" r="0.8" fill="currentColor"/><circle cx="11" cy="15" r="0.8" fill="currentColor"/></svg><span>Hot Potato Rush</span></button>
-              <button class="recipe-chip" data-lb-filter="buildDish" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a1 1 0 0 1 1 1c0 5-4 9-9 9s-9-4-9-9a1 1 0 0 1 1-1z" fill="currentColor" fill-opacity="0.15"/><path d="M8 8V4m4 4V4m4 4V4"/></svg><span>Build-a-Dish</span></button>
-              <button class="recipe-chip" data-lb-filter="trivia" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.54z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.54z"/></svg><span>Family Trivia</span></button>
-              <button class="recipe-chip" data-lb-filter="pronunciation" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg><span>Accent Virtuoso</span></button>
-              <button class="recipe-chip" data-lb-filter="scienceSpins" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8M3 22h18M14 22a7 7 0 1 0-7-7h1M9 14h2M9 12a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2z"/></svg><span>Science Wheel</span></button>
+              <button class="recipe-chip active" data-lb-filter="all" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14v2H5z" fill="currentColor" fill-opacity="0.15"/></svg><span>Level Leaderboard</span></button>
+              <button class="recipe-chip" data-lb-filter="ladder" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v20M18 2v20M6 6h12M6 10h12M6 14h12M6 18h12"/></svg><span>Level Ranking Ladder</span></button>
+              <button class="recipe-chip" data-lb-filter="hotPotato" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 6.5c2.5 2 3.5 6 2 9.5-1.5 3.5-5.5 5.5-9.5 4.5-4-1-6.5-4.5-5.5-8.5 1-4 4.5-7 8.5-6.5 1.8.2 3.3.2 4.5 1z" fill="#F59E0B" fill-opacity="0.28"/><circle cx="10" cy="10" r="0.8" fill="currentColor"/><circle cx="15" cy="13" r="0.8" fill="currentColor"/><circle cx="11" cy="15" r="0.8" fill="currentColor"/></svg><span>Hot Potato Rush</span></button>
+              <button class="recipe-chip" data-lb-filter="buildDish" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a1 1 0 0 1 1 1c0 5-4 9-9 9s-9-4-9-9a1 1 0 0 1 1-1z" fill="currentColor" fill-opacity="0.15"/><path d="M8 8V4m4 4V4m4 4V4"/></svg><span>Build-a-Dish</span></button>
+              <button class="recipe-chip" data-lb-filter="trivia" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.54z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.54z"/></svg><span>Family Trivia</span></button>
+              <button class="recipe-chip" data-lb-filter="pronunciation" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg><span>Accent Virtuoso</span></button>
+              <button class="recipe-chip" data-lb-filter="scienceSpins" style="display:inline-flex; align-items:center; gap:0.3rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8M3 22h18M14 22a7 7 0 1 0-7-7h1M9 14h2M9 12a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2z"/></svg><span>Science Wheel</span></button>
             </div>
             <div id="family-roster-display">
               <!-- Rendered dynamically by bundle.js -->
@@ -345,7 +352,7 @@
       <div class="container">
         <div class="section-head" style="margin-bottom:1.5rem;">
           <span class="handwritten">Global Flavors & Desi Roots</span>
-          <h2 style="display:flex; align-items:center; gap:0.5rem; justify-content:center;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Fusion Food Explorer & Edible Universe</span></h2>
+          <h2 style="display:flex; align-items:center; gap:0.5rem; justify-content:center;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Fusion Food Explorer & Edible Universe</span></h2>
           <p>
             Discover the magic of cross-cultural cooking! See how spices, textures, and techniques from distant continents unite with vibrant Indian ingredients to create extraordinary culinary masterpieces.
           </p>
@@ -369,7 +376,7 @@
         <h3 id="admin-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
           <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="currentColor" fill-opacity="0.12"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Admin Game Controls</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-admin-modal-btn" aria-label="Close Admin Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-admin-modal-btn" aria-label="Close Admin Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="admin-modal-body">
         <!-- Rendered dynamically by bundle.js with secure PIN form -->
@@ -382,9 +389,9 @@
     <div class="modal-dialog">
       <div class="modal-header">
         <h3 id="profile-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
-          <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><line x1="6" y1="17" x2="18" y2="17"/></svg><span>Chef Profile & Rank Setup</span></span>
+          <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><line x1="6" y1="17" x2="18" y2="17"/></svg><span>Chef Profile & Rank Setup</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-profile-modal-btn" aria-label="Close Profile Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-profile-modal-btn" aria-label="Close Profile Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="profile-modal-body">
         <!-- Rendered dynamically by bundle.js -->
@@ -393,7 +400,7 @@
   </div>
 
   <!-- Recipe Pop-out Modal with Step-by-Step Cooking Guide & Gemini AI Sous-Chef -->
-  <div class="modal-overlay" id="recipe-popout-modal" role="dialog" aria-modal="true" aria-labelledby="popout-recipe-title">
+  <div class="modal-overlay" id="recipe-popout-modal" role="dialog" aria-modal="true" aria-labelledby="popout-recipe-title" aria-label="Recipe Details">
     <div class="recipe-popout-dialog" id="recipe-popout-dialog-content">
       <!-- Rendered dynamically by bundle.js -->
     </div>
@@ -404,9 +411,9 @@
     <div class="modal-dialog modal-dialog-lg" style="max-width:720px;">
       <div class="modal-header">
         <h3 id="leaderboard-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
-          <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Global Hall of Fame & Leaderboard</span></span>
+          <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Global Hall of Fame & Leaderboard</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-leaderboard-modal-btn" aria-label="Close Leaderboard Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-leaderboard-modal-btn" aria-label="Close Leaderboard Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="leaderboard-modal-body">
         <!-- Rendered dynamically by bundle.js -->
@@ -429,7 +436,7 @@
         </div>
         <div id="hp-timer-hud-cluster" class="hp-timer-hud-cluster">
           <div class="hp-timer-pill" id="hp-timer-pill" aria-live="polite">
-            <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8" fill="#0284C7" fill-opacity="0.16"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/><path d="M12 2v3"/></svg>
+            <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8" fill="#0284C7" fill-opacity="0.16"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/><path d="M12 2v3"/></svg>
             <span id="hp-timer">01:00</span>
           </div>
           <div class="hp-duration-selector" role="group" aria-label="Round Duration">
@@ -439,17 +446,17 @@
           </div>
           <div class="hp-hud-controls">
             <button type="button" id="hp-pause-btn" class="hp-ctrl-btn" title="Pause / Resume Game (P)">
-              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
+              <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
               <span id="hp-pause-label">Pause</span>
             </button>
             <button type="button" id="hp-stop-btn" class="hp-ctrl-btn hp-ctrl-danger" title="End Round">
-              <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor" fill-opacity="0.2"/></svg>
+              <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor" fill-opacity="0.2"/></svg>
               <span>End</span>
             </button>
           </div>
         </div>
         <button type="button" id="close-hot-potato-modal-btn" class="modal-close-btn" aria-label="Close Hot Potato Rush">
-          <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
         </button>
       </div>
       <div class="hp-fullscreen-body" id="hp-fullscreen-body">
@@ -465,7 +472,7 @@
         <h3 id="camera-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
           <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3" fill="currentColor" fill-opacity="0.2"/></svg><span>Chef Hat AR Camera & Age Scanner</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-camera-modal-btn" aria-label="Close Camera Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-camera-modal-btn" aria-label="Close Camera Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="camera-scanner-modal-body">
         <!-- Rendered dynamically by bundle.js -->
@@ -480,7 +487,7 @@
         <h3 id="portfolio-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
           <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="currentColor" fill-opacity="0.1"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg><span>Chef Career Portfolio & Certification</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-portfolio-modal-btn" aria-label="Close Portfolio Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-portfolio-modal-btn" aria-label="Close Portfolio Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="portfolio-modal-body">
         <!-- Rendered dynamically by bundle.js -->
@@ -495,7 +502,7 @@
         <h3 id="tour-modal-title" style="display:flex; align-items:center; gap:0.5rem;">
           <span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2" fill="currentColor" fill-opacity="0.12"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg><span>AI Guided Interactive Tour & Face Detection</span></span>
         </h3>
-        <button class="modal-close-btn" id="close-tour-modal-btn" aria-label="Close AI Tour Modal"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <button class="modal-close-btn" id="close-tour-modal-btn" aria-label="Close AI Tour Modal"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
       <div id="ai-face-tour-modal-body">
         <!-- Rendered dynamically by bundle.js -->
@@ -512,7 +519,7 @@
       <div class="footer-grid">
         <div>
           <div class="brand-logo" style="margin-bottom:0.85rem;">
-            <div class="brand-icon"><svg class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="currentColor" fill-opacity="0.18"/><path d="M4 14h16"/></svg></div>
+            <div class="brand-icon"><svg aria-hidden="true" class="fusion-svg-icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 10a7 7 0 0 0 14 0H5z" fill="currentColor" fill-opacity="0.18"/><path d="M4 14h16"/></svg></div>
             <div class="brand-text">
               <h3>Fusion Food Family Lab</h3>
               <span>100% Pure Veg Culinary Hub</span>
@@ -526,9 +533,9 @@
         <div>
           <h4 style="font-size:1.05rem; margin-bottom:0.85rem;">Navigation Views</h4>
           <ul style="list-style:none; font-size:0.88rem; display:flex; flex-direction:column; gap:0.5rem;">
-            <li><button type="button" class="footer-nav-link" data-tab="games"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg><span>Games Hub (5 Arcade Labs)</span></span></button></li>
-            <li><button type="button" class="footer-nav-link" data-tab="kitchen"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg><span>Kitchen Lab (Recipes &amp; Substitutes)</span></span></button></li>
-            <li><button type="button" class="footer-nav-link" data-tab="leaderboard"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Family Leaderboard &amp; Ranks</span></span></button></li>
+            <li><button type="button" class="footer-nav-link" data-tab="games"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg><span>Games Hub (5 Arcade Labs)</span></span></button></li>
+            <li><button type="button" class="footer-nav-link" data-tab="kitchen"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg><span>Kitchen Lab (Recipes &amp; Substitutes)</span></span></button></li>
+            <li><button type="button" class="footer-nav-link" data-tab="leaderboard"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg><span>Family Leaderboard &amp; Ranks</span></span></button></li>
           </ul>
         </div>
 
@@ -536,15 +543,15 @@
           <h4 style="font-size:1.05rem; margin-bottom:0.85rem;">Parent &amp; Admin</h4>
           <ul style="list-style:none; font-size:0.88rem; display:flex; flex-direction:column; gap:0.5rem;">
             <li><button type="button" class="footer-nav-link" id="admin-footer-link"><span style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" fill="currentColor" fill-opacity="0.12"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Admin Settings</span></span></button></li>
-            <li style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.2"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg><span>100% Pure Vegetarian Safe</span></li>
+            <li style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#10B981" fill-opacity="0.2"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg><span>100% Pure Vegetarian Safe</span></li>
             <li style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="5" fill="currentColor" fill-opacity="0.15"/><path d="M20 21a8 8 0 0 0-16 0"/></svg><span>Kid-Friendly Cooking Guide</span></li>
-            <li style="display:inline-flex; align-items:center; gap:0.4rem;"><svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" fill="currentColor" fill-opacity="0.12"/><path d="M8.5 2h7M7 16h10"/></svg><span>Food Science Explanations</span></li>
+            <li style="display:inline-flex; align-items:center; gap:0.4rem;"><svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2" fill="currentColor" fill-opacity="0.12"/><path d="M8.5 2h7M7 16h10"/></svg><span>Food Science Explanations</span></li>
           </ul>
         </div>
       </div>
 
       <!-- Architecture Version Switcher (Audit 9 & 11: Direct V1 / V2 / V3 Access) -->
-      <div class="footer-version-bar" style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-color); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.75rem; font-size:0.84rem; color:var(--text-muted);">
+      <div class="footer-version-bar" style="display:none; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-color); align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.75rem; font-size:0.84rem; color:var(--text-muted);">
         <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
           <span style="font-weight:700;">Architecture Release:</span>
           <button class="recipe-chip active footer-version-btn" data-ver="v2" aria-label="Version 2 Modern Redesign">v2 Modern (Bifurcated)</button>
@@ -563,17 +570,17 @@
 
   <!-- Floating Bottom Navigation Bar for Mobile & Compact Screens -->
   <nav class="mobile-bottom-nav" id="mobile-nav-bar" aria-label="Mobile View Switcher" role="tablist">
-    <button type="button" class="nav-link active" data-tab-target="games" id="mob-tab-btn-games" role="tab" aria-selected="true">
-      <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Games</span>
+    <button type="button" class="nav-link active" data-tab-target="games" id="mob-tab-btn-games" role="tab" aria-selected="true" aria-controls="pane-games">
+      <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6" fill="currentColor" fill-opacity="0.12"/><path d="M6 12h4m-2-2v4"/><circle cx="15" cy="11" r="1" fill="currentColor"/><circle cx="17" cy="13" r="1" fill="currentColor"/></svg> <span>Games</span>
     </button>
-    <button type="button" class="nav-link" data-tab-target="kitchen" id="mob-tab-btn-kitchen" role="tab" aria-selected="false">
-      <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Kitchen</span>
+    <button type="button" class="nav-link" data-tab-target="kitchen" id="mob-tab-btn-kitchen" role="tab" aria-selected="false" aria-controls="pane-kitchen">
+      <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z" fill="currentColor" fill-opacity="0.12"/><line x1="6" y1="17" x2="18" y2="17"/></svg> <span>Kitchen</span>
     </button>
-    <button type="button" class="nav-link" data-tab-target="fusion" id="mob-tab-btn-fusion" role="tab" aria-selected="false">
-      <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <span>Fusion</span>
+    <button type="button" class="nav-link" data-tab-target="fusion" id="mob-tab-btn-fusion" role="tab" aria-selected="false" aria-controls="pane-fusion">
+      <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" fill="currentColor" fill-opacity="0.1"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> <span>Fusion</span>
     </button>
-    <button type="button" class="nav-link" data-tab-target="leaderboard" id="mob-tab-btn-leaderboard" role="tab" aria-selected="false">
-      <svg class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg> <span>Leaderboard</span>
+    <button type="button" class="nav-link" data-tab-target="leaderboard" id="mob-tab-btn-leaderboard" role="tab" aria-selected="false" aria-controls="pane-leaderboard">
+      <svg aria-hidden="true" class="fusion-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" fill="currentColor" fill-opacity="0.18"/></svg> <span>Leaderboard</span>
     </button>
   </nav>
 

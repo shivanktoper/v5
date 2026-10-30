@@ -369,6 +369,9 @@ async function verifyViewportsWithChrome(tracker) {
       console.log(`  Exception details:`, JSON.stringify(runner.runtimeExceptions));
     }
     console.log(`  Error-level console logs:    ${errorsCount}`);
+    if (errorsCount > 0) {
+      console.log(`  Error log details:`, JSON.stringify(runner.consoleErrors, null, 2));
+    }
 
     tracker.assertEqual(exceptionsCount, 0, 'Zero uncaught runtime exceptions during all test runs');
     tracker.assertEqual(errorsCount, 0, 'Zero console error-level messages during all test runs');

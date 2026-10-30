@@ -15,8 +15,8 @@ assets = { directory = "." }
 # --------------------------------------------------------------------
 [[d1_databases]]
 binding = "DB"
-database_name = "foodfusionweb"
-database_id = "653756d0-4a06-4e6a-b022-13d4635125c3"
+database_name = "fusionfood"
+database_id = "af600698-1afa-4b2f-8684-82bdf975b554"
 
 # --------------------------------------------------------------------
 # Environment Variables & Custom Settings

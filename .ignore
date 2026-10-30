@@ -1,0 +1,12 @@
+.git/
+.github/
+.agents/
+.impeccable/
+mobile_snapshots/
+hyperframes/
+scratch/
+*.bat
+*.log
+verify_suite.js
+schema.sql
+wrangler*.toml

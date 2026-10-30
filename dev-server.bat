@@ -15,4 +15,4 @@ echo   Wrangler Home: %WRANGLER_HOME%
 echo ==========================================================
 echo.
 
-call npx.cmd wrangler pages dev . --d1=DB=653756d0-4a06-4e6a-b022-13d4635125c3 %*
+call npx.cmd wrangler pages dev . --d1=DB=af600698-1afa-4b2f-8684-82bdf975b554 %*

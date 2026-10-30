@@ -10,7 +10,7 @@ if not defined WRANGLER_HOME set "WRANGLER_HOME=%USERPROFILE%"
 
 echo ==========================================================
 echo   Fusion Food Family Lab - Cloudflare D1 Schema Sync
-echo   Database:      foodfusionweb
+echo   Database:      fusionfood
 echo   Schema File:   schema.sql
 echo   Working Dir:   %CD%
 echo   Wrangler Home: %WRANGLER_HOME%
@@ -18,7 +18,7 @@ echo ==========================================================
 echo.
 
 echo Executing schema.sql on remote Cloudflare D1 database...
-call npx.cmd wrangler d1 execute foodfusionweb --remote --file=schema.sql
+call npx.cmd wrangler d1 execute fusionfood --remote --file=schema.sql
 
 if %errorlevel% equ 0 (
     echo.
